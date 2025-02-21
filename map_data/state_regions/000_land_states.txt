@@ -13052,6 +13052,18 @@ STATE_TAMBOV = {
     }
 }
 
+STATE_RYAZAN = {
+    id = 817
+    subsistence_building = "building_subsistence_farms"
+    provinces = { "x089C80" "x0F54C0" "x11B251" "x14830F" "x19C20A" "x22B4AF" "x3EAD17" "x5EA87F" "x6121A0" "x617404" "x6E8ED4" "x729CED" "x77D1E9" "x8DE32D" "x92470A" "x9DF0D8" "xB0B91E" "xC1A5DD" "xC6A70B" "xC7194D" "xE1114E" "xEB025B" "xF402D3" "xF4F224" }
+    arable_land = 65
+    arable_resources = { "bg_rye_farms" "bg_livestock_ranches" }
+    capped_resources = {
+        bg_coal_mining = 21
+        bg_logging = 28
+    }
+}
+
 STATE_VITEBSK = {
     id = 819
     subsistence_building = "building_subsistence_farms"
@@ -13335,6 +13347,39 @@ STATE_ELIZAVETPOL = {
     capped_resources = {
         bg_iron_mining = 10
         bg_logging = 12
+    }
+}
+
+STATE_STAVROPOL = {
+    id = 835
+    subsistence_building = "building_subsistence_farms"
+    provinces = { "x1ED727" "x32FEBA" "x3E954F" "x565E50" "x6B2515" "x7685A4" "x76C012" "x793FDE" "x796017" "x891792" "x929AC4" "x9A43C9" "x9B5EC8" "x9BAE11" "x9CDC20" "xA4B654" "xAA6E62" "xB3593A" "xBC214C" "xC0D001" "xD7EDE7" "xE0E16A" "xE2E1EB" "xF7D005" "xF88EA3" }
+    traits = { "state_trait_western_steppe" "state_trait_black_soil" }
+    arable_land = 100
+    arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" "bg_cotton_plantations" "bg_tea_plantations" "bg_tobacco_plantations" }
+    capped_resources = {
+        bg_logging = 14
+    }
+    resource = {
+        type = "bg_oil_extraction"
+        undiscovered_amount = 30
+    }
+}
+
+STATE_CHUVASHIA = {
+    id = 837
+    subsistence_building = "building_subsistence_farms"
+    provinces = { "x062B1B" "x0D7D00" "x1066EF" "x1D5A12" "x307CEB" "x5D97AC" "x635E09" "x67980D" "x80F7CE" "x811458" "x83DB48" "xA000C0" "xC23BD0" "xD13AC6" "xD6E65F" "xDA0014" "xDB5DBD" "xE89369" }
+    traits = { "state_trait_volga_river" }
+    arable_land = 45
+    arable_resources = { "bg_rye_farms" "bg_livestock_ranches" }
+    capped_resources = {
+        bg_sulfur_mining = 15
+        bg_logging = 25
+    }
+    resource = {
+        type = "bg_oil_extraction"
+        undiscovered_amount = 24
     }
 }
 
