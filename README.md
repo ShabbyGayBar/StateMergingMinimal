@@ -8,7 +8,7 @@
 
 - If you prefer to merge more states, please check out the full version of this mod on:
   - [Github](https://github.com/ShabbyGayBar/StateMerging), or
-  - [Steam Workshop]((https://steamcommunity.com/sharedfiles/filedetails/?id=3254683348)).
+  - [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3254683348).
 - If you prefer to make your own states merging mod, please check out the [State Merger](https://github.com/ShabbyGayBar/StateMerger).
 
 Pretty self-explanatory mod name. This mod combines multiple states in the game Victoria 3 together while keeping the overall pop & buildings unchanged.
