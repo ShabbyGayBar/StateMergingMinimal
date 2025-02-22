@@ -1,4 +1,4 @@
-﻿﻿### Culture name assignments
+﻿### Culture name assignments
 # Dnieper Region
 assign_state_name_region_dnieper  = {
 	if = {

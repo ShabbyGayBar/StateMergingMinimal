@@ -1,4 +1,4 @@
-﻿﻿has_commander_traits = {
+﻿has_commander_traits = {
 	OR = {
 		has_trait = traditionalist_commander
 		has_trait = popular_commander
