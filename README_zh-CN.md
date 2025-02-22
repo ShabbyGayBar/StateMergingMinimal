@@ -1,7 +1,12 @@
 # 维多利亚3省份合并
 
-![Steam Subscriptions](https://img.shields.io/steam/subscriptions/3371693463?logo=steam&link=https%3A%2F%2Fsteamcommunity.com%2Fsharedfiles%2Ffiledetails%2F%3Fid%3D3371693463)
-![Steam Downloads](https://img.shields.io/steam/downloads/3371693463?logo=steam&link=https%3A%2F%2Fsteamcommunity.com%2Fsharedfiles%2Ffiledetails%2F%3Fid%3D3371693463)
+![Steam Subscriptions](https://img.shields.io/steam/subscriptions/3432100126?logo=steam&link=https%3A%2F%2Fsteamcommunity.com%2Fsharedfiles%2Ffiledetails%2F%3Fid%3D3432100126)
+![Steam Downloads](https://img.shields.io/steam/downloads/3432100126?logo=steam&link=https%3A%2F%2Fsteamcommunity.com%2Fsharedfiles%2Ffiledetails%2F%3Fid%3D3432100126)
+
+- 如果您希望合并更多州，您可以选择使用本 Mod 的普通版：
+  - [Github](https://github.com/ShabbyGayBar/StateMerging), 或
+  - [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3371693463).
+- 如果您希望制作自己的省份合并 Mod，您可以使用[省份合并自动化脚本及教程](https://github.com/ShabbyGayBar/StateMerger).
 
 一个省份合并 Mod，合并了部分地区。
 
@@ -15,30 +20,17 @@
 
 ## 安装方法
 
-- 在 [Steam 创意工坊](https://steamcommunity.com/sharedfiles/filedetails/?id=3371693463) 订阅本 Mod。
+- 在 [Steam 创意工坊](https://steamcommunity.com/sharedfiles/filedetails/?id=3432100126) 订阅本 Mod。
 或者
 - 下载 Mod 的 zip 文件并解压到维多利亚3的 Mod 文件夹中（通常位于 `Documents\Pardox Interactive\Victoria 3\mod`）。
 
-## 合并标准：
+## 合并的省份
 
-以下标准按照重要性排序：
+所有对省份的改动请参照 [merge_states.json](merge_states.json)。
 
-- **地块数目**
-  - 任何地块数目小于 10 的州都会被合并。
-  - 地块数目在 10-20 之间的州，如果没有后面因素的支撑，大概率会被合并。
-  - 地块数目小于 5 的州被合并时不会被计入 buff。
+其中，每个键代表了 Mod 中存在的省份代码，对应的值代表了要合并到这个省份的原版省份代码。
 
-- **历史渊源和文化**
-  - 今天分属不同国家的省份不会被合并，除非满足上面提到的条件。
-  - 文化本土特质相同的省份更有倾向被合并。
-
-- **美观度**
-
-### 当前已经合并的省份
 ![Currently Merged States](figures/Merge_States_current.png)
-
-### 未来将要合并的省份
-![Future Plan](figures/Merge_States_objective.png)
 
 ## 提交反馈
 
@@ -56,12 +48,6 @@
 - 在我的 [paradox 论坛帖子](https://forum.paradoxplaza.com/forum/threads/brainstorm-tell-us-about-your-ideal-state-merging-plan.1726629/) 上发布您绘制的地图。
 - 在我的 [贴吧帖子](https://tieba.baidu.com/p/9433803383?) 上发布您绘制的地图。
 - 在 Steam 创意工坊页面上留言。
-
-## 改动说明
-
-所有对省份的改动请参照 [merge_states.json](merge_states.json)。
-
-其中，每个键代表了 Mod 中存在的省份代码，对应的值代表了要合并到这个省份的原版省份代码。
 
 ## 兼容性：
 
