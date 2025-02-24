@@ -21,36 +21,22 @@ Merged states WILL LOSE THEIR CITY & BUILDING MODELS.
 
 Merged states WILL LOSE THEIR STATE ID, which may cause problems with certain journal entries and such. please report issues when you encounter them.
 
+## Currently Merged States
+![Currently Merged States](figures/Merge_States_current.png)
+
+Please refer to [merge_states.json](merge_states.json) for all the changes in states.
+
+The keys of the json are the state id of the existing states in the mod, and the values are lists of state ids in vanilla game that will be merged into the key state.
+
 ## How to install
 
 - Subscribe to the mod on [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3432100126).
 or
 - Download the mod zip file and extract it to your Victoria 3 mod folder (typically located at `Documents\Paradox Interactive\Victoria 3\mod`).
 
-## Which states will be merged
-
-Please refer to [merge_states.json](merge_states.json) for all the changes in states.
-
-The keys of the json are the state id of the existing states in the mod, and the values are lists of state ids in vanilla game that will be merged into the key state.
-
-![Currently Merged States](figures/Merge_States_current.png)
-
 ## Feedback
 
-### Bug Reports
-
-Please report any bugs you encounter in the Issues tab using the bug report template.
-
-### Feature Requests
-
-If you have other ideas for state merging, you could modify the [merge_states.json](merge_states.json) file ("json" for short), or draw a map of the states you want to merge on [mapchart](https://www.mapchart.net/victoria-3.html) ("map" for short).
-
-There are multiple ways to give suggestions on the state merging plan, the following ways are sorted by recommendation:
-
-- Submit an issue in the Issues tab with the feature request template. In the issue, you could provide either the json file or the map.
-- Post the map you draw on my [paradox forum post](https://forum.paradoxplaza.com/forum/threads/brainstorm-tell-us-about-your-ideal-state-merging-plan.1726629/) .
-- Post the map you draw on my [tieba post](https://tieba.baidu.com/p/9433803383?) .
-- Leave a comment on the Steam Workshop page.
+If you have any feedback, please refer to the [full version](https://github.com/ShabbyGayBar/StateMerging) of this mod.
 
 ## Compatability
 
@@ -79,7 +65,7 @@ Incompatible with anything that modifies
 - game\common\scripted_effects
 - game\common\scripted_triggers
 - game\events
-- game\localization
+- game\localization\LANGUANGE\map
 
 </details>
 

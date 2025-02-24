@@ -3,7 +3,7 @@
 ![Steam Subscriptions](https://img.shields.io/steam/subscriptions/3432100126?logo=steam&link=https%3A%2F%2Fsteamcommunity.com%2Fsharedfiles%2Ffiledetails%2F%3Fid%3D3432100126)
 ![Steam Downloads](https://img.shields.io/steam/downloads/3432100126?logo=steam&link=https%3A%2F%2Fsteamcommunity.com%2Fsharedfiles%2Ffiledetails%2F%3Fid%3D3432100126)
 
-- 如果您希望合并更多州，您可以选择使用本 Mod 的普通版：
+- 如果您希望合并更多州，您可以选择使用本 Mod 的完整版：
   - [Github](https://github.com/ShabbyGayBar/StateMerging), 或
   - [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3371693463).
 - 如果您希望制作自己的省份合并 Mod，您可以使用[省份合并自动化脚本及教程](https://github.com/ShabbyGayBar/StateMerger).
@@ -18,36 +18,22 @@
 
 另外，buff 是按被合并的州的数量给的，但是因为有些州实在太小了，我认为它们本来就不应该算一个州，所以给 buff 时没有计入。
 
+## 当前已经合并的省份
+![Currently Merged States](figures/Merge_States_current.png)
+
+所有对省份的改动请参照 [merge_states.json](merge_states.json)。
+
+其中，每个键代表了 Mod 中存在的省份代码，对应的值代表了要合并到这个省份的原版省份代码。
+
 ## 安装方法
 
 - 在 [Steam 创意工坊](https://steamcommunity.com/sharedfiles/filedetails/?id=3432100126) 订阅本 Mod。
 或者
 - 下载 Mod 的 zip 文件并解压到维多利亚3的 Mod 文件夹中（通常位于 `Documents\Pardox Interactive\Victoria 3\mod`）。
 
-## 合并的省份
-
-所有对省份的改动请参照 [merge_states.json](merge_states.json)。
-
-其中，每个键代表了 Mod 中存在的省份代码，对应的值代表了要合并到这个省份的原版省份代码。
-
-![Currently Merged States](figures/Merge_States_current.png)
-
 ## 提交反馈
 
-### BUG 反馈
-
-请在 Issues 中使用 bug report 模板报告您遇到的任何错误。
-
-### 功能请求
-
-如果您对省份合并有其他想法，您可以修改 [merge_states.json](merge_states.json) 文件（下文简称为 "json"），或在 [mapchart](https://www.mapchart.net/victoria-3.html) 上绘制您想要合并的省份地图（下文简称为 "地图"）。
-
-有多种方式可以提出关于省份合并计划的建议，以下方式按推荐程度排序：
-
-- 在 Issues 中提交 feature request。在问题中，您可以提供 json 文件或地图。
-- 在我的 [paradox 论坛帖子](https://forum.paradoxplaza.com/forum/threads/brainstorm-tell-us-about-your-ideal-state-merging-plan.1726629/) 上发布您绘制的地图。
-- 在我的 [贴吧帖子](https://tieba.baidu.com/p/9433803383?) 上发布您绘制的地图。
-- 在 Steam 创意工坊页面上留言。
+如果您有任何反馈，请参考本 Mod 的[完整版](https://github.com/ShabbyGayBar/StateMerging)的 issue 板块。
 
 ## 兼容性：
 
@@ -78,7 +64,7 @@
 - game\common\scripted_effects
 - game\common\scripted_triggers
 - game\events
-- game\localization
+- game\localization\LANGUANGE\map
 
 </details>
 
