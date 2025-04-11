@@ -1,7 +1,7 @@
 # 维多利亚3省份合并
 
-![Steam Subscriptions](https://img.shields.io/steam/subscriptions/3432100126?logo=steam&link=https%3A%2F%2Fsteamcommunity.com%2Fsharedfiles%2Ffiledetails%2F%3Fid%3D3432100126)
-![Steam Downloads](https://img.shields.io/steam/downloads/3432100126?logo=steam&link=https%3A%2F%2Fsteamcommunity.com%2Fsharedfiles%2Ffiledetails%2F%3Fid%3D3432100126)
+![Steam Subscriptions](https://img.shields.io/steam/subscriptions/3432100126?logo=steam)
+![Steam Downloads](https://img.shields.io/steam/downloads/3432100126?logo=steam)
 
 - 如果您希望合并更多州，您可以选择使用本 Mod 的完整版：
   - [Github](https://github.com/ShabbyGayBar/StateMerging), 或

@@ -1,7 +1,7 @@
 # Victoria 3 States Merging Mod (Minimal Version)
 
-![Steam Subscriptions](https://img.shields.io/steam/subscriptions/3432100126?logo=steam&link=https%3A%2F%2Fsteamcommunity.com%2Fsharedfiles%2Ffiledetails%2F%3Fid%3D3432100126)
-![Steam Downloads](https://img.shields.io/steam/downloads/3432100126?logo=steam&link=https%3A%2F%2Fsteamcommunity.com%2Fsharedfiles%2Ffiledetails%2F%3Fid%3D3432100126)
+![Steam Subscriptions](https://img.shields.io/steam/subscriptions/3432100126?logo=steam)
+![Steam Downloads](https://img.shields.io/steam/downloads/3432100126?logo=steam)
 
 
 [简体中文](README_zh-CN.md)
