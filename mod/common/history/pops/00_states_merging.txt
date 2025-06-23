@@ -8306,7 +8306,7 @@
     s:STATE_HAWAIIAN_ISLANDS = {
         region_state:HAW = {
             create_pop = {
-                pop_type = clergy
+                pop_type = clergymen
                 culture = yankee
                 religion = protestant
                 size = 100
@@ -11363,7 +11363,7 @@
                 size = 8200
             }
         }
-        region_state:ABU = {
+        region_state:BHN = {
             create_pop = {
                 culture = bedouin
                 size = 5002
@@ -18047,37 +18047,19 @@
         region_state:BIC = {
             create_pop = {
                 culture = malay
-                size = 60000
+                size = 100000
             }
             create_pop = {
                 culture = tamil
-                size = 2400
+                size = 4400
             }
             create_pop = {
                 culture = yue
-                size = 4000
+                size = 17000
             }
             create_pop = {
                 culture = british
-                size = 600
-            }
-        }
-        region_state:GBR = {
-            create_pop = {
-                culture = malay
-                size = 40000
-            }
-            create_pop = {
-                culture = tamil
-                size = 2000
-            }
-            create_pop = {
-                culture = yue
-                size = 13996
-            }
-            create_pop = {
-                culture = british
-                size = 2196
+                size = 2796
             }
         }
     }
@@ -19139,7 +19121,7 @@
         region_state:NRU = {
             create_pop = {
                 culture = melanesian
-                size = 80000
+                size = 1251
             }
         }
     }
