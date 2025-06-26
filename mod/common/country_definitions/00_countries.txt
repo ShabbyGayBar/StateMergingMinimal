@@ -2553,7 +2553,7 @@ TNG = {
 	tier = principality
 
 	cultures = { polynesian }
-	capital = STATE_TONGA
+	capital = STATE_WEST_MICRONESIA
 }
 
 WIN = {

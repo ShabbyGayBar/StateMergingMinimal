@@ -300,17 +300,20 @@
 			save_scope_as = main_Armee
 		}
 
-			create_character = {
+		create_character = {
 			is_general = yes
 			first_name = Helmuth
 			last_name = von_Moltke
 			historical = yes
+			interest_group = ig_armed_forces
+			ideology = ideology_jingoist_leader
 			hq = region_north_germany
 			age = 36
 			traits = {
 				expert_offensive_planner
 				resupply_commander
 				reserved
+				surveyor
 			}
 			save_scope_as = helmuth_gen
 		}
@@ -2819,7 +2822,7 @@
 
 			combat_unit = { # Gotlands nationalbeväring
 				type = unit_type:combat_unit_type_line_infantry
-				state_region = s:STATE_GOTLAND
+				state_region = s:STATE_SVEALAND
 				count = 1
 			}
 
