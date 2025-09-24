@@ -1,6 +1,6 @@
 ﻿# Count number of actual incorporated states in USA
 usa_state_counter = {
-    value = 2
+    value = 7
 
     if = {
         limit = { exists = c:USA }
