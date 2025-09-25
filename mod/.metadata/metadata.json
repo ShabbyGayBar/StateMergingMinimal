@@ -1,7 +1,7 @@
 {
   "name" : "States Merging - Minimal",
 	"id" : "3432100126",
-  "version" : "3.0.0",
+  "version" : "3.0.1",
   "supported_game_version" : "1.10.*",
   "short_description" : "Combines multiple states together while keeping the overall pop & buildings unchanged.",
   "thumbnail": "thumbnail.png",
