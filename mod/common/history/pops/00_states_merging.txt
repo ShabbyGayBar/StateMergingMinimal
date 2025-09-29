@@ -2637,6 +2637,14 @@
             }
         }
     }
+    s:STATE_WEST_AEGEAN_ISLANDS = {
+        region_state:GRE = {
+            create_pop = {
+                culture = greek
+                size = 80404
+            }
+        }
+    }
     s:STATE_EAST_AEGEAN_ISLANDS = {
         region_state:TUR = {
             create_pop = {
@@ -2657,21 +2665,7 @@
         region_state:GRE = {
             create_pop = {
                 culture = greek
-                size = 717996
-            }
-        }
-        region_state:ION = {
-            create_pop = {
-                culture = greek
-                size = 186404
-            }
-            create_pop = {
-                culture = british
-                size = 16
-            }
-            create_pop = {
-                culture = sephardic
-                size = 2000
+                size = 637592
             }
         }
     }
@@ -2777,6 +2771,22 @@
                 pop_type = slaves
                 culture = lacustrine_bantu
                 size = 1500
+            }
+        }
+    }
+    s:STATE_IONIAN_ISLANDS = {
+        region_state:ION = {
+            create_pop = {
+                culture = greek
+                size = 186404
+            }
+            create_pop = {
+                culture = british
+                size = 16
+            }
+            create_pop = {
+                culture = sephardic
+                size = 2000
             }
         }
     }

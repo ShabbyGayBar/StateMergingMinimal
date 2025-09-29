@@ -2411,6 +2411,24 @@ STATE_CRETE = {
     naval_exit_id = 3034
 }
 
+STATE_WEST_AEGEAN_ISLANDS = {
+    id = 123
+    subsistence_building = "building_subsistence_orchards"
+    provinces = { "x6090A0" "x6960A0" }
+    traits = { "state_trait_hermoupolis" }
+    city = "x6090A0"
+    port = "x6960A0"
+    farm = "x6090A0"
+    mine = "x6090A0"
+    wood = "x6090A0"
+    arable_land = 5
+    arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" "bg_cotton_plantations" "bg_tobacco_plantations" "bg_vineyard_plantations" }
+    capped_resources = {
+        bg_fishing = 4
+    }
+    naval_exit_id = 3034
+}
+
 STATE_EAST_AEGEAN_ISLANDS = {
     id = 1001
     subsistence_building = "building_subsistence_orchards"
@@ -2431,20 +2449,20 @@ STATE_EAST_AEGEAN_ISLANDS = {
 STATE_ATTICA = {
     id = 124
     subsistence_building = "building_subsistence_farms"
-    provinces = { "x0A645C" "x465F8D" "x518791" "x8D7F62" "xA010A0" "xBF5160" "xC72C61" "xCA246A" "x6090A0" "x6960A0" "x405060" "x4B79CA" }
-    traits = { "state_trait_saronic_gulf" "state_trait_hermoupolis" }
+    provinces = { "x0A645C" "x465F8D" "x518791" "x8D7F62" "xA010A0" "xBF5160" "xC72C61" "xCA246A" }
+    traits = { "state_trait_saronic_gulf" }
     city = "xC72C61"
     port = "x518791"
     farm = "x0A645C"
     mine = "x465F8D"
     wood = "x518791"
-    arable_land = 40
+    arable_land = 25
     arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" "bg_cotton_plantations" "bg_tobacco_plantations" "bg_vineyard_plantations" }
     capped_resources = {
         bg_lead_mining = 21
         bg_sulfur_mining = 32
         bg_logging = 7
-        bg_fishing = 17
+        bg_fishing = 8
     }
     naval_exit_id = 3033
 }
@@ -2518,6 +2536,23 @@ STATE_WESTERN_THRACE = {
         bg_fishing = 10
     }
     naval_exit_id = 3035
+}
+
+STATE_IONIAN_ISLANDS = {
+    id = 129
+    subsistence_building = "building_subsistence_orchards"
+    provinces = { "x405060" "x4B79CA" }
+    city = "x4B79CA"
+    port = "x405060"
+    farm = "x405060"
+    mine = "x405060"
+    wood = "x405060"
+    arable_land = 10
+    arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" "bg_cotton_plantations" "bg_tobacco_plantations" "bg_vineyard_plantations" }
+    capped_resources = {
+        bg_fishing = 5
+    }
+    naval_exit_id = 3033
 }
 
 STATE_PELOPONNESE = {

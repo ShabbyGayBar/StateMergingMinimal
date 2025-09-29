@@ -977,6 +977,15 @@
 
         add_homeland = cu:south_italian
     }
+    s:STATE_IONIAN_ISLANDS = {
+        create_state = {
+            country = c:ION
+            owned_provinces = { x4B79CA x405060 }
+        }
+
+        add_homeland = cu:greek
+        add_claim = c:GRE
+    }
     s:STATE_PELOPONNESE = {
         create_state = {
             country = c:GRE
@@ -4101,16 +4110,10 @@
     s:STATE_ATTICA = {
         create_state = {
             country = c:GRE
-            owned_provinces = { xC72C61 x8D7F62 x518791 x0A645C xBF5160 x465F8D xCA246A xA010A0 x6090A0 x6960a0 }
-        }
-
-        create_state = {
-            country = c:ION
-            owned_provinces = { x4B79CA x405060 }
+            owned_provinces = { xC72C61 x8D7F62 x518791 x0A645C xBF5160 x465F8D xCA246A xA010A0 }
         }
 
         add_homeland = cu:greek
-        add_claim = c:GRE
     }
     s:STATE_SKOPIA = {
         create_state = {
@@ -5616,6 +5619,14 @@
         }
 
         add_homeland = cu:turkish
+        add_homeland = cu:greek
+    }
+    s:STATE_WEST_AEGEAN_ISLANDS = {
+        create_state = {
+            country = c:GRE
+            owned_provinces = { x6090A0 x6960a0 }
+        }
+
         add_homeland = cu:greek
     }
     s:STATE_EAST_AEGEAN_ISLANDS = {

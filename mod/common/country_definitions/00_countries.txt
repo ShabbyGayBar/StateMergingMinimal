@@ -1021,7 +1021,7 @@ ION = {
 	tier = principality
 
 	cultures = { greek }
-	capital = STATE_ATTICA
+	capital = STATE_IONIAN_ISLANDS
 	is_named_from_capital = yes
 }
 

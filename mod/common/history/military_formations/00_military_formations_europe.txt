@@ -3340,7 +3340,7 @@
 
 			combat_unit = { # Corvette Prinkips Maximilianos (ex Psara)
 				type = unit_type:combat_unit_type_frigate
-				state_region = s:STATE_ATTICA
+				state_region = s:STATE_WEST_AEGEAN_ISLANDS
 				count = 1
 			}
 		}
