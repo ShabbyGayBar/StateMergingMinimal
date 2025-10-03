@@ -618,6 +618,7 @@
         }
 
         add_homeland = cu:dixie
+        add_homeland = cu:yankee
     }
     s:STATE_WEST_VIRGINIA = {
         create_state = {
@@ -626,6 +627,7 @@
         }
 
         add_homeland = cu:dixie
+        add_homeland = cu:yankee
     }
     s:STATE_PENNSYLVANIA = {
         create_state = {
@@ -6426,7 +6428,6 @@
         }
 
         add_homeland = cu:lithuanian
-        add_homeland = cu:polish
     }
     s:STATE_CHUKOTKA = {
         create_state = {
@@ -7427,7 +7428,6 @@
         }
 
         add_homeland = cu:byelorussian
-        add_homeland = cu:russian
     }
     s:STATE_GREATER_POLAND = {
         create_state = {
