@@ -90,6 +90,13 @@
             }
         }
     }
+    s:STATE_WESTERN_CUBA={
+        region_state:CUB={
+            sg:sugar = {
+                add_exports = 80
+            }
+        }
+    }
     s:STATE_INGRIA={
         region_state:RUS={
             sg:sugar = {
@@ -107,6 +114,23 @@
             }
             sg:tea = {
                 add_imports = 50
+            }
+        }
+    }
+    s:STATE_WEST_PRUSSIA={
+        region_state:PRU={
+            sg:artillery = {
+                add_exports = 5
+            }
+        }
+    }
+    s:STATE_BASQUE_COUNTRY={
+        region_state:SPC={
+            sg:hardwood = {
+                add_imports = 5
+            }
+            sg:artillery = {
+                add_imports = 5
             }
         }
     }
