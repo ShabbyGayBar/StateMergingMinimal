@@ -260,6 +260,10 @@ STATE_LANCASHIRE = {
         building_logging_camp = 9
         building_fishing_wharf = 15
     }
+    resource = {
+        type = "building_oil_rig"
+        undiscovered_amount = 20
+    }
     naval_exit_id = 3030
 }
 
@@ -364,6 +368,10 @@ STATE_EAST_ANGLIA = {
         building_iron_mine = 30
         building_logging_camp = 4
         building_fishing_wharf = 12
+    }
+    resource = {
+        type = "building_oil_rig"
+        undiscovered_amount = 20
     }
     naval_exit_id = 3028
 }
@@ -843,6 +851,10 @@ STATE_FRIESLAND = {
         building_whaling_station = 5
         building_fishing_wharf = 15
     }
+    resource = {
+        type = "building_oil_rig"
+        undiscovered_amount = 60
+    }
     naval_exit_id = 3027
 }
 
@@ -1042,6 +1054,10 @@ STATE_ELBE = {
     capped_resources = {
         building_logging_camp = 9
         building_fishing_wharf = 5
+    }
+    resource = {
+        type = "building_oil_rig"
+        undiscovered_amount = 60
     }
     naval_exit_id = 3027
 }
@@ -1243,6 +1259,10 @@ STATE_HANNOVER = {
         building_logging_camp = 9
         building_fishing_wharf = 4
     }
+    resource = {
+        type = "building_oil_rig"
+        undiscovered_amount = 60
+    }
     naval_exit_id = 3027
 }
 
@@ -1408,6 +1428,10 @@ STATE_LOMBARDY = {
         building_iron_mine = 27
         building_lead_mine = 19
         building_logging_camp = 7
+    }
+    resource = {
+        type = "building_oil_rig"
+        undiscovered_amount = 20
     }
 }
 
@@ -2165,6 +2189,10 @@ STATE_ALBANIA = {
         building_logging_camp = 6
         building_fishing_wharf = 8
     }
+    resource = {
+        type = "building_oil_rig"
+        undiscovered_amount = 20
+    }
     naval_exit_id = 3033
 }
 
@@ -2795,6 +2823,10 @@ STATE_WEST_GALICIA = {
         building_iron_mine = 33
         building_logging_camp = 17
     }
+    resource = {
+        type = "building_oil_rig"
+        undiscovered_amount = 60
+    }
 }
 
 STATE_EAST_GALICIA = {
@@ -2810,6 +2842,10 @@ STATE_EAST_GALICIA = {
     capped_resources = {
         building_coal_mine = 92
         building_logging_camp = 9
+    }
+    resource = {
+        type = "building_oil_rig"
+        undiscovered_amount = 100
     }
 }
 
@@ -2877,6 +2913,10 @@ STATE_DELVIDEK = {
     arable_resources = { "building_wheat_farm" "building_livestock_ranch" "building_vineyard" }
     capped_resources = {
         building_logging_camp = 4
+    }
+    resource = {
+        type = "building_oil_rig"
+        undiscovered_amount = 20
     }
 }
 
@@ -2979,6 +3019,10 @@ STATE_MOLDAVIA = {
         building_iron_mine = 26
         building_logging_camp = 8
     }
+    resource = {
+        type = "building_oil_rig"
+        undiscovered_amount = 50
+    }
 }
 
 STATE_BUKOVINA = {
@@ -3014,6 +3058,10 @@ STATE_WALLACHIA = {
         building_iron_mine = 21
         building_sulfur_mine = 15
         building_logging_camp = 8
+    }
+    resource = {
+        type = "building_oil_rig"
+        undiscovered_amount = 80
     }
 }
 
@@ -3179,6 +3227,10 @@ STATE_DONGOLA = {
         building_logging_camp = 4
         building_fishing_wharf = 4
     }
+    resource = {
+        type = "building_oil_rig"
+        undiscovered_amount = 5
+    }
     naval_exit_id = 3047
 }
 
@@ -3197,6 +3249,10 @@ STATE_KORDOFAN = {
     capped_resources = {
         building_logging_camp = 4
     }
+    resource = {
+        type = "building_oil_rig"
+        undiscovered_amount = 20
+    }
 }
 
 STATE_DARFUR = {
@@ -3211,6 +3267,10 @@ STATE_DARFUR = {
     wood = "x3B2BDC"
     arable_land = 20
     arable_resources = { "building_livestock_ranch" }
+    resource = {
+        type = "building_oil_rig"
+        undiscovered_amount = 30
+    }
 }
 
 STATE_BLUE_NILE = {
@@ -3350,6 +3410,10 @@ STATE_CONSTANTINE = {
         building_logging_camp = 6
         building_fishing_wharf = 4
     }
+    resource = {
+        type = "building_oil_rig"
+        undiscovered_amount = 20
+    }
     naval_exit_id = 3032
 }
 
@@ -3410,6 +3474,10 @@ STATE_TRIPOLI = {
         building_fishing_wharf = 9
         building_logging_camp = 2
     }
+    resource = {
+        type = "building_oil_rig"
+        undiscovered_amount = 30
+    }
     naval_exit_id = 3033
 }
 
@@ -3431,6 +3499,10 @@ STATE_LIBYA = {
         building_fishing_wharf = 4
         building_logging_camp = 6
     }
+    resource = {
+        type = "building_oil_rig"
+        undiscovered_amount = 40
+    }
     naval_exit_id = 3033
 }
 
@@ -3446,6 +3518,10 @@ STATE_LIBYAN_DESERT = {
     wood = "xD7FFBE"
     arable_land = 10
     arable_resources = { "building_livestock_ranch" }
+    resource = {
+        type = "building_oil_rig"
+        undiscovered_amount = 30
+    }
 }
 
 STATE_SAHARA = {
@@ -3463,6 +3539,10 @@ STATE_SAHARA = {
     capped_resources = {
         building_coal_mine = 16
     }
+    resource = {
+        type = "building_oil_rig"
+        undiscovered_amount = 20
+    }
 }
 
 STATE_EAST_SAHARA = {
@@ -3478,6 +3558,10 @@ STATE_EAST_SAHARA = {
     wood = "x873702"
     arable_land = 10
     arable_resources = { "building_livestock_ranch" }
+    resource = {
+        type = "building_oil_rig"
+        undiscovered_amount = 20
+    }
 }
 
 STATE_WEST_SAHARA = {
@@ -3535,6 +3619,10 @@ STATE_INNER_MAURITANIA = {
     capped_resources = {
         building_iron_mine = 27
     }
+    resource = {
+        type = "building_oil_rig"
+        undiscovered_amount = 20
+    }
 }
 
 STATE_EASTERN_MALI = {
@@ -3580,6 +3668,10 @@ STATE_TIMBUKTU = {
         building_coal_mine = 36
         building_sulfur_mine = 36
     }
+    resource = {
+        type = "building_oil_rig"
+        undiscovered_amount = 20
+    }
 }
 
 STATE_NIGER = {
@@ -3599,6 +3691,10 @@ STATE_NIGER = {
         building_lead_mine = 18
         building_sulfur_mine = 24
     }
+    resource = {
+        type = "building_oil_rig"
+        undiscovered_amount = 50
+    }
 }
 
 STATE_CHAD = {
@@ -3614,6 +3710,10 @@ STATE_CHAD = {
     wood = "x815967"
     arable_land = 30
     arable_resources = { "building_livestock_ranch" }
+    resource = {
+        type = "building_oil_rig"
+        undiscovered_amount = 30
+    }
 }
 
 STATE_IVORY_COAST = {
@@ -3631,6 +3731,14 @@ STATE_IVORY_COAST = {
     capped_resources = {
         building_logging_camp = 14
         building_fishing_wharf = 5
+    }
+    resource = {
+        type = "building_rubber_plantation"
+        undiscovered_amount = 22
+    }
+    resource = {
+        type = "building_oil_rig"
+        undiscovered_amount = 5
     }
     naval_exit_id = 3091
 }
@@ -3652,6 +3760,10 @@ STATE_WINDWARD_COAST = {
         building_logging_camp = 15
         building_fishing_wharf = 6
     }
+    resource = {
+        type = "building_rubber_plantation"
+        undiscovered_amount = 22
+    }
     naval_exit_id = 3091
 }
 
@@ -3671,6 +3783,10 @@ STATE_SENEGAL = {
         building_iron_mine = 30
         building_sulfur_mine = 40
         building_fishing_wharf = 6
+    }
+    resource = {
+        type = "building_rubber_plantation"
+        undiscovered_amount = 16
     }
     naval_exit_id = 3088
 }
@@ -3692,6 +3808,10 @@ STATE_SIERRA_LEONE = {
         building_logging_camp = 11
         building_fishing_wharf = 6
     }
+    resource = {
+        type = "building_rubber_plantation"
+        undiscovered_amount = 28
+    }
     naval_exit_id = 3088
 }
 
@@ -3708,6 +3828,10 @@ STATE_VOLTA = {
     arable_resources = { "building_millet_farm" "building_livestock_ranch" "building_cotton_plantation" "building_dye_plantation" "building_tobacco_plantation" "building_sugar_plantation" }
     capped_resources = {
         building_logging_camp = 4
+    }
+    resource = {
+        type = "building_rubber_plantation"
+        undiscovered_amount = 24
     }
 }
 
@@ -3728,6 +3852,10 @@ STATE_LIBERIA = {
         building_logging_camp = 11
         building_fishing_wharf = 7
     }
+    resource = {
+        type = "building_rubber_plantation"
+        undiscovered_amount = 20
+    }
     naval_exit_id = 3088
 }
 
@@ -3744,6 +3872,14 @@ STATE_HAUSALAND = {
     arable_resources = { "building_millet_farm" "building_livestock_ranch" "building_coffee_plantation" "building_cotton_plantation" "building_dye_plantation" "building_tobacco_plantation" "building_sugar_plantation" "building_banana_plantation" }
     capped_resources = {
         building_logging_camp = 23
+    }
+    resource = {
+        type = "building_rubber_plantation"
+        undiscovered_amount = 20
+    }
+    resource = {
+        type = "building_oil_rig"
+        undiscovered_amount = 10
     }
 }
 
@@ -3765,6 +3901,10 @@ STATE_BENIN = {
         building_logging_camp = 9
         building_fishing_wharf = 3
     }
+    resource = {
+        type = "building_rubber_plantation"
+        undiscovered_amount = 16
+    }
     naval_exit_id = 3091
 }
 
@@ -3783,6 +3923,10 @@ STATE_YORUBA_STATES = {
     capped_resources = {
         building_logging_camp = 6
         building_fishing_wharf = 6
+    }
+    resource = {
+        type = "building_rubber_plantation"
+        undiscovered_amount = 16
     }
     naval_exit_id = 3091
 }
@@ -3803,6 +3947,10 @@ STATE_NIGER_DELTA = {
         building_logging_camp = 11
         building_fishing_wharf = 10
     }
+    resource = {
+        type = "building_rubber_plantation"
+        undiscovered_amount = 22
+    }
     naval_exit_id = 3091
 }
 
@@ -3820,6 +3968,10 @@ STATE_OUTER_HAUSALAND = {
     capped_resources = {
         building_coal_mine = 48
         building_logging_camp = 4
+    }
+    resource = {
+        type = "building_oil_rig"
+        undiscovered_amount = 5
     }
 }
 
@@ -3855,6 +4007,10 @@ STATE_NIGERIA = {
         building_lead_mine = 45
         building_logging_camp = 20
     }
+    resource = {
+        type = "building_rubber_plantation"
+        undiscovered_amount = 24
+    }
 }
 
 STATE_EAST_HAUSALAND = {
@@ -3871,6 +4027,10 @@ STATE_EAST_HAUSALAND = {
     capped_resources = {
         building_coal_mine = 72
         building_logging_camp = 18
+    }
+    resource = {
+        type = "building_oil_rig"
+        undiscovered_amount = 5
     }
 }
 
@@ -3892,6 +4052,10 @@ STATE_GUINEA = {
         building_fishing_wharf = 7
         building_whaling_station = 2
     }
+    resource = {
+        type = "building_rubber_plantation"
+        undiscovered_amount = 22
+    }
     naval_exit_id = 3088
 }
 
@@ -3910,6 +4074,10 @@ STATE_GOLD_COAST = {
     capped_resources = {
         building_logging_camp = 14
         building_fishing_wharf = 5
+    }
+    resource = {
+        type = "building_rubber_plantation"
+        undiscovered_amount = 22
     }
     naval_exit_id = 3091
 }
@@ -3932,6 +4100,10 @@ STATE_TOGO = {
         building_logging_camp = 11
         building_fishing_wharf = 12
     }
+    resource = {
+        type = "building_rubber_plantation"
+        undiscovered_amount = 20
+    }
     naval_exit_id = 3091
 }
 
@@ -3950,6 +4122,10 @@ STATE_DAHOMEY = {
     capped_resources = {
         building_logging_camp = 14
         building_fishing_wharf = 2
+    }
+    resource = {
+        type = "building_rubber_plantation"
+        undiscovered_amount = 22
     }
     naval_exit_id = 3091
 }
@@ -3970,6 +4146,10 @@ STATE_LINDI = {
         building_iron_mine = 33
         building_logging_camp = 5
     }
+    resource = {
+        type = "building_rubber_plantation"
+        undiscovered_amount = 16
+    }
 }
 
 STATE_ZANZIBAR = {
@@ -3987,6 +4167,10 @@ STATE_ZANZIBAR = {
     capped_resources = {
         building_logging_camp = 8
         building_fishing_wharf = 10
+    }
+    resource = {
+        type = "building_rubber_plantation"
+        undiscovered_amount = 16
     }
     naval_exit_id = 3107
 }
@@ -4008,6 +4192,10 @@ STATE_TANGANYIKA = {
         building_iron_mine = 48
         building_logging_camp = 23
     }
+    resource = {
+        type = "building_rubber_plantation"
+        undiscovered_amount = 28
+    }
 }
 
 STATE_KENYA = {
@@ -4026,6 +4214,10 @@ STATE_KENYA = {
     capped_resources = {
         building_logging_camp = 6
         building_fishing_wharf = 10
+    }
+    resource = {
+        type = "building_rubber_plantation"
+        undiscovered_amount = 16
     }
     naval_exit_id = 3107
 }
@@ -4046,6 +4238,10 @@ STATE_RIFT_VALLEY = {
         building_coal_mine = 48
         building_logging_camp = 7
     }
+    resource = {
+        type = "building_rubber_plantation"
+        undiscovered_amount = 16
+    }
 }
 
 STATE_OROMIA = {
@@ -4062,6 +4258,14 @@ STATE_OROMIA = {
     arable_resources = { "building_millet_farm" "building_livestock_ranch" "building_coffee_plantation" "building_cotton_plantation" "building_dye_plantation" "building_tea_plantation" "building_tobacco_plantation" "building_sugar_plantation" "building_vineyard" }
     capped_resources = {
         building_logging_camp = 11
+    }
+    resource = {
+        type = "building_rubber_plantation"
+        undiscovered_amount = 28
+    }
+    resource = {
+        type = "building_oil_rig"
+        undiscovered_amount = 10
     }
 }
 
@@ -4080,6 +4284,10 @@ STATE_AMHARA = {
     capped_resources = {
         building_logging_camp = 20
     }
+    resource = {
+        type = "building_rubber_plantation"
+        undiscovered_amount = 26
+    }
 }
 
 STATE_GONDER = {
@@ -4095,6 +4303,10 @@ STATE_GONDER = {
     arable_resources = { "building_millet_farm" "building_livestock_ranch" "building_coffee_plantation" "building_cotton_plantation" "building_dye_plantation" "building_tea_plantation" "building_tobacco_plantation" "building_sugar_plantation" }
     capped_resources = {
         building_logging_camp = 23
+    }
+    resource = {
+        type = "building_rubber_plantation"
+        undiscovered_amount = 22
     }
 }
 
@@ -4112,6 +4324,10 @@ STATE_KAZEMBE = {
     capped_resources = {
         building_coal_mine = 48
         building_logging_camp = 14
+    }
+    resource = {
+        type = "building_rubber_plantation"
+        undiscovered_amount = 22
     }
 }
 
@@ -4153,6 +4369,10 @@ STATE_SOUTH_MADAGASCAR = {
         building_whaling_station = 4
         building_fishing_wharf = 8
     }
+    resource = {
+        type = "building_rubber_plantation"
+        undiscovered_amount = 16
+    }
     naval_exit_id = 3107
 }
 
@@ -4173,6 +4393,10 @@ STATE_NORTH_MADAGASCAR = {
         building_whaling_station = 6
         building_fishing_wharf = 10
     }
+    resource = {
+        type = "building_rubber_plantation"
+        undiscovered_amount = 16
+    }
     naval_exit_id = 3107
 }
 
@@ -4191,6 +4415,10 @@ STATE_UGANDA = {
     capped_resources = {
         building_logging_camp = 20
     }
+    resource = {
+        type = "building_rubber_plantation"
+        undiscovered_amount = 28
+    }
 }
 
 STATE_EQUATORIA = {
@@ -4207,6 +4435,10 @@ STATE_EQUATORIA = {
     arable_resources = { "building_millet_farm" "building_livestock_ranch" "building_coffee_plantation" "building_cotton_plantation" "building_tobacco_plantation" "building_sugar_plantation" }
     capped_resources = {
         building_logging_camp = 13
+    }
+    resource = {
+        type = "building_rubber_plantation"
+        undiscovered_amount = 18
     }
 }
 
@@ -4225,6 +4457,15 @@ STATE_MOCAMBIQUE = {
     capped_resources = {
         building_logging_camp = 23
         building_fishing_wharf = 8
+    }
+    resource = {
+        type = "building_gold_field"
+        depleted_type = "building_gold_mine"
+        undiscovered_amount = 2
+    }
+    resource = {
+        type = "building_rubber_plantation"
+        undiscovered_amount = 28
     }
     naval_exit_id = 3107
 }
@@ -4279,6 +4520,10 @@ STATE_SOUTH_CAMEROON = {
         building_logging_camp = 30
         building_fishing_wharf = 7
     }
+    resource = {
+        type = "building_rubber_plantation"
+        undiscovered_amount = 24
+    }
     naval_exit_id = 3091
 }
 
@@ -4296,6 +4541,10 @@ STATE_UBANGI_SHARI = {
     capped_resources = {
         building_coal_mine = 48
         building_logging_camp = 18
+    }
+    resource = {
+        type = "building_rubber_plantation"
+        undiscovered_amount = 34
     }
 }
 
@@ -4316,6 +4565,14 @@ STATE_CONGO = {
         building_logging_camp = 25
         building_fishing_wharf = 4
     }
+    resource = {
+        type = "building_rubber_plantation"
+        undiscovered_amount = 60
+    }
+    resource = {
+        type = "building_oil_rig"
+        undiscovered_amount = 5
+    }
     naval_exit_id = 3104
 }
 
@@ -4335,6 +4592,10 @@ STATE_CONGO_ORIENTALE = {
         building_coal_mine = 44
         building_logging_camp = 23
     }
+    resource = {
+        type = "building_rubber_plantation"
+        undiscovered_amount = 52
+    }
 }
 
 STATE_KASAI = {
@@ -4352,6 +4613,10 @@ STATE_KASAI = {
     capped_resources = {
         building_iron_mine = 27
         building_logging_camp = 18
+    }
+    resource = {
+        type = "building_rubber_plantation"
+        undiscovered_amount = 22
     }
 }
 
@@ -4373,6 +4638,10 @@ STATE_BAS_CONGO = {
         building_logging_camp = 23
         building_fishing_wharf = 7
     }
+    resource = {
+        type = "building_rubber_plantation"
+        undiscovered_amount = 32
+    }
     naval_exit_id = 3104
 }
 
@@ -4390,6 +4659,10 @@ STATE_EQUATEUR = {
     arable_resources = { "building_millet_farm" "building_livestock_ranch" "building_coffee_plantation" "building_cotton_plantation" "building_dye_plantation" "building_tea_plantation" "building_sugar_plantation" "building_banana_plantation" }
     capped_resources = {
         building_logging_camp = 26
+    }
+    resource = {
+        type = "building_rubber_plantation"
+        undiscovered_amount = 30
     }
 }
 
@@ -4409,6 +4682,10 @@ STATE_NORTH_ANGOLA = {
         building_logging_camp = 13
         building_fishing_wharf = 8
         building_whaling_station = 4
+    }
+    resource = {
+        type = "building_rubber_plantation"
+        undiscovered_amount = 22
     }
     naval_exit_id = 3104
 }
@@ -4430,6 +4707,10 @@ STATE_SOUTH_ANGOLA = {
         building_fishing_wharf = 7
         building_whaling_station = 4
     }
+    resource = {
+        type = "building_rubber_plantation"
+        undiscovered_amount = 14
+    }
     naval_exit_id = 3104
 }
 
@@ -4449,6 +4730,10 @@ STATE_EAST_ANGOLA = {
         building_lead_mine = 27
         building_logging_camp = 11
     }
+    resource = {
+        type = "building_rubber_plantation"
+        undiscovered_amount = 16
+    }
 }
 
 STATE_KATANGA = {
@@ -4465,6 +4750,10 @@ STATE_KATANGA = {
     capped_resources = {
         building_iron_mine = 27
         building_logging_camp = 18
+    }
+    resource = {
+        type = "building_rubber_plantation"
+        undiscovered_amount = 20
     }
 }
 
@@ -4485,6 +4774,14 @@ STATE_GABON = {
         building_logging_camp = 20
         building_fishing_wharf = 9
     }
+    resource = {
+        type = "building_rubber_plantation"
+        undiscovered_amount = 24
+    }
+    resource = {
+        type = "building_oil_rig"
+        undiscovered_amount = 5
+    }
     naval_exit_id = 3091
 }
 
@@ -4504,6 +4801,10 @@ STATE_ZAMBIA = {
         building_lead_mine = 33
         building_logging_camp = 17
     }
+    resource = {
+        type = "building_rubber_plantation"
+        undiscovered_amount = 20
+    }
 }
 
 STATE_ZAMBEZIA = {
@@ -4522,6 +4823,16 @@ STATE_ZAMBEZIA = {
         building_iron_mine = 33
         building_fishing_wharf = 6
     }
+    resource = {
+        type = "building_gold_field"
+        depleted_type = "building_gold_mine"
+        undiscovered_amount = 4
+        discovered_amount = 1
+    }
+    resource = {
+        type = "building_rubber_plantation"
+        undiscovered_amount = 14
+    }
     naval_exit_id = 3107
 }
 
@@ -4539,6 +4850,10 @@ STATE_ZAMBEZI = {
     capped_resources = {
         building_coal_mine = 44
         building_logging_camp = 11
+    }
+    resource = {
+        type = "building_rubber_plantation"
+        undiscovered_amount = 16
     }
 }
 
@@ -4617,6 +4932,11 @@ STATE_VRYSTAAT = {
         building_iron_mine = 30
         building_logging_camp = 7
     }
+    resource = {
+        type = "building_gold_field"
+        depleted_type = "building_gold_mine"
+        undiscovered_amount = 16
+    }
 }
 
 STATE_TRANSVAAL = {
@@ -4635,6 +4955,11 @@ STATE_TRANSVAAL = {
         building_coal_mine = 104
         building_iron_mine = 60
         building_logging_camp = 5
+    }
+    resource = {
+        type = "building_gold_field"
+        depleted_type = "building_gold_mine"
+        undiscovered_amount = 12
     }
 }
 
@@ -4691,6 +5016,12 @@ STATE_NORTHERN_CAPE = {
         building_iron_mine = 33
         building_logging_camp = 2
     }
+    resource = {
+        type = "building_gold_field"
+        depleted_type = "building_gold_mine"
+        undiscovered_amount = 8
+        discovered_amount = 1
+    }
 }
 
 STATE_BOTSWANA = {
@@ -4726,6 +5057,10 @@ STATE_LOURENCO_MARQUES = {
         building_coal_mine = 40
         building_logging_camp = 9
         building_fishing_wharf = 8
+    }
+    resource = {
+        type = "building_rubber_plantation"
+        undiscovered_amount = 16
     }
     naval_exit_id = 3107
 }
@@ -4766,6 +5101,10 @@ STATE_LOUISIANA = {
         building_sulfur_mine = 32
         building_logging_camp = 13
         building_fishing_wharf = 12
+    }
+    resource = {
+        type = "building_oil_rig"
+        undiscovered_amount = 20
     }
     naval_exit_id = 3060
 }
@@ -4830,6 +5169,11 @@ STATE_ALASKA = {
         building_logging_camp = 90
         building_whaling_station = 8
         building_fishing_wharf = 10
+    }
+    resource = {
+        type = "building_gold_field"
+        depleted_type = "building_gold_mine"
+        undiscovered_amount = 12
     }
     naval_exit_id = 3119
 }
@@ -4906,6 +5250,15 @@ STATE_COLORADO = {
         building_coal_mine = 40
         building_logging_camp = 9
     }
+    resource = {
+        type = "building_gold_field"
+        depleted_type = "building_gold_mine"
+        undiscovered_amount = 8
+    }
+    resource = {
+        type = "building_oil_rig"
+        undiscovered_amount = 20
+    }
 }
 
 STATE_WYOMING = {
@@ -4922,6 +5275,10 @@ STATE_WYOMING = {
     capped_resources = {
         building_coal_mine = 48
         building_logging_camp = 13
+    }
+    resource = {
+        type = "building_oil_rig"
+        undiscovered_amount = 20
     }
 }
 
@@ -4941,6 +5298,10 @@ STATE_MONTANA = {
         building_iron_mine = 33
         building_logging_camp = 17
     }
+    resource = {
+        type = "building_oil_rig"
+        undiscovered_amount = 20
+    }
 }
 
 STATE_NORTH_DAKOTA = {
@@ -4957,6 +5318,10 @@ STATE_NORTH_DAKOTA = {
     capped_resources = {
         building_coal_mine = 48
         building_logging_camp = 11
+    }
+    resource = {
+        type = "building_oil_rig"
+        undiscovered_amount = 20
     }
 }
 
@@ -4975,6 +5340,15 @@ STATE_SOUTH_DAKOTA = {
         building_coal_mine = 32
         building_logging_camp = 9
     }
+    resource = {
+        type = "building_gold_field"
+        depleted_type = "building_gold_mine"
+        undiscovered_amount = 8
+    }
+    resource = {
+        type = "building_oil_rig"
+        undiscovered_amount = 20
+    }
 }
 
 STATE_NEBRASKA = {
@@ -4990,6 +5364,10 @@ STATE_NEBRASKA = {
     arable_resources = { "building_maize_farm" "building_livestock_ranch" }
     capped_resources = {
         building_logging_camp = 5
+    }
+    resource = {
+        type = "building_oil_rig"
+        undiscovered_amount = 20
     }
 }
 
@@ -5009,6 +5387,10 @@ STATE_KANSAS = {
         building_lead_mine = 18
         building_logging_camp = 7
     }
+    resource = {
+        type = "building_oil_rig"
+        undiscovered_amount = 50
+    }
 }
 
 STATE_OKLAHOMA = {
@@ -5024,6 +5406,10 @@ STATE_OKLAHOMA = {
     capped_resources = {
         building_coal_mine = 40
         building_logging_camp = 7
+    }
+    resource = {
+        type = "building_oil_rig"
+        undiscovered_amount = 80
     }
 }
 
@@ -5042,6 +5428,10 @@ STATE_ARKANSAS = {
         building_lead_mine = 45
         building_logging_camp = 11
     }
+    resource = {
+        type = "building_oil_rig"
+        undiscovered_amount = 20
+    }
 }
 
 STATE_MISSOURI = {
@@ -5058,6 +5448,10 @@ STATE_MISSOURI = {
     capped_resources = {
         building_lead_mine = 36
         building_logging_camp = 16
+    }
+    resource = {
+        type = "building_oil_rig"
+        undiscovered_amount = 20
     }
 }
 
@@ -5166,6 +5560,10 @@ STATE_OHIO = {
         building_lead_mine = 36
         building_logging_camp = 30
     }
+    resource = {
+        type = "building_oil_rig"
+        undiscovered_amount = 30
+    }
 }
 
 STATE_KENTUCKY = {
@@ -5220,6 +5618,10 @@ STATE_MISSISSIPPI = {
         building_logging_camp = 14
         building_fishing_wharf = 5
     }
+    resource = {
+        type = "building_oil_rig"
+        undiscovered_amount = 30
+    }
     naval_exit_id = 3060
 }
 
@@ -5242,6 +5644,10 @@ STATE_ALABAMA = {
         building_logging_camp = 17
         building_fishing_wharf = 3
     }
+    resource = {
+        type = "building_oil_rig"
+        undiscovered_amount = 20
+    }
     naval_exit_id = 3060
 }
 
@@ -5261,6 +5667,10 @@ STATE_FLORIDA = {
         building_logging_camp = 23
         building_fishing_wharf = 15
         building_sulfur_mine = 42
+    }
+    resource = {
+        type = "building_oil_rig"
+        undiscovered_amount = 30
     }
     naval_exit_id = 3060
 }
@@ -5316,6 +5726,10 @@ STATE_PENNSYLVANIA = {
         building_coal_mine = 120
         building_iron_mine = 57
         building_logging_camp = 23
+    }
+    resource = {
+        type = "building_oil_rig"
+        undiscovered_amount = 50
     }
 }
 
@@ -5414,6 +5828,10 @@ STATE_UTAH = {
         building_iron_mine = 30
         building_logging_camp = 6
     }
+    resource = {
+        type = "building_oil_rig"
+        undiscovered_amount = 20
+    }
 }
 
 STATE_SOUTH_CAROLINA = {
@@ -5470,6 +5888,10 @@ STATE_ONTARIO = {
     capped_resources = {
         building_sulfur_mine = 48
         building_logging_camp = 90
+    }
+    resource = {
+        type = "building_oil_rig"
+        undiscovered_amount = 60
     }
 }
 
@@ -5555,6 +5977,10 @@ STATE_ALBERTA = {
         building_sulfur_mine = 32
         building_logging_camp = 70
     }
+    resource = {
+        type = "building_oil_rig"
+        undiscovered_amount = 80
+    }
 }
 
 STATE_BRITISH_COLUMBIA = {
@@ -5576,6 +6002,11 @@ STATE_BRITISH_COLUMBIA = {
         building_whaling_station = 6
         building_fishing_wharf = 9
     }
+    resource = {
+        type = "building_gold_field"
+        depleted_type = "building_gold_mine"
+        undiscovered_amount = 8
+    }
     naval_exit_id = 3154
 }
 
@@ -5594,6 +6025,10 @@ STATE_SASKATCHEWAN = {
         building_coal_mine = 40
         building_logging_camp = 40
     }
+    resource = {
+        type = "building_oil_rig"
+        undiscovered_amount = 30
+    }
 }
 
 STATE_MANITOBA = {
@@ -5610,6 +6045,10 @@ STATE_MANITOBA = {
     capped_resources = {
         building_logging_camp = 32
         building_fishing_wharf = 5
+    }
+    resource = {
+        type = "building_oil_rig"
+        undiscovered_amount = 30
     }
 }
 
@@ -5628,6 +6067,11 @@ STATE_YUKON_TERRITORY = {
     capped_resources = {
         building_iron_mine = 15
         building_logging_camp = 25
+    }
+    resource = {
+        type = "building_gold_field"
+        depleted_type = "building_gold_mine"
+        undiscovered_amount = 12
     }
 }
 
@@ -5701,6 +6145,10 @@ STATE_TEXAS = {
         building_logging_camp = 7
         building_fishing_wharf = 6
     }
+    resource = {
+        type = "building_oil_rig"
+        undiscovered_amount = 100
+    }
     naval_exit_id = 3060
 }
 
@@ -5719,6 +6167,11 @@ STATE_NEVADA = {
         building_iron_mine = 24
         building_logging_camp = 4
     }
+    resource = {
+        type = "building_gold_field"
+        depleted_type = "building_gold_mine"
+        undiscovered_amount = 15
+    }
 }
 
 STATE_ARIZONA = {
@@ -5734,6 +6187,11 @@ STATE_ARIZONA = {
     capped_resources = {
         building_iron_mine = 21
         building_logging_camp = 2
+    }
+    resource = {
+        type = "building_gold_field"
+        depleted_type = "building_gold_mine"
+        undiscovered_amount = 5
     }
 }
 
@@ -5773,6 +6231,15 @@ STATE_CALIFORNIA = {
         building_fishing_wharf = 14
         building_whaling_station = 6
     }
+    resource = {
+        type = "building_gold_field"
+        depleted_type = "building_gold_mine"
+        undiscovered_amount = 12
+    }
+    resource = {
+        type = "building_oil_rig"
+        undiscovered_amount = 80
+    }
     naval_exit_id = 3153
 }
 
@@ -5792,6 +6259,11 @@ STATE_SONORA = {
         building_iron_mine = 27
         building_logging_camp = 4
         building_fishing_wharf = 7
+    }
+    resource = {
+        type = "building_gold_field"
+        depleted_type = "building_gold_mine"
+        undiscovered_amount = 6
     }
     naval_exit_id = 3153
 }
@@ -5828,6 +6300,10 @@ STATE_RIO_GRANDE = {
     capped_resources = {
         building_logging_camp = 5
         building_fishing_wharf = 8
+    }
+    resource = {
+        type = "building_oil_rig"
+        undiscovered_amount = 80
     }
     naval_exit_id = 3060
 }
@@ -5901,6 +6377,10 @@ STATE_YUCATAN = {
         building_logging_camp = 18
         building_fishing_wharf = 9
     }
+    resource = {
+        type = "building_rubber_plantation"
+        undiscovered_amount = 16
+    }
     naval_exit_id = 3060
 }
 
@@ -5919,6 +6399,10 @@ STATE_MEXICO = {
         building_iron_mine = 9
         building_lead_mine = 12
         building_logging_camp = 7
+    }
+    resource = {
+        type = "building_rubber_plantation"
+        undiscovered_amount = 8
     }
 }
 
@@ -5939,6 +6423,14 @@ STATE_VERACRUZ = {
         building_lead_mine = 12
         building_logging_camp = 6
         building_fishing_wharf = 7
+    }
+    resource = {
+        type = "building_rubber_plantation"
+        undiscovered_amount = 8
+    }
+    resource = {
+        type = "building_oil_rig"
+        undiscovered_amount = 40
     }
     naval_exit_id = 3060
 }
@@ -5961,6 +6453,15 @@ STATE_GUERRERO = {
         building_logging_camp = 8
         building_fishing_wharf = 4
     }
+    resource = {
+        type = "building_gold_field"
+        depleted_type = "building_gold_mine"
+        undiscovered_amount = 3
+    }
+    resource = {
+        type = "building_rubber_plantation"
+        undiscovered_amount = 8
+    }
     naval_exit_id = 3155
 }
 
@@ -5982,6 +6483,15 @@ STATE_OAXACA = {
         building_logging_camp = 7
         building_fishing_wharf = 4
     }
+    resource = {
+        type = "building_gold_field"
+        depleted_type = "building_gold_mine"
+        undiscovered_amount = 2
+    }
+    resource = {
+        type = "building_rubber_plantation"
+        undiscovered_amount = 6
+    }
     naval_exit_id = 3155
 }
 
@@ -6002,6 +6512,10 @@ STATE_JALISCO = {
         building_logging_camp = 18
         building_fishing_wharf = 8
     }
+    resource = {
+        type = "building_rubber_plantation"
+        undiscovered_amount = 12
+    }
     naval_exit_id = 3155
 }
 
@@ -6018,6 +6532,11 @@ STATE_ZACATECAS = {
     arable_resources = { "building_maize_farm" "building_livestock_ranch" "building_coffee_plantation" "building_dye_plantation" "building_tobacco_plantation" "building_sugar_plantation" "building_banana_plantation" "building_vineyard" }
     capped_resources = {
         building_iron_mine = 23
+    }
+    resource = {
+        type = "building_gold_field"
+        depleted_type = "building_gold_mine"
+        undiscovered_amount = 4
     }
 }
 
@@ -6036,6 +6555,10 @@ STATE_CHIAPAS = {
     capped_resources = {
         building_logging_camp = 14
         building_fishing_wharf = 7
+    }
+    resource = {
+        type = "building_rubber_plantation"
+        undiscovered_amount = 24
     }
     naval_exit_id = 3155
 }
@@ -6075,6 +6598,10 @@ STATE_SAN_SALVADOR = {
         building_logging_camp = 7
         building_fishing_wharf = 4
     }
+    resource = {
+        type = "building_rubber_plantation"
+        undiscovered_amount = 10
+    }
     naval_exit_id = 3155
 }
 
@@ -6095,6 +6622,10 @@ STATE_GUATEMALA = {
         building_logging_camp = 17
         building_fishing_wharf = 5
     }
+    resource = {
+        type = "building_rubber_plantation"
+        undiscovered_amount = 20
+    }
     naval_exit_id = 3026
 }
 
@@ -6114,6 +6645,10 @@ STATE_HONDURAS = {
         building_logging_camp = 15
         building_fishing_wharf = 8
     }
+    resource = {
+        type = "building_rubber_plantation"
+        undiscovered_amount = 16
+    }
     naval_exit_id = 3026
 }
 
@@ -6132,6 +6667,10 @@ STATE_NICARAGUA = {
     capped_resources = {
         building_logging_camp = 14
         building_fishing_wharf = 5
+    }
+    resource = {
+        type = "building_rubber_plantation"
+        undiscovered_amount = 14
     }
     naval_exit_id = 3026
 }
@@ -6153,6 +6692,10 @@ STATE_COSTA_RICA = {
         building_logging_camp = 8
         building_fishing_wharf = 3
     }
+    resource = {
+        type = "building_rubber_plantation"
+        undiscovered_amount = 12
+    }
     naval_exit_id = 3026
 }
 
@@ -6173,6 +6716,10 @@ STATE_PANAMA = {
         building_fishing_wharf = 6
         building_whaling_station = 2
     }
+    resource = {
+        type = "building_rubber_plantation"
+        undiscovered_amount = 12
+    }
     naval_exit_id = 3026
 }
 
@@ -6191,6 +6738,10 @@ STATE_HAITI = {
     capped_resources = {
         building_logging_camp = 7
         building_fishing_wharf = 6
+    }
+    resource = {
+        type = "building_rubber_plantation"
+        undiscovered_amount = 12
     }
     naval_exit_id = 3061
 }
@@ -6211,6 +6762,10 @@ STATE_SANTO_DOMINGO = {
         building_logging_camp = 11
         building_fishing_wharf = 7
     }
+    resource = {
+        type = "building_rubber_plantation"
+        undiscovered_amount = 12
+    }
     naval_exit_id = 3061
 }
 
@@ -6229,6 +6784,10 @@ STATE_PUERTO_RICO = {
     capped_resources = {
         building_logging_camp = 2
         building_fishing_wharf = 4
+    }
+    resource = {
+        type = "building_rubber_plantation"
+        undiscovered_amount = 6
     }
     naval_exit_id = 3025
 }
@@ -6265,6 +6824,10 @@ STATE_WEST_INDIES = {
     arable_resources = { "building_rice_farm" "building_livestock_ranch" "building_cotton_plantation" "building_coffee_plantation" "building_tobacco_plantation" "building_sugar_plantation" "building_banana_plantation" }
     capped_resources = {
         building_fishing_wharf = 8
+    }
+    resource = {
+        type = "building_oil_rig"
+        undiscovered_amount = 30
     }
     naval_exit_id = 3025
 }
@@ -6304,6 +6867,14 @@ STATE_WESTERN_CUBA = {
         building_logging_camp = 4
         building_fishing_wharf = 7
         building_sulfur_mine = 3
+    }
+    resource = {
+        type = "building_rubber_plantation"
+        undiscovered_amount = 8
+    }
+    resource = {
+        type = "building_oil_rig"
+        undiscovered_amount = 10
     }
     naval_exit_id = 3061
 }
@@ -6371,6 +6942,10 @@ STATE_ECUADOR = {
         building_fishing_wharf = 6
         building_whaling_station = 4
     }
+    resource = {
+        type = "building_rubber_plantation"
+        undiscovered_amount = 12
+    }
     naval_exit_id = 3024
 }
 
@@ -6389,6 +6964,19 @@ STATE_GUAYANA = {
     capped_resources = {
         building_logging_camp = 20
         building_fishing_wharf = 6
+    }
+    resource = {
+        type = "building_gold_field"
+        depleted_type = "building_gold_mine"
+        undiscovered_amount = 12
+    }
+    resource = {
+        type = "building_rubber_plantation"
+        undiscovered_amount = 16
+    }
+    resource = {
+        type = "building_oil_rig"
+        undiscovered_amount = 20
     }
     naval_exit_id = 3062
 }
@@ -6411,6 +6999,14 @@ STATE_ZULIA = {
         building_logging_camp = 9
         building_fishing_wharf = 7
     }
+    resource = {
+        type = "building_rubber_plantation"
+        undiscovered_amount = 4
+    }
+    resource = {
+        type = "building_oil_rig"
+        undiscovered_amount = 100
+    }
     naval_exit_id = 3025
 }
 
@@ -6428,6 +7024,14 @@ STATE_MIRANDA = {
     capped_resources = {
         building_logging_camp = 7
         building_fishing_wharf = 5
+    }
+    resource = {
+        type = "building_rubber_plantation"
+        undiscovered_amount = 4
+    }
+    resource = {
+        type = "building_oil_rig"
+        undiscovered_amount = 100
     }
     naval_exit_id = 3025
 }
@@ -6448,6 +7052,14 @@ STATE_BOLIVAR = {
         building_iron_mine = 30
         building_logging_camp = 25
         building_fishing_wharf = 3
+    }
+    resource = {
+        type = "building_rubber_plantation"
+        undiscovered_amount = 16
+    }
+    resource = {
+        type = "building_oil_rig"
+        undiscovered_amount = 50
     }
     naval_exit_id = 3025
 }
@@ -6470,6 +7082,14 @@ STATE_ANTIOQUIA = {
         building_logging_camp = 13
         building_fishing_wharf = 8
     }
+    resource = {
+        type = "building_rubber_plantation"
+        undiscovered_amount = 8
+    }
+    resource = {
+        type = "building_oil_rig"
+        undiscovered_amount = 20
+    }
     naval_exit_id = 3025
 }
 
@@ -6487,6 +7107,10 @@ STATE_GUAVIARE = {
     capped_resources = {
         building_logging_camp = 25
     }
+    resource = {
+        type = "building_rubber_plantation"
+        undiscovered_amount = 18
+    }
 }
 
 STATE_CUNDINAMARCA = {
@@ -6503,6 +7127,10 @@ STATE_CUNDINAMARCA = {
     capped_resources = {
         building_coal_mine = 20
         building_logging_camp = 7
+    }
+    resource = {
+        type = "building_rubber_plantation"
+        undiscovered_amount = 10
     }
 }
 
@@ -6524,6 +7152,10 @@ STATE_CAUCA = {
         building_fishing_wharf = 6
         building_whaling_station = 2
     }
+    resource = {
+        type = "building_rubber_plantation"
+        undiscovered_amount = 6
+    }
     naval_exit_id = 3155
 }
 
@@ -6541,6 +7173,15 @@ STATE_PASTAZA = {
     capped_resources = {
         building_coal_mine = 28
         building_logging_camp = 25
+    }
+    resource = {
+        type = "building_rubber_plantation"
+        undiscovered_amount = 15
+        discovered_amount = 1
+    }
+    resource = {
+        type = "building_oil_rig"
+        undiscovered_amount = 20
     }
 }
 
@@ -6582,6 +7223,11 @@ STATE_ANTOFAGASTA = {
         building_sulfur_mine = 48
         building_fishing_wharf = 5
     }
+    resource = {
+        type = "building_gold_field"
+        depleted_type = "building_gold_mine"
+        undiscovered_amount = 10
+    }
     naval_exit_id = 3152
 }
 
@@ -6599,6 +7245,15 @@ STATE_SANTA_CRUZ = {
     capped_resources = {
         building_logging_camp = 15
     }
+    resource = {
+        type = "building_rubber_plantation"
+        undiscovered_amount = 8
+        discovered_amount = 14
+    }
+    resource = {
+        type = "building_oil_rig"
+        undiscovered_amount = 50
+    }
 }
 
 STATE_LA_PAZ = {
@@ -6614,6 +7269,14 @@ STATE_LA_PAZ = {
     capped_resources = {
         building_logging_camp = 20
         building_gold_mine = 4
+    }
+    resource = {
+        type = "building_rubber_plantation"
+        undiscovered_amount = 8
+    }
+    resource = {
+        type = "building_oil_rig"
+        undiscovered_amount = 50
     }
 }
 
@@ -6652,6 +7315,15 @@ STATE_CAJAMARCA = {
         building_logging_camp = 6
         building_whaling_station = 3
         building_fishing_wharf = 7
+    }
+    resource = {
+        type = "building_gold_field"
+        depleted_type = "building_gold_mine"
+        undiscovered_amount = 4
+    }
+    resource = {
+        type = "building_oil_rig"
+        undiscovered_amount = 20
     }
     naval_exit_id = 3024
 }
@@ -6739,6 +7411,10 @@ STATE_URUGUAY = {
         building_fishing_wharf = 6
         building_whaling_station = 2
     }
+    resource = {
+        type = "building_oil_rig"
+        undiscovered_amount = 20
+    }
     naval_exit_id = 3065
 }
 
@@ -6775,6 +7451,10 @@ STATE_ALTO_PARAGUAY = {
     capped_resources = {
         building_logging_camp = 11
     }
+    resource = {
+        type = "building_oil_rig"
+        undiscovered_amount = 20
+    }
 }
 
 STATE_BAJO_PARAGUAY = {
@@ -6791,6 +7471,10 @@ STATE_BAJO_PARAGUAY = {
     capped_resources = {
         building_iron_mine = 15
         building_logging_camp = 14
+    }
+    resource = {
+        type = "building_oil_rig"
+        undiscovered_amount = 20
     }
 }
 
@@ -6829,6 +7513,10 @@ STATE_PATAGONIA = {
         building_coal_mine = 32
         building_sulfur_mine = 20
         building_fishing_wharf = 7
+    }
+    resource = {
+        type = "building_oil_rig"
+        undiscovered_amount = 20
     }
     naval_exit_id = 3066
 }
@@ -6881,6 +7569,10 @@ STATE_SANTA_FE = {
         building_logging_camp = 11
         building_fishing_wharf = 2
     }
+    resource = {
+        type = "building_oil_rig"
+        undiscovered_amount = 20
+    }
     naval_exit_id = 3065
 }
 
@@ -6897,6 +7589,10 @@ STATE_CORRIENTES = {
     arable_resources = { "building_maize_farm" "building_livestock_ranch" "building_dye_plantation" "building_tobacco_plantation" "building_sugar_plantation" "building_banana_plantation" }
     capped_resources = {
         building_logging_camp = 15
+    }
+    resource = {
+        type = "building_oil_rig"
+        undiscovered_amount = 20
     }
 }
 
@@ -7000,6 +7696,15 @@ STATE_ARAUCANIA = {
         building_logging_camp = 30
         building_fishing_wharf = 15
     }
+    resource = {
+        type = "building_gold_field"
+        depleted_type = "building_gold_mine"
+        undiscovered_amount = 4
+    }
+    resource = {
+        type = "building_oil_rig"
+        undiscovered_amount = 20
+    }
     naval_exit_id = 3151
 }
 
@@ -7041,6 +7746,14 @@ STATE_PARA = {
         building_fishing_wharf = 3
         building_iron_mine = 78
     }
+    resource = {
+        type = "building_rubber_plantation"
+        discovered_amount = 22
+    }
+    resource = {
+        type = "building_oil_rig"
+        undiscovered_amount = 20
+    }
     naval_exit_id = 3062
 }
 
@@ -7060,6 +7773,10 @@ STATE_MARANHAO = {
         building_logging_camp = 16
         building_fishing_wharf = 7
     }
+    resource = {
+        type = "building_rubber_plantation"
+        discovered_amount = 16
+    }
     naval_exit_id = 3062
 }
 
@@ -7078,6 +7795,14 @@ STATE_AMAZONAS = {
     capped_resources = {
         building_logging_camp = 40
     }
+    resource = {
+        type = "building_rubber_plantation"
+        discovered_amount = 25
+    }
+    resource = {
+        type = "building_oil_rig"
+        undiscovered_amount = 20
+    }
 }
 
 STATE_ACRE = {
@@ -7093,6 +7818,10 @@ STATE_ACRE = {
     arable_resources = { "building_maize_farm" "building_livestock_ranch" "building_tobacco_plantation" "building_sugar_plantation" "building_banana_plantation" }
     capped_resources = {
         building_logging_camp = 15
+    }
+    resource = {
+        type = "building_rubber_plantation"
+        discovered_amount = 15
     }
 }
 
@@ -7111,6 +7840,10 @@ STATE_GOIAS = {
         building_logging_camp = 16
         building_fishing_wharf = 7
     }
+    resource = {
+        type = "building_rubber_plantation"
+        discovered_amount = 16
+    }
 }
 
 STATE_MATO_GROSSO = {
@@ -7127,6 +7860,14 @@ STATE_MATO_GROSSO = {
     capped_resources = {
         building_logging_camp = 29
         building_iron_mine = 18
+    }
+    resource = {
+        type = "building_rubber_plantation"
+        discovered_amount = 26
+    }
+    resource = {
+        type = "building_oil_rig"
+        undiscovered_amount = 20
     }
 }
 
@@ -7148,6 +7889,10 @@ STATE_RIO_GRANDE_DO_SUL = {
         building_fishing_wharf = 6
         building_whaling_station = 2
         building_lead_mine = 30
+    }
+    resource = {
+        type = "building_oil_rig"
+        undiscovered_amount = 20
     }
     naval_exit_id = 3064
 }
@@ -7210,6 +7955,14 @@ STATE_SAO_PAULO = {
         building_logging_camp = 22
         building_fishing_wharf = 5
     }
+    resource = {
+        type = "building_rubber_plantation"
+        discovered_amount = 10
+    }
+    resource = {
+        type = "building_oil_rig"
+        undiscovered_amount = 20
+    }
     naval_exit_id = 3064
 }
 
@@ -7229,6 +7982,19 @@ STATE_MINAS_GERAIS = {
         building_lead_mine = 30
         building_logging_camp = 24
     }
+    resource = {
+        type = "building_gold_field"
+        depleted_type = "building_gold_mine"
+        undiscovered_amount = 8
+    }
+    resource = {
+        type = "building_rubber_plantation"
+        discovered_amount = 7
+    }
+    resource = {
+        type = "building_oil_rig"
+        undiscovered_amount = 20
+    }
 }
 
 STATE_RIO_DE_JANEIRO = {
@@ -7247,6 +8013,10 @@ STATE_RIO_DE_JANEIRO = {
         building_logging_camp = 9
         building_fishing_wharf = 9
         building_whaling_station = 4
+    }
+    resource = {
+        type = "building_rubber_plantation"
+        discovered_amount = 7
     }
     naval_exit_id = 3064
 }
@@ -7268,6 +8038,10 @@ STATE_BAHIA = {
         building_logging_camp = 18
         building_fishing_wharf = 8
     }
+    resource = {
+        type = "building_rubber_plantation"
+        discovered_amount = 3
+    }
     naval_exit_id = 3063
 }
 
@@ -7287,6 +8061,10 @@ STATE_CEARA = {
         building_iron_mine = 18
         building_logging_camp = 7
         building_fishing_wharf = 3
+    }
+    resource = {
+        type = "building_rubber_plantation"
+        discovered_amount = 3
     }
     naval_exit_id = 3063
 }
@@ -7308,6 +8086,10 @@ STATE_PIAUI = {
         building_logging_camp = 14
         building_fishing_wharf = 7
     }
+    resource = {
+        type = "building_rubber_plantation"
+        discovered_amount = 4
+    }
     naval_exit_id = 3063
 }
 
@@ -7326,6 +8108,10 @@ STATE_PERNAMBUCO = {
     capped_resources = {
         building_logging_camp = 16
         building_fishing_wharf = 9
+    }
+    resource = {
+        type = "building_rubber_plantation"
+        discovered_amount = 5
     }
     naval_exit_id = 3063
 }
@@ -7346,6 +8132,10 @@ STATE_NEJD = {
     capped_resources = {
         building_fishing_wharf = 4
     }
+    resource = {
+        type = "building_oil_rig"
+        undiscovered_amount = 60
+    }
     naval_exit_id = 3046
 }
 
@@ -7362,6 +8152,10 @@ STATE_OMAN = {
     arable_resources = { "building_livestock_ranch" "building_coffee_plantation" "building_tobacco_plantation" }
     capped_resources = {
         building_fishing_wharf = 10
+    }
+    resource = {
+        type = "building_oil_rig"
+        undiscovered_amount = 30
     }
     naval_exit_id = 3048
 }
@@ -7380,6 +8174,10 @@ STATE_ABU_DHABI = {
     arable_resources = { "building_livestock_ranch" "building_tobacco_plantation" }
     capped_resources = {
         building_fishing_wharf = 4
+    }
+    resource = {
+        type = "building_oil_rig"
+        undiscovered_amount = 80
     }
     naval_exit_id = 3046
 }
@@ -7400,6 +8198,10 @@ STATE_YEMEN = {
     capped_resources = {
         building_lead_mine = 12
         building_fishing_wharf = 9
+    }
+    resource = {
+        type = "building_oil_rig"
+        undiscovered_amount = 30
     }
     naval_exit_id = 3047
 }
@@ -7567,6 +8369,10 @@ STATE_BAGHDAD = {
     wood = "x0CA064"
     arable_land = 40
     arable_resources = { "building_rice_farm" "building_livestock_ranch" "building_silk_plantation" "building_tobacco_plantation" }
+    resource = {
+        type = "building_oil_rig"
+        undiscovered_amount = 40
+    }
 }
 
 STATE_MOSUL = {
@@ -7582,6 +8388,10 @@ STATE_MOSUL = {
     arable_resources = { "building_wheat_farm" "building_livestock_ranch" "building_cotton_plantation" "building_tobacco_plantation" }
     capped_resources = {
         building_sulfur_mine = 36
+    }
+    resource = {
+        type = "building_oil_rig"
+        undiscovered_amount = 40
     }
 }
 
@@ -7614,6 +8424,10 @@ STATE_BASRA = {
         building_sulfur_mine = 32
         building_fishing_wharf = 6
     }
+    resource = {
+        type = "building_oil_rig"
+        undiscovered_amount = 60
+    }
     naval_exit_id = 3046
 }
 
@@ -7635,6 +8449,10 @@ STATE_FARS = {
         building_fishing_wharf = 7
         building_logging_camp = 6
     }
+    resource = {
+        type = "building_oil_rig"
+        undiscovered_amount = 60
+    }
     naval_exit_id = 3046
 }
 
@@ -7654,6 +8472,10 @@ STATE_LARISTAN = {
         building_iron_mine = 11
         building_fishing_wharf = 10
         building_logging_camp = 1
+    }
+    resource = {
+        type = "building_oil_rig"
+        undiscovered_amount = 40
     }
     naval_exit_id = 3046
 }
@@ -7712,6 +8534,10 @@ STATE_KHORASAN = {
         building_iron_mine = 22
         building_coal_mine = 12
     }
+    resource = {
+        type = "building_oil_rig"
+        undiscovered_amount = 20
+    }
 }
 
 STATE_KHUZESTAN = {
@@ -7729,6 +8555,10 @@ STATE_KHUZESTAN = {
         building_sulfur_mine = 22
         building_fishing_wharf = 5
         building_logging_camp = 4
+    }
+    resource = {
+        type = "building_oil_rig"
+        undiscovered_amount = 60
     }
     naval_exit_id = 3046
 }
@@ -7767,6 +8597,10 @@ STATE_MAZANDARAN = {
         building_coal_mine = 22
         building_iron_mine = 11
         building_logging_camp = 20
+    }
+    resource = {
+        type = "building_oil_rig"
+        undiscovered_amount = 20
     }
 }
 
@@ -7855,6 +8689,10 @@ STATE_LURISTAN = {
         building_logging_camp = 3
         building_iron_mine = 2
     }
+    resource = {
+        type = "building_oil_rig"
+        undiscovered_amount = 20
+    }
 }
 
 STATE_PERSIAN_KURDISTAN = {
@@ -7871,6 +8709,10 @@ STATE_PERSIAN_KURDISTAN = {
     capped_resources = {
         building_logging_camp = 4
         building_iron_mine = 3
+    }
+    resource = {
+        type = "building_oil_rig"
+        undiscovered_amount = 20
     }
 }
 
@@ -8073,6 +8915,10 @@ STATE_DAGESTAN = {
     capped_resources = {
         building_logging_camp = 10
     }
+    resource = {
+        type = "building_oil_rig"
+        undiscovered_amount = 30
+    }
 }
 
 STATE_KUBAN = {
@@ -8093,6 +8939,10 @@ STATE_KUBAN = {
         building_iron_mine = 10
         building_logging_camp = 35
         building_fishing_wharf = 7
+    }
+    resource = {
+        type = "building_oil_rig"
+        undiscovered_amount = 30
     }
     naval_exit_id = 3036
 }
@@ -8127,6 +8977,10 @@ STATE_AZERBAIJAN = {
     capped_resources = {
         building_lead_mine = 18
         building_logging_camp = 4
+    }
+    resource = {
+        type = "building_oil_rig"
+        undiscovered_amount = 100
     }
 }
 
@@ -8170,6 +9024,10 @@ STATE_SAMARA = {
         building_logging_camp = 9
         building_iron_mine = 5
     }
+    resource = {
+        type = "building_oil_rig"
+        undiscovered_amount = 90
+    }
 }
 
 STATE_TARTARIA = {
@@ -8186,6 +9044,10 @@ STATE_TARTARIA = {
     capped_resources = {
         building_logging_camp = 16
         building_iron_mine = 15
+    }
+    resource = {
+        type = "building_oil_rig"
+        undiscovered_amount = 15
     }
 }
 
@@ -8204,6 +9066,10 @@ STATE_ASTRAKHAN = {
         building_logging_camp = 6
         building_sulfur_mine = 30
         building_iron_mine = 30
+    }
+    resource = {
+        type = "building_oil_rig"
+        undiscovered_amount = 30
     }
 }
 
@@ -8267,6 +9133,10 @@ STATE_TURKMENIA = {
     capped_resources = {
         building_sulfur_mine = 40
         building_logging_camp = 2
+    }
+    resource = {
+        type = "building_oil_rig"
+        undiscovered_amount = 30
     }
 }
 
@@ -8575,6 +9445,14 @@ STATE_ASSAM = {
         building_coal_mine = 29
         building_logging_camp = 37
     }
+    resource = {
+        type = "building_rubber_plantation"
+        undiscovered_amount = 12
+    }
+    resource = {
+        type = "building_oil_rig"
+        undiscovered_amount = 44
+    }
 }
 
 STATE_DELHI = {
@@ -8646,6 +9524,10 @@ STATE_GUJARAT = {
         building_logging_camp = 4
         building_fishing_wharf = 16
         building_iron_mine = 4
+    }
+    resource = {
+        type = "building_oil_rig"
+        undiscovered_amount = 8
     }
     naval_exit_id = 3048
 }
@@ -8720,6 +9602,10 @@ STATE_PUNJAB = {
         building_coal_mine = 6
         building_iron_mine = 6
         building_logging_camp = 11
+    }
+    resource = {
+        type = "building_oil_rig"
+        undiscovered_amount = 7
     }
 }
 
@@ -8815,6 +9701,10 @@ STATE_CEYLON = {
         building_logging_camp = 11
         building_fishing_wharf = 13
     }
+    resource = {
+        type = "building_rubber_plantation"
+        undiscovered_amount = 12
+    }
     naval_exit_id = 3049
 }
 
@@ -8899,6 +9789,10 @@ STATE_MYSORE = {
         building_logging_camp = 14
         building_fishing_wharf = 5
     }
+    resource = {
+        type = "building_rubber_plantation"
+        undiscovered_amount = 6
+    }
     naval_exit_id = 3049
 }
 
@@ -8920,6 +9814,10 @@ STATE_TRAVANCORE = {
         building_fishing_wharf = 10
         building_lead_mine = 2
     }
+    resource = {
+        type = "building_rubber_plantation"
+        undiscovered_amount = 8
+    }
     naval_exit_id = 3049
 }
 
@@ -8939,6 +9837,10 @@ STATE_MADRAS = {
         building_iron_mine = 26
         building_logging_camp = 20
         building_fishing_wharf = 18
+    }
+    resource = {
+        type = "building_rubber_plantation"
+        undiscovered_amount = 7
     }
     naval_exit_id = 3049
 }
@@ -9016,6 +9918,10 @@ STATE_TENASSERIM = {
         building_fishing_wharf = 12
         building_iron_mine = 5
     }
+    resource = {
+        type = "building_rubber_plantation"
+        undiscovered_amount = 16
+    }
     naval_exit_id = 3051
 }
 
@@ -9054,6 +9960,10 @@ STATE_SHAN_STATES = {
         building_lead_mine = 34
         building_logging_camp = 17
     }
+    resource = {
+        type = "building_rubber_plantation"
+        undiscovered_amount = 2
+    }
 }
 
 STATE_MANDALAY = {
@@ -9071,6 +9981,14 @@ STATE_MANDALAY = {
         building_gold_mine = 2
         building_iron_mine = 16
         building_logging_camp = 20
+    }
+    resource = {
+        type = "building_rubber_plantation"
+        undiscovered_amount = 20
+    }
+    resource = {
+        type = "building_oil_rig"
+        undiscovered_amount = 26
     }
 }
 
@@ -9090,6 +10008,14 @@ STATE_PEGU = {
         building_logging_camp = 18
         building_fishing_wharf = 10
     }
+    resource = {
+        type = "building_rubber_plantation"
+        undiscovered_amount = 9
+    }
+    resource = {
+        type = "building_oil_rig"
+        undiscovered_amount = 5
+    }
     naval_exit_id = 3050
 }
 
@@ -9108,6 +10034,10 @@ STATE_ARAKAN = {
         building_logging_camp = 21
         building_fishing_wharf = 10
     }
+    resource = {
+        type = "building_oil_rig"
+        undiscovered_amount = 7
+    }
     naval_exit_id = 3050
 }
 
@@ -9125,6 +10055,10 @@ STATE_DZUNGARIA = {
         building_iron_mine = 24
         building_lead_mine = 36
         building_sulfur_mine = 80
+    }
+    resource = {
+        type = "building_oil_rig"
+        undiscovered_amount = 10
     }
 }
 
@@ -9228,6 +10162,10 @@ STATE_ALXA = {
     capped_resources = {
         building_coal_mine = 32
     }
+    resource = {
+        type = "building_oil_rig"
+        undiscovered_amount = 10
+    }
 }
 
 STATE_HINGGAN = {
@@ -9303,6 +10241,10 @@ STATE_SHENGJING = {
         building_logging_camp = 2
         building_fishing_wharf = 2
     }
+    resource = {
+        type = "building_oil_rig"
+        undiscovered_amount = 20
+    }
     naval_exit_id = 3057
 }
 
@@ -9324,6 +10266,15 @@ STATE_OUTER_MANCHURIA = {
         building_lead_mine = 24
         building_logging_camp = 20
         building_fishing_wharf = 10
+    }
+    resource = {
+        type = "building_gold_field"
+        depleted_type = "building_gold_mine"
+        undiscovered_amount = 8
+    }
+    resource = {
+        type = "building_oil_rig"
+        undiscovered_amount = 20
     }
     naval_exit_id = 3059
 }
@@ -9382,6 +10333,10 @@ STATE_SHANXI = {
         building_sulfur_mine = 48
         building_logging_camp = 7
     }
+    resource = {
+        type = "building_oil_rig"
+        undiscovered_amount = 30
+    }
 }
 
 STATE_NINGXIA = {
@@ -9431,6 +10386,10 @@ STATE_XIAN = {
         building_sulfur_mine = 60
         building_logging_camp = 9
     }
+    resource = {
+        type = "building_oil_rig"
+        undiscovered_amount = 20
+    }
 }
 
 STATE_QINGHAI = {
@@ -9464,6 +10423,10 @@ STATE_CHONGQING = {
     capped_resources = {
         building_coal_mine = 36
         building_logging_camp = 9
+    }
+    resource = {
+        type = "building_oil_rig"
+        undiscovered_amount = 10
     }
 }
 
@@ -9730,6 +10693,10 @@ STATE_SHANDONG = {
         building_logging_camp = 6
         building_fishing_wharf = 15
     }
+    resource = {
+        type = "building_oil_rig"
+        undiscovered_amount = 20
+    }
     naval_exit_id = 3057
 }
 
@@ -9806,6 +10773,10 @@ STATE_CAMBODIA = {
         building_logging_camp = 20
         building_fishing_wharf = 5
     }
+    resource = {
+        type = "building_rubber_plantation"
+        undiscovered_amount = 12
+    }
     naval_exit_id = 3053
 }
 
@@ -9824,6 +10795,10 @@ STATE_BANGKOK = {
     capped_resources = {
         building_logging_camp = 17
         building_fishing_wharf = 8
+    }
+    resource = {
+        type = "building_rubber_plantation"
+        undiscovered_amount = 16
     }
     naval_exit_id = 3053
 }
@@ -9844,6 +10819,10 @@ STATE_TONKIN = {
         building_coal_mine = 32
         building_logging_camp = 15
         building_fishing_wharf = 7
+    }
+    resource = {
+        type = "building_rubber_plantation"
+        undiscovered_amount = 16
     }
     naval_exit_id = 3054
 }
@@ -9866,6 +10845,10 @@ STATE_ANNAM = {
         building_logging_camp = 17
         building_fishing_wharf = 15
     }
+    resource = {
+        type = "building_rubber_plantation"
+        undiscovered_amount = 6
+    }
     naval_exit_id = 3054
 }
 
@@ -9885,6 +10868,10 @@ STATE_MEKONG = {
     capped_resources = {
         building_logging_camp = 20
         building_fishing_wharf = 16
+    }
+    resource = {
+        type = "building_rubber_plantation"
+        undiscovered_amount = 8
     }
     naval_exit_id = 3053
 }
@@ -9922,6 +10909,10 @@ STATE_CHIANG_MAI = {
         building_lead_mine = 36
         building_logging_camp = 18
     }
+    resource = {
+        type = "building_rubber_plantation"
+        undiscovered_amount = 4
+    }
 }
 
 STATE_NAKHON_RATCHASIMA = {
@@ -9939,6 +10930,10 @@ STATE_NAKHON_RATCHASIMA = {
     capped_resources = {
         building_logging_camp = 25
         building_fishing_wharf = 6
+    }
+    resource = {
+        type = "building_rubber_plantation"
+        undiscovered_amount = 2
     }
     naval_exit_id = 3053
 }
@@ -9960,6 +10955,10 @@ STATE_SAKHALIN = {
         building_logging_camp = 11
         building_whaling_station = 3
         building_fishing_wharf = 7
+    }
+    resource = {
+        type = "building_oil_rig"
+        undiscovered_amount = 10
     }
     naval_exit_id = 3059
 }
@@ -9985,6 +10984,11 @@ STATE_HOKKAIDO = {
         building_logging_camp = 9
         building_whaling_station = 8
         building_fishing_wharf = 12
+    }
+    resource = {
+        type = "building_gold_field"
+        depleted_type = "building_gold_mine"
+        undiscovered_amount = 8
     }
     naval_exit_id = 3059
 }
@@ -10047,6 +11051,10 @@ STATE_CHUBU = {
         building_lead_mine = 33
         building_logging_camp = 16
         building_fishing_wharf = 16
+    }
+    resource = {
+        type = "building_oil_rig"
+        undiscovered_amount = 30
     }
     naval_exit_id = 3059
 }
@@ -10259,6 +11267,10 @@ STATE_MALAYA = {
         building_logging_camp = 17
         building_fishing_wharf = 10
     }
+    resource = {
+        type = "building_rubber_plantation"
+        undiscovered_amount = 40
+    }
     naval_exit_id = 3052
 }
 
@@ -10280,6 +11292,19 @@ STATE_NORTH_BORNEO = {
         building_sulfur_mine = 36
         building_logging_camp = 20
         building_fishing_wharf = 8
+    }
+    resource = {
+        type = "building_gold_field"
+        depleted_type = "building_gold_mine"
+        undiscovered_amount = 8
+    }
+    resource = {
+        type = "building_rubber_plantation"
+        undiscovered_amount = 16
+    }
+    resource = {
+        type = "building_oil_rig"
+        undiscovered_amount = 20
     }
     naval_exit_id = 3055
 }
@@ -10303,6 +11328,16 @@ STATE_WEST_BORNEO = {
         building_logging_camp = 17
         building_fishing_wharf = 7
     }
+    resource = {
+        type = "building_gold_field"
+        depleted_type = "building_gold_mine"
+        undiscovered_amount = 6
+        discovered_amount = 4
+    }
+    resource = {
+        type = "building_rubber_plantation"
+        undiscovered_amount = 12
+    }
     naval_exit_id = 3052
 }
 
@@ -10323,6 +11358,14 @@ STATE_EAST_BORNEO = {
         building_coal_mine = 28
         building_logging_camp = 20
         building_fishing_wharf = 9
+    }
+    resource = {
+        type = "building_rubber_plantation"
+        undiscovered_amount = 28
+    }
+    resource = {
+        type = "building_oil_rig"
+        undiscovered_amount = 60
     }
     naval_exit_id = 3125
 }
@@ -10345,6 +11388,14 @@ STATE_WEST_JAVA = {
         building_logging_camp = 8
         building_fishing_wharf = 11
     }
+    resource = {
+        type = "building_rubber_plantation"
+        undiscovered_amount = 12
+    }
+    resource = {
+        type = "building_oil_rig"
+        undiscovered_amount = 20
+    }
     naval_exit_id = 3052
 }
 
@@ -10366,6 +11417,14 @@ STATE_EAST_JAVA = {
         building_logging_camp = 7
         building_fishing_wharf = 8
     }
+    resource = {
+        type = "building_rubber_plantation"
+        undiscovered_amount = 12
+    }
+    resource = {
+        type = "building_oil_rig"
+        undiscovered_amount = 20
+    }
     naval_exit_id = 3052
 }
 
@@ -10385,6 +11444,10 @@ STATE_CENTRAL_JAVA = {
         building_sulfur_mine = 32
         building_logging_camp = 6
         building_fishing_wharf = 4
+    }
+    resource = {
+        type = "building_rubber_plantation"
+        undiscovered_amount = 8
     }
     naval_exit_id = 3052
 }
@@ -10407,6 +11470,10 @@ STATE_NORTH_SUMATRA = {
         building_logging_camp = 29
         building_fishing_wharf = 13
     }
+    resource = {
+        type = "building_rubber_plantation"
+        undiscovered_amount = 28
+    }
     naval_exit_id = 3120
 }
 
@@ -10426,6 +11493,14 @@ STATE_SOUTH_SUMATRA = {
         building_sulfur_mine = 48
         building_logging_camp = 29
         building_fishing_wharf = 13
+    }
+    resource = {
+        type = "building_rubber_plantation"
+        undiscovered_amount = 28
+    }
+    resource = {
+        type = "building_oil_rig"
+        undiscovered_amount = 20
     }
     naval_exit_id = 3120
 }
@@ -10448,6 +11523,14 @@ STATE_ACEH = {
         building_logging_camp = 14
         building_fishing_wharf = 8
     }
+    resource = {
+        type = "building_rubber_plantation"
+        undiscovered_amount = 18
+    }
+    resource = {
+        type = "building_oil_rig"
+        undiscovered_amount = 25
+    }
     naval_exit_id = 3051
 }
 
@@ -10469,6 +11552,14 @@ STATE_WESTERN_NEW_GUINEA = {
         building_fishing_wharf = 9
         building_whaling_station = 2
     }
+    resource = {
+        type = "building_rubber_plantation"
+        undiscovered_amount = 8
+    }
+    resource = {
+        type = "building_oil_rig"
+        undiscovered_amount = 15
+    }
     naval_exit_id = 3125
 }
 
@@ -10486,6 +11577,10 @@ STATE_MOLUCCAS = {
     capped_resources = {
         building_logging_camp = 4
         building_fishing_wharf = 6
+    }
+    resource = {
+        type = "building_rubber_plantation"
+        undiscovered_amount = 4
     }
     naval_exit_id = 3125
 }
@@ -10506,6 +11601,10 @@ STATE_CELEBES = {
         building_iron_mine = 27
         building_logging_camp = 14
         building_fishing_wharf = 4
+    }
+    resource = {
+        type = "building_rubber_plantation"
+        undiscovered_amount = 4
     }
     naval_exit_id = 3125
 }
@@ -10529,6 +11628,14 @@ STATE_EASTERN_NEW_GUINEA = {
         building_fishing_wharf = 10
         building_whaling_station = 2
     }
+    resource = {
+        type = "building_rubber_plantation"
+        undiscovered_amount = 12
+    }
+    resource = {
+        type = "building_oil_rig"
+        undiscovered_amount = 15
+    }
     naval_exit_id = 3129
 }
 
@@ -10550,6 +11657,10 @@ STATE_SUNDA_ISLANDS = {
         building_logging_camp = 17
         building_fishing_wharf = 10
     }
+    resource = {
+        type = "building_rubber_plantation"
+        undiscovered_amount = 8
+    }
     naval_exit_id = 3052
 }
 
@@ -10569,6 +11680,10 @@ STATE_MINDANAO = {
         building_iron_mine = 36
         building_logging_camp = 14
         building_fishing_wharf = 8
+    }
+    resource = {
+        type = "building_rubber_plantation"
+        undiscovered_amount = 10
     }
     naval_exit_id = 3055
 }
@@ -10590,6 +11705,10 @@ STATE_LUZON = {
         building_logging_camp = 20
         building_fishing_wharf = 12
     }
+    resource = {
+        type = "building_rubber_plantation"
+        undiscovered_amount = 4
+    }
     naval_exit_id = 3056
 }
 
@@ -10609,6 +11728,10 @@ STATE_VISAYAS = {
         building_logging_camp = 18
         building_fishing_wharf = 10
         building_coal_mine = 5
+    }
+    resource = {
+        type = "building_rubber_plantation"
+        undiscovered_amount = 4
     }
     naval_exit_id = 3127
 }
@@ -10697,6 +11820,15 @@ STATE_NEW_SOUTH_WALES = {
         building_whaling_station = 4
         building_fishing_wharf = 8
     }
+    resource = {
+        type = "building_gold_field"
+        depleted_type = "building_gold_mine"
+        undiscovered_amount = 12
+    }
+    resource = {
+        type = "building_oil_rig"
+        undiscovered_amount = 30
+    }
     naval_exit_id = 3122
 }
 
@@ -10716,6 +11848,11 @@ STATE_VICTORIA = {
         building_logging_camp = 11
         building_whaling_station = 3
         building_fishing_wharf = 8
+    }
+    resource = {
+        type = "building_gold_field"
+        depleted_type = "building_gold_mine"
+        undiscovered_amount = 6
     }
     naval_exit_id = 3122
 }
@@ -10738,6 +11875,11 @@ STATE_TASMANIA = {
         building_logging_camp = 8
         building_whaling_station = 2
         building_fishing_wharf = 6
+    }
+    resource = {
+        type = "building_gold_field"
+        depleted_type = "building_gold_mine"
+        undiscovered_amount = 6
     }
     naval_exit_id = 3122
 }
@@ -10808,6 +11950,11 @@ STATE_WESTERN_AUSTRALIA = {
         building_whaling_station = 3
         building_fishing_wharf = 9
     }
+    resource = {
+        type = "building_gold_field"
+        depleted_type = "building_gold_mine"
+        undiscovered_amount = 8
+    }
     naval_exit_id = 3123
 }
 
@@ -10852,6 +11999,11 @@ STATE_NORTH_ISLAND = {
         building_whaling_station = 3
         building_fishing_wharf = 8
     }
+    resource = {
+        type = "building_gold_field"
+        depleted_type = "building_gold_mine"
+        undiscovered_amount = 4
+    }
     naval_exit_id = 3122
 }
 
@@ -10871,6 +12023,11 @@ STATE_SOUTH_ISLAND = {
         building_logging_camp = 7
         building_whaling_station = 4
         building_fishing_wharf = 10
+    }
+    resource = {
+        type = "building_gold_field"
+        depleted_type = "building_gold_mine"
+        undiscovered_amount = 6
     }
     naval_exit_id = 3122
 }
@@ -10892,6 +12049,11 @@ STATE_URAL = {
         building_lead_mine = 81
         building_gold_mine = 2
         building_logging_camp = 27
+    }
+    resource = {
+        type = "building_gold_field"
+        depleted_type = "building_gold_mine"
+        undiscovered_amount = 6
     }
 }
 
@@ -10947,6 +12109,10 @@ STATE_TOBOLSK = {
         building_iron_mine = 10
         building_logging_camp = 30
     }
+    resource = {
+        type = "building_oil_rig"
+        undiscovered_amount = 60
+    }
 }
 
 STATE_UPPER_YENISEYSK = {
@@ -10984,6 +12150,10 @@ STATE_OB = {
         building_coal_mine = 20
         building_logging_camp = 22
     }
+    resource = {
+        type = "building_oil_rig"
+        undiscovered_amount = 60
+    }
 }
 
 STATE_CHUKOTKA = {
@@ -11005,6 +12175,11 @@ STATE_CHUKOTKA = {
         building_whaling_station = 3
         building_fishing_wharf = 9
     }
+    resource = {
+        type = "building_gold_field"
+        depleted_type = "building_gold_mine"
+        undiscovered_amount = 4
+    }
     naval_exit_id = 3128
 }
 
@@ -11024,6 +12199,11 @@ STATE_KAMCHATKA = {
         building_logging_camp = 13
         building_fishing_wharf = 15
         building_whaling_station = 8
+    }
+    resource = {
+        type = "building_gold_field"
+        depleted_type = "building_gold_mine"
+        undiscovered_amount = 2
     }
     naval_exit_id = 3118
 }
@@ -11047,6 +12227,11 @@ STATE_OKHOTSK = {
         building_whaling_station = 5
         building_logging_camp = 10
     }
+    resource = {
+        type = "building_gold_field"
+        depleted_type = "building_gold_mine"
+        undiscovered_amount = 8
+    }
     naval_exit_id = 3118
 }
 
@@ -11067,6 +12252,15 @@ STATE_YAKUTSK = {
         building_lead_mine = 16
         building_logging_camp = 23
     }
+    resource = {
+        type = "building_gold_field"
+        depleted_type = "building_gold_mine"
+        undiscovered_amount = 8
+    }
+    resource = {
+        type = "building_oil_rig"
+        undiscovered_amount = 5
+    }
 }
 
 STATE_TRANS_BAIKAL = {
@@ -11086,6 +12280,10 @@ STATE_TRANS_BAIKAL = {
         building_sulfur_mine = 44
         building_logging_camp = 24
     }
+    resource = {
+        type = "building_oil_rig"
+        undiscovered_amount = 10
+    }
 }
 
 STATE_IRKUTSK = {
@@ -11103,6 +12301,10 @@ STATE_IRKUTSK = {
         building_coal_mine = 50
         building_iron_mine = 36
         building_logging_camp = 30
+    }
+    resource = {
+        type = "building_oil_rig"
+        undiscovered_amount = 10
     }
 }
 
@@ -11504,6 +12706,11 @@ STATE_ARKHANGELSK = {
         building_logging_camp = 14
         building_fishing_wharf = 10
     }
+    resource = {
+        type = "building_gold_field"
+        depleted_type = "building_gold_mine"
+        undiscovered_amount = 8
+    }
     naval_exit_id = 3039
 }
 
@@ -11560,6 +12767,10 @@ STATE_KHARKOV = {
         building_iron_mine = 28
         building_logging_camp = 20
     }
+    resource = {
+        type = "building_oil_rig"
+        undiscovered_amount = 12
+    }
 }
 
 STATE_KURSK = {
@@ -11577,6 +12788,11 @@ STATE_KURSK = {
         building_logging_camp = 31
         building_iron_mine = 93
         building_sulfur_mine = 12
+    }
+    resource = {
+        type = "building_gold_field"
+        depleted_type = "building_gold_mine"
+        undiscovered_amount = 3
     }
 }
 
@@ -11634,6 +12850,10 @@ STATE_GALICH = {
         building_coal_mine = 72
         building_iron_mine = 12
     }
+    resource = {
+        type = "building_oil_rig"
+        undiscovered_amount = 20
+    }
 }
 
 STATE_MINSK = {
@@ -11688,6 +12908,10 @@ STATE_PERM = {
         building_iron_mine = 75
         building_logging_camp = 35
     }
+    resource = {
+        type = "building_oil_rig"
+        undiscovered_amount = 60
+    }
 }
 
 STATE_KAZAN = {
@@ -11705,6 +12929,10 @@ STATE_KAZAN = {
         building_logging_camp = 12
         building_coal_mine = 30
     }
+    resource = {
+        type = "building_oil_rig"
+        undiscovered_amount = 60
+    }
 }
 
 STATE_URALSK = {
@@ -11720,6 +12948,10 @@ STATE_URALSK = {
     arable_resources = { "building_livestock_ranch" }
     capped_resources = {
         building_logging_camp = 7
+    }
+    resource = {
+        type = "building_oil_rig"
+        undiscovered_amount = 60
     }
 }
 
@@ -11855,6 +13087,10 @@ STATE_AKTOBE = {
         building_iron_mine = 10
         building_logging_camp = 3
     }
+    resource = {
+        type = "building_oil_rig"
+        undiscovered_amount = 30
+    }
 }
 
 STATE_KALMYKIA = {
@@ -11870,6 +13106,10 @@ STATE_KALMYKIA = {
     arable_resources = { "building_livestock_ranch" "building_wheat_farm" }
     capped_resources = {
         building_logging_camp = 3
+    }
+    resource = {
+        type = "building_oil_rig"
+        undiscovered_amount = 10
     }
 }
 
@@ -11888,6 +13128,15 @@ STATE_NORTH_CAUCASUS = {
         building_coal_mine = 16
         building_iron_mine = 12
         building_logging_camp = 25
+    }
+    resource = {
+        type = "building_gold_field"
+        depleted_type = "building_gold_mine"
+        undiscovered_amount = 4
+    }
+    resource = {
+        type = "building_oil_rig"
+        undiscovered_amount = 25
     }
 }
 
@@ -12027,6 +13276,10 @@ STATE_VYATKA = {
         building_sulfur_mine = 10
         building_logging_camp = 36
     }
+    resource = {
+        type = "building_oil_rig"
+        undiscovered_amount = 25
+    }
 }
 
 STATE_UFA = {
@@ -12046,6 +13299,10 @@ STATE_UFA = {
         building_logging_camp = 25
         building_lead_mine = 16
     }
+    resource = {
+        type = "building_oil_rig"
+        undiscovered_amount = 35
+    }
 }
 
 STATE_SURGUT = {
@@ -12061,6 +13318,10 @@ STATE_SURGUT = {
     arable_resources = { "building_rye_farm" "building_livestock_ranch" }
     capped_resources = {
         building_logging_camp = 32
+    }
+    resource = {
+        type = "building_oil_rig"
+        undiscovered_amount = 120
     }
 }
 
@@ -12080,6 +13341,11 @@ STATE_KRASNOYARSK = {
         building_coal_mine = 40
         building_logging_camp = 60
     }
+    resource = {
+        type = "building_gold_field"
+        depleted_type = "building_gold_mine"
+        undiscovered_amount = 12
+    }
 }
 
 STATE_ALTAI = {
@@ -12096,6 +13362,11 @@ STATE_ALTAI = {
         building_iron_mine = 7
         building_logging_camp = 18
         building_lead_mine = 12
+    }
+    resource = {
+        type = "building_gold_field"
+        depleted_type = "building_gold_mine"
+        undiscovered_amount = 3
     }
 }
 
@@ -12114,6 +13385,11 @@ STATE_BURYATIA = {
         building_coal_mine = 24
         building_logging_camp = 16
     }
+    resource = {
+        type = "building_gold_field"
+        depleted_type = "building_gold_mine"
+        undiscovered_amount = 16
+    }
 }
 
 STATE_KOLYMA = {
@@ -12131,6 +13407,11 @@ STATE_KOLYMA = {
     capped_resources = {
         building_logging_camp = 10
         building_coal_mine = 8
+    }
+    resource = {
+        type = "building_gold_field"
+        depleted_type = "building_gold_mine"
+        undiscovered_amount = 16
     }
 }
 
@@ -12151,6 +13432,11 @@ STATE_AMUR = {
         building_logging_camp = 25
         building_fishing_wharf = 6
     }
+    resource = {
+        type = "building_gold_field"
+        depleted_type = "building_gold_mine"
+        undiscovered_amount = 18
+    }
     naval_exit_id = 3059
 }
 
@@ -12170,6 +13456,11 @@ STATE_CHELYABINSK = {
         building_coal_mine = 25
         building_logging_camp = 16
         building_gold_mine = 3
+    }
+    resource = {
+        type = "building_gold_field"
+        depleted_type = "building_gold_mine"
+        undiscovered_amount = 9
     }
 }
 
@@ -12203,6 +13494,10 @@ STATE_STAVROPOL = {
     capped_resources = {
         building_logging_camp = 14
     }
+    resource = {
+        type = "building_oil_rig"
+        undiscovered_amount = 30
+    }
 }
 
 STATE_CHUVASHIA = {
@@ -12220,6 +13515,10 @@ STATE_CHUVASHIA = {
         building_sulfur_mine = 15
         building_logging_camp = 25
     }
+    resource = {
+        type = "building_oil_rig"
+        undiscovered_amount = 24
+    }
 }
 
 STATE_CHERNIHIV = {
@@ -12235,6 +13534,10 @@ STATE_CHERNIHIV = {
     arable_resources = { "building_wheat_farm" "building_livestock_ranch" }
     capped_resources = {
         building_logging_camp = 16
+    }
+    resource = {
+        type = "building_oil_rig"
+        undiscovered_amount = 6
     }
 }
 
@@ -12255,6 +13558,10 @@ STATE_NENETSIA = {
         building_logging_camp = 13
         building_fishing_wharf = 12
         building_coal_mine = 30
+    }
+    resource = {
+        type = "building_oil_rig"
+        undiscovered_amount = 30
     }
     naval_exit_id = 3039
 }
