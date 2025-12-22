@@ -2847,6 +2847,7 @@
 
         add_homeland = cu:ovimbundu
         add_homeland = cu:kavango_bantu
+        add_claim = c:POR
     }
     s:STATE_EAST_ANGOLA = {
         create_state = {
