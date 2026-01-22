@@ -2219,18 +2219,6 @@
             }
         }
     }
-    s:STATE_BERMUDA = {
-        region_state:GBR = {
-            create_pop = {
-                culture = british
-                size = 14848
-            }
-            create_pop = {
-                culture = afro_caribbean
-                size = 12352
-            }
-        }
-    }
     s:STATE_TEXAS = {
         region_state:TEX = {
             create_pop = {
@@ -17756,16 +17744,14 @@
                 size = 32002
             }
         }
-    }
-    s:STATE_BAHAMAS = {
         region_state:GBR = {
             create_pop = {
-                culture = british
-                size = 19200
+                culture = afro_caribbean
+                size = 358596
             }
             create_pop = {
-                culture = afro_caribbean
-                size = 100400
+                culture = british
+                size = 23040
             }
         }
     }
@@ -17793,11 +17779,11 @@
         region_state:GBR = {
             create_pop = {
                 culture = british
-                size = 34704
+                size = 68752
             }
             create_pop = {
                 culture = afro_caribbean
-                size = 234768
+                size = 347520
             }
             create_pop = {
                 culture = dutch
@@ -17838,36 +17824,24 @@
             }
         }
     }
-    s:STATE_JAMAICA = {
-        region_state:GBR = {
-            create_pop = {
-                culture = afro_caribbean
-                size = 358596
-            }
-            create_pop = {
-                culture = british
-                size = 23040
-            }
-        }
-    }
     s:STATE_WESTERN_CUBA = {
         region_state:CUB = {
             create_pop = {
                 culture = caribeno
-                size = 159612
+                size = 338719
             }
             create_pop = {
                 culture = afro_caribeno
-                size = 39122
+                size = 110348
             }
             create_pop = {
                 pop_type = slaves
                 culture = afro_caribeno
-                size = 179536
+                size = 408511
             }
             create_pop = {
                 culture = spanish
-                size = 15000
+                size = 35000
             }
             create_pop = {
                 culture = galician
@@ -17884,48 +17858,6 @@
             create_pop = {
                 culture = han
                 size = 1200
-            }
-        }
-    }
-    s:STATE_EASTERN_CUBA = {
-        region_state:CUB = {
-            create_pop = {
-                culture = caribeno
-                size = 78491
-            }
-            create_pop = {
-                culture = afro_caribeno
-                size = 39122
-            }
-            create_pop = {
-                pop_type = slaves
-                culture = afro_caribeno
-                size = 91777
-            }
-            create_pop = {
-                culture = spanish
-                size = 8000
-            }
-        }
-    }
-    s:STATE_CENTRAL_CUBA = {
-        region_state:CUB = {
-            create_pop = {
-                culture = caribeno
-                size = 100616
-            }
-            create_pop = {
-                culture = afro_caribeno
-                size = 32104
-            }
-            create_pop = {
-                pop_type = slaves
-                culture = afro_caribeno
-                size = 137198
-            }
-            create_pop = {
-                culture = spanish
-                size = 12000
             }
         }
     }

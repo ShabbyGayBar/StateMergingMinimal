@@ -1480,7 +1480,7 @@
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_frigate
-				state_region = s:STATE_BERMUDA
+				state_region = s:STATE_WEST_INDIES
 				count = 2
 			}
 
@@ -1492,7 +1492,7 @@
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_frigate
-				state_region = s:STATE_JAMAICA
+				state_region = s:STATE_PUERTO_RICO
 				count = 2
 			}
 

@@ -2742,7 +2742,7 @@ JAM = {
 	tier = principality
 
 	cultures = { afro_caribbean }
-	capital = STATE_JAMAICA
+	capital = STATE_PUERTO_RICO
 }
 
 BAH = {
@@ -2753,7 +2753,7 @@ BAH = {
 	tier = principality
 
 	cultures = { afro_caribbean }
-	capital = STATE_BAHAMAS
+	capital = STATE_WEST_INDIES
 	is_named_from_capital = yes
 }
 

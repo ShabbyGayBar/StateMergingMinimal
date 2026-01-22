@@ -897,23 +897,7 @@
     s:STATE_WESTERN_CUBA = {
         create_state = {
             country = c:CUB
-            owned_provinces = { x4DD008 x61FC10 xB325C7 xDCAB5D xF3F2C9 xFCDEED }
-        }
-
-        add_homeland = cu:caribeno
-    }
-    s:STATE_EASTERN_CUBA = {
-        create_state = {
-            country = c:CUB
-            owned_provinces = { x0DA38C x30B001 x519343 x69C041 xB48FF1 xE70FA4 }
-        }
-
-        add_homeland = cu:caribeno
-    }
-    s:STATE_CENTRAL_CUBA = {
-        create_state = {
-            country = c:CUB
-            owned_provinces = { x152D1C x20EFEA x58C211 x9957D8 xA70607 xC3EB7D xC464AE xD810EC xEBE1C7 xFE4123 }
+            owned_provinces = { x4DD008 x61FC10 xB325C7 xDCAB5D xF3F2C9 xFCDEED x0DA38C x30B001 x519343 x69C041 xB48FF1 xE70FA4 x152D1C x20EFEA x58C211 x9957D8 xA70607 xC3EB7D xC464AE xD810EC xEBE1C7 xFE4123 }
         }
 
         add_homeland = cu:caribeno
@@ -3509,26 +3493,14 @@
             state_type = unincorporated
         }
 
+        create_state = {
+            country = c:GBR
+            owned_provinces = { x535B49 x7070B8 x1E761E }
+            state_type = unincorporated
+        }
+
         add_homeland = cu:caribeno
         add_homeland = cu:afro_caribeno
-    }
-    s:STATE_BAHAMAS = {
-        create_state = {
-            country = c:GBR
-            owned_provinces = { x72C072 x4EBC79 x7A6FA3 x686279 }
-            state_type = unincorporated
-        }
-
-        add_homeland = cu:afro_antillean
-        add_homeland = cu:afro_caribbean
-    }
-    s:STATE_BERMUDA = {
-        create_state = {
-            country = c:GBR
-            owned_provinces = { x169E2D xe55147 }
-            state_type = unincorporated
-        }
-
         add_homeland = cu:afro_caribbean
     }
     s:STATE_WEST_INDIES = {
@@ -3546,7 +3518,7 @@
 
         create_state = {
             country = c:GBR
-            owned_provinces = { x335389 x89337A x445B6C x5299CA x70F001 xF0F001 x707080 xD496B1 x446C63 x606060 x89334D }
+            owned_provinces = { x335389 x89337A x445B6C x5299CA x70F001 xF0F001 x707080 xD496B1 x446C63 x606060 x89334D x169E2D xe55147 x72C072 x4EBC79 x7A6FA3 x686279 }
             state_type = unincorporated
         }
 
@@ -3562,15 +3534,6 @@
         }
 
         add_homeland = cu:afro_antillean
-        add_homeland = cu:afro_caribbean
-    }
-    s:STATE_JAMAICA = {
-        create_state = {
-            country = c:GBR
-            owned_provinces = { x535B49 x7070B8 x1E761E }
-            state_type = unincorporated
-        }
-
         add_homeland = cu:afro_caribbean
     }
     s:STATE_ORISSA = {

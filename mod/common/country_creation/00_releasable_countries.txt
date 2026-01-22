@@ -570,7 +570,7 @@ DOM = {
 }
 
 ATL = {
-	states = { STATE_CENTRAL_CUBA STATE_WESTERN_CUBA STATE_EASTERN_CUBA STATE_PUERTO_RICO STATE_SANTO_DOMINGO }
+	states = { STATE_WESTERN_CUBA STATE_WESTERN_CUBA STATE_WESTERN_CUBA STATE_PUERTO_RICO STATE_SANTO_DOMINGO }
 
 	required_num_states = 4
 
@@ -580,7 +580,7 @@ ATL = {
 WIN = {
 	STATES = {
 		STATE_WEST_INDIES
-		STATE_JAMAICA
+		STATE_PUERTO_RICO
 	}
 
 	required_num_states = 2
@@ -673,8 +673,8 @@ BRE = {
 CUB = {
 	states = {
 		STATE_WESTERN_CUBA
-		STATE_CENTRAL_CUBA
-		STATE_EASTERN_CUBA
+		STATE_WESTERN_CUBA
+		STATE_WESTERN_CUBA
 	}
 
 	ai_will_do = { always = no }
@@ -687,13 +687,13 @@ PCO = {
 }
 
 JAM = {
-	states = { STATE_JAMAICA }
+	states = { STATE_PUERTO_RICO }
 
 	ai_will_do = { always = no }
 }
 
 BAH = {
-	states = { STATE_BAHAMAS }
+	states = { STATE_WEST_INDIES }
 
 	ai_will_do = { always = no }
 }
