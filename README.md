@@ -4,7 +4,7 @@
 ![Steam Downloads](https://img.shields.io/steam/downloads/3432100126?logo=steam)
 
 
-[简体中文](README_zh-CN.md)
+[简体中文](documentation/README_zh-CN.md)
 
 - If you prefer to merge more states, please check out the full version of this mod on:
   - [Github](https://github.com/ShabbyGayBar/StateMerging), or

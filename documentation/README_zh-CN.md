@@ -20,9 +20,9 @@
 另外，buff 是按被合并的州的数量给的，但是因为有些州实在太小了，我认为它们本来就不应该算一个州，所以给 buff 时没有计入。
 
 ## 当前已经合并的省份
-![Currently Merged States](figures/Merge_States_current.png)
+![Currently Merged States](../figures/Merge_States_current.png)
 
-所有对省份的改动请参照 [merge_states.json](merge_states.json)。
+所有对省份的改动请参照 [merge_states.json](../merge_states.json)。
 
 其中，每个键代表了 Mod 中存在的省份代码，对应的值代表了要合并到这个省份的原版省份代码。
 
@@ -75,4 +75,4 @@
 
 ## 软件许可证
 
-本 Mod 使用 [MIT LICENSE](LICENSE) 授权。
+本 Mod 使用 [MIT LICENSE](../LICENSE) 授权。
