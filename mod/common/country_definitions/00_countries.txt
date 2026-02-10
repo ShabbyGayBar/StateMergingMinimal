@@ -1329,7 +1329,7 @@ JAB = {
 	tier = principality
 
 	cultures = { bedouin }
-	capital = STATE_HAIL
+	capital = STATE_NEJD
 }
 
 YEM = {
@@ -2848,7 +2848,7 @@ MLT = { # Malta
 
 	cultures = { maltese }
 
-	capital = STATE_MALTA
+	capital = STATE_SICILY
 }
 
 PRM = { # Perm

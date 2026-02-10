@@ -1699,7 +1699,7 @@ PER = {
 
 JAB = {
 	states = {
-		STATE_HAIL
+		STATE_NEJD
 	}
 	ai_will_do = { always = no }
 }
