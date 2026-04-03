@@ -3,14 +3,7 @@
 ![Steam Subscriptions](https://img.shields.io/steam/subscriptions/3432100126?logo=steam)
 ![Steam Downloads](https://img.shields.io/steam/downloads/3432100126?logo=steam)
 
-
 [简体中文](documentation/README_zh-CN.md)
-
-- If you prefer to merge more states, please check out the full version of this mod on:
-  - [Github](https://github.com/ShabbyGayBar/StateMerging), or
-  - [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3371693463), or
-  - [Paradox Mods](https://mods.paradoxplaza.com/mods/120868/Any).
-- If you prefer to make your own states merging mod, please check out the [State Merger](https://github.com/ShabbyGayBar/StateMerger).
 
 Pretty self-explanatory mod name. This mod combines multiple states in the game Victoria 3 together while keeping the overall pop & buildings unchanged.
 
@@ -23,15 +16,18 @@ Merged states WILL LOSE THEIR CITY & BUILDING MODELS.
 Merged states WILL LOSE THEIR STATE ID, which may cause problems with certain journal entries and such. please report issues when you encounter them.
 
 ## Currently Merged States
+
 ![Currently Merged States](figures/Merge_States_current.png)
 
 Please refer to [merge_states.json](merge_states.json) for all the changes in states.
 
 The keys of the json are the state id of the existing states in the mod, and the values are lists of state ids in vanilla game that will be merged into the key state.
 
-## How to install
+## Installation
 
 - Subscribe to the mod on [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3432100126).
+or
+- Download the mod from [Paradox Mods](https://mods.paradoxplaza.com/mods/113894/Any).
 or
 - Download the mod zip file and extract it to your Victoria 3 mod folder (typically located at `Documents\Paradox Interactive\Victoria 3\mod`).
 
@@ -69,6 +65,14 @@ Incompatible with anything that modifies
 - game\localization\LANGUANGE\map
 
 </details>
+
+## Related Links
+
+- If you prefer to merge more states, please check out the full version of this mod on:
+  - [Github](https://github.com/ShabbyGayBar/StateMerging), or
+  - [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3371693463), or
+  - [Paradox Mods](https://mods.paradoxplaza.com/mods/120868/Any).
+- If you prefer to make your own states merging mod, please check out the [State Merger](https://github.com/ShabbyGayBar/StateMerger).
 
 ## Acknowledgments
 
