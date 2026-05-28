@@ -1,4 +1,22 @@
-﻿UBD = {
+﻿# ---- 00_releasable_countries.txt ----
+#   Root                     = the country that would give up the land
+#
+#   scope:war_goal_holder    = The country enforcing/pressing a war goal.
+#                              this scope is not set when the release is done outside of a war goal context.
+# 
+# Can have assymetric requirements for self releasing vs being forced to release, otherwise do as follows.
+# e.g.:
+#    OR = {
+#			scope:war_goal_holder ?= {
+#				has_technology_researched = pan-nationalism
+#			}
+#			AND = {
+#				NOT = { exists = scope:war_goal_holder }
+#				has_technology_researched = pan-nationalism
+#			}
+#		}
+
+REPLACE:UBD = {
 	states = { STATE_KAUNAS STATE_VILNIUS STATE_TALINN STATE_TARTU STATE_RIGA STATE_COURLAND }
 
 	required_num_states = 3
@@ -6,11 +24,20 @@
 	ai_will_do = { always = no }
 
 	possible = {
-		has_technology_researched = pan-nationalism
+		# Checks if the technology is researched by the war goal holder (if any) or by the releasing country
+		OR = {
+			scope:war_goal_holder ?= {
+				has_technology_researched = pan-nationalism
+			}
+			AND = {
+				NOT = { exists = scope:war_goal_holder }
+				has_technology_researched = pan-nationalism
+			}
+		}
 	}
 }
 
-AUS = {
+REPLACE:AUS = {
 	use_culture_states = yes
 
 	required_num_states = 2
@@ -18,7 +45,7 @@ AUS = {
 	ai_will_do = { always = no }
 }
 
-IRE = {
+REPLACE:IRE = {
 	use_culture_states = yes
 
 	required_num_states = 2
@@ -26,7 +53,7 @@ IRE = {
 	ai_will_do = { always = no }
 }
 
-MTC = {
+REPLACE:MTC = {
 	use_culture_states = yes
 
 	required_num_states = 1
@@ -34,7 +61,7 @@ MTC = {
 	ai_will_do = { always = no }
 }
 
-GEO = {
+REPLACE:GEO = {
 	states = {
 		STATE_GREATER_CAUCASUS
 	}
@@ -42,7 +69,7 @@ GEO = {
 	ai_will_do = { always = no }
 }
 
-ARM = {
+REPLACE:ARM = {
 	states = {
 		STATE_ARMENIA
 		STATE_ERZURUM
@@ -53,7 +80,7 @@ ARM = {
 	ai_will_do = { always = no }
 }
 
-DAG = {
+REPLACE:DAG = {
 	states = {
 		STATE_DAGESTAN
 	}
@@ -61,7 +88,7 @@ DAG = {
 	ai_will_do = { always = no }
 }
 
-AZB = {
+REPLACE:AZB = {
 	states = {
 		STATE_AZERBAIJAN
 		STATE_ELIZAVETPOL
@@ -70,7 +97,7 @@ AZB = {
 	ai_will_do = { always = no }
 }
 
-SCO = {
+REPLACE:SCO = {
 	states = {
 		STATE_LOWLANDS
 		STATE_HIGHLANDS
@@ -79,7 +106,7 @@ SCO = {
 	ai_will_do = { always = no }
 }
 
-WLS = {
+REPLACE:WLS = {
 	states = {
 		STATE_WALES
 	}
@@ -87,7 +114,7 @@ WLS = {
 	ai_will_do = { always = no }
 }
 
-ULS = {
+REPLACE:ULS = {
 	states = {
 		STATE_ULSTER
 	}
@@ -95,7 +122,7 @@ ULS = {
 	ai_will_do = { always = no }
 }
 
-ENG = {
+REPLACE:ENG = {
 	states = {
 		STATE_HOME_COUNTIES
 		STATE_MIDLANDS
@@ -110,25 +137,25 @@ ENG = {
 	ai_will_do = { always = no }
 }
 
-LAT = {
+REPLACE:LAT = {
 	states = { STATE_RIGA STATE_COURLAND }
 
 	ai_will_do = { always = no }
 }
 
-EST = {
+REPLACE:EST = {
 	states = { STATE_TALINN STATE_TARTU }
 
 	ai_will_do = { always = no }
 }
 
-LIT = {
+REPLACE:LIT = {
 	states = { STATE_KAUNAS STATE_VILNIUS }
 
 	ai_will_do = { always = no }
 }
 
-SWE = {
+REPLACE:SWE = {
 	states = {
 		STATE_SVEALAND
 		STATE_GOTALAND
@@ -141,7 +168,7 @@ SWE = {
 	ai_will_do = { always = no }
 }
 
-FIN = {
+REPLACE:FIN = {
 	states = {
 		STATE_UUSIMAA
 		STATE_OSTROBOTHNIA
@@ -155,7 +182,7 @@ FIN = {
 	ai_will_do = { always = no }
 }
 
-NOR = {
+REPLACE:NOR = {
 	use_culture_states = yes
 
 	required_num_states = 2
@@ -163,7 +190,7 @@ NOR = {
 	ai_will_do = { always = no }
 }
 
-DEN = {
+REPLACE:DEN = {
 	use_culture_states = yes
 
 	required_num_states = 2
@@ -171,13 +198,13 @@ DEN = {
 	ai_will_do = { always = no }
 }
 
-ICL = {
+REPLACE:ICL = {
 	states = { STATE_ICELAND }
 
 	ai_will_do = { always = no }
 }
 
-CSA = {
+REPLACE:CSA = {
 	use_culture_states = yes
 
 	required_num_states = 5
@@ -192,7 +219,7 @@ CSA = {
 	}
 }
 
-ASA = {
+REPLACE:ASA = {
 	states = {
 		STATE_GEORGIA
 		STATE_LOUISIANA
@@ -205,7 +232,7 @@ ASA = {
 	ai_will_do = { always = no }
 }
 
-LOU = {
+REPLACE:LOU = {
 	states = {
 		STATE_LOUISIANA
 	}
@@ -213,7 +240,7 @@ LOU = {
 	ai_will_do = { always = no }
 }
 
-AGJ = {
+REPLACE:AGJ = {
 	states = {
 		STATE_PERNAMBUCO
 		STATE_PERNAMBUCO
@@ -226,19 +253,19 @@ AGJ = {
 	ai_will_do = { always = no }
 }
 
-AMZ = {
+REPLACE:AMZ = {
 	use_culture_states = yes
 
 	ai_will_do = { always = no }
 }
 
-CHE = {
+REPLACE:CHE = {
 	use_culture_states = yes
 
 	ai_will_do = { always = no }
 }
 
-SCN = {
+REPLACE:SCN = {
 	states = { STATE_SCANIA }
 
 	ai_will_do = { always = no }
@@ -248,14 +275,14 @@ SCN = {
 	}
 }
 
-NAV = {
+REPLACE:NAV = {
 	states = { STATE_BASQUE_COUNTRY }
 
 	ai_will_do = { always = no }
 }
 
 
-TRS = {
+REPLACE:TRS = {
 	states = {
 		STATE_SOUTHERN_TRANSYLVANIA
 		STATE_NORTHERN_TRANSYLVANIA
@@ -264,19 +291,19 @@ TRS = {
 	ai_will_do = { always = no }
 }
 
-CRI = {
+REPLACE:CRI = {
 	states = { STATE_CRIMEA }
 
 	ai_will_do = { always = no }
 }
 
-TRE = {
+REPLACE:TRE = {
 	states = { STATE_ISTRIA }
 
 	ai_will_do = { always = no }
 }
 
-FRA = {
+REPLACE:FRA = {
 	states = {
 		STATE_ILE_DE_FRANCE
 		STATE_PROVENCE
@@ -302,13 +329,13 @@ FRA = {
 	ai_will_do = { always = no }
 }
 
-BRI = {
+REPLACE:BRI = {
 	use_culture_states = yes
 
 	ai_will_do = { always = no }
 }
 
-JAN = {
+REPLACE:JAN = {
 	provinces = { x31968A }
 
 	ai_will_do = { always = no }
@@ -318,7 +345,7 @@ JAN = {
 	}
 }
 
-POL = {
+REPLACE:POL = {
 	states = { STATE_MAZOVIA STATE_GREATER_POLAND STATE_LESSER_POLAND STATE_WEST_GALICIA STATE_POSEN STATE_WEST_PRUSSIA STATE_UPPER_SILESIA }
 
 	required_num_states = 3
@@ -326,7 +353,7 @@ POL = {
 	ai_will_do = { always = no }
 }
 
-UKR = {
+REPLACE:UKR = {
 	states = { STATE_EAST_GALICIA STATE_CHERSON STATE_VOLHYNIA STATE_KIEV STATE_TAURIDA STATE_KHARKOV STATE_CRIMEA STATE_CHERNIHIV }
 
 	required_num_states = 3
@@ -334,7 +361,7 @@ UKR = {
 	ai_will_do = { always = no }
 }
 
-GAL = {
+REPLACE:GAL = {
 	states = { STATE_EAST_GALICIA STATE_WEST_GALICIA STATE_BUKOVINA }
 
 	required_num_states = 2
@@ -342,7 +369,7 @@ GAL = {
 	ai_will_do = { always = no }
 }
 
-HUN = {
+REPLACE:HUN = {
 	use_culture_states = yes
 
 	required_num_states = 2
@@ -350,7 +377,7 @@ HUN = {
 	ai_will_do = { always = no }
 }
 
-ROM = {
+REPLACE:ROM = {
 	use_culture_states = yes
 
 	required_num_states = 3
@@ -358,7 +385,7 @@ ROM = {
 	ai_will_do = { always = no }
 }
 
-BOH = {
+REPLACE:BOH = {
 	states = { STATE_BOHEMIA STATE_MORAVIA STATE_UPPER_SILESIA }
 
 	required_num_states = 2
@@ -366,7 +393,7 @@ BOH = {
 	ai_will_do = { always = no }
 }
 
-CRO = {
+REPLACE:CRO = {
 	states = {
 		STATE_CROATIA
 		STATE_SLAVONIA
@@ -377,26 +404,26 @@ CRO = {
 	ai_will_do = { always = no }
 }
 
-SLV = {
+REPLACE:SLV = {
 	use_culture_states = yes
 
 	ai_will_do = { always = no }
 }
 
-VEN = {
+REPLACE:VEN = {
 	states = { STATE_VENETIA }
 
 	ai_will_do = { always = no }
 }
 
-LOM = {
+REPLACE:LOM = {
 	states = { STATE_LOMBARDY }
 
 	ai_will_do = { always = no }
 }
 
 
-BYE = {
+REPLACE:BYE = {
 	use_culture_states = yes
 
 	required_num_states = 2
@@ -404,37 +431,37 @@ BYE = {
 	ai_will_do = { always = no }
 }
 
-CRE = {
+REPLACE:CRE = {
 	states = { STATE_CRETE }
 
 	ai_will_do = { always = no }
 }
 
-POM = {
+REPLACE:POM = {
 	states = { STATE_POMERANIA }
 
 	ai_will_do = { always = no }
 }
 
-ANH = {
+REPLACE:ANH = {
 	states = { STATE_ANHALT }
 
 	ai_will_do = { always = no }
 }
 
-NAS = {
+REPLACE:NAS = {
 	provinces = { x3E794B x90C0A0 x1357DB }
 
 	ai_will_do = { always = no }
 }
 
-HES = {
+REPLACE:HES = {
 	states = { STATE_HESSE }
 
 	ai_will_do = { always = no }
 }
 
-WES = {
+REPLACE:WES = {
 	states = {
 		STATE_WESTPHALIA
 		STATE_NORTH_RHINE
@@ -446,7 +473,7 @@ WES = {
 	ai_will_do = { always = no }
 }
 
-PRU = {
+REPLACE:PRU = {
 	states = {
 		STATE_BRANDENBURG
 		STATE_POMERANIA
@@ -462,7 +489,7 @@ PRU = {
 	ai_will_do = { always = no }
 }
 
-JAP = {
+REPLACE:JAP = {
 	use_culture_states = yes
 
 	required_num_states = 3
@@ -470,7 +497,7 @@ JAP = {
 	ai_will_do = { always = no }
 }
 
-RUS = {
+REPLACE:RUS = {
 	use_culture_states = yes
 
 	required_num_states = 5
@@ -478,7 +505,7 @@ RUS = {
 	ai_will_do = { always = no }
 }
 
-CHI = {
+REPLACE:CHI = {
 	use_culture_states = yes
 
 	required_num_states = 5
@@ -486,25 +513,25 @@ CHI = {
 	ai_will_do = { always = no }
 }
 
-DAI = {
+REPLACE:DAI = {
 	use_culture_states = yes
 
 	ai_will_do = { always = no }
 }
 
-JAV = {
+REPLACE:JAV = {
 	use_culture_states = yes
 
 	ai_will_do = { always = no }
 }
 
-KOR = {
+REPLACE:KOR = {
 	use_culture_states = yes
 
 	ai_will_do = { always = no }
 }
 
-LAO = {
+REPLACE:LAO = {
 	states = { STATE_LAOS }
 
 	required_num_states = 1
@@ -512,25 +539,25 @@ LAO = {
 	ai_will_do = { always = no }
 }
 
-VIE = {
+REPLACE:VIE = {
 	states = { STATE_LAOS }
 
 	ai_will_do = { always = no }
 }
 
-CMI = {
+REPLACE:CMI = {
 	states = { STATE_CHIANG_MAI }
 
 	ai_will_do = { always = no }
 }
 
-TIB = {
+REPLACE:TIB = {
 	use_culture_states = yes
 
 	ai_will_do = { always = no }
 }
 
-MGL = {
+REPLACE:MGL = {
 	states = {
 		STATE_ULIASTAI
 		STATE_URGA
@@ -539,7 +566,7 @@ MGL = {
 	ai_will_do = { always = no }
 }
 
-MCH = {
+REPLACE:MCH = {
 	states = {
 		STATE_SOUTHERN_MANCHURIA
 		STATE_NORTHERN_MANCHURIA
@@ -551,25 +578,25 @@ MCH = {
 	ai_will_do = { always = no }
 }
 
-XIN = {
+REPLACE:XIN = {
 	states = { STATE_DZUNGARIA STATE_TIANSHAN STATE_JETISY }
 
 	ai_will_do = { always = no }
 }
 
-HAI = {
+REPLACE:HAI = {
 	states = { STATE_HAITI }
 
 	ai_will_do = { always = no }
 }
 
-DOM = {
+REPLACE:DOM = {
 	states = { STATE_SANTO_DOMINGO }
 
 	ai_will_do = { always = no }
 }
 
-ATL = {
+REPLACE:ATL = {
 	states = { STATE_WESTERN_CUBA STATE_WESTERN_CUBA STATE_WESTERN_CUBA STATE_PUERTO_RICO STATE_SANTO_DOMINGO }
 
 	required_num_states = 4
@@ -577,7 +604,7 @@ ATL = {
 	ai_will_do = { always = no }
 }
 
-WIN = {
+REPLACE:WIN = {
 	STATES = {
 		STATE_WEST_INDIES
 		STATE_PUERTO_RICO
@@ -588,21 +615,13 @@ WIN = {
 	ai_will_do = { always = no }
 }
 
-MAY = {
+REPLACE:MAY = {
 	use_culture_states = yes
 
 	ai_will_do = { always = no }
 }
 
-CAT = {
-	use_culture_states = yes
-
-	required_num_states = 2
-
-	ai_will_do = { always = no }
-}
-
-SPA = {
+REPLACE:CAT = {
 	use_culture_states = yes
 
 	required_num_states = 2
@@ -610,67 +629,75 @@ SPA = {
 	ai_will_do = { always = no }
 }
 
-ELS = {
+REPLACE:SPA = {
+	use_culture_states = yes
+
+	required_num_states = 2
+
+	ai_will_do = { always = no }
+}
+
+REPLACE:ELS = {
 	states = { STATE_SAN_SALVADOR }
 
 	ai_will_do = { always = no }
 }
 
-GUA = {
+REPLACE:GUA = {
 	states = { STATE_GUATEMALA }
 
 	ai_will_do = { always = no }
 }
 
-ALT = {
+REPLACE:ALT = {
 	provinces = { xD9BEFE x78C465 xBD8628  }
 
 	ai_will_do = { always = no }
 }
 
-NIC = {
+REPLACE:NIC = {
 	states = { STATE_NICARAGUA }
 
 	ai_will_do = { always = no }
 }
 
-HON = {
+REPLACE:HON = {
 	states = { STATE_HONDURAS }
 
 	ai_will_do = { always = no }
 }
 
-COS = {
+REPLACE:COS = {
 	states = { STATE_COSTA_RICA }
 
 	ai_will_do = { always = no }
 }
 
-FRM = {
+REPLACE:FRM = {
 	provinces = { x11C0A0 }
 
 	ai_will_do = { always = no }
 }
 
-LUB = {
+REPLACE:LUB = {
 	provinces = { x60809F }
 
 	ai_will_do = { always = no }
 }
 
-HAM = {
+REPLACE:HAM = {
 	provinces = { x587297 }
 
 	ai_will_do = { always = no }
 }
 
-BRE = {
+REPLACE:BRE = {
 	provinces = { xC08061 x68BE66 }
 
 	ai_will_do = { always = no }
 }
 
-CUB = {
+REPLACE:CUB = {
 	states = {
 		STATE_WESTERN_CUBA
 		STATE_WESTERN_CUBA
@@ -680,25 +707,25 @@ CUB = {
 	ai_will_do = { always = no }
 }
 
-PCO = {
+REPLACE:PCO = {
 	states = { STATE_PUERTO_RICO }
 
 	ai_will_do = { always = no }
 }
 
-JAM = {
+REPLACE:JAM = {
 	states = { STATE_PUERTO_RICO }
 
 	ai_will_do = { always = no }
 }
 
-BAH = {
+REPLACE:BAH = {
 	states = { STATE_WEST_INDIES }
 
 	ai_will_do = { always = no }
 }
 
-PHI = {
+REPLACE:PHI = {
 	states = {
 		STATE_MINDANAO
 		STATE_LUZON
@@ -708,30 +735,30 @@ PHI = {
 	ai_will_do = { always = no }
 }
 
-PUE = {
+REPLACE:PUE = {
 	use_culture_states = yes
 	ai_will_do = { always = no }
 }
 
-NAH = {
+REPLACE:NAH = {
 	use_culture_states = yes
 	ai_will_do = { always = no }
 }
 
-GRN = {
+REPLACE:GRN = {
 	states = {
 		STATE_GREENLAND
 	}
 	ai_will_do = { always = no }
 }
 
-AIN = {
+REPLACE:AIN = {
 	use_culture_states = yes
 
 	ai_will_do = { always = no }
 }
 
-ANL = {
+REPLACE:ANL = {
 	states = {
 		STATE_LOWER_ANDALUSIA
 		STATE_UPPER_ANDALUSIA
@@ -739,7 +766,7 @@ ANL = {
 	ai_will_do = { always = no }
 }
 
-CAS = {
+REPLACE:CAS = {
 	states = {
 		STATE_OLD_CASTILE
 		STATE_NEW_CASTILE
@@ -749,7 +776,7 @@ CAS = {
 	ai_will_do = { always = no }
 }
 
-CAN = {
+REPLACE:CAN = {
 	use_culture_states = yes
 
 	required_num_states = 4
@@ -757,13 +784,13 @@ CAN = {
 	ai_will_do = { always = no }
 }
 
-QUE = {
+REPLACE:QUE = {
 	use_culture_states = yes
 
 	ai_will_do = { always = no }
 }
 
-NBS = {
+REPLACE:NBS = {
 	provinces = {
 		xC91FD7 xEE2FFF x5A0CA8 x71A015 x326F36 xF01C37 x70A0CE x484A09 x082153 x62FC6A xDE0FD5 xBB0F05 x7040C0 x4D9EEE x8ED253 xD090A6 x20CF66 x66DFE7 x493CD4 x740012 x8E553E x70C040
 	}
@@ -771,7 +798,7 @@ NBS = {
 	ai_will_do = { always = no }
 }
 
-NVS = {
+REPLACE:NVS = {
 	provinces = {
 		x085C83 xEC5B4B x406FBA xC060C0 xE4892F x99CA75 x380F20 xB95DB3 x905458 x8060C0 x80AA26 x6B5822 xCA0399 x63E1C4 xF95D47 x8CFA32 xEAFA99 xF04040
 	}
@@ -779,13 +806,13 @@ NVS = {
 	ai_will_do = { always = no }
 }
 
-AST = {
+REPLACE:AST = {
 	use_culture_states = yes
 
 	ai_will_do = { always = no }
 }
 
-NZL = {
+REPLACE:NZL = {
 	states = {
 		STATE_NORTH_ISLAND
 		STATE_SOUTH_ISLAND
@@ -794,7 +821,7 @@ NZL = {
 	ai_will_do = { always = no }
 }
 
-YUC = {
+REPLACE:YUC = {
 	states = {
 		STATE_YUCATAN
 	}
@@ -802,7 +829,7 @@ YUC = {
 	ai_will_do = { always = no }
 }
 
-RIO = {
+REPLACE:RIO = {
 
 	provinces = {
 		# Rio Grande
@@ -815,7 +842,7 @@ RIO = {
 	ai_will_do = { always = no }
 }
 
-PNI = {
+REPLACE:PNI = {
 	states = {
 		STATE_RIO_GRANDE_DO_SUL
 	}
@@ -829,7 +856,7 @@ PNI = {
 	ai_will_do = { always = no }
 }
 
-CEY = {
+REPLACE:CEY = {
 	states = {
 		STATE_CEYLON
 	}
@@ -837,7 +864,7 @@ CEY = {
 	ai_will_do = { always = no }
 }
 
-NEN = {
+REPLACE:NEN = {
 	states = {
 		STATE_MASSACHUSETTS
 		STATE_MASSACHUSETTS
@@ -850,7 +877,7 @@ NEN = {
 	ai_will_do = { always = no }
 }
 
-PNM = {
+REPLACE:PNM = {
 	states = {
 		STATE_PANAMA
 	}
@@ -858,19 +885,19 @@ PNM = {
 	ai_will_do = { always = no }
 }
 
-TWT = {
+REPLACE:TWT = {
 	use_culture_states = yes
 
 	ai_will_do = { always = no }
 }
 
-AYM = {
+REPLACE:AYM = {
 	use_culture_states = yes
 
 	ai_will_do = { always = no }
 }
 
-IRO = {
+REPLACE:IRO = {
 	provinces = {
 		x195b49 x8c059d xe217b5 x70c080 x2ca754 x4b0747 xb343e6 x308000 x38c881 x01d042 xe7be2d xa6bed5 xedc7da x3cb274 x235e9f xa7b5fe x42d496 xb00080 x05187e x9484f3 xec2eaa x73a16c xfcf1be x99cb10
 	}
@@ -878,7 +905,7 @@ IRO = {
 	ai_will_do = { always = no }
 }
 
-TEX = {
+REPLACE:TEX = {
 	states = {
 		STATE_TEXAS
 	}
@@ -886,31 +913,31 @@ TEX = {
 	ai_will_do = { always = no }
 }
 
-WLL = {
+REPLACE:WLL = {
 	use_culture_states = yes
 
 	ai_will_do = { always = no }
 }
 
-MLT = {
+REPLACE:MLT = {
 	use_culture_states = yes
 
 	ai_will_do = { always = no }
 }
 
-FLA = {
+REPLACE:FLA = {
 	use_culture_states = yes
 
 	ai_will_do = { always = no }
 }
 
-NNV = {
+REPLACE:NNV = {
 	use_culture_states = yes
 
 	ai_will_do = { always = no }
 }
 
-NEW = {
+REPLACE:NEW = {
 	states = {
 		STATE_NEWFOUNDLAND
 	}
@@ -918,13 +945,13 @@ NEW = {
 	ai_will_do = { always = no }
 }
 
-SMI = {
+REPLACE:SMI = {
 	use_culture_states = yes
 
 	ai_will_do = { always = no }
 }
 
-GBR = {
+REPLACE:GBR = {
 	use_culture_states = yes
 
 	required_num_states = 6
@@ -932,13 +959,13 @@ GBR = {
 	ai_will_do = { always = no }
 }
 
-BOS = {
+REPLACE:BOS = {
 	use_culture_states = yes
 
 	ai_will_do = { always = no }
 }
 
-SAF = {
+REPLACE:SAF = {
 	states = {
 		STATE_NORTHERN_CAPE
 		STATE_EASTERN_CAPE
@@ -948,7 +975,7 @@ SAF = {
 	ai_will_do = { always = no }
 }
 
-BUL = {
+REPLACE:BUL = {
 	states = {
 		STATE_BULGARIA
 		STATE_NORTHERN_THRACE
@@ -959,13 +986,13 @@ BUL = {
 }
 
 
-OCC = {
+REPLACE:OCC = {
 	use_culture_states = yes
 
 	ai_will_do = { always = no }
 }
 
-IRQ = {
+REPLACE:IRQ = {
 	states = {
 		STATE_BAGHDAD
 		STATE_MOSUL
@@ -975,28 +1002,28 @@ IRQ = {
 }
 
 
-CYP = {
+REPLACE:CYP = {
 	states = {
 		STATE_CYPRUS
 	}
 	ai_will_do = { always = no }
 }
 
-TUV = {
+REPLACE:TUV = {
 	states = {
 		STATE_TUVA
 	}
 	ai_will_do = { always = no }
 }
 
-COR = {
+REPLACE:COR = {
 	states = {
 		STATE_CORSICA
 	}
 	ai_will_do = { always = no }
 }
 
-YAK = {
+REPLACE:YAK = {
 	states = {
 		STATE_YAKUTSK
 		STATE_KOLYMA
@@ -1004,14 +1031,14 @@ YAK = {
 	ai_will_do = { always = no }
 }
 
-TNS = {
+REPLACE:TNS = {
 	states = {
 		STATE_UPPER_YENISEYSK
 	}
 	ai_will_do = { always = no }
 }
 
-FER = {
+REPLACE:FER = {
 	states = {
 		STATE_OKHOTSK
 		STATE_KAMCHATKA
@@ -1025,7 +1052,7 @@ FER = {
 	ai_will_do = { always = no }
 }
 
-IUS = {
+REPLACE:IUS = {
 	states = {
 		STATE_KAZAN
 		STATE_UFA
@@ -1036,7 +1063,7 @@ IUS = {
 	ai_will_do = { always = no }
 }
 
-KNT = {
+REPLACE:KNT = {
 	states = {
 		STATE_SURGUT
 		STATE_OB
@@ -1044,7 +1071,7 @@ KNT = {
 	ai_will_do = { always = no }
 }
 
-URL = {
+REPLACE:URL = {
 	states = {
 		STATE_URAL
 		STATE_CHELYABINSK
@@ -1054,71 +1081,80 @@ URL = {
 	ai_will_do = { always = no }
 }
 
-ALI = {
+REPLACE:ALI = {
 	states = {
 		STATE_ALTAI
 	}
 	ai_will_do = { always = no }
 }
 
-KAZ = {
+REPLACE:KAZ = {
 	use_culture_states = yes
 	ai_will_do = { always = no }
 }
 
-CKC = {
+REPLACE:CKC = {
 	states = {
 		STATE_CHUKOTKA
 	}
 	ai_will_do = { always = no }
 }
 
-KMC = {
+REPLACE:KMC = {
 	states = {
 		STATE_KAMCHATKA
 	}
 	ai_will_do = { always = no }
 }
 
-BRY = {
+REPLACE:BRY = {
 	states = {
 		STATE_BURYATIA
 	}
 	ai_will_do = { always = no }
 }
 
-BKR = {
+REPLACE:BKR = {
 	states = {
 		STATE_UFA
 	}
 	ai_will_do = { always = no }
 }
 
-TAR = {
+REPLACE:TAR = {
 	states = {
 		STATE_KAZAN
 	}
 	ai_will_do = { always = no }
 }
 
-KRL = {
+REPLACE:KRL = {
 	states = {
 		STATE_EAST_KARELIA
 	}
 	ai_will_do = { always = no }
 }
 
-NCA = {
+REPLACE:NCA = {
 	states = {
 		STATE_NORTH_CAUCASUS
 	}
 	possible = {
-		has_technology_researched = pan-nationalism
+		# Checks if the technology is researched by the war goal holder (if any) or by the releasing country
+		OR = {
+			scope:war_goal_holder ?= {
+				has_technology_researched = pan-nationalism
+			}
+			AND = {
+				NOT = { exists = scope:war_goal_holder }
+				has_technology_researched = pan-nationalism
+			}
+		}
 	}
 	ai_will_do = { always = no }
 }
 
-DON = {
+REPLACE:DON = {
 	states = {
 		STATE_ROSTOV
 		STATE_KUBAN
@@ -1127,7 +1163,7 @@ DON = {
 	ai_will_do = { always = no }
 }
 
-UDM = {
+REPLACE:UDM = {
 	#provinces = { x206020 x0DC008 xF4A935 x4344A1 xFBBA97 x494CD7 xCA4466 x624DC2 x1DFAE3 x199917 x0E6979 xD754F9 x8BAC4A xEF2B33 x6578DF xE365BE x5B57D5 x2080C0 x5A83AD }
 	states = {
 		STATE_VYATKA
@@ -1135,7 +1171,7 @@ UDM = {
 	ai_will_do = { always = no }
 }
 
-CHV = {
+REPLACE:CHV = {
 	#provinces = { xDB5DBD xC23BD0 xD13AC6 x811458 x0CBEE6 xD6E65F xDA0014 x307CEB xE89369 }
 	states = {
 		STATE_CHUVASHIA
@@ -1143,7 +1179,7 @@ CHV = {
 	ai_will_do = { always = no }
 }
 
-MRD = {
+REPLACE:MRD = {
 	#provinces = { x0434D7 x47EA0C x0DCAF1 x003D07 x61384B x75FC6F x6DC89F x00DA3C x7D40C9 x74730E }
 	states = {
 		STATE_TAMBOV
@@ -1151,7 +1187,7 @@ MRD = {
 	ai_will_do = { always = no }
 }
 
-MRI = {
+REPLACE:MRI = {
 	#provinces = { x1066EF x635E09 x5D97AC x83DB48 x0D7D00 x67980D x9DA7C7 xEDEDEF x1910A8 x062B1B xA000C0 x80F7CE x1D5A12 }
 	states = {
 		STATE_CHUVASHIA
@@ -1159,7 +1195,7 @@ MRI = {
 	ai_will_do = { always = no }
 }
 
-SYR = {
+REPLACE:SYR = {
 	states = {
 		STATE_SYRIA
 		STATE_ALEPPO
@@ -1171,21 +1207,21 @@ SYR = {
 	ai_will_do = { always = no }
 }
 
-EOT = {
+REPLACE:EOT = {
 	states = {
 		STATE_TRANSJORDAN
 	}
 	ai_will_do = { always = no }
 }
 
-LEB = {
+REPLACE:LEB = {
 	states = {
 		STATE_LEBANON
 	}
 	ai_will_do = { always = no }
 }
 
-SUD = {
+REPLACE:SUD = {
 	states = {
 		STATE_BLUE_NILE
 		STATE_KORDOFAN
@@ -1194,12 +1230,12 @@ SUD = {
 	ai_will_do = { always = no }
 }
 
-MEX = {
+REPLACE:MEX = {
 	use_culture_states = yes
 	ai_will_do = { always = no }
 }
 
-ALD = {
+REPLACE:ALD = {
 	states = {
 		STATE_ALGIERS
 		STATE_CONSTANTINE
@@ -1210,7 +1246,7 @@ ALD = {
 	ai_will_do = { always = no }
 }
 
-YUG = {
+REPLACE:YUG = {
 	states = {
 		STATE_WESTERN_SERBIA
 		STATE_EASTERN_SERBIA
@@ -1229,13 +1265,22 @@ YUG = {
 	required_num_states = 3
 
 	possible = {
-		has_technology_researched = pan-nationalism
+		# Checks if the technology is researched by the war goal holder (if any) or by the releasing country
+		OR = {
+			scope:war_goal_holder ?= {
+				has_technology_researched = pan-nationalism
+			}
+			AND = {
+				NOT = { exists = scope:war_goal_holder }
+				has_technology_researched = pan-nationalism
+			}
+		}
 	}
 
 	ai_will_do = { always = no }
 }
 
-ZIM = {
+REPLACE:ZIM = {
 	states = {
 		STATE_ZAMBEZI
 	}
@@ -1243,7 +1288,7 @@ ZIM = {
 	ai_will_do = { always = no }
 }
 
-CLM = {
+REPLACE:CLM = {
 	states = {
 		STATE_ANTIOQUIA
 		STATE_CUNDINAMARCA
@@ -1256,7 +1301,7 @@ CLM = {
 	ai_will_do = { always = no }
 }
 
-TUR = {
+REPLACE:TUR = {
 	use_culture_states = yes
 
 	required_num_states = 5
@@ -1264,7 +1309,7 @@ TUR = {
 	ai_will_do = { always = no }
 }
 
-DZG = {
+REPLACE:DZG = {
 	provinces = {
 		x7CB839 x80A0A0
 	}
@@ -1272,14 +1317,14 @@ DZG = {
 	ai_will_do = { always = no }
 }
 
-EGY = {
+REPLACE:EGY = {
 	use_culture_states = yes
 
 	required_num_states = 3
 
 	ai_will_do = { always = no }
 }
-CZH = {
+REPLACE:CZH = {
 	use_culture_states = yes
 
 	ai_will_do = { always = no }
@@ -1287,17 +1332,26 @@ CZH = {
 	required_num_states = 3
 
 	possible = {
-		has_technology_researched = pan-nationalism
+		# Checks if the technology is researched by the war goal holder (if any) or by the releasing country
+		OR = {
+			scope:war_goal_holder ?= {
+				has_technology_researched = pan-nationalism
+			}
+			AND = {
+				NOT = { exists = scope:war_goal_holder }
+				has_technology_researched = pan-nationalism
+			}
+		}
 	}
 }
 
-ARG = {
+REPLACE:ARG = {
 	use_culture_states = yes
 
 	ai_will_do = { always = no }
 }
 
-HAN = {
+REPLACE:HAN = {
 	states = {
 		STATE_HANNOVER
 	}
@@ -1305,7 +1359,7 @@ HAN = {
 	ai_will_do = { always = no }
 }
 
-SIC = {
+REPLACE:SIC = {
 	states = {
 		STATE_SICILY
 	}
@@ -1313,20 +1367,20 @@ SIC = {
 	ai_will_do = { always = no }
 }
 
-UCA = {
+REPLACE:UCA = {
 	use_culture_states = yes
 	required_num_states = 3
 
 	ai_will_do = { always = no }
 }
 
-SLO = {
+REPLACE:SLO = {
 	use_culture_states = yes
 
 	ai_will_do = { always = no }
 }
 
-ALB = {
+REPLACE:ALB = {
 	states = {
 		STATE_ALBANIA
 	}
@@ -1334,7 +1388,7 @@ ALB = {
 	ai_will_do = { always = no }
 }
 
-KUR = {
+REPLACE:KUR = {
 	states = {
 		STATE_MOSUL
 		STATE_DEIR_EZ_ZOR
@@ -1347,11 +1401,20 @@ KUR = {
 	ai_will_do = { always = no }
 
 	possible = {
-		has_technology_researched = nationalism
+		# Checks if the technology is researched by the war goal holder (if any) or by the releasing country
+		OR = {
+			scope:war_goal_holder ?= {
+				has_technology_researched = nationalism
+			}
+			AND = {
+				NOT = { exists = scope:war_goal_holder }
+				has_technology_researched = nationalism
+			}
+		}
 	}
 }
 
-GLI = {
+REPLACE:GLI = {
 	states = {
 		STATE_GALICIA
 	}
@@ -1359,7 +1422,7 @@ GLI = {
 	ai_will_do = { always = no }
 }
 
-ISR = {
+REPLACE:ISR = {
 	states = {
 		STATE_PALESTINE
 	}
@@ -1367,11 +1430,20 @@ ISR = {
 	ai_will_do = { always = no }
 
 	possible = {
-		has_technology_researched = pan-nationalism
+		# Checks if the technology is researched by the war goal holder (if any) or by the releasing country
+		OR = {
+			scope:war_goal_holder ?= {
+				has_technology_researched = pan-nationalism
+			}
+			AND = {
+				NOT = { exists = scope:war_goal_holder }
+				has_technology_researched = pan-nationalism
+			}
+		}
 	}
 }
 
-PAL = {
+REPLACE:PAL = {
 	states = {
 		STATE_PALESTINE
 		STATE_TRANSJORDAN
@@ -1382,11 +1454,20 @@ PAL = {
 	ai_will_do = { always = no }
 
 	possible = {
-		has_technology_researched = nationalism
+		# Checks if the technology is researched by the war goal holder (if any) or by the releasing country
+		OR = {
+			scope:war_goal_holder ?= {
+				has_technology_researched = nationalism
+			}
+			AND = {
+				NOT = { exists = scope:war_goal_holder }
+				has_technology_researched = nationalism
+			}
+		}
 	}
 }
 
-SIB = {
+REPLACE:SIB = {
 	states = {
 		STATE_YAKUTSK
 		STATE_IRKUTSK
@@ -1413,11 +1494,20 @@ SIB = {
 	ai_will_do = { always = no }
 
 	possible = {
-		has_technology_researched = pan-nationalism
+		# Checks if the technology is researched by the war goal holder (if any) or by the releasing country
+		OR = {
+			scope:war_goal_holder ?= {
+				has_technology_researched = pan-nationalism
+			}
+			AND = {
+				NOT = { exists = scope:war_goal_holder }
+				has_technology_researched = pan-nationalism
+			}
+		}
 	}
 }
 
-UOM = {
+REPLACE:UOM = {
 	states = {
 		STATE_MICHIGAN
 	}
@@ -1429,7 +1519,7 @@ UOM = {
 	}
 }
 
-CAL = {
+REPLACE:CAL = {
 	states = {
 		STATE_CALIFORNIA
 	}
@@ -1437,7 +1527,7 @@ CAL = {
 	ai_will_do = { always = no }
 }
 
-USA = {
+REPLACE:USA = {
 	use_culture_states = yes
 
 	required_num_states = 10
@@ -1445,7 +1535,7 @@ USA = {
 	ai_will_do = { always = no }
 }
 
-BEL = {
+REPLACE:BEL = {
 	use_culture_states = yes
 
 	required_num_states = 2
@@ -1453,26 +1543,26 @@ BEL = {
 	ai_will_do = { always = no }
 }
 
-NET = {
+REPLACE:NET = {
 	use_culture_states = yes
 
 	ai_will_do = { always = no }
 }
 
-POR = {
+REPLACE:POR = {
 	use_culture_states = yes
 
 	ai_will_do = { always = no }
 }
 
-BAD = {
+REPLACE:BAD = {
 	states = {
 		STATE_BADEN
 	}
 	ai_will_do = { always = no }
 }
 
-BAV = {
+REPLACE:BAV = {
 	states = {
 		STATE_BAVARIA
 		STATE_FRANCONIA
@@ -1480,75 +1570,75 @@ BAV = {
 	ai_will_do = { always = no }
 }
 
-BRA = {
+REPLACE:BRA = {
 	states = {
 		STATE_BRUNSWICK
 	}
 	ai_will_do = { always = no }
 }
 
-HOL = {
+REPLACE:HOL = {
 	provinces = { xBFCC21 x804160 x64824C xE000A0 }
 	ai_will_do = { always = no }
 }
 
-SCH = {
+REPLACE:SCH = {
 	provinces = { x00C060 x78B203 xE3C876 }
 	ai_will_do = { always = no }
 }
 
-LUX = {
+REPLACE:LUX = {
 	provinces = { x5180A0 xD001A0}
 	ai_will_do = { always = no }
 }
 
-MEC = {
+REPLACE:MEC = {
 	states = {
 		STATE_MECKLENBURG
 	}
 	ai_will_do = { always = no }
 }
 
-OLD = {
+REPLACE:OLD = {
 	provinces = { xECC3B4 xC00161 x4101E0 }
 	ai_will_do = { always = no }
 }
 
-SAX = {
+REPLACE:SAX = {
 	states = {
 		STATE_SAXONY
 	}
 	ai_will_do = { always = no }
 }
 
-WUR = {
+REPLACE:WUR = {
 	provinces = { x118060 x100060 xC541D2 x8F0060 xDBB84C }
 	ai_will_do = { always = no }
 }
 
-LUC = {
+REPLACE:LUC = {
 	provinces = { xF080A0 }
 	ai_will_do = { always = no }
 }
 
-MOD = {
+REPLACE:MOD = {
 	provinces = { xEF0021 xF08021 }
 	ai_will_do = { always = no }
 }
 
-PAP = {
+REPLACE:PAP = {
 	states = {
 		STATE_LAZIO
 	}
 	ai_will_do = { always = no }
 }
 
-PAR = {
+REPLACE:PAR = {
 	provinces = { x0B3B43 x700120 }
 	ai_will_do = { always = no }
 }
 
-PRA = {
+REPLACE:PRA = {
 	states = {
 		STATE_PARA
 		STATE_AMAZONAS
@@ -1557,7 +1647,7 @@ PRA = {
 	ai_will_do = { always = no }
 }
 
-SAR = {
+REPLACE:SAR = {
 	states = {
 		STATE_PIEDMONT
 		STATE_SARDINIA
@@ -1568,19 +1658,19 @@ SAR = {
 	ai_will_do = { always = no }
 }
 
-TUS = {
+REPLACE:TUS = {
 	states = {
 		STATE_TUSCANY
 	}
 	ai_will_do = { always = no }
 }
 
-KRA = {
+REPLACE:KRA = {
 	provinces = { x906060 }
 	ai_will_do = { always = no }
 }
 
-SWI = {
+REPLACE:SWI = {
 	states = {
 		STATE_WEST_SWITZERLAND
 		STATE_EAST_SWITZERLAND
@@ -1588,7 +1678,7 @@ SWI = {
 	ai_will_do = { always = no }
 }
 
-GRE = {
+REPLACE:GRE = {
 	use_culture_states = yes
 
 	required_num_states = 2
@@ -1596,26 +1686,26 @@ GRE = {
 	ai_will_do = { always = no }
 }
 
-ION = {
+REPLACE:ION = {
 	provinces = { x4B79CA x405060 }
 	ai_will_do = { always = no }
 }
 
-MOL = {
+REPLACE:MOL = {
 	states = {
 		STATE_MOLDAVIA
 	}
 	ai_will_do = { always = no }
 }
 
-MON = {
+REPLACE:MON = {
 	states = {
 		STATE_MONTENEGRO
 	}
 	ai_will_do = { always = no }
 }
 
-SER = {
+REPLACE:SER = {
 	states = {
 		STATE_WESTERN_SERBIA
 		STATE_EASTERN_SERBIA
@@ -1625,14 +1715,14 @@ SER = {
 	ai_will_do = { always = no }
 }
 
-ABU = {
+REPLACE:ABU = {
 	states = {
 		STATE_ABU_DHABI
 	}
 	ai_will_do = { always = no }
 }
 
-AFG = {
+REPLACE:AFG = {
 	states = {
 		STATE_KABUL
 		STATE_HERAT
@@ -1643,25 +1733,34 @@ AFG = {
 	ai_will_do = { always = no }
 
 	possible = {
-		has_technology_researched = pan-nationalism
+		# Checks if the technology is researched by the war goal holder (if any) or by the releasing country
+		OR = {
+			scope:war_goal_holder ?= {
+				has_technology_researched = pan-nationalism
+			}
+			AND = {
+				NOT = { exists = scope:war_goal_holder }
+				has_technology_researched = pan-nationalism
+			}
+		}
 	}
 }
 
-BUK = {
+REPLACE:BUK = {
 	states = {
 		STATE_UZBEKIA
 	}
 	ai_will_do = { always = no }
 }
 
-HDJ = {
+REPLACE:HDJ = {
 	states = {
 		STATE_HEDJAZ
 	}
 	ai_will_do = { always = no }
 }
 
-KHI = {
+REPLACE:KHI = {
 	states = {
 		STATE_KHIVA
 		STATE_TURKMENIA
@@ -1669,7 +1768,7 @@ KHI = {
 	ai_will_do = { always = no }
 }
 
-KOK = {
+REPLACE:KOK = {
 	states = {
 		STATE_KIRGHIZIA
 		STATE_TAJIKISTAN
@@ -1677,86 +1776,95 @@ KOK = {
 	ai_will_do = { always = no }
 }
 
-NEJ = {
+REPLACE:NEJ = {
 	states = {
 		STATE_NEJD
 	}
 	ai_will_do = { always = no }
 }
 
-OMA = {
+REPLACE:OMA = {
 	states = {
 		STATE_OMAN
 	}
 	ai_will_do = { always = no }
 }
 
-PER = {
+REPLACE:PER = {
 	use_culture_states = yes
 	required_num_states = 4
 	ai_will_do = { always = no }
 }
 
-JAB = {
+REPLACE:JAB = {
 	states = {
 		STATE_NEJD
 	}
 	ai_will_do = { always = no }
 }
 
-YEM = {
+REPLACE:YEM = {
 	states = {
 		STATE_YEMEN
 	}
 	possible = {
-		has_technology_researched = nationalism
+		# Checks if the technology is researched by the war goal holder (if any) or by the releasing country
+		OR = {
+			scope:war_goal_holder ?= {
+				has_technology_researched = nationalism
+			}
+			AND = {
+				NOT = { exists = scope:war_goal_holder }
+				has_technology_researched = nationalism
+			}
+		}
 	}
 	ai_will_do = { always = no }
 }
 
-MAH = {
+REPLACE:MAH = {
 	provinces = { x30A3E2 x37058f xAD1CE2 x8D121D x8D6307 xBDEA27 x02B35C xA2FDFA x6BD0A9 xB010DF x9D6547 xA0540A }
 	ai_will_do = { always = no }
 }
 
-KAT = {
+REPLACE:KAT = {
 	provinces = { xC790E8 x299C0F xDFA579 x346541 x90602A x3D86FC x75D341 x8E96A7 xDD732E x95D64E x5F3582 x2A9E89 xBAA208 x308FDF xD6CC22 x1C7B77 xA05CB5 x6D2F95 x5C91FE x3D7345 xC09525 xB8A8D2 x672267 x60DFF9 xD3F276 xA1AAB0 x843C65 x5DF9FC x895FE6 xCF61E1 x0B9A27 xF385EB x0C7E0C x872CEB x8BF4B8 }
 	ai_will_do = { always = no }
 }
 
-ZAI = {
+REPLACE:ZAI = {
 	provinces = { x567A83 xE5892F x02F9FF x7EC879 x625380 x9D8A78 xEF2E43 xBB387A xCF6C49 x7C3EA9 xFE5027 x68B524 xE5DF3B x1A7BB0 x2576C1 xCF401E x49FCAB x6290E6 xF86F58 x84FA60 x8B1488 x075453  x00E3EF xB79DED x9E941B x034B03 x8436FE }
 	ai_will_do = { always = no }
 }
 
-LAH = {
+REPLACE:LAH = {
 	provinces = { x319060 xB090E0 x2BD409 xFA0283 x657048 x54840B x3D1674 x2975A3 }
 	ai_will_do = { always = no }
 }
 
-BHN = {
+REPLACE:BHN = {
 	provinces = { x505AE0 x2768F8 xEF5020 }
 	ai_will_do = { always = no }
 }
 
-BHW = {
+REPLACE:BHW = {
 	provinces = { x022D2B xD597DC x30122F xCF602F x706940 x2DBD82 x19E5C0 xEFC3B4 xCA516D xB4E322 }
 	ai_will_do = { always = no }
 }
 
-BAS = {
+REPLACE:BAS = {
 	provinces = { x8ECE82 x013159 xF09DA1 x1170A0 xB56E8E x2F70FB x274E94 x66F24C x20BC2C xC38F66 }
 	ai_will_do = { always = no }
 }
 
-HYD = {
+REPLACE:HYD = {
 	states = {
 		STATE_HYDERABAD
 	}
 	ai_will_do = { always = no }
 }
 
-BGL = {
+REPLACE:BGL = {
 	states = {
 		STATE_WEST_BENGAL
 		STATE_EAST_BENGAL
@@ -1764,183 +1872,183 @@ BGL = {
 	ai_will_do = { always = no }
 }
 
-IND = {
+REPLACE:IND = {
 	provinces = { x82DEEF x2A9BFB xE9D03F xC0F1B9 x585F79 x4CA2A3 xB8A7B3 x0E199B x70D0E0 }
 	ai_will_do = { always = no }
 }
 
-JAI = {
+REPLACE:JAI = {
 	provinces = { x604D2F xC7EF85 x0170B1 x67EA54 xA2025E x4EA8C5 xFFFB3C x5A410D xB9580C x61F021 }
 	ai_will_do = { always = no }
 }
 
-JAS = {
+REPLACE:JAS = {
 	provinces = { x3C6F90 x77810B xD0F7A0 x6E8BCD xBD0984 x6031A0 x1031A8 x599EC5 x006D72 }
 	ai_will_do = { always = no }
 }
 
-JOD = {
+REPLACE:JOD = {
 	provinces = { xBD1F80 x9A6A95 x7B1C30 x22627C xDD12D2 xD77479 xCA50D5 x4CEAC0 xCBE6C4 x0C11FE x425430 xD76ACC xA389C9 xBAD851 xC28B1B x4922B9 xE0B020 x2A57A1 x25467F x3FF532 x166BD9 x5C95B5 }
 	ai_will_do = { always = no }
 }
 
-KAL = {
+REPLACE:KAL = {
 	states = {
 		STATE_BALUCHISTAN
 	}
 	ai_will_do = { always = no }
 }
 
-KAS = {
+REPLACE:KAS = {
 	states = {
 		STATE_KASHMIR
 	}
 	ai_will_do = { always = no }
 }
 
-KUT = {
+REPLACE:KUT = {
 	provinces = { xC0310F xF64FA2 xB05060 xEB6009 x5B6745 x8F568D xB89EF0 }
 	ai_will_do = { always = no }
 }
 
-MAK = {
+REPLACE:MAK = {
 	provinces = { x978421 x4E09C5 xF9577D x45F2DD x113E0B x7FE584 xC070E0 xC6E602 xB0F79E x407060 x951063 xB7B2BD x8ED831 x2E7961 xE87BBF }
 	ai_will_do = { always = no }
 }
 
-MEW = {
+REPLACE:MEW = {
 	provinces = { x40881F xF051DF xCC8FF3 x0A34C2 xF671B7 x6E01FB xA614CA xDCFF99 }
 	ai_will_do = { always = no }
 }
 
-MYS = {
+REPLACE:MYS = {
 	states = {
 		STATE_MYSORE
 	}
 	ai_will_do = { always = no }
 }
 
-NAG = {
+REPLACE:NAG = {
 	states = {
 		STATE_CENTRAL_PROVINCES
 	}
 	ai_will_do = { always = no }
 }
 
-NEP = {
+REPLACE:NEP = {
 	states = {
 		STATE_HIMALAYAS
 	}
 	ai_will_do = { always = no }
 }
 
-ORI = {
+REPLACE:ORI = {
 	states = {
 		STATE_ORISSA
 	}
 	ai_will_do = { always = no }
 }
 
-PAN = {
+REPLACE:PAN = {
 	use_culture_states = yes
 	ai_will_do = { always = no }
 }
 
-SIK = {
+REPLACE:SIK = {
 	provinces = { xE0B0E0 x2070E0 }
 	ai_will_do = { always = no }
 }
 
-SIN = {
+REPLACE:SIN = {
 	states = {
 		STATE_SINDH
 	}
 	ai_will_do = { always = no }
 }
 
-TRA = {
+REPLACE:TRA = {
 	states = {
 		STATE_TRAVANCORE
 	}
 	ai_will_do = { always = no }
 }
 
-ACE = {
+REPLACE:ACE = {
 	states = {
 		STATE_ACEH
 	}
 	ai_will_do = { always = no }
 }
 
-BAL = {
+REPLACE:BAL = {
 	provinces = { x5ABA94 x100090 }
 	ai_will_do = { always = no }
 }
 
-BHU = {
+REPLACE:BHU = {
 	provinces = { x388D2C xDA7F32 x665E5B x01C109 xD10C8F x4F99DC x84F73C xE5D3E0 x60B0DF }
 	ai_will_do = { always = no }
 }
 
-LAN = {
+REPLACE:LAN = {
 	provinces = { x1C7417 x2A3D46 xE02CB6 }
 	ai_will_do = { always = no }
 }
 
-BRU = {
+REPLACE:BRU = {
 	states = {
 		STATE_NORTH_BORNEO
 	}
 	ai_will_do = { always = no }
 }
 
-BUR = {
+REPLACE:BUR = {
 	use_culture_states = yes
 	ai_will_do = { always = no }
 }
 
-CAM = {
+REPLACE:CAM = {
 	use_culture_states = yes
 	ai_will_do = { always = no }
 }
 
-LUA = {
+REPLACE:LUA = {
 	provinces = { x3130A0 x89F1F9 xDFCAA8 x70B3CE xED7937 x874BED xCD2D5D x1F8AE4 x8D0FE2 x6BA60C xDA6CAB xE8A817 x0B160B x578898 x8D4D75 x2DE84E x1957E0 x1E6D3C x625009 xEAEF3A xB0B020 xDE87E1 x46CCB6 x8BFF1F x6C400A x61478F }
 	ai_will_do = { always = no }
 }
 
-CHP = {
+REPLACE:CHP = {
 	provinces = { xB0EFA0 x30EFA0 x3E6297 x036ED6 x32A2B1 x21D9CC xC8AFB5 x94CA13 x899047 }
 	ai_will_do = { always = no }
 }
 
-JOH = {
+REPLACE:JOH = {
 	states = {
 		STATE_MALAYA
 	}
 	ai_will_do = { always = no }
 }
 
-SIA = {
+REPLACE:SIA = {
 	use_culture_states = yes
 	ai_will_do = { always = no }
 }
 
-DES = {
+REPLACE:DES = {
 	states = {
 		STATE_UTAH
 	}
 	ai_will_do = { always = no }
 }
 
-ONT = {
+REPLACE:ONT = {
 	states = {
 		STATE_ONTARIO
 	}
 	ai_will_do = { always = no }
 }
 
-BOL = {
+REPLACE:BOL = {
 	states = {
 		STATE_SANTA_CRUZ
 		STATE_POTOSI
@@ -1951,12 +2059,12 @@ BOL = {
 	ai_will_do = { always = no }
 }
 
-BRZ = {
+REPLACE:BRZ = {
 	use_culture_states = yes
 	ai_will_do = { always = no }
 }
 
-CHL = {
+REPLACE:CHL = {
 	states = {
 		STATE_SANTIAGO
 		STATE_LOS_RIOS
@@ -1964,7 +2072,7 @@ CHL = {
 	ai_will_do = { always = no }
 }
 
-ECU = {
+REPLACE:ECU = {
 	states = {
 		STATE_ECUADOR
 		STATE_PASTAZA
@@ -1972,7 +2080,7 @@ ECU = {
 	ai_will_do = { always = no }
 }
 
-PEU = {
+REPLACE:PEU = {
 	states = {
 		STATE_LIMA
 		STATE_CAJAMARCA
@@ -1984,7 +2092,7 @@ PEU = {
 	ai_will_do = { always = no }
 }
 
-PRG = {
+REPLACE:PRG = {
 	states = {
 		STATE_BAJO_PARAGUAY
 		STATE_ALTO_PARAGUAY
@@ -1992,14 +2100,14 @@ PRG = {
 	ai_will_do = { always = no }
 }
 
-URU = {
+REPLACE:URU = {
 	states = {
 		STATE_URUGUAY
 	}
 	ai_will_do = { always = no }
 }
 
-VNZ = {
+REPLACE:VNZ = {
 	states = {
 		STATE_MIRANDA
 		STATE_BOLIVAR
@@ -2008,7 +2116,7 @@ VNZ = {
 	ai_will_do = { always = no }
 }
 
-ORG = {
+REPLACE:ORG = {
 	states = {
 		STATE_OREGON
 		STATE_WASHINGTON
@@ -2018,26 +2126,26 @@ ORG = {
 	ai_will_do = { always = no }
 }
 
-SEQ = {
+REPLACE:SEQ = {
 	states = {
 		STATE_OKLAHOMA
 	}
 	ai_will_do = { always = no }
 }
 
-MKT = {
+REPLACE:MKT = {
 	provinces = { x17F33B x6C22F2 x59D231 xAD9EE8 }
 	ai_will_do = { always = no }
 }
 
-HZJ = {
+REPLACE:HZJ = {
 	states = {
 		STATE_CENTRAL_HIGHLANDS
 	}
 	ai_will_do = { always = no }
 }
 
-TRC = {
+REPLACE:TRC = {
 	states = {
 		STATE_TURKMENIA
 		STATE_MERZ
@@ -2045,21 +2153,21 @@ TRC = {
 	ai_will_do = { always = no }
 }
 
-ASM = {
+REPLACE:ASM = {
 	states = {
 		STATE_ASSAM
 	}
 	ai_will_do = { always = no }
 }
 
-TOB = {
+REPLACE:TOB = {
 	states = {
 		STATE_NORTH_SUMATRA
 	}
 	ai_will_do = { always = no }
 }
 
-KLT = {
+REPLACE:KLT = {
 	states = {
 		STATE_WEST_BORNEO
 		STATE_EAST_BORNEO
@@ -2068,85 +2176,85 @@ KLT = {
 	ai_will_do = { always = no }
 }
 
-HTH = {
+REPLACE:HTH = {
 	states = {
 		STATE_PEGU
 	}
 	ai_will_do = { always = no }
 }
 
-KRN = {
+REPLACE:KRN = {
 	states = {
 		STATE_TENASSERIM
 	}
 	ai_will_do = { always = no }
 }
 
-KHM = {
+REPLACE:KHM = {
 	states = {
 		STATE_LAOS
 	}
 	ai_will_do = { always = no }
 }
 
-KHN = {
+REPLACE:KHN = {
 	states = {
 		STATE_KACHIN
 	}
 	ai_will_do = { always = no }
 }
 
-EZO = {
+REPLACE:EZO = {
 	states = {
 		STATE_HOKKAIDO
 	}
 	ai_will_do = { always = no }
 }
 
-QIA = {
+REPLACE:QIA = {
 	use_culture_states = yes
 	ai_will_do = { always = no }
 }
 
-FRS = {
+REPLACE:FRS = {
 	states = {
 		STATE_FORMOSA
 	}
 	ai_will_do = { always = no }
 }
 
-YUN = {
+REPLACE:YUN = {
 	use_culture_states = yes
 	ai_will_do = { always = no }
 }
 
-YUE = {
+REPLACE:YUE = {
 	use_culture_states = yes
 	ai_will_do = { always = no }
 }
 
-SRB = {
+REPLACE:SRB = {
 	states = {
 		STATE_SAXONY
 	}
 	ai_will_do = { always = no }
 }
 
-BLH = {
+REPLACE:BLH = {
 	states = {
 		STATE_BALUCHISTAN
 	}
 	ai_will_do = { always = no }
 }
 
-HNA = {
+REPLACE:HNA = {
 	states = {
 		STATE_HUNAN
 	}
 	ai_will_do = { always = no }
 }
 
-AHU = {
+REPLACE:AHU = {
 	states = {
 		STATE_SOUTHERN_ANHUI
 		STATE_NORTHERN_ANHUI
@@ -2154,205 +2262,214 @@ AHU = {
 	ai_will_do = { always = no }
 }
 
-ZHI = {
+REPLACE:ZHI = {
 	states = {
 		STATE_ZHILI
 	}
 	ai_will_do = { always = no }
 }
 
-SHN = {
+REPLACE:SHN = {
 	states = {
 		STATE_SHANXI
 	}
 	ai_will_do = { always = no }
 }
 
-GUI = {
+REPLACE:GUI = {
 	states = {
 		STATE_GUIZHOU
 	}
 	ai_will_do = { always = no }
 }
 
-GNG = {
+REPLACE:GNG = {
 	states = {
 		STATE_GUANGXI
 	}
 	ai_will_do = { always = no }
 }
 
-SIH = {
+REPLACE:SIH = {
 	states = {
 		STATE_SICHUAN
 	}
 	ai_will_do = { always = no }
 }
 
-SHA = {
+REPLACE:SHA = {
 	states = {
 		STATE_SHANDONG
 	}
 	ai_will_do = { always = no }
 }
 
-XIB = {
+REPLACE:XIB = {
 	states = {
 		STATE_NINGXIA
 	}
 	ai_will_do = { always = no }
 }
 
-COB = {
+REPLACE:COB = {
 	provinces = { x66FE0A }
 	ai_will_do = { always = no }
 }
 
-MEI = {
+REPLACE:MEI = {
 	provinces = { x5141A0 xD0C021 }
 	ai_will_do = { always = no }
 }
 
-WEI = {
+REPLACE:WEI = {
 	provinces = { xC00A37 }
 	ai_will_do = { always = no }
 }
 
-SCW = {
+REPLACE:SCW = {
 	provinces = { x51C021 }
 	ai_will_do = { always = no }
 }
 
-HEK = {
+REPLACE:HEK = {
 	provinces = { xD04121 x2248E2 xC08020 xFF1DBB }
 	ai_will_do = { always = no }
 }
 
-LIP = {
+REPLACE:LIP = {
 	provinces = { x9F0060 }
 	ai_will_do = { always = no }
 }
 
-SCM = {
+REPLACE:SCM = {
 	provinces = { x1BA4F6 }
 	ai_will_do = { always = no }
 }
 
-MST = {
+REPLACE:MST = {
 	provinces = { xE041A0 xD9A469 }
 	ai_will_do = { always = no }
 }
 
-HOH = {
+REPLACE:HOH = {
 	provinces = { x908060 }
 	ai_will_do = { always = no }
 }
 
-WLD = {
+REPLACE:WLD = {
 	provinces = { x3E794B }
 	ai_will_do = { always = no }
 }
 
-SAK = {
+REPLACE:SAK = {
 	provinces = { x01317D x3F7EA0 x677AA6 x87F7B6 x8171EA x48428B x6021D0 x5BE3D2 x8B7A14 x35213F }
 	ai_will_do = { always = no }
 }
 
-PON = {
+REPLACE:PON = {
 	provinces = { xFFE074 x71D428 x706E00 xA91194 x4DD36E xB7B05B xAD54BC x4408AB xF8375D }
 	ai_will_do = { always = no }
 }
 
-SMB = {
+REPLACE:SMB = {
 	provinces = { x60FDC2 x42973E x6D4CDF }
 	ai_will_do = { always = no }
 }
 
-JMB = {
+REPLACE:JMB = {
 	provinces = { x5157D3 xDA82F4 x7AC280 xAE71B4 xEC5DEA xA2F773 x6ED39E xE4C2D6 }
 	ai_will_do = { always = no }
 }
 
-YOG = {
+REPLACE:YOG = {
 	provinces = { xD19D2E }
 	ai_will_do = { always = no }
 }
 
-SRK = {
+REPLACE:SRK = {
 	provinces = { x143969 }
 	ai_will_do = { always = no }
 }
 
-BTN = {
+REPLACE:BTN = {
 	states = {
 		STATE_CELEBES
 	}
 	ai_will_do = { always = no }
 }
 
-SEL = {
+REPLACE:SEL = {
 	provinces = { x23578B x8E3305 xC84C4C }
 	ai_will_do = { always = no }
 }
 
-PRK = {
+REPLACE:PRK = {
 	provinces = { xAA2287 x78EF92 xCF3E8D xD8E596 xE87C53 }
 	ai_will_do = { always = no }
 }
 
-SUL = {
+REPLACE:SUL = {
 	provinces = { x0180F0 x99D030 }
 	ai_will_do = { always = no }
 }
 
-TID = {
+REPLACE:TID = {
 	states = {
 		STATE_MOLUCCAS
 	}
 	ai_will_do = { always = no }
 }
 
-STG = {
+REPLACE:STG = {
 	provinces = { x477680 xA6D36E xCF4105 x7FFBF0 xBC374E xA5A916 x56FE77 x445D59 x9910E9 x939612 x04BB3B }
 	ai_will_do = { always = no }
 }
 
-BNJ = {
+REPLACE:BNJ = {
 	provinces = { x9B7A4D x496AEF xDF0BCF x0ED6AA xE9E984 xDB778E xEA35E9 x71A232 x3660F5 x9C48FE x38416A x6A70EA x88A1EC xFF0B89 x10645D x0E858D x8D8D4A x8F8FDE x0596C2 x0A7250 x0A8175}
 	ai_will_do = { always = no }
 }
 
-CIR = {
+REPLACE:CIR = {
 	states = {
 		STATE_KUBAN
 	}
 	ai_will_do = { always = no }
 }
 
-CHC = {
+REPLACE:CHC = {
 	provinces = { x9A6A44 x5C32EA x676C0E x27E9C3 xDA8EF4 x019041 }
 	ai_will_do = { always = no }
 }
 
-HOB = {
+REPLACE:HOB = {
 	provinces = { xE585C3 x1D4F93 x324717 xCB3B07 x6BA02C x6D66A6 xFE3534 x60EAC8 xDDF9DB xE4636A x76595D x83A1A3 x58307A xB64D3E x049442 xF5E822 x73FE30 xA05C39 x6D0680 x469B34 xA2A857 x529552 }
 
 	ai_will_do = { always = no }
 }
 
-ASS = {
+REPLACE:ASS = {
 	states = {
 		STATE_MOSUL
 		STATE_DEIR_EZ_ZOR
 		STATE_DIYARBAKIR
 	}
 	possible = {
-		has_technology_researched = nationalism
+		# Checks if the technology is researched by the war goal holder (if any) or by the releasing country
+		OR = {
+			scope:war_goal_holder ?= {
+				has_technology_researched = nationalism
+			}
+			AND = {
+				NOT = { exists = scope:war_goal_holder }
+				has_technology_researched = nationalism
+			}
+		}
 	}
 	ai_will_do = { always = no }
 }
 
-WAL = {
+REPLACE:WAL = {
 
 	states = {
 		STATE_WALLACHIA
@@ -2360,7 +2477,7 @@ WAL = {
 	ai_will_do = { always = no }
 }
 
-KLM = {
+REPLACE:KLM = {
 	states = {
 		STATE_KALMYKIA
 	}
@@ -2368,7 +2485,7 @@ KLM = {
 	ai_will_do = { always = no }
 }
 
-CAU = {
+REPLACE:CAU = {
 	states = {
 		STATE_GREATER_CAUCASUS
 		STATE_ARMENIA
@@ -2382,11 +2499,20 @@ CAU = {
 	ai_will_do = { always = no }
 
 	possible = {
-		has_technology_researched = pan-nationalism
+		# Checks if the technology is researched by the war goal holder (if any) or by the releasing country
+		OR = {
+			scope:war_goal_holder ?= {
+				has_technology_researched = pan-nationalism
+			}
+			AND = {
+				NOT = { exists = scope:war_goal_holder }
+				has_technology_researched = pan-nationalism
+			}
+		}
 	}
 }
 
-MOR = {
+REPLACE:MOR = {
 	states = {
 		STATE_MARRAKECH
 		STATE_FEZ
@@ -2399,7 +2525,7 @@ MOR = {
 	ai_will_do = { always = no }
 }
 
-TUN = {
+REPLACE:TUN = {
 	states = {
 		STATE_TUNISIA
 	}
@@ -2407,7 +2533,7 @@ TUN = {
 	ai_will_do = { always = no }
 }
 
-TRI = {
+REPLACE:TRI = {
 	states = {
 		STATE_TRIPOLI
 		STATE_LIBYA
@@ -2417,41 +2543,41 @@ TRI = {
 	ai_will_do = { always = no }
 }
 
-ETH = {
+REPLACE:ETH = {
 	use_culture_states = yes
 
 	ai_will_do = { always = no }
 }
 
-LIB = {
+REPLACE:LIB = {
 	states = {
 		STATE_LIBERIA
 	}
 	ai_will_do = { always = no }
 }
 
-DFR = {
+REPLACE:DFR = {
 	states = {
 		STATE_DARFUR
 	}
 	ai_will_do = { always = no }
 }
 
-ASH = {
+REPLACE:ASH = {
 	states = {
 		STATE_GOLD_COAST
 	}
 	ai_will_do = { always = no }
 }
 
-DAH = {
+REPLACE:DAH = {
 	states = {
 		STATE_DAHOMEY
 	}
 	ai_will_do = { always = no }
 }
 
-WAD = {
+REPLACE:WAD = {
 	states = {
 		STATE_CHAD
 		STATE_WADDAI
@@ -2459,13 +2585,13 @@ WAD = {
 	ai_will_do = { always = no }
 }
 
-MAD = {
+REPLACE:MAD = {
 	use_culture_states = yes
 
 	ai_will_do = { always = no }
 }
 
-KAU = {
+REPLACE:KAU = {
 	states = {
 		STATE_SOUTH_AUSTRALIA
 	}
@@ -2473,14 +2599,14 @@ KAU = {
 	ai_will_do = { always = no }
 }
 
-YUZ = {
+REPLACE:YUZ = {
 	states = {
 		STATE_FORMOSA
 	}
 	ai_will_do = { always = no }
 }
 
-SAV = {
+REPLACE:SAV = {
 	states = {
 		STATE_SAVOY
 		STATE_RHONE
@@ -2489,7 +2615,7 @@ SAV = {
 	ai_will_do = { always = no }
 }
 
-RHE = {
+REPLACE:RHE = {
 	states = {
 		STATE_RHINELAND
 		STATE_NORTH_RHINE
@@ -2501,33 +2627,33 @@ RHE = {
 	ai_will_do = { always = no }
 }
 
-CON = {
+REPLACE:CON = {
 	states = {
 		STATE_CONSTANTINE
 	}
 	ai_will_do = { always = no }
 }
 
-MAS = {
+REPLACE:MAS = {
 	states = {
 		STATE_ORAN
 	}
 	ai_will_do = { always = no }
 }
 
-AIT = {
+REPLACE:AIT = {
 	provinces = { x429B12 x9AF6A4 x8E7690 x2DF9DB x3A0E38 x0090A0 xB1BCFF x0C5C65 }
 	ai_will_do = { always = no }
 }
 
-TJI = {
+REPLACE:TJI = {
 	states = {
 		STATE_TAJIKISTAN
 	}
 	ai_will_do = { always = no }
 }
 
-UZB = {
+REPLACE:UZB = {
 	states = {
 		STATE_UZBEKIA
 		STATE_FERGANA
@@ -2536,14 +2662,14 @@ UZB = {
 	ai_will_do = { always = no }
 }
 
-KYR = {
+REPLACE:KYR = {
 	states = {
 		STATE_KIRGHIZIA
 	}
 	ai_will_do = { always = no }
 }
 
-EQT = {
+REPLACE:EQT = {
 	states = {
 		STATE_PERNAMBUCO
 		STATE_PERNAMBUCO
@@ -2563,7 +2689,7 @@ EQT = {
 	ai_will_do = { always = no }
 }
 
-PAU = {
+REPLACE:PAU = {
 	use_culture_states = yes
 
 	possible = {
@@ -2575,7 +2701,7 @@ PAU = {
 	ai_will_do = { always = no }
 }
 
-CTR = {
+REPLACE:CTR = {
 	states = {
 		STATE_SANTA_CATARINA
 	}
@@ -2589,7 +2715,7 @@ CTR = {
 	ai_will_do = { always = no }
 }
 
-MNG = {
+REPLACE:MNG = {
 	states = {
 		STATE_MINAS_GERAIS
 		STATE_GOIAS
@@ -2604,7 +2730,7 @@ MNG = {
 	ai_will_do = { always = no }
 }
 
-BHI = {
+REPLACE:BHI = {
 	states = {
 		STATE_BAHIA
 	}
@@ -2618,7 +2744,7 @@ BHI = {
 	ai_will_do = { always = no }
 }
 
-CNW = {
+REPLACE:CNW = {
 	provinces = { x1E38F8 x63EF7E xC900EF xA2DD9E }
 
 	ai_will_do = { always = no }
@@ -2628,7 +2754,7 @@ CNW = {
 	}
 }
 
-NCR = {
+REPLACE:NCR = {
 	states = {
 		STATE_NORTH_CAROLINA
 	}
@@ -2640,7 +2766,7 @@ NCR = {
 	}
 }
 
-SCR = {
+REPLACE:SCR = {
 	states = {
 		STATE_SOUTH_CAROLINA
 	}
@@ -2652,7 +2778,7 @@ SCR = {
 	}
 }
 
-CLI = {
+REPLACE:CLI = {
 	states = {
 		STATE_NORTH_CAROLINA
 		STATE_SOUTH_CAROLINA
@@ -2665,7 +2791,7 @@ CLI = {
 	}
 }
 
-GRG = {
+REPLACE:GRG = {
 	states = {
 		STATE_GEORGIA
 	}
@@ -2677,7 +2803,7 @@ GRG = {
 	}
 }
 
-FLR = {
+REPLACE:FLR = {
 	states = {
 		STATE_FLORIDA
 	}
@@ -2689,7 +2815,7 @@ FLR = {
 	}
 }
 
-ARB = {
+REPLACE:ARB = {
 	states = {
 		STATE_KHUZESTAN
 	}
@@ -2697,7 +2823,7 @@ ARB = {
 	ai_will_do = { always = no }
 }
 
-LUR = {
+REPLACE:LUR = {
 	states = {
 		STATE_LURISTAN
 	}
@@ -2705,7 +2831,7 @@ LUR = {
 	ai_will_do = { always = no }
 }
 
-MAZ = {
+REPLACE:MAZ = {
 	states = {
 		STATE_MAZANDARAN
 	}
@@ -2713,7 +2839,7 @@ MAZ = {
 	ai_will_do = { always = no }
 }
 
-SAT = {
+REPLACE:SAT = {
 	provinces = { x3E5505 x33E560 xE73C3C x47EE55 x4F5C91 xCC722D xE01853 x187C37 xCF3817 xD6660F
 	#Kolhapur
 	x40CE40 x42ACA6 x1131A0 }
@@ -2721,167 +2847,176 @@ SAT = {
 	ai_will_do = { always = no }
 }
 
-KHP = {
+REPLACE:KHP = {
 	provinces = { x40CE40 x42ACA6 x1131A0 }
 
 	ai_will_do = { always = no }
 }
 
-COC = {
+REPLACE:COC = {
 	provinces = { xE4EB67 }
 
 	ai_will_do = { always = no }
 }
 
-PUD = {
+REPLACE:PUD = {
 	provinces = { xA02050 }
 
 	ai_will_do = { always = no }
 }
 
-KNO = {
+REPLACE:KNO = {
 	provinces = { x84EE56 xF91482 }
 
 	ai_will_do = { always = no }
 }
 
-JEY = {
+REPLACE:JEY = {
 	provinces = { x6B15F1 x7166FA xC744F9 x3EC5D1 xB3DED5 xD19AD8 xB00B6B }
 
 	ai_will_do = { always = no }
 }
 
-MYB = {
+REPLACE:MYB = {
 	provinces = { x0CE6EA xCCE5B7 x323B8A x11D169 x22B96B xBAE4B3 }
 
 	ai_will_do = { always = no }
 }
 
-NAR = {
+REPLACE:NAR = {
 	provinces = { xA0A8E0 xA15F01 x30C2D5 }
 
 	ai_will_do = { always = no }
 }
 
-PTN = {
+REPLACE:PTN = {
 	provinces = { xB6E5C1 x1504AD x5031A0 x1622F2 x404EEA xFBF096 x5BC5C8 xB07FDD }
 
 	ai_will_do = { always = no }
 }
 
-COO = {
+REPLACE:COO = {
 	provinces = { x13A493 }
 
 	ai_will_do = { always = no }
 }
 
-MNP = {
+REPLACE:MNP = {
 	provinces = { x8C53B3 xCB0893 xB03121 xA17DC4 xB238B2 }
 
 	ai_will_do = { always = no }
 }
 
-SUR = {
+REPLACE:SUR = {
 	provinces = { x66337F x6B7184 x7884D6 x52001D x4605A8 xD64336 x5CBFF7 }
 
 	ai_will_do = { always = no }
 }
 
-BAG = {
+REPLACE:BAG = {
 	provinces = { x355332 xFE11FD xBC06E9 x0E5FEA x114EAE x618D5B x845EA7 xD0B021 xD0F986 }
 
 	ai_will_do = { always = no }
 }
 
-BUN = {
+REPLACE:BUN = {
 	provinces = { x5272B3 xE81D4F xEB50A4 x907021 }
 
 	ai_will_do = { always = no }
 }
 
-AWA = {
+REPLACE:AWA = {
 	provinces = { xBBC0A2 x4E84EF x0CE121 x923D4D x669ECB xACD960 x9EA436 x1405D1 xD99008 x564B78 x337F6C x43F651 xE070A0 x7D9692 x41D87C }
 	ai_will_do = { always = no }
 }
 
-PTA = {
+REPLACE:PTA = {
 	provinces = { x945283 xA0F0A0 x66C9D9 x0C25D9 x394B7F }
 	ai_will_do = { always = no }
 }
 
-DHA = {
+REPLACE:DHA = {
 	provinces = { x4EB354 x7E0401 }
 	ai_will_do = { always = no }
 }
 
-BER = {
+REPLACE:BER = {
 	provinces = { x3151E0 x73656F xEB1229 xD8CEF7 xECB4F5 x90B589 x03C674 x30E365 }
 	ai_will_do = { always = no }
 }
 
-IDA = {
+REPLACE:IDA = {
 	provinces = { x3FFA53 x128888 x90052D x4133D4 xADD2A3 }
 	ai_will_do = { always = no }
 }
 
-BHV = {
+REPLACE:BHV = {
 	provinces = { x697511 xB11F7B xBBB2BD }
 	ai_will_do = { always = no }
 }
 
-JUN = {
+REPLACE:JUN = {
 	provinces = { x30D060 x075A8E xB3D1CD }
 	ai_will_do = { always = no }
 }
 
-PLP = {
+REPLACE:PLP = {
 	provinces = { xD31590 }
 	ai_will_do = { always = no }
 }
 
-NAW = {
+REPLACE:NAW = {
 	provinces = { xFC0FC1 x164DBB xD77765 xB9D851 x49DDB8 x0A4C7A }
 	ai_will_do = { always = no }
 }
 
-BHO = {
+REPLACE:BHO = {
 	provinces = { x51E979 xEFD0DF }
 	ai_will_do = { always = no }
 }
 
-BIK = {
+REPLACE:BIK = {
 	provinces = { xF3C5EA x9601FD x84F1F8 xA99FB3 xC40894 xF591B3 x53A30A x01F0E0 xEBA05F x214E7A x6A103F xEB0422 x5DACF4 }
 	ai_will_do = { always = no }
 }
 
-GWA = {
+REPLACE:GWA = {
 	provinces = { xC77D13 x6A8538 xCD2556 xDCAFE4 xFBDCC9 x346A50 x87DE7B x897F27 xE3AF55 xAA246A x983C0D x0A05FF xF6BCF1 xC4F4E4 x1E9A75 x14EB25 xFA701B xA9E591 x746A39 }
 	ai_will_do = { always = no }
 }
 
-ALW = {
+REPLACE:ALW = {
 	provinces = { x82B440 x0A43D0 x0710F5 xBA06BC }
 	ai_will_do = { always = no }
 }
 
-KOT = {
+REPLACE:KOT = {
 	provinces = { xE95A9E xE27278 xBC1373 }
 	ai_will_do = { always = no }
 }
 
-BIH = {
+REPLACE:BIH = {
 	states = {
 		STATE_BIHAR
 	}
 
 	possible = {
-		has_technology_researched = nationalism
+		# Checks if the technology is researched by the war goal holder (if any) or by the releasing country
+		OR = {
+			scope:war_goal_holder ?= {
+				has_technology_researched = nationalism
+			}
+			AND = {
+				NOT = { exists = scope:war_goal_holder }
+				has_technology_researched = nationalism
+			}
+		}
 	}
 
 	ai_will_do = { always = no }
 }
 
-ARK = {
+REPLACE:ARK = {
 	states = {
 		STATE_ARAKAN
 	}
@@ -2889,7 +3024,7 @@ ARK = {
 	ai_will_do = { always = no }
 }
 
-ZAN = {
+REPLACE:ZAN = {
 	states = {
 		STATE_ZANZIBAR
 	}
@@ -2903,37 +3038,37 @@ ZAN = {
 	ai_will_do = { always = no }
 }
 
-QWR = { # Qwara
+REPLACE:QWR = { # Qwara
 	provinces = { xC19466 xA2BCF9 x7E83AE x61A2A3 xEFA8BC }
 	ai_will_do = { always = no }
 }
 
-TGR = { # Tigray
+REPLACE:TGR = { # Tigray
 	provinces = { x793499 x81DDA7 xB1B90E x5B5305 xF090A0 x28FE62 xA3CD68 x962CFC xDF15B2 x68239C x57AA00 x5CAB2B x1539E2 x1A5869 }
 	ai_will_do = { always = no }
 }
 
-WLO = { # Wello
+REPLACE:WLO = { # Wello
 	provinces = { x4A8BE1 xDF37BE x6BA88A xC040E0 xBB012E xC00F88 x5EF353 xCA393F xAFF2F2 x3E9959 x079D31 x82A9D3 x7A0E0D x5A5824 x61A090 }
 	ai_will_do = { always = no }
 }
 
-BGM = { # Begemder
+REPLACE:BGM = { # Begemder
 	provinces = { xC19466 x0DED25 xDF2090 x536ACF xB87731 x61A2A3 xEFA8BC x7E83AE xA2BCF9  }
 	ai_will_do = { always = no }
 }
 
-GJM = { # Gojjam
+REPLACE:GJM = { # Gojjam
 	provinces = { x7152F3 x2F3AE3 x652B36 xB969A7 x6F31A5 x3BE1BE xE06640 x931306 x251691 xDA7922 x489309 xA50EE3 xD7E040 }
 	ai_will_do = { always = no }
 }
 
-MPH = { # Muang Phuan
+REPLACE:MPH = { # Muang Phuan
 	provinces = { x2DE84E x8BFF1F x0B160B x1957E0 xB0B020 }
 	ai_will_do = { always = no }
 }
 
-ALK = {
+REPLACE:ALK = {
 	states = {
 		STATE_ALASKA
 	}
@@ -2941,7 +3076,7 @@ ALK = {
 	ai_will_do = { always = no }
 }
 
-BNT = {
+REPLACE:BNT = {
 	states = {
 		STATE_DELVIDEK
 		STATE_BANAT
@@ -2950,7 +3085,7 @@ BNT = {
 	ai_will_do = { always = no }
 }
 
-ARN = {
+REPLACE:ARN = {
 	states = {
 		STATE_ARAGON
 	}
@@ -2958,7 +3093,7 @@ ARN = {
 	ai_will_do = { always = no }
 }
 
-LEO = {
+REPLACE:LEO = {
 	states = {
 		STATE_LEON
 		STATE_ASTURIAS
@@ -2968,7 +3103,7 @@ LEO = {
 	ai_will_do = { always = no }
 }
 
-ASU = {
+REPLACE:ASU = {
 	states = {
 		STATE_ASTURIAS
 	}
@@ -2976,7 +3111,7 @@ ASU = {
 	ai_will_do = { always = no }
 }
 
-TRH = { # Turkestan
+REPLACE:TRH = { # Turkestan
 	states = {
 		STATE_FERGANA
 		STATE_UZBEKIA
@@ -2995,7 +3130,7 @@ TRH = { # Turkestan
 	required_num_states = 5
 }
 
-FZN = {
+REPLACE:FZN = {
 	states = {
 		STATE_LIBYAN_DESERT
 	}
@@ -3005,7 +3140,7 @@ FZN = {
 	required_num_states = 1
 }
 
-CYR = {
+REPLACE:CYR = {
 	states = {
 		STATE_LIBYA
 	}
@@ -3015,7 +3150,7 @@ CYR = {
 	required_num_states = 1
 }
 
-LBY = {
+REPLACE:LBY = {
 	states = {
 		STATE_TRIPOLI
 		STATE_LIBYA
@@ -3023,7 +3158,16 @@ LBY = {
 	}
 
 	possible = {
-		has_technology_researched = nationalism
+		# Checks if the technology is researched by the war goal holder (if any) or by the releasing country
+		OR = {
+			scope:war_goal_holder ?= {
+				has_technology_researched = nationalism
+			}
+			AND = {
+				NOT = { exists = scope:war_goal_holder }
+				has_technology_researched = nationalism
+			}
+		}
 	}
 
 	ai_will_do = { always = no }

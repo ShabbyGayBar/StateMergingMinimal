@@ -1,6 +1,7 @@
-﻿# Important note: Only use capital letters and numbers for tags, or else you may get weird bugs in civil wars
+﻿# ---- 00_countries.txt ----
+# Important note: Only use capital letters and numbers for tags, or else you may get weird bugs in civil wars
 
-GER = {
+REPLACE:GER = {
 	color = { 147 130 110 }
 
 	country_type = recognized
@@ -11,7 +12,7 @@ GER = {
 	capital = STATE_BRANDENBURG
 }
 
-GBR = {
+REPLACE:GBR = {
 	color = hsv{ 0.99  0.7  0.9 }
 
 	country_type = recognized
@@ -22,7 +23,7 @@ GBR = {
 	capital = STATE_HOME_COUNTIES
 }
 
-SCA = {
+REPLACE:SCA = {
 	color = { 62  122  189 }
 
 	country_type = recognized
@@ -33,7 +34,7 @@ SCA = {
 	capital = STATE_SVEALAND
 }
 
-RUS = {
+REPLACE:RUS = {
 	color = { 47 91 18 }
 
 	country_type = recognized
@@ -44,7 +45,7 @@ RUS = {
 	capital = STATE_INGRIA
 }
 
-FRA = {
+REPLACE:FRA = {
 	color = { 20  50  210 }
 
 	country_type = recognized
@@ -55,7 +56,7 @@ FRA = {
 	capital = STATE_ILE_DE_FRANCE
 }
 
-PRU = {
+REPLACE:PRU = {
 	color = { 0 49 83 }
 
 	country_type = recognized
@@ -66,7 +67,7 @@ PRU = {
 	capital = STATE_BRANDENBURG
 }
 
-WES = {
+REPLACE:WES = {
 	color = { 5 85 5 }
 
 	country_type = recognized
@@ -78,7 +79,7 @@ WES = {
 	is_named_from_capital = yes
 }
 
-POM = {
+REPLACE:POM = {
 	color = { 177 51 34 }
 
 	country_type = recognized
@@ -90,7 +91,7 @@ POM = {
 	is_named_from_capital = yes
 }
 
-AUS = {
+REPLACE:AUS = {
 	color = { 211  220  240 }
 
 	country_type = recognized
@@ -105,7 +106,7 @@ AUS = {
 	tertiary_unit_color = { 20 20 20 }
 }
 
-USA = {
+REPLACE:USA = {
 	color = { 66  94  193 }
 
 	country_type = recognized
@@ -120,7 +121,7 @@ USA = {
 	tertiary_unit_color = { 5 5 90 }
 }
 
-CSA = {
+REPLACE:CSA = {
 	color = { 190  186  202 }
 
 	country_type = recognized
@@ -131,7 +132,7 @@ CSA = {
 	capital = STATE_VIRGINIA
 }
 
-FSA = {
+REPLACE:FSA = {
 	color = { 106  124  243 }
 
 	country_type = recognized
@@ -142,7 +143,7 @@ FSA = {
 	capital = STATE_NEW_YORK
 }
 
-ASA = {
+REPLACE:ASA = {
 	color = { 212 100 141 }
 
 	country_type = recognized
@@ -153,7 +154,7 @@ ASA = {
 	capital = STATE_GEORGIA
 }
 
-LOU = {
+REPLACE:LOU = {
 	color = { 53 52 144 }
 
 	country_type = recognized
@@ -164,7 +165,7 @@ LOU = {
 	capital = STATE_LOUISIANA
 }
 
-AGJ = {
+REPLACE:AGJ = {
 	color = { 111 56 200 }
 
 	country_type = recognized
@@ -175,7 +176,7 @@ AGJ = {
 	capital = STATE_PERNAMBUCO
 }
 
-AMZ = {
+REPLACE:AMZ = {
 	color = { 42 102 64 }
 
 	country_type = unrecognized
@@ -186,7 +187,7 @@ AMZ = {
 	capital = STATE_AMAZONAS
 }
 
-GRI = {
+REPLACE:GRI = {
 	color = { 203 32 83 }
 
 	country_type = unrecognized
@@ -197,7 +198,7 @@ GRI = {
 	capital = STATE_AMAZONAS
 }
 
-JAP = {
+REPLACE:JAP = {
 	color = { 194 53 60 }
 	country_type = unrecognized
 
@@ -209,7 +210,7 @@ JAP = {
 	capital = STATE_KYOTO
 }
 
-ITA = {
+REPLACE:ITA = {
 	color = { 125  171  84 }
 
 	country_type = recognized
@@ -220,7 +221,7 @@ ITA = {
 	capital = STATE_LAZIO
 }
 
-KUK = {
+REPLACE:KUK = {
 	color = { 190 90 95 }
 
 	country_type = recognized
@@ -231,7 +232,7 @@ KUK = {
 	cultures = { south_german hungarian romanian croat czech slovak slovene }
 }
 
-DEN = {
+REPLACE:DEN = {
 	color = hsv{ 1.01  0.8  0.5 }
 
 	country_type = recognized
@@ -242,7 +243,7 @@ DEN = {
 	capital = STATE_ZEALAND
 }
 
-FIN = {
+REPLACE:FIN = {
 	color = { 205  212  228 }
 
 	country_type = recognized
@@ -253,7 +254,7 @@ FIN = {
 	capital = STATE_UUSIMAA
 }
 
-NOR = {
+REPLACE:NOR = {
 	color = { 117  165  188 }
 
 	country_type = recognized
@@ -264,7 +265,7 @@ NOR = {
 	capital = STATE_EASTERN_NORWAY
 }
 
-SWE = {
+REPLACE:SWE = {
 	color = { 87  130  199 }
 
 	country_type = recognized
@@ -275,7 +276,7 @@ SWE = {
 	capital = STATE_SVEALAND
 }
 
-SCN = {
+REPLACE:SCN = {
 	color = { 251  161  22 }
 
 	country_type = recognized
@@ -287,7 +288,7 @@ SCN = {
 	is_named_from_capital = yes
 }
 
-BEL = {
+REPLACE:BEL = {
 	color = { 235 200 127 }
 
 	country_type = recognized
@@ -298,7 +299,7 @@ BEL = {
 	capital = STATE_FLANDERS
 }
 
-CAT = {
+REPLACE:CAT = {
 	color = { 213 132 76 }
 
 	country_type = recognized
@@ -310,7 +311,7 @@ CAT = {
 	is_named_from_capital = yes
 }
 
-FLA = {
+REPLACE:FLA = {
 	color = { 43  141  172 }
 
 	country_type = recognized
@@ -322,7 +323,7 @@ FLA = {
 	is_named_from_capital = yes
 }
 
-IRE = {
+REPLACE:IRE = {
 	color = { 112  150  105 }
 
 	country_type = recognized
@@ -333,7 +334,7 @@ IRE = {
 	capital = STATE_LEINSTER
 }
 
-NET = {
+REPLACE:NET = {
 	color = hsv360{ 20  80  80 }
 
 	country_type = recognized
@@ -344,7 +345,7 @@ NET = {
 	capital = STATE_HOLLAND
 }
 
-POR = {
+REPLACE:POR = {
 	color = { 28 82 148 }
 
 	country_type = recognized
@@ -355,7 +356,7 @@ POR = {
 	capital = STATE_ESTREMADURA
 }
 
-SCO = {
+REPLACE:SCO = {
 	color = { 199  175  12 }
 
 	country_type = recognized
@@ -366,7 +367,7 @@ SCO = {
 	capital = STATE_LOWLANDS
 }
 
-ALA = {
+REPLACE:ALA = {
 	color = { 0 140 230 }
 
 	country_type = recognized
@@ -377,7 +378,7 @@ ALA = {
 	capital = STATE_HIGHLANDS
 }
 
-ENG = {
+REPLACE:ENG = {
 	color = { 180 99 58 }
 
 	country_type = recognized
@@ -388,7 +389,7 @@ ENG = {
 	capital = STATE_HOME_COUNTIES
 }
 
-ULS = {
+REPLACE:ULS = {
 	color = hsv360{ 16  80  80 }
 
 	country_type = recognized
@@ -401,7 +402,7 @@ ULS = {
 	is_named_from_capital = yes
 }
 
-WLS = {
+REPLACE:WLS = {
 	color = { 121  126  148 }
 
 	country_type = recognized
@@ -413,7 +414,7 @@ WLS = {
 	is_named_from_capital = yes
 }
 
-NAV = {
+REPLACE:NAV = {
 	color = { 252 233 58 }
 
 	country_type = recognized
@@ -425,7 +426,7 @@ NAV = {
 	is_named_from_capital = yes
 }
 
-SPA = {
+REPLACE:SPA = {
 	color = hsv360{ 38  97  83 }
 
 	primary_unit_color = "blue"
@@ -440,7 +441,7 @@ SPA = {
 	capital = STATE_NEW_CASTILE
 }
 
-WLL = {
+REPLACE:WLL = {
 	color = { 131  141  142 }
 
 	country_type = recognized
@@ -452,7 +453,7 @@ WLL = {
 	is_named_from_capital = yes
 }
 
-ANH = {
+REPLACE:ANH = {
 	color = { 203  93  124 }
 
 	country_type = recognized
@@ -464,7 +465,7 @@ ANH = {
 	is_named_from_capital = yes
 }
 
-BAD = {
+REPLACE:BAD = {
 	color = { 118  229  215 }
 
 	country_type = recognized
@@ -476,7 +477,7 @@ BAD = {
 	is_named_from_capital = yes
 }
 
-BAV = {
+REPLACE:BAV = {
 	color = { 121  175  235 }
 
 	country_type = recognized
@@ -488,7 +489,7 @@ BAV = {
 	is_named_from_capital = yes
 }
 
-BRA = {
+REPLACE:BRA = {
 	color = { 116  92  39 }
 
 	country_type = recognized
@@ -500,7 +501,7 @@ BRA = {
 	is_named_from_capital = yes
 }
 
-BRE = {
+REPLACE:BRE = {
 	color = { 33  101  137 }
 
 	country_type = recognized
@@ -511,7 +512,7 @@ BRE = {
 	capital = STATE_ELBE
 }
 
-DZG = {
+REPLACE:DZG = {
 	color = { 78  129  151 }
 
 	country_type = recognized
@@ -522,7 +523,7 @@ DZG = {
 	capital = STATE_WEST_PRUSSIA
 }
 
-FRM = {
+REPLACE:FRM = {
 	color = { 243  201  33 }
 
 	country_type = recognized
@@ -533,7 +534,7 @@ FRM = {
 	capital = STATE_HESSE
 }
 
-HAM = {
+REPLACE:HAM = {
 	color = { 104  148  71 }
 
 	country_type = recognized
@@ -544,7 +545,7 @@ HAM = {
 	capital = STATE_ELBE
 }
 
-HAN = {
+REPLACE:HAN = {
 	color = { 164  217  127 }
 
 	country_type = recognized
@@ -556,7 +557,7 @@ HAN = {
 	is_named_from_capital = yes
 }
 
-HES = {
+REPLACE:HES = {
 	color = { 146  108  146 }
 
 	country_type = recognized
@@ -568,7 +569,7 @@ HES = {
 	is_named_from_capital = yes
 }
 
-HOL = {
+REPLACE:HOL = {
 	color = { 220  150  158 }
 
 	country_type = recognized
@@ -580,7 +581,7 @@ HOL = {
 	is_named_from_capital = yes
 }
 
-LUB = {
+REPLACE:LUB = {
 	color = { 48  164  51 }
 
 	country_type = recognized
@@ -591,7 +592,7 @@ LUB = {
 	capital = STATE_SCHLESWIG_HOLSTEIN
 }
 
-LUX = {
+REPLACE:LUX = {
 	color = { 53  140  73 }
 
 	country_type = recognized
@@ -602,7 +603,7 @@ LUX = {
 	capital = STATE_WALLONIA
 }
 
-MEC = {
+REPLACE:MEC = {
 	color = { 207  111  64 }
 
 	country_type = recognized
@@ -614,7 +615,7 @@ MEC = {
 	is_named_from_capital = yes
 }
 
-NAS = {
+REPLACE:NAS = {
 	color = { 107  94  169 }
 
 	country_type = recognized
@@ -625,7 +626,7 @@ NAS = {
 	capital = STATE_HESSE
 }
 
-OLD = {
+REPLACE:OLD = {
 	color = { 147  130  118 }
 
 	country_type = recognized
@@ -636,7 +637,7 @@ OLD = {
 	capital = STATE_HANNOVER
 }
 
-SAX = {
+REPLACE:SAX = {
 	color = { 155  147  180 }
 
 	country_type = recognized
@@ -648,7 +649,7 @@ SAX = {
 	is_named_from_capital = yes
 }
 
-WUR = {
+REPLACE:WUR = {
 	color = { 111  162  128 }
 
 	country_type = recognized
@@ -661,7 +662,7 @@ WUR = {
 	is_named_from_capital = yes
 }
 
-LOM = {
+REPLACE:LOM = {
 	color = { 146  108  146 }
 
 	country_type = recognized
@@ -673,7 +674,7 @@ LOM = {
 	is_named_from_capital = yes
 }
 
-LUC = {
+REPLACE:LUC = {
 	color = { 114  171  184 }
 
 	country_type = recognized
@@ -684,7 +685,7 @@ LUC = {
 	capital = STATE_EMILIA
 }
 
-MOD = {
+REPLACE:MOD = {
 	color = { 241  252  151 }
 
 	country_type = recognized
@@ -695,7 +696,7 @@ MOD = {
 	capital = STATE_EMILIA
 }
 
-PAP = {
+REPLACE:PAP = {
 	color = { 211  220  178 }
 
 	country_type = recognized
@@ -706,7 +707,7 @@ PAP = {
 	capital = STATE_LAZIO
 }
 
-PAR = {
+REPLACE:PAR = {
 	color = { 128  202  129 }
 
 	country_type = recognized
@@ -717,7 +718,7 @@ PAR = {
 	capital = STATE_EMILIA
 }
 
-PRA = { #Gao-Para
+REPLACE:PRA = { #Gao-Para
 	color = { 128  202  129 }
 
 	country_type = recognized
@@ -729,7 +730,7 @@ PRA = { #Gao-Para
 	capital = STATE_PARA
 }
 
-SAR = {
+REPLACE:SAR = {
 	color = { 117  146  167 }
 
 	country_type = recognized
@@ -741,7 +742,7 @@ SAR = {
 	is_named_from_capital = yes
 }
 
-SIC = {
+REPLACE:SIC = {
 	color = { 73  152  76 }
 
 	country_type = recognized
@@ -752,7 +753,7 @@ SIC = {
 	capital = STATE_CAMPANIA
 }
 
-TRE = {
+REPLACE:TRE = {
 	color = { 208  104  44 }
 
 	country_type = recognized
@@ -763,7 +764,7 @@ TRE = {
 	capital = STATE_ISTRIA
 }
 
-TUS = {
+REPLACE:TUS = {
 	color = { 84  96  136 }
 
 	country_type = recognized
@@ -775,7 +776,7 @@ TUS = {
 	is_named_from_capital = yes
 }
 
-VEN = {
+REPLACE:VEN = {
 	color = { 180 12 1 }
 
 	country_type = recognized
@@ -787,7 +788,7 @@ VEN = {
 	is_named_from_capital = yes
 }
 
-BOH = {
+REPLACE:BOH = {
 	color = { 161 139 40 }
 
 	country_type = recognized
@@ -799,7 +800,7 @@ BOH = {
 	is_named_from_capital = yes
 }
 
-KRA = {
+REPLACE:KRA = {
 	color = { 138  193  231 }
 
 	country_type = recognized
@@ -810,7 +811,7 @@ KRA = {
 	cultures = { polish }
 }
 
-CRI = {
+REPLACE:CRI = {
 	color = { 200  202  85 }
 
 	country_type = unrecognized
@@ -822,7 +823,7 @@ CRI = {
 	is_named_from_capital = yes
 }
 
-EST = {
+REPLACE:EST = {
 	color = { 99  137  153  }
 
 	country_type = recognized
@@ -833,7 +834,7 @@ EST = {
 	capital = STATE_TALINN
 }
 
-HUN = {
+REPLACE:HUN = {
 	color = { 152  85  92 }
 
 	country_type = recognized
@@ -848,7 +849,7 @@ HUN = {
 	tertiary_unit_color = { 20 20 20 }
 }
 
-LIT = {
+REPLACE:LIT = {
 	color = { 154  69  116 }
 
 	country_type = recognized
@@ -859,7 +860,7 @@ LIT = {
 	capital = STATE_KAUNAS
 }
 
-LAT = {
+REPLACE:LAT = {
 	color = { 109  29  80 }
 
 	country_type = recognized
@@ -870,7 +871,7 @@ LAT = {
 	capital = STATE_RIGA
 }
 
-POL = {
+REPLACE:POL = {
 	color = { 197  92  106 }
 
 	country_type = recognized
@@ -881,7 +882,7 @@ POL = {
 	capital = STATE_GREATER_POLAND
 }
 
-GAL = {
+REPLACE:GAL = {
 	color = { 13  81  130 }
 
 	country_type = recognized
@@ -892,7 +893,7 @@ GAL = {
 	capital = STATE_EAST_GALICIA
 }
 
-SLV = {
+REPLACE:SLV = {
 	color = { 158  161  188 }
 
 	country_type = recognized
@@ -903,7 +904,7 @@ SLV = {
 	capital = STATE_SLOVAKIA
 }
 
-SWI = {
+REPLACE:SWI = {
 	color = { 165 45 38 }
 
 	country_type = recognized
@@ -915,7 +916,7 @@ SWI = {
 	religion = protestant
 }
 
-TRS = {
+REPLACE:TRS = {
 	color = { 211  207  173 }
 
 	country_type = recognized
@@ -926,7 +927,7 @@ TRS = {
 	capital = STATE_SOUTHERN_TRANSYLVANIA
 }
 
-UKR = {
+REPLACE:UKR = {
 	color = { 62 90 240 }
 
 	country_type = recognized
@@ -937,7 +938,7 @@ UKR = {
 	capital = STATE_KIEV
 }
 
-CZH = {
+REPLACE:CZH = {
 	color = { 43 89 202 }
 
 	country_type = recognized
@@ -948,7 +949,7 @@ CZH = {
 	capital = STATE_BOHEMIA
 }
 
-ALB = {
+REPLACE:ALB = {
 	color = { 181  72  106 }
 
 	country_type = recognized
@@ -960,7 +961,7 @@ ALB = {
 	is_named_from_capital = yes
 }
 
-BOS = {
+REPLACE:BOS = {
 	color = { 240  167  130 }
 
 	country_type = recognized
@@ -972,7 +973,7 @@ BOS = {
 	is_named_from_capital = yes
 }
 
-BUL = {
+REPLACE:BUL = {
 	color = { 116  107  140 }
 
 	country_type = recognized
@@ -983,7 +984,7 @@ BUL = {
 	capital = STATE_BULGARIA
 }
 
-CRE = {
+REPLACE:CRE = {
 	color = { 165  111  159 }
 
 	country_type = recognized
@@ -995,7 +996,7 @@ CRE = {
 	is_named_from_capital = yes
 }
 
-CRO = {
+REPLACE:CRO = {
 	color = { 255  126  242 }
 
 	country_type = recognized
@@ -1007,7 +1008,7 @@ CRO = {
 	is_named_from_capital = yes
 }
 
-CYP = {
+REPLACE:CYP = {
 	color = { 78  75  39 }
 
 	country_type = recognized
@@ -1019,7 +1020,7 @@ CYP = {
 	is_named_from_capital = yes
 }
 
-GRE = {
+REPLACE:GRE = {
 	color = { 122  180  210 }
 
 	country_type = recognized
@@ -1030,7 +1031,7 @@ GRE = {
 	capital = STATE_ATTICA
 }
 
-ION = {
+REPLACE:ION = {
 	color = { 153  141  117 }
 
 	country_type = recognized
@@ -1042,7 +1043,7 @@ ION = {
 	is_named_from_capital = yes
 }
 
-MOL = {
+REPLACE:MOL = {
 	color = { 136  157  23 }
 
 	country_type = recognized
@@ -1054,7 +1055,7 @@ MOL = {
 	is_named_from_capital = yes
 }
 
-MON = {
+REPLACE:MON = {
 	color = { 39  108  140 }
 
 	country_type = recognized
@@ -1066,7 +1067,7 @@ MON = {
 	is_named_from_capital = yes
 }
 
-ROM = {
+REPLACE:ROM = {
 	color = { 21  96  178 }
 
 	valid_as_home_country_for_separatists = { always = no }
@@ -1079,7 +1080,7 @@ ROM = {
 	cultures = { romanian }
 }
 
-SER = {
+REPLACE:SER = {
 	color = { 166  72  57 }
 
 	country_type = recognized
@@ -1090,7 +1091,7 @@ SER = {
 	capital = STATE_WESTERN_SERBIA
 }
 
-SLO = {
+REPLACE:SLO = {
 	color = { 65  91  126 }
 
 	country_type = recognized
@@ -1102,7 +1103,7 @@ SLO = {
 	is_named_from_capital = yes
 }
 
-TUR = {
+REPLACE:TUR = {
 	color = { 170  206  162 }
 
 	country_type = recognized
@@ -1113,7 +1114,7 @@ TUR = {
 	capital = STATE_EASTERN_THRACE
 }
 
-WAL = {
+REPLACE:WAL = {
 	color = { 161  126  128 }
 
 	country_type = recognized
@@ -1125,7 +1126,7 @@ WAL = {
 	is_named_from_capital = yes
 }
 
-YUG = {
+REPLACE:YUG = {
 	color = { 50 60 100 }
 
 	country_type = recognized
@@ -1136,7 +1137,7 @@ YUG = {
 	cultures = { serb croat slovene bosniak bulgarian }
 }
 
-ABU = {
+REPLACE:ABU = {
 	color = { 113  112  96 }
 
 	country_type = unrecognized
@@ -1148,7 +1149,7 @@ ABU = {
 	is_named_from_capital = yes
 }
 
-AFG = {
+REPLACE:AFG = {
 	color = { 92  148  152 }
 
 	country_type = unrecognized
@@ -1159,7 +1160,7 @@ AFG = {
 	capital = STATE_KABUL
 }
 
-ARM = {
+REPLACE:ARM = {
 	color = { 128 63 128 }
 
 	country_type = recognized
@@ -1171,7 +1172,7 @@ ARM = {
 	is_named_from_capital = yes
 }
 
-DAG = {
+REPLACE:DAG = {
 	color = { 56 172 32 }
 
 	country_type = recognized
@@ -1183,7 +1184,7 @@ DAG = {
 	is_named_from_capital = yes
 }
 
-AZB = {
+REPLACE:AZB = {
 	color = { 172 56 32 }
 
 	country_type = recognized
@@ -1195,7 +1196,7 @@ AZB = {
 	is_named_from_capital = yes
 }
 
-BUK = {
+REPLACE:BUK = {
 	color = { 147  82  173 }
 
 	country_type = unrecognized
@@ -1206,7 +1207,7 @@ BUK = {
 	capital = STATE_UZBEKIA
 }
 
-GEO = {
+REPLACE:GEO = {
 	color = { 210  45  45 }
 
 	country_type = recognized
@@ -1218,7 +1219,7 @@ GEO = {
 	is_named_from_capital = yes
 }
 
-HDJ = {
+REPLACE:HDJ = {
 	color = { 121  229  215 }
 
 	country_type = unrecognized
@@ -1230,7 +1231,7 @@ HDJ = {
 	capital = STATE_HEDJAZ
 }
 
-IRQ = {
+REPLACE:IRQ = {
 	color = { 122 132 110 }
 
 	country_type = unrecognized
@@ -1241,7 +1242,7 @@ IRQ = {
 	capital = STATE_BAGHDAD
 }
 
-KHI = {
+REPLACE:KHI = {
 	color = { 188  123  103 }
 
 	country_type = unrecognized
@@ -1252,7 +1253,7 @@ KHI = {
 	capital = STATE_KHIVA
 }
 
-KOK = {
+REPLACE:KOK = {
 	color = { 119  130  145 }
 
 	country_type = unrecognized
@@ -1263,7 +1264,7 @@ KOK = {
 	capital = STATE_FERGANA
 }
 
-KAZ = {
+REPLACE:KAZ = {
 	color = { 110 150 190 }
 
 	country_type = unrecognized
@@ -1274,7 +1275,7 @@ KAZ = {
 	capital = STATE_SEMIRECHE
 }
 
-MUG = {
+REPLACE:MUG = {
 	color = { 33 96 48 }
 
 	country_type = unrecognized
@@ -1287,7 +1288,7 @@ MUG = {
 	capital = STATE_DELHI
 }
 
-NEJ = {
+REPLACE:NEJ = {
 	color = { 209 219 116}
 
 	country_type = unrecognized
@@ -1299,7 +1300,7 @@ NEJ = {
 	is_named_from_capital = yes
 }
 
-OMA = {
+REPLACE:OMA = {
 	color = { 98  134  153 }
 
 	country_type = unrecognized
@@ -1312,7 +1313,7 @@ OMA = {
 	is_named_from_capital = yes
 }
 
-PER = {
+REPLACE:PER = {
 	color = { 60 150 230 }
 
 	country_type = unrecognized
@@ -1323,7 +1324,7 @@ PER = {
 	capital = STATE_IRAKAJEMI
 }
 
-JAB = {
+REPLACE:JAB = {
 	color = { 183  62  62 }
 
 	country_type = unrecognized
@@ -1334,7 +1335,7 @@ JAB = {
 	capital = STATE_NEJD
 }
 
-YEM = {
+REPLACE:YEM = {
 	color = { 255  191  191 }
 
 	country_type = unrecognized
@@ -1346,7 +1347,7 @@ YEM = {
 	is_named_from_capital = yes
 }
 
-MAH = {
+REPLACE:MAH = {
 	color = { 0  153  76 }
 
 	country_type = unrecognized
@@ -1357,7 +1358,7 @@ MAH = {
 	capital = STATE_YEMEN
 }
 
-KAT = {
+REPLACE:KAT = {
 	color = { 79  152  64 }
 
 	country_type = unrecognized
@@ -1368,7 +1369,7 @@ KAT = {
 	capital = STATE_YEMEN
 }
 
-ZAI = {
+REPLACE:ZAI = {
 	color = { 153  76  0 }
 
 	country_type = unrecognized
@@ -1380,7 +1381,7 @@ ZAI = {
 	capital = STATE_YEMEN
 }
 
-LAH = {
+REPLACE:LAH = {
 	color = { 209  41  41 }
 
 	country_type = unrecognized
@@ -1392,7 +1393,7 @@ LAH = {
 	capital = STATE_YEMEN
 }
 
-BHN = {
+REPLACE:BHN = {
 	color = { 169  51  51 }
 
 	country_type = unrecognized
@@ -1403,7 +1404,7 @@ BHN = {
 	capital = STATE_ABU_DHABI
 }
 
-HND = {
+REPLACE:HND = {
 	color = { 150 77 240 }
 
 	country_type = unrecognized
@@ -1414,7 +1415,7 @@ HND = {
 	capital = STATE_DELHI
 }
 
-AWA = {
+REPLACE:AWA = {
 	color = { 122 179 97 }
 
 	country_type = unrecognized
@@ -1428,7 +1429,7 @@ AWA = {
 	capital = STATE_AWADH
 }
 
-BAS = {
+REPLACE:BAS = {
 	color = { 21 50 212 }
 
 	country_type = unrecognized
@@ -1440,7 +1441,7 @@ BAS = {
 	capital = STATE_CENTRAL_PROVINCES
 }
 
-BER = {
+REPLACE:BER = {
 	color = { 245 139 127 }
 
 	country_type = unrecognized
@@ -1452,7 +1453,7 @@ BER = {
 	capital = STATE_GUJARAT
 }
 
-BHO = {
+REPLACE:BHO = {
 	color = { 154  129  35 }
 
 	country_type = unrecognized
@@ -1464,7 +1465,7 @@ BHO = {
 	capital = STATE_MALWA
 }
 
-BIK = {
+REPLACE:BIK = {
 	color = { 255  208  170 }
 
 	country_type = unrecognized
@@ -1475,7 +1476,7 @@ BIK = {
 	capital = STATE_RAJPUTANA
 }
 
-BUN = {
+REPLACE:BUN = {
 	color = { 23 114 143 }
 
 	country_type = unrecognized
@@ -1487,7 +1488,7 @@ BUN = {
 	capital = STATE_BUNDELKHAND
 }
 
-GWA = {
+REPLACE:GWA = {
 	color = { 153 237 145 }
 
 	country_type = unrecognized
@@ -1499,7 +1500,7 @@ GWA = {
 	capital = STATE_MALWA
 }
 
-HYD = {
+REPLACE:HYD = {
 	color = { 89  141  140 }
 
 	country_type = unrecognized
@@ -1512,7 +1513,7 @@ HYD = {
 	is_named_from_capital = yes
 }
 
-BGL = {
+REPLACE:BGL = {
 	color = { 36  109  194 }
 
 	country_type = unrecognized
@@ -1523,7 +1524,7 @@ BGL = {
 	capital = STATE_EAST_BENGAL
 }
 
-IND = {
+REPLACE:IND = {
 	color = { 128  170  63 }
 
 	country_type = unrecognized
@@ -1535,7 +1536,7 @@ IND = {
 	capital = STATE_MALWA
 }
 
-JAI = {
+REPLACE:JAI = {
 	color = { 79  89  182 }
 
 	country_type = unrecognized
@@ -1547,7 +1548,7 @@ JAI = {
 	capital = STATE_RAJPUTANA
 }
 
-JAS = {
+REPLACE:JAS = {
 	color = { 99  137  153 }
 
 	country_type = unrecognized
@@ -1559,7 +1560,7 @@ JAS = {
 	capital = STATE_RAJPUTANA
 }
 
-JOD = {
+REPLACE:JOD = {
 	color = { 104  207  140 }
 
 	country_type = unrecognized
@@ -1571,7 +1572,7 @@ JOD = {
 	capital = STATE_RAJPUTANA
 }
 
-KAL = {
+REPLACE:KAL = {
 	color = { 97  98  195 }
 
 	country_type = unrecognized
@@ -1582,7 +1583,7 @@ KAL = {
 	capital = STATE_BALUCHISTAN
 }
 
-KAS = {
+REPLACE:KAS = {
 	color = { 63  150  30 }
 
 	country_type = unrecognized
@@ -1593,7 +1594,7 @@ KAS = {
 	capital = STATE_KASHMIR
 }
 
-KUT = {
+REPLACE:KUT = {
 	color = { 163 66 74 }
 
 	country_type = unrecognized
@@ -1605,7 +1606,7 @@ KUT = {
 	capital = STATE_GUJARAT
 }
 
-LAD = {
+REPLACE:LAD = {
 	color = { 49  175  191 }
 
 	country_type = unrecognized
@@ -1616,7 +1617,7 @@ LAD = {
 	capital = STATE_KASHMIR
 }
 
-MAK = {
+REPLACE:MAK = {
 	color = { 219  146  162 }
 
 	country_type = unrecognized
@@ -1627,7 +1628,7 @@ MAK = {
 	capital = STATE_BALUCHISTAN
 }
 
-MEW = {
+REPLACE:MEW = {
 	color = { 139 131 22 }
 
 	country_type = unrecognized
@@ -1639,7 +1640,7 @@ MEW = {
 	capital = STATE_RAJPUTANA
 }
 
-MYS = {
+REPLACE:MYS = {
 	color = { 236 242 243 }
 
 	country_type = unrecognized
@@ -1652,7 +1653,7 @@ MYS = {
 	is_named_from_capital = yes
 }
 
-NAG = {
+REPLACE:NAG = {
 	color = { 120  148  140 }
 
 	country_type = unrecognized
@@ -1665,7 +1666,7 @@ NAG = {
 	is_named_from_capital = yes
 }
 
-NEP = {
+REPLACE:NEP = {
 	color = { 137  183  124 }
 
 	country_type = unrecognized
@@ -1676,7 +1677,7 @@ NEP = {
 	capital = STATE_HIMALAYAS
 }
 
-ORI = {
+REPLACE:ORI = {
 	color = { 210  106  47 }
 
 	country_type = unrecognized
@@ -1688,7 +1689,7 @@ ORI = {
 	is_named_from_capital = yes
 }
 
-PAN = {
+REPLACE:PAN = {
 	color = { 255 119 34 }
 
 	country_type = unrecognized
@@ -1700,7 +1701,7 @@ PAN = {
 	is_named_from_capital = yes
 }
 
-SIK = {
+REPLACE:SIK = {
 	color = { 139  138  160 }
 
 	country_type = unrecognized
@@ -1711,7 +1712,7 @@ SIK = {
 	capital = STATE_EASTERN_HIMALAYAS
 }
 
-SIN = {
+REPLACE:SIN = {
 	color = { 135  104  85 }
 
 	country_type = unrecognized
@@ -1723,7 +1724,7 @@ SIN = {
 	is_named_from_capital = yes
 }
 
-TRA = {
+REPLACE:TRA = {
 	color = { 134  166  117 }
 
 	country_type = unrecognized
@@ -1736,7 +1737,7 @@ TRA = {
 	is_named_from_capital = yes
 }
 
-ACE = {
+REPLACE:ACE = {
 	color = { 73  152  76 }
 
 	country_type = unrecognized
@@ -1748,7 +1749,7 @@ ACE = {
 	is_named_from_capital = yes
 }
 
-BAL = {
+REPLACE:BAL = {
 	color = { 201  97  74 }
 
 	country_type = unrecognized
@@ -1759,7 +1760,7 @@ BAL = {
 	capital = STATE_SUNDA_ISLANDS
 }
 
-BHU = {
+REPLACE:BHU = {
 	color = { 93  180  76 }
 
 	country_type = unrecognized
@@ -1770,7 +1771,7 @@ BHU = {
 	capital = STATE_EASTERN_HIMALAYAS
 }
 
-LAN = {
+REPLACE:LAN = {
 	color = { 141  89  174 }
 
 	country_type = unrecognized
@@ -1781,7 +1782,7 @@ LAN = {
 	capital = STATE_WEST_BORNEO
 }
 
-BRU = {
+REPLACE:BRU = {
 	color = { 41  89  174 }
 
 	country_type = unrecognized
@@ -1792,7 +1793,7 @@ BRU = {
 	capital = STATE_NORTH_BORNEO
 }
 
-BUR = {
+REPLACE:BUR = {
 	color = { 109  168  127 }
 
 	country_type = unrecognized
@@ -1803,7 +1804,7 @@ BUR = {
 	capital = STATE_MANDALAY
 }
 
-CAM = {
+REPLACE:CAM = {
 	color = { 127  180  60 }
 
 	country_type = unrecognized
@@ -1814,7 +1815,7 @@ CAM = {
 	capital = STATE_CAMBODIA
 }
 
-CHI = {
+REPLACE:CHI = {
 	color = { 252 185 61 }
 
 	country_type = unrecognized
@@ -1825,7 +1826,7 @@ CHI = {
 	capital = STATE_BEIJING
 }
 
-DAI = {
+REPLACE:DAI = {
 	color = { 136  117  90 }
 
 	country_type = unrecognized
@@ -1838,7 +1839,7 @@ DAI = {
 	capital = STATE_ANNAM
 }
 
-JAV = {
+REPLACE:JAV = {
 	color = { 164  217  127 }
 
 	country_type = unrecognized
@@ -1850,7 +1851,7 @@ JAV = {
 	is_named_from_capital = yes
 }
 
-KOR = {
+REPLACE:KOR = {
 	color = { 157  144  97 }
 
 	country_type = unrecognized
@@ -1861,7 +1862,7 @@ KOR = {
 	capital = STATE_SEOUL
 }
 
-LAO = {
+REPLACE:LAO = {
 	color = { 188 15 45 }
 
 	country_type = unrecognized
@@ -1873,7 +1874,7 @@ LAO = {
 	is_named_from_capital = yes
 }
 
-LUA = {
+REPLACE:LUA = {
 	color = { 93  147  88 }
 
 	country_type = unrecognized
@@ -1885,7 +1886,7 @@ LUA = {
 
 }
 
-CHP = {
+REPLACE:CHP = {
 	color = { 75 112 99 }
 
 	country_type = unrecognized
@@ -1896,7 +1897,7 @@ CHP = {
 	capital = STATE_LAOS
 }
 
-VIE = {
+REPLACE:VIE = {
 	color = { 151 174 28 }
 
 	country_type = unrecognized
@@ -1907,7 +1908,7 @@ VIE = {
 	capital = STATE_LAOS
 }
 
-JOH = {
+REPLACE:JOH = {
 	color = { 165  151  80 }
 
 	country_type = unrecognized
@@ -1918,7 +1919,7 @@ JOH = {
 	cultures = { malay }
 }
 
-SIA = {
+REPLACE:SIA = {
 	color = { 88  137  172 }
 
 	country_type = unrecognized
@@ -1929,7 +1930,7 @@ SIA = {
 	capital = STATE_BANGKOK
 }
 
-CMI = {
+REPLACE:CMI = {
 	color = { 17  16  203 }
 
 	country_type = unrecognized
@@ -1940,7 +1941,7 @@ CMI = {
 	capital = STATE_CHIANG_MAI
 }
 
-TIB = {
+REPLACE:TIB = {
 	color = { 65  127  186 }
 
 	country_type = unrecognized
@@ -1951,7 +1952,7 @@ TIB = {
 	capital = STATE_LHASA
 }
 
-MGL = {
+REPLACE:MGL = {
 	color = { 255  224  124 }
 
 	country_type = unrecognized
@@ -1962,7 +1963,7 @@ MGL = {
 	capital = STATE_URGA
 }
 
-XIN = {
+REPLACE:XIN = {
 	color = { 255  234  174 }
 
 	country_type = unrecognized
@@ -1973,7 +1974,7 @@ XIN = {
 	capital = STATE_TIANSHAN
 }
 
-PHI = {
+REPLACE:PHI = {
 	color = { 92 87 122 }
 
 	country_type = colonial
@@ -1985,7 +1986,7 @@ PHI = {
 	capital = STATE_LUZON
 }
 
-MCH = {
+REPLACE:MCH = {
 	color = { 255  254  124 }
 
 	country_type = unrecognized
@@ -1997,7 +1998,7 @@ MCH = {
 	is_named_from_capital = yes
 }
 
-CAL = {
+REPLACE:CAL = {
 	color = { 144  181  106 }
 
 	country_type = recognized
@@ -2008,7 +2009,7 @@ CAL = {
 	capital = STATE_CALIFORNIA
 }
 
-CAN = {
+REPLACE:CAN = {
 	color = { 113 53 63 }
 
 	country_type = colonial
@@ -2019,7 +2020,7 @@ CAN = {
 	capital = STATE_ONTARIO
 }
 
-CHE = {
+REPLACE:CHE = {
 	color = { 105  145  40 }
 
 	country_type = unrecognized
@@ -2030,7 +2031,7 @@ CHE = {
 	capital = STATE_ARKANSAS
 }
 
-COL = {
+REPLACE:COL = {
 	color = { 198  113  133 }
 
 	country_type = colonial
@@ -2041,7 +2042,7 @@ COL = {
 	cultures = { british }
 }
 
-COS = {
+REPLACE:COS = {
 	color = { 207 72 60 }
 
 	country_type = recognized
@@ -2053,7 +2054,7 @@ COS = {
 	is_named_from_capital = yes
 }
 
-CUB = {
+REPLACE:CUB = {
 	color = { 87  192  204 }
 
 	country_type = colonial
@@ -2065,7 +2066,7 @@ CUB = {
 	is_named_from_capital = yes
 }
 
-DES = {
+REPLACE:DES = {
 	color = { 125  92  110 }
 
 	country_type = recognized
@@ -2076,7 +2077,7 @@ DES = {
 	capital = STATE_UTAH
 }
 
-DOM = {
+REPLACE:DOM = {
 	color = { 93  194  122 }
 
 	country_type = recognized
@@ -2088,7 +2089,7 @@ DOM = {
 	is_named_from_capital = yes
 }
 
-ELS = {
+REPLACE:ELS = {
 	color = { 0 47 94 }
 
 	country_type = recognized
@@ -2100,7 +2101,7 @@ ELS = {
 	is_named_from_capital = yes
 }
 
-GUA = {
+REPLACE:GUA = {
 	color = { 115 194 251 }
 
 	country_type = recognized
@@ -2112,7 +2113,7 @@ GUA = {
 	is_named_from_capital = yes
 }
 
-ALT = {
+REPLACE:ALT = {
 	color = { 115 251 194 }
 
 	country_type = recognized
@@ -2123,7 +2124,7 @@ ALT = {
 	capital = STATE_GUATEMALA
 }
 
-HAI = {
+REPLACE:HAI = {
 	color = { 139  179  207 }
 
 	country_type = recognized
@@ -2134,7 +2135,7 @@ HAI = {
 	capital = STATE_HAITI
 }
 
-ATL = {
+REPLACE:ATL = {
 	color = { 115  236  250 }
 
 	country_type = recognized
@@ -2145,7 +2146,7 @@ ATL = {
 	capital = STATE_SANTO_DOMINGO
 }
 
-MEX = {
+REPLACE:MEX = {
 	color = { 56 143 53 }
 
 	country_type = recognized
@@ -2159,7 +2160,7 @@ MEX = {
 	is_named_from_capital = yes
 }
 
-MTC = {
+REPLACE:MTC = {
 	color = { 221  186  163 }
 
 	country_type = unrecognized
@@ -2170,7 +2171,7 @@ MTC = {
 	capital = STATE_MANITOBA
 }
 
-HON = {
+REPLACE:HON = {
 	color = { 235 240 247 }
 
 	country_type = recognized
@@ -2182,7 +2183,7 @@ HON = {
 	is_named_from_capital = yes
 }
 
-NEN = {
+REPLACE:NEN = {
 	color = { 166  224  85 }
 
 	country_type = recognized
@@ -2193,7 +2194,7 @@ NEN = {
 	capital = STATE_MASSACHUSETTS
 }
 
-NEW = {
+REPLACE:NEW = {
 	color = { 255  211  56 }
 
 	country_type = colonial
@@ -2205,7 +2206,7 @@ NEW = {
 	is_named_from_capital = yes
 }
 
-NIC = {
+REPLACE:NIC = {
 	color = { 34 88 186 }
 
 	country_type = recognized
@@ -2217,7 +2218,7 @@ NIC = {
 	is_named_from_capital = yes
 }
 
-PNM = {
+REPLACE:PNM = {
 	color = { 150  85  61 }
 
 	country_type = recognized
@@ -2229,7 +2230,7 @@ PNM = {
 	is_named_from_capital = yes
 }
 
-QUE = {
+REPLACE:QUE = {
 	color = { 194  140  86 }
 
 	country_type = colonial
@@ -2242,7 +2243,7 @@ QUE = {
 	is_named_from_capital = yes
 }
 
-HBC = {
+REPLACE:HBC = {
 	color = { 99 91 69 }
 
 	country_type = company
@@ -2253,7 +2254,7 @@ HBC = {
 	capital = STATE_MANITOBA
 }
 
-ONT = {
+REPLACE:ONT = {
 	color = { 136 72 91 }
 
 	country_type = colonial
@@ -2265,7 +2266,7 @@ ONT = {
 	is_named_from_capital = yes
 }
 
-NBS = {
+REPLACE:NBS = {
 	color = { 235 196 128 }
 
 	country_type = colonial
@@ -2276,7 +2277,7 @@ NBS = {
 	capital = STATE_NEW_BRUNSWICK
 }
 
-NVS = {
+REPLACE:NVS = {
 	color = { 148 205 135 }
 
 	country_type = colonial
@@ -2287,7 +2288,7 @@ NVS = {
 	capital = STATE_NEW_BRUNSWICK
 }
 
-TEX = {
+REPLACE:TEX = {
 	color = { 4  39  104 }
 
 	country_type = recognized
@@ -2299,7 +2300,7 @@ TEX = {
 	is_named_from_capital = yes
 }
 
-UCA = {
+REPLACE:UCA = {
 	color = { 90 175 255 }
 
 	country_type = recognized
@@ -2310,7 +2311,7 @@ UCA = {
 	cultures = { central_american }
 }
 
-ARG = {
+REPLACE:ARG = {
 	color = { 101  102  163 }
 
 	country_type = recognized
@@ -2321,7 +2322,7 @@ ARG = {
 	capital = STATE_BUENOS_AIRES
 }
 
-BOL = {
+REPLACE:BOL = {
 	color = { 219  182  182 }
 
 	country_type = recognized
@@ -2332,7 +2333,7 @@ BOL = {
 	capital = STATE_LA_PAZ
 }
 
-BRZ = {
+REPLACE:BRZ = {
 	color = hsv360{ 143  75  61 }
 
 	country_type = recognized
@@ -2343,7 +2344,7 @@ BRZ = {
 	capital = STATE_RIO_DE_JANEIRO
 }
 
-CHL = {
+REPLACE:CHL = {
 	color = { 236  159  89 }
 
 	country_type = recognized
@@ -2354,7 +2355,7 @@ CHL = {
 	capital = STATE_SANTIAGO
 }
 
-CLM = {
+REPLACE:CLM = {
 	color = { 255  234  168 }
 
 	country_type = recognized
@@ -2365,7 +2366,7 @@ CLM = {
 	capital = STATE_CUNDINAMARCA
 }
 
-ECU = {
+REPLACE:ECU = {
 	color = { 43  141  172 }
 
 	country_type = recognized
@@ -2377,7 +2378,7 @@ ECU = {
 	is_named_from_capital = yes
 }
 
-PEU = {
+REPLACE:PEU = {
 	color = { 124  140  162 }
 
 	country_type = recognized
@@ -2388,7 +2389,7 @@ PEU = {
 	capital = STATE_LIMA
 }
 
-PRG = {
+REPLACE:PRG = {
 	color = { 177  44  29 }
 
 	country_type = recognized
@@ -2399,7 +2400,7 @@ PRG = {
 	capital = STATE_BAJO_PARAGUAY
 }
 
-URU = {
+REPLACE:URU = {
 	color = { 131  101  85 }
 
 	country_type = recognized
@@ -2411,7 +2412,7 @@ URU = {
 	is_named_from_capital = yes
 }
 
-VNZ = {
+REPLACE:VNZ = {
 	color = { 255  176  140 }
 
 	country_type = recognized
@@ -2422,7 +2423,7 @@ VNZ = {
 	capital = STATE_MIRANDA
 }
 
-ISR = {
+REPLACE:ISR = {
 	color = { 150  212  214 }
 
 	country_type = colonial
@@ -2434,7 +2435,7 @@ ISR = {
 	capital = STATE_PALESTINE
 }
 
-BYZ = {
+REPLACE:BYZ = {
 	color = { 147  82  173 }
 
 	valid_as_home_country_for_separatists = { always = no } # root = country to separate from
@@ -2447,7 +2448,7 @@ BYZ = {
 	capital = STATE_EASTERN_THRACE
 }
 
-ICL = {
+REPLACE:ICL = {
 	color = { 62  129  155 }
 
 	country_type = recognized
@@ -2459,7 +2460,7 @@ ICL = {
 	is_named_from_capital = yes
 }
 
-ARA = {
+REPLACE:ARA = {
 	color = { 66  111  19 }
 
 	country_type = unrecognized
@@ -2470,7 +2471,7 @@ ARA = {
 	capital = STATE_HEDJAZ
 }
 
-UBD = {
+REPLACE:UBD = {
 	color = { 142  140  84 }
 
 	country_type = recognized
@@ -2481,7 +2482,7 @@ UBD = {
 	capital = STATE_RIGA
 }
 
-BYE = {
+REPLACE:BYE = {
 	color = { 172  170  170 }
 
 	country_type = recognized
@@ -2492,7 +2493,7 @@ BYE = {
 	capital = STATE_MINSK
 }
 
-PLC = {
+REPLACE:PLC = {
 	color = { 219  31  62 }
 
 	country_type = recognized
@@ -2503,7 +2504,7 @@ PLC = {
 	capital = STATE_WEST_GALICIA
 }
 
-GCO = {
+REPLACE:GCO = {
 	color = { 255  244  100 }
 
 	country_type = recognized
@@ -2514,7 +2515,7 @@ GCO = {
 	capital = STATE_CUNDINAMARCA
 }
 
-JAN = {
+REPLACE:JAN = {
 	color = { 17  225  48 }
 
 	country_type = recognized
@@ -2525,7 +2526,7 @@ JAN = {
 	cultures = { norwegian }
 }
 
-BIC = {
+REPLACE:BIC = {
 	color = { 188  113  61 }
 
 	country_type = company
@@ -2537,7 +2538,7 @@ BIC = {
 	capital = STATE_WEST_BENGAL
 }
 
-BRI = {
+REPLACE:BRI = {
 	color = { 215 195 225 }
 
 	country_type = recognized
@@ -2549,7 +2550,7 @@ BRI = {
 	is_named_from_capital = yes
 }
 
-PAT = {
+REPLACE:PAT = {
 	color = { 196 25 10 }
 
 	country_type = decentralized
@@ -2560,7 +2561,7 @@ PAT = {
 	capital = STATE_PATAGONIA
 }
 
-THL = {
+REPLACE:THL = {
 	color = { 57 124 138 }
 
 	country_type = decentralized
@@ -2571,7 +2572,7 @@ THL = {
 	capital = STATE_PATAGONIA
 }
 
-SLK = {
+REPLACE:SLK = {
 	color = { 122 14 52 }
 
 	country_type = decentralized
@@ -2582,7 +2583,7 @@ SLK = {
 	capital = STATE_ARAUCANIA
 }
 
-TNG = {
+REPLACE:TNG = {
 	color = { 69 38 162 }
 
 	country_type = decentralized
@@ -2593,7 +2594,7 @@ TNG = {
 	capital = STATE_FIJI
 }
 
-WIN = {
+REPLACE:WIN = {
 	color = { 50  150  50 }
 
 	country_type = recognized
@@ -2604,7 +2605,7 @@ WIN = {
 	capital = STATE_WEST_INDIES
 }
 
-MAY = {
+REPLACE:MAY = {
 	color = { 98 88 142 }
 
 	country_type = unrecognized
@@ -2615,7 +2616,7 @@ MAY = {
 	capital = STATE_YUCATAN
 }
 
-IBE = {
+REPLACE:IBE = {
 	color = { 250  181  0 }
 
 	country_type = recognized
@@ -2626,7 +2627,7 @@ IBE = {
 	capital = STATE_NEW_CASTILE
 }
 
-ORG = {
+REPLACE:ORG = {
 	color = { 138  80 126 }
 
 	country_type = colonial
@@ -2637,7 +2638,7 @@ ORG = {
 	capital = STATE_OREGON
 }
 
-COM = {
+REPLACE:COM = {
 	color = { 96 57 19 }
 
 	country_type = decentralized
@@ -2648,7 +2649,7 @@ COM = {
 	capital = STATE_TEXAS
 }
 
-SEQ = {
+REPLACE:SEQ = {
 	color = { 86 120 117 }
 
 	country_type = unrecognized
@@ -2659,7 +2660,7 @@ SEQ = {
 	capital = STATE_OKLAHOMA
 }
 
-DKT = {
+REPLACE:DKT = {
 	color = { 68 14 98 }
 
 	country_type = decentralized
@@ -2670,7 +2671,7 @@ DKT = {
 	capital = STATE_MINNESOTA
 }
 
-LKT = {
+REPLACE:LKT = {
 	color = { 198 114 168 }
 
 	country_type = decentralized
@@ -2681,7 +2682,7 @@ LKT = {
 	capital = STATE_SOUTH_DAKOTA
 }
 
-NVJ = {
+REPLACE:NVJ = {
 	color = { 126 180 154 }
 
 	country_type = decentralized
@@ -2692,7 +2693,7 @@ NVJ = {
 	capital = STATE_ARIZONA
 }
 
-ARP = {
+REPLACE:ARP = {
 	color = { 223 204 125 }
 
 	country_type = decentralized
@@ -2703,7 +2704,7 @@ ARP = {
 	capital = STATE_COLORADO
 }
 
-NZP = {
+REPLACE:NZP = {
 	color = { 220 190 50 }
 
 	country_type = decentralized
@@ -2714,7 +2715,7 @@ NZP = {
 	capital = STATE_IDAHO
 }
 
-ABS = {
+REPLACE:ABS = {
 	color = { 199 102 22 }
 
 	country_type = decentralized
@@ -2725,7 +2726,7 @@ ABS = {
 	capital = STATE_MONTANA
 }
 
-IRC = {
+REPLACE:IRC = {
 	color = { 61 158 124 }
 
 	country_type = decentralized
@@ -2736,7 +2737,7 @@ IRC = {
 	capital = STATE_SASKATCHEWAN
 }
 
-JAM = {
+REPLACE:JAM = {
 	color = hsv360{ 88  87  33 }
 
 	country_type = recognized
@@ -2747,7 +2748,7 @@ JAM = {
 	capital = STATE_PUERTO_RICO
 }
 
-BAH = {
+REPLACE:BAH = {
 	color = hsv360{ 189  100  55 }
 
 	country_type = recognized
@@ -2759,7 +2760,7 @@ BAH = {
 	is_named_from_capital = yes
 }
 
-PCO = {
+REPLACE:PCO = {
 	color = { 104  92  87 }
 
 	country_type = colonial
@@ -2771,7 +2772,7 @@ PCO = {
 	is_named_from_capital = yes
 }
 
-MKT = {
+REPLACE:MKT = {
 	color = hsv{ 0.5  0.6  0.6 }
 
 	country_type = unrecognized
@@ -2782,7 +2783,7 @@ MKT = {
 	capital = STATE_NICARAGUA
 }
 
-NAH = {
+REPLACE:NAH = {
 	color = hsv360{ 130 100 52 }
 
 	country_type = unrecognized
@@ -2793,7 +2794,7 @@ NAH = {
 	capital = STATE_MEXICO
 }
 
-GRN = {
+REPLACE:GRN = {
 	color = hsv360{ 130 80 52 }
 
 	country_type = recognized
@@ -2805,7 +2806,7 @@ GRN = {
 	is_named_from_capital = yes
 }
 
-ANL = {
+REPLACE:ANL = {
 	color = { 240 230 155 }
 
 	country_type = recognized
@@ -2817,7 +2818,7 @@ ANL = {
 	is_named_from_capital = yes
 }
 
-CAS = {
+REPLACE:CAS = {
 	color = hsv360{ 51  67  78 }
 
 	country_type = recognized
@@ -2829,7 +2830,7 @@ CAS = {
 	is_named_from_capital = yes
 }
 
-SMI = { # Sapmi
+REPLACE:SMI = { # Sapmi
 	color = { 28 146 136 }
 
 	country_type = unrecognized
@@ -2841,7 +2842,7 @@ SMI = { # Sapmi
 	capital = STATE_NORTHERN_NORWAY
 }
 
-MLT = { # Malta
+REPLACE:MLT = { # Malta
 	color = { 28 146 136 }
 
 	country_type = recognized
@@ -2853,7 +2854,7 @@ MLT = { # Malta
 	capital = STATE_SICILY
 }
 
-PRM = { # Perm
+REPLACE:PRM = { # Perm
 	color = { 236 159 90 }
 
 	country_type = unrecognized
@@ -2865,7 +2866,7 @@ PRM = { # Perm
 	capital = STATE_PERM
 }
 
-HZJ = { # Hazarajat
+REPLACE:HZJ = { # Hazarajat
 	color = { 236 159 90 }
 
 	country_type = unrecognized
@@ -2877,7 +2878,7 @@ HZJ = { # Hazarajat
 	capital = STATE_CENTRAL_HIGHLANDS
 }
 
-TRC = { # Turkmenistan
+REPLACE:TRC = { # Turkmenistan
 	color = { 165 117 208 }
 
 	country_type = recognized
@@ -2889,7 +2890,7 @@ TRC = { # Turkmenistan
 	capital = STATE_TURKMENIA
 }
 
-SIB = { # Siberia
+REPLACE:SIB = { # Siberia
 	color = { 139 138 160 }
 
 	country_type = unrecognized
@@ -2899,7 +2900,7 @@ SIB = { # Siberia
 	capital = STATE_TOMSK
 }
 
-YAK = { # Yakutia
+REPLACE:YAK = { # Yakutia
 	color = { 131 176 131 }
 
 	country_type = unrecognized
@@ -2911,7 +2912,7 @@ YAK = { # Yakutia
 	capital = STATE_YAKUTSK
 }
 
-ASM = { # Assam
+REPLACE:ASM = { # Assam
 	color = { 163 5 77 }
 
 	country_type = unrecognized
@@ -2926,7 +2927,7 @@ ASM = { # Assam
 	capital = STATE_ASSAM
 }
 
-MNP = { # Manipur
+REPLACE:MNP = { # Manipur
 	color = { 149 191 117 }
 
 	country_type = unrecognized
@@ -2939,7 +2940,7 @@ MNP = { # Manipur
 	capital = STATE_ASSAM
 }
 
-TOB = { # Toba
+REPLACE:TOB = { # Toba
 	color = { 183 141 1 }
 
 	country_type = unrecognized
@@ -2951,7 +2952,7 @@ TOB = { # Toba
 	capital = STATE_NORTH_SUMATRA
 }
 
-KLT = { # Kalimantan
+REPLACE:KLT = { # Kalimantan
 	color = { 193 164 142 }
 
 	country_type = unrecognized
@@ -2963,7 +2964,7 @@ KLT = { # Kalimantan
 	capital = STATE_WEST_BORNEO
 }
 
-HTH = { # Hanthawaddy
+REPLACE:HTH = { # Hanthawaddy
 	color = { 140 210 160 }
 
 	country_type = unrecognized
@@ -2975,7 +2976,7 @@ HTH = { # Hanthawaddy
 	capital = STATE_PEGU
 }
 
-KRN = { # Karen
+REPLACE:KRN = { # Karen
 	color = { 72 153 99 }
 
 	country_type = unrecognized
@@ -2987,7 +2988,7 @@ KRN = { # Karen
 	capital = STATE_PEGU
 }
 
-KHM = { # Khmu
+REPLACE:KHM = { # Khmu
 	color = { 244 237 202 }
 
 	country_type = unrecognized
@@ -2999,7 +3000,7 @@ KHM = { # Khmu
 	capital = STATE_LAOS
 }
 
-KHN = { # Kachin
+REPLACE:KHN = { # Kachin
 	color = { 130 186 198 }
 
 	country_type = unrecognized
@@ -3011,7 +3012,7 @@ KHN = { # Kachin
 	capital = STATE_KACHIN
 }
 
-AIN = { # Ainu Mosir
+REPLACE:AIN = { # Ainu Mosir
 	color = { 201 197 124 }
 
 	country_type = decentralized
@@ -3023,7 +3024,7 @@ AIN = { # Ainu Mosir
 	capital = STATE_HOKKAIDO
 }
 
-EZO = { # Ezo
+REPLACE:EZO = { # Ezo
 	color = { 129 40 147 }
 
 	country_type = unrecognized
@@ -3035,7 +3036,7 @@ EZO = { # Ezo
 	capital = STATE_HOKKAIDO
 }
 
-QIA = { # Qian
+REPLACE:QIA = { # Qian
 	color = { 0 103 165 }
 
 	country_type = unrecognized
@@ -3047,7 +3048,7 @@ QIA = { # Qian
 	capital = STATE_GUANGDONG
 }
 
-FRS = { # Formosa
+REPLACE:FRS = { # Formosa
 	color = { 218 234 15 }
 
 	country_type = unrecognized
@@ -3060,7 +3061,7 @@ FRS = { # Formosa
 	is_named_from_capital = yes
 }
 
-YUN = { # Yunnan
+REPLACE:YUN = { # Yunnan
 	color = { 245 245 220 }
 	country_type = unrecognized
 
@@ -3072,7 +3073,7 @@ YUN = { # Yunnan
 	is_named_from_capital = yes
 }
 
-YUE = { # Yue
+REPLACE:YUE = { # Yue
 	color = { 89 113 223 }
 	country_type = unrecognized
 	tier = principality
@@ -3081,7 +3082,7 @@ YUE = { # Yue
 	capital = STATE_GUANGDONG
 }
 
-OAX = { # Oaxaca
+REPLACE:OAX = { # Oaxaca
 	color = { 158 118 120 }
 
 	country_type = decentralized
@@ -3093,7 +3094,7 @@ OAX = { # Oaxaca
 	capital = STATE_OAXACA
 }
 
-MCO = { # Michoacan
+REPLACE:MCO = { # Michoacan
 	color = { 158 18 20 }
 
 	country_type = decentralized
@@ -3105,7 +3106,7 @@ MCO = { # Michoacan
 	capital = STATE_JALISCO
 }
 
-TWT = { # Tawantinsuyu
+REPLACE:TWT = { # Tawantinsuyu
 	color = { 125 92 110 }
 
 	country_type = unrecognized
@@ -3117,7 +3118,7 @@ TWT = { # Tawantinsuyu
 	capital = STATE_LIMA
 }
 
-AYM = { # Aymara
+REPLACE:AYM = { # Aymara
 	color = { 173 211 239 }
 
 	country_type = unrecognized
@@ -3129,7 +3130,7 @@ AYM = { # Aymara
 	capital = STATE_LA_PAZ
 }
 
-WYU = { # Wayuu
+REPLACE:WYU = { # Wayuu
 	color = { 40 96 65 }
 
 	country_type = decentralized
@@ -3141,7 +3142,7 @@ WYU = { # Wayuu
 	capital = STATE_ANTIOQUIA
 }
 
-TPI = { # Tupinamba
+REPLACE:TPI = { # Tupinamba
 	color = { 157 209 192 }
 
 	country_type = decentralized
@@ -3153,7 +3154,7 @@ TPI = { # Tupinamba
 	capital = STATE_BAHIA
 }
 
-PUE = { # Pueblo
+REPLACE:PUE = { # Pueblo
 	color = { 162 128 8 }
 
 	country_type = unrecognized
@@ -3165,7 +3166,7 @@ PUE = { # Pueblo
 	capital = STATE_NEW_MEXICO
 }
 
-NNV = { # Nunavut
+REPLACE:NNV = { # Nunavut
 	color = { 205 214 216 }
 
 	country_type = unrecognized
@@ -3177,7 +3178,7 @@ NNV = { # Nunavut
 	capital = STATE_NUNAVUT
 }
 
-NVL = { # Navajoland
+REPLACE:NVL = { # Navajoland
 	color = { 126 180 154 }
 
 	country_type = decentralized
@@ -3189,7 +3190,7 @@ NVL = { # Navajoland
 	capital = STATE_ARIZONA
 }
 
-ATB = { # Athabaska
+REPLACE:ATB = { # Athabaska
 	color = { 88 105 137 }
 
 	country_type = decentralized
@@ -3201,7 +3202,7 @@ ATB = { # Athabaska
 	capital = STATE_NORTHWEST_TERRITORIES
 }
 
-CSC = { # Cascadia
+REPLACE:CSC = { # Cascadia
 	color = { 105 152 73 }
 
 	country_type = decentralized
@@ -3213,7 +3214,7 @@ CSC = { # Cascadia
 	capital = STATE_BRITISH_COLUMBIA
 }
 
-IRO = { # Haudenosaunee, archaically known as the Iroquois Confederacy
+REPLACE:IRO = { # Haudenosaunee, archaically known as the Iroquois Confederacy
 	color = { 87 182 80 }
 
 	country_type = recognized
@@ -3225,7 +3226,7 @@ IRO = { # Haudenosaunee, archaically known as the Iroquois Confederacy
 	capital = STATE_NEW_YORK
 }
 
-CTF = { # the Council of Three Fires, Niswa-mishkodewinan
+REPLACE:CTF = { # the Council of Three Fires, Niswa-mishkodewinan
 	color = { 220 147 37 }
 
 	country_type = decentralized
@@ -3237,7 +3238,7 @@ CTF = { # the Council of Three Fires, Niswa-mishkodewinan
 	capital = STATE_MICHIGAN
 }
 
-SLS = { # Salish
+REPLACE:SLS = { # Salish
 	color = { 50 152 173 }
 
 	country_type = decentralized
@@ -3249,7 +3250,7 @@ SLS = { # Salish
 	capital = STATE_MONTANA
 }
 
-BNN = { # Bannock
+REPLACE:BNN = { # Bannock
 	color = { 129 56 7 }
 
 	country_type = decentralized
@@ -3261,7 +3262,7 @@ BNN = { # Bannock
 	capital = STATE_IDAHO
 }
 
-MSC = { # Muscogee
+REPLACE:MSC = { # Muscogee
 	color = { 108 139 208 }
 
 	country_type = unrecognized
@@ -3273,7 +3274,7 @@ MSC = { # Muscogee
 	capital = STATE_FLORIDA
 }
 
-SML = { # Seminole
+REPLACE:SML = { # Seminole
 	color = { 146 95 107 }
 
 	country_type = decentralized
@@ -3285,7 +3286,7 @@ SML = { # Seminole
 	capital = STATE_FLORIDA
 }
 
-UTE = { # Ute
+REPLACE:UTE = { # Ute
 	color = { 235 126 175 }
 
 	cultures = { paiute }
@@ -3297,7 +3298,7 @@ UTE = { # Ute
 	capital = STATE_UTAH
 }
 
-PWN = { # Pawnee
+REPLACE:PWN = { # Pawnee
 	color = { 252 84 118 }
 
 	cultures = { caddoan }
@@ -3309,7 +3310,7 @@ PWN = { # Pawnee
 	capital = STATE_NEBRASKA
 }
 
-APC = { # Apacheria
+REPLACE:APC = { # Apacheria
 	color = { 198 158 109 }
 
 	cultures = { apache }
@@ -3321,7 +3322,7 @@ APC = { # Apacheria
 	capital = STATE_NEW_MEXICO
 }
 
-BLF = { # Niitsitapi / Blackfoot Confederacy
+REPLACE:BLF = { # Niitsitapi / Blackfoot Confederacy
 	color = hsv{ 0.63 0.68 0.60 }
 
 	cultures = { siouan }
@@ -3333,7 +3334,7 @@ BLF = { # Niitsitapi / Blackfoot Confederacy
 	capital = STATE_ALBERTA
 }
 
-CCM = { # O'odham Country
+REPLACE:CCM = { # O'odham Country
 	color = hsv{ 0.19 0.61 0.67 }
 
 	country_type = decentralized
@@ -3345,7 +3346,7 @@ CCM = { # O'odham Country
 	capital = STATE_CHIHUAHUA
 }
 
-ORN = { # Orinoco
+REPLACE:ORN = { # Orinoco
 	color = hsv{ 0.28 0.79 0.47 }
 
 	country_type = decentralized
@@ -3357,7 +3358,7 @@ ORN = { # Orinoco
 	capital = STATE_MIRANDA
 }
 
-MUI = { # Muisca
+REPLACE:MUI = { # Muisca
 	color = { 162 182 64 }
 
 	country_type = decentralized
@@ -3369,7 +3370,7 @@ MUI = { # Muisca
 	capital = STATE_CUNDINAMARCA
 }
 
-SRB = { # Sorbia
+REPLACE:SRB = { # Sorbia
 	color = { 67 80 128 }
 
 	country_type = recognized
@@ -3381,7 +3382,7 @@ SRB = { # Sorbia
 	capital = STATE_SAXONY
 }
 
-YUC = {
+REPLACE:YUC = {
 	color = { 20 142 20 }
 
 	country_type = recognized
@@ -3392,7 +3393,7 @@ YUC = {
 	capital = STATE_YUCATAN
 }
 
-RIO = {
+REPLACE:RIO = {
 	color = { 20 20 20 }
 
 	country_type = recognized
@@ -3403,7 +3404,7 @@ RIO = {
 	capital = STATE_RIO_GRANDE
 }
 
-PNI = {
+REPLACE:PNI = {
 	color = hsv360{ 120  75  61 }
 
 	country_type = recognized
@@ -3414,7 +3415,7 @@ PNI = {
 	capital = STATE_RIO_GRANDE_DO_SUL
 }
 
-CEY = {
+REPLACE:CEY = {
 	color = hsv360{ 0  70  61 }
 
 	country_type = unrecognized
@@ -3426,7 +3427,7 @@ CEY = {
 }
 
 
-BLH = {
+REPLACE:BLH = {
 	color = { 125 47 47}
 
 	country_type = unrecognized
@@ -3437,7 +3438,7 @@ BLH = {
 	capital = STATE_BALUCHISTAN
 }
 
-NGF = {
+REPLACE:NGF = {
 	color = {41 37 37}
 
 	country_type = recognized
@@ -3448,7 +3449,7 @@ NGF = {
 	capital = STATE_BRANDENBURG
 }
 
-SGF = {
+REPLACE:SGF = {
 	color = { 176 18 7}
 
 	country_type = recognized
@@ -3459,7 +3460,7 @@ SGF = {
 	capital = STATE_BAVARIA
 }
 
-OCC = {
+REPLACE:OCC = {
 	color = { 101 50 253 }
 	country_type = recognized
 	tier = principality
@@ -3468,7 +3469,7 @@ OCC = {
 
 }
 
-TUV = {
+REPLACE:TUV = {
 	color = { 68 242 236}
 	country_type = unrecognized
 	tier = principality
@@ -3477,7 +3478,7 @@ TUV = {
 
 }
 
-COR = {
+REPLACE:COR = {
 	color = { 68 242 236}
 	country_type = recognized
 	tier = principality
@@ -3485,7 +3486,7 @@ COR = {
 	capital = STATE_CORSICA
 }
 
-TNS = {
+REPLACE:TNS = {
 	color = { 11 115 39 }
 	country_type = unrecognized
 	tier = principality
@@ -3493,7 +3494,7 @@ TNS = {
 	capital = STATE_UPPER_YENISEYSK
 }
 
-FER = {
+REPLACE:FER = {
  	color = { 147 25 25 }
 	country_type = unrecognized
 	tier = principality
@@ -3501,7 +3502,7 @@ FER = {
 	capital = STATE_TRANS_BAIKAL
 }
 
-IUS = {
+REPLACE:IUS = {
 	color = { 11 115 39 }
 	country_type = recognized
 	tier = kingdom
@@ -3509,7 +3510,7 @@ IUS = {
 	capital = STATE_KAZAN
 }
 
-NCA = {
+REPLACE:NCA = {
 	color = { 97 162 242 }
 	country_type = recognized
 	tier = principality
@@ -3517,7 +3518,7 @@ NCA = {
 	capital = STATE_NORTH_CAUCASUS
 }
 
-DON = {
+REPLACE:DON = {
 	color = { 37 168 217 }
 	country_type = recognized
 	tier = principality
@@ -3525,7 +3526,7 @@ DON = {
 	capital = STATE_ROSTOV
 }
 
-SYR = {
+REPLACE:SYR = {
 	color = { 241 245 240 }
 	country_type = unrecognized
 	tier = principality
@@ -3534,7 +3535,7 @@ SYR = {
 	capital = STATE_SYRIA
 }
 
-EOT = {
+REPLACE:EOT = {
 	color = { 212 11 27 }
 	country_type = unrecognized
 	tier = principality
@@ -3542,7 +3543,7 @@ EOT = {
 	capital = STATE_TRANSJORDAN
 }
 
-LEB = {
+REPLACE:LEB = {
 	color = { 18 201 27 }
 	country_type = unrecognized
 	tier = principality
@@ -3550,7 +3551,7 @@ LEB = {
 	capital = STATE_LEBANON
 }
 
-HNA = { #Hunan
+REPLACE:HNA = { #Hunan
 	color = { 126 164 224 }
 	country_type = unrecognized
 	tier = kingdom
@@ -3558,7 +3559,7 @@ HNA = { #Hunan
 	capital = STATE_HUNAN
 }
 
-AHU = { #Anhui
+REPLACE:AHU = { #Anhui
 	color = { 187 126 224 }
 	country_type = unrecognized
 	tier = kingdom
@@ -3566,7 +3567,7 @@ AHU = { #Anhui
 	capital = STATE_SOUTHERN_ANHUI
 }
 
-ZHI = { #Zhili
+REPLACE:ZHI = { #Zhili
 	color = { 207 64 88 }
 	country_type = unrecognized
 	tier = kingdom
@@ -3574,7 +3575,7 @@ ZHI = { #Zhili
 	capital = STATE_ZHILI
 }
 
-SHN = { #Shanxi
+REPLACE:SHN = { #Shanxi
 	color = { 94 209 94 }
 	country_type = unrecognized
 	tier = kingdom
@@ -3582,7 +3583,7 @@ SHN = { #Shanxi
 	capital = STATE_SHANXI
 }
 
-GUI = { #Guizhou
+REPLACE:GUI = { #Guizhou
 	color = { 37 102 37 }
 	country_type = unrecognized
 	tier = kingdom
@@ -3590,7 +3591,7 @@ GUI = { #Guizhou
 	capital = STATE_GUIZHOU
 }
 
-GNG = { #Guangxi
+REPLACE:GNG = { #Guangxi
 	color = { 133 56 8 }
 	country_type = unrecognized
 	tier = kingdom
@@ -3598,7 +3599,7 @@ GNG = { #Guangxi
 	capital = STATE_GUANGXI
 }
 
-SIH = { #Sichuan
+REPLACE:SIH = { #Sichuan
 	color = { 42 189 68 }
 	country_type = unrecognized
 	tier = kingdom
@@ -3606,7 +3607,7 @@ SIH = { #Sichuan
 	capital = STATE_SICHUAN
 }
 
-SHA = { #Shandong
+REPLACE:SHA = { #Shandong
 	color = { 189 113 42 }
 	country_type = unrecognized
 	tier = kingdom
@@ -3614,7 +3615,7 @@ SHA = { #Shandong
 	capital = STATE_SHANDONG
 }
 
-XIB = {
+REPLACE:XIB = {
 	color = { 68 144 212 }
 	country_type = unrecognized
 	tier = kingdom
@@ -3622,7 +3623,7 @@ XIB = {
 	capital = STATE_NINGXIA
 }
 
-TPG = {
+REPLACE:TPG = {
 	color = { 100 150 20 }
 	country_type = unrecognized
 	tier = empire
@@ -3631,7 +3632,7 @@ TPG = {
 	capital = STATE_NANJING
 }
 
-GNI = {
+REPLACE:GNI = {
 	color = { 73 139 166 }
 
 	country_type = decentralized
@@ -3642,7 +3643,7 @@ GNI = {
 	capital = STATE_ALTO_PARAGUAY
 }
 
-KUR = {
+REPLACE:KUR = {
 	color = { 192 245 71 }
 
 	country_type = unrecognized
@@ -3653,7 +3654,7 @@ KUR = {
 	capital = STATE_MOSUL
 }
 
-GLI = {
+REPLACE:GLI = {
 	color = { 240 167 130 }
 
 	country_type = recognized
@@ -3664,7 +3665,7 @@ GLI = {
 	capital = STATE_GALICIA
 }
 
-PAL = {
+REPLACE:PAL = {
 	color = { 0  142  76 }
 
 	country_type = unrecognized
@@ -3676,7 +3677,7 @@ PAL = {
 	capital = STATE_PALESTINE
 }
 
-TRH = { # Turkestan
+REPLACE:TRH = { # Turkestan
 	color = { 213 0 39 }
 
 	country_type = unrecognized
@@ -3688,7 +3689,7 @@ TRH = { # Turkestan
 }
 
 # Saxe-Coburg-Gotha
-COB = {
+REPLACE:COB = {
 	color = { 180  137  148 }
 
 	country_type = recognized
@@ -3700,7 +3701,7 @@ COB = {
 }
 
 # Saxe-Meiningen
-MEI = {
+REPLACE:MEI = {
 	color = { 144  181  106 }
 
 	country_type = recognized
@@ -3712,7 +3713,7 @@ MEI = {
 }
 
 # Saxe-Weimar
-WEI = {
+REPLACE:WEI = {
 	color = { 69 188 45 }
 
 	country_type = recognized
@@ -3724,7 +3725,7 @@ WEI = {
 }
 
 # Schwarzburg
-SCW = {
+REPLACE:SCW = {
 	color = { 98 92 94 }
 
 	country_type = recognized
@@ -3736,7 +3737,7 @@ SCW = {
 }
 
 # Hesse-Kassel
-HEK = {
+REPLACE:HEK = {
 	color = { 150 55 75 }
 
 	country_type = recognized
@@ -3748,7 +3749,7 @@ HEK = {
 }
 
 # Lippe-Detmold
-LIP = {
+REPLACE:LIP = {
 	color = { 203  62  185 }
 
 	country_type = recognized
@@ -3760,7 +3761,7 @@ LIP = {
 }
 
 # Schaumburg-Lippe
-SCM = {
+REPLACE:SCM = {
 	color = { 25 155 155 }
 
 	country_type = recognized
@@ -3772,7 +3773,7 @@ SCM = {
 }
 
 # Mecklenburg-Strelitz
-MST = {
+REPLACE:MST = {
 	color = { 239  232  106 }
 
 	country_type = recognized
@@ -3784,7 +3785,7 @@ MST = {
 }
 
 # Hohenzollern
-HOH = {
+REPLACE:HOH = {
 	color = { 48  169  96 }
 
 	country_type = recognized
@@ -3796,7 +3797,7 @@ HOH = {
 }
 
 # Waldeck
-WLD = {
+REPLACE:WLD = {
 	color = { 169  194  107 }
 
 	country_type = recognized
@@ -3808,7 +3809,7 @@ WLD = {
 }
 
 # India
-BHT = {
+REPLACE:BHT = {
 	color = { 104 68 124 }
 
 	country_type = recognized
@@ -3820,7 +3821,7 @@ BHT = {
 }
 
 # Michigan
-UOM = {
+REPLACE:UOM = {
 	color = { 0 39 76 }
 
 	country_type = recognized
@@ -3833,7 +3834,7 @@ UOM = {
 }
 
 # Circassia
-CIR = {
+REPLACE:CIR = {
 	color = { 75 96 55 }
 
 	country_type = unrecognized
@@ -3845,7 +3846,7 @@ CIR = {
 }
 
 # Caucasian Imamate / Chechnya
-CHC = {
+REPLACE:CHC = {
 	color = { 35 52 48 }
 
 	country_type = unrecognized
@@ -3857,7 +3858,7 @@ CHC = {
 }
 
 # Assyria
-ASS = {
+REPLACE:ASS = {
 	color = { 111 56 200 }
 
 	country_type = recognized
@@ -3869,7 +3870,7 @@ ASS = {
 }
 
 # Kalmykia
-KLM = {
+REPLACE:KLM = {
 	color = { 238 220 89 }
 
 	country_type = unrecognized
@@ -3881,7 +3882,7 @@ KLM = {
 }
 
 # Schleswig
-SCH = {
+REPLACE:SCH = {
 	color = { 235  225  95 }
 
 	country_type = recognized
@@ -3893,7 +3894,7 @@ SCH = {
 	is_named_from_capital = yes
 }
 
-KZH = {
+REPLACE:KZH = {
 	color = { 90 120 120 }
 
 	country_type = unrecognized
@@ -3904,7 +3905,7 @@ KZH = {
 	capital = STATE_URALSK
 }
 
-UZH = {
+REPLACE:UZH = {
 	color = { 70 100 80 }
 
 	country_type = unrecognized
@@ -3915,7 +3916,7 @@ UZH = {
 	capital = STATE_AKMOLINSK
 }
 
-OZH = {
+REPLACE:OZH = {
 	color = { 80 80 100 }
 
 	country_type = unrecognized
@@ -3926,7 +3927,7 @@ OZH = {
 	capital = STATE_SEMIRECHE
 }
 
-CAU = {
+REPLACE:CAU = {
 	color = { 200 100 55 }
 
 	country_type = recognized
@@ -3937,7 +3938,7 @@ CAU = {
 	capital = STATE_GREATER_CAUCASUS
 }
 
-SAV = {
+REPLACE:SAV = {
 	color = { 235 196 231 }
 
 	country_type = recognized
@@ -3948,7 +3949,7 @@ SAV = {
 	cultures = { francoprovencal }
 }
 
-RHE = {
+REPLACE:RHE = {
 	color = { 5 85 5 }
 
 	country_type = recognized
@@ -3960,7 +3961,7 @@ RHE = {
 	is_named_from_capital = yes
 }
 
-PRC = {
+REPLACE:PRC = {
 	color = { 237 41 57 }
 
 	country_type = recognized
@@ -3973,7 +3974,7 @@ PRC = {
 
 ###Russian Minors
 
-KRL = {
+REPLACE:KRL = {
 	color = { 22 63 26 }
 
 	country_type = recognized
@@ -3984,7 +3985,7 @@ KRL = {
 	capital = STATE_EAST_KARELIA
 }
 
-TAR = {
+REPLACE:TAR = {
 	color = { 31 218 229 }
 
 	country_type = recognized
@@ -3995,7 +3996,7 @@ TAR = {
 	capital = STATE_KAZAN
 }
 
-BKR = {
+REPLACE:BKR = {
 	color = { 71 219 129 }
 
 	country_type = recognized
@@ -4006,7 +4007,7 @@ BKR = {
 	capital = STATE_UFA
 }
 
-BRY = {
+REPLACE:BRY = {
 	color = { 50 50 120 }
 
 	country_type = recognized
@@ -4017,7 +4018,7 @@ BRY = {
 	capital = STATE_BURYATIA
 }
 
-KMC = {
+REPLACE:KMC = {
 	color = { 25 47 119 }
 
 	country_type = recognized
@@ -4028,7 +4029,7 @@ KMC = {
 	capital = STATE_KAMCHATKA
 }
 
-CKC = {
+REPLACE:CKC = {
 	color = { 99 236 240 }
 
 	country_type = recognized
@@ -4039,7 +4040,7 @@ CKC = {
 	capital = STATE_CHUKOTKA
 }
 
-ALI = {
+REPLACE:ALI = {
 	color = { 74 121 198 }
 
 	country_type = recognized
@@ -4050,7 +4051,7 @@ ALI = {
 	capital = STATE_ALTAI
 }
 
-URL = {
+REPLACE:URL = {
 	color = { 55 89 88 }
 
 	country_type = recognized
@@ -4061,7 +4062,7 @@ URL = {
 	capital = STATE_URAL
 }
 
-KNT = {
+REPLACE:KNT = {
 	color = { 156 190 196 }
 
 	country_type = recognized
@@ -4072,7 +4073,7 @@ KNT = {
 	capital = STATE_SURGUT
 }
 
-UDM = {
+REPLACE:UDM = {
 	color = { 82 12 12 }
 
 	country_type = recognized
@@ -4083,7 +4084,7 @@ UDM = {
 	capital = STATE_VYATKA
 }
 
-CHV = {
+REPLACE:CHV = {
 	color = { 249 125 4 }
 
 	country_type = recognized
@@ -4094,7 +4095,7 @@ CHV = {
 	capital = STATE_CHUVASHIA
 }
 
-MRD = {
+REPLACE:MRD = {
 	color = { 222 147 226 }
 
 	country_type = recognized
@@ -4105,7 +4106,7 @@ MRD = {
 	capital = STATE_TAMBOV
 }
 
-MRI = {
+REPLACE:MRI = {
 	color = { 139 98 193 }
 
 	country_type = recognized
@@ -4116,7 +4117,7 @@ MRI = {
 	capital = STATE_CHUVASHIA
 }
 
-TJI = {
+REPLACE:TJI = {
 	color = {45 85 45 }
 
 	country_type = recognized
@@ -4127,7 +4128,7 @@ TJI = {
 	capital = STATE_TAJIKISTAN
 }
 
-UZB = {
+REPLACE:UZB = {
 	color = { 199 199 170 }
 
 	country_type = recognized
@@ -4138,7 +4139,7 @@ UZB = {
 	capital = STATE_FERGANA
 }
 
-KYR = {
+REPLACE:KYR = {
 	color = { 161 87 87 }
 
 	country_type = recognized
@@ -4149,7 +4150,7 @@ KYR = {
 	capital = STATE_KIRGHIZIA
 }
 
-PAU = {
+REPLACE:PAU = {
 	color = { 69 103 77 }
 
 	country_type = recognized
@@ -4160,7 +4161,7 @@ PAU = {
 	capital = STATE_SAO_PAULO
 }
 
-EQT = {
+REPLACE:EQT = {
 	color = { 168 193 183 }
 
 	country_type = recognized
@@ -4171,7 +4172,7 @@ EQT = {
 	capital = STATE_PERNAMBUCO
 }
 
-CTR = {
+REPLACE:CTR = {
 	color = { 223 249 104 }
 
 	country_type = recognized
@@ -4182,7 +4183,7 @@ CTR = {
 	capital = STATE_SANTA_CATARINA
 }
 
-MNG = {
+REPLACE:MNG = {
 	color = { 32 191 148 }
 
 	country_type = recognized
@@ -4193,7 +4194,7 @@ MNG = {
 	capital = STATE_MINAS_GERAIS
 }
 
-BHI = {
+REPLACE:BHI = {
 	color = { 197 206 191 }
 
 	country_type = recognized
@@ -4204,7 +4205,7 @@ BHI = {
 	capital = STATE_BAHIA
 }
 
-CNW = {
+REPLACE:CNW = {
 	color = { 194 94 63}
 	country_type = recognized
 	tier = principality
@@ -4212,7 +4213,7 @@ CNW = {
 	capital = STATE_WEST_COUNTRY
 }
 
-FND = {
+REPLACE:FND = {
 	color = { 220 220 245 }
 	country_type = recognized
 	tier = hegemony
@@ -4220,7 +4221,7 @@ FND = {
 	capital = STATE_PANAMA
 }
 
-PBC = {
+REPLACE:PBC = {
     color = { 234 107 163 }
     country_type = recognized
     tier = empire
@@ -4228,7 +4229,7 @@ PBC = {
     capital = STATE_LA_PAZ
 }
 
-IQU = {
+REPLACE:IQU = {
     color = { 245 210 80 }
     country_type = unrecognized
     tier = principality
@@ -4236,7 +4237,7 @@ IQU = {
     capital = STATE_ICA
 }
 
-NPU = {
+REPLACE:NPU = {
     color = { 157 55 55 }
     country_type = recognized
     tier = principality
@@ -4244,7 +4245,7 @@ NPU = {
     capital = STATE_LIMA
 }
 
-SPU = {
+REPLACE:SPU = {
     color = { 55 167 77 }
     country_type = recognized
     tier = principality
@@ -4252,7 +4253,7 @@ SPU = {
     capital = STATE_ICA
 }
 
-RSM = {
+REPLACE:RSM = {
 	color = { 110 10 45 }
 
 	country_type = recognized
@@ -4263,7 +4264,7 @@ RSM = {
 	capital = STATE_LOMBARDY
 }
 
-HRE = {
+REPLACE:HRE = {
 	color = { 250  250  245 }
 
 	country_type = recognized
@@ -4274,7 +4275,7 @@ HRE = {
 	capital = STATE_AUSTRIA
 }
 
-UNL = {
+REPLACE:UNL = {
 	color = { 255 118 28 }
 
 	country_type = recognized
@@ -4285,7 +4286,7 @@ UNL = {
 	capital = STATE_HOLLAND
 }
 
-RHN = {
+REPLACE:RHN = {
 	color = { 77 165 128 }
 
 	country_type = recognized
@@ -4296,7 +4297,7 @@ RHN = {
 	capital = STATE_HESSE
 }
 
-PLT = {
+REPLACE:PLT = {
 	color = { 130  135  240 }
 
 	country_type = recognized
@@ -4307,7 +4308,7 @@ PLT = {
 	capital = STATE_BUENOS_AIRES
 }
 
-NCR = {
+REPLACE:NCR = {
 	color = { 123 175 212 } #Carolina Blue. It pains me to do this as an NCSU alumnus.
 
 	country_type = recognized
@@ -4318,7 +4319,7 @@ NCR = {
 	capital = STATE_NORTH_CAROLINA
 }
 
-SCR = {
+REPLACE:SCR = {
 	color = { 245 102 0 }
 
 	country_type = recognized
@@ -4329,7 +4330,7 @@ SCR = {
 	capital = STATE_SOUTH_CAROLINA
 }
 
-CLI = {
+REPLACE:CLI = {
 	color = { 135 113 196 }
 
 	country_type = recognized
@@ -4340,7 +4341,7 @@ CLI = {
 	capital = STATE_NORTH_CAROLINA
 }
 
-GRG = {
+REPLACE:GRG = {
 	color = { 181 0 39 }
 
 	country_type = recognized
@@ -4352,7 +4353,7 @@ GRG = {
 }
 
 
-FLR = {
+REPLACE:FLR = {
 	color = { 255 198 142 }
 
 	country_type = recognized
@@ -4363,7 +4364,7 @@ FLR = {
 	capital = STATE_FLORIDA
 }
 
-PAK = {
+REPLACE:PAK = {
 	color = { 164 157 96 }
 
 	country_type = unrecognized
@@ -4375,7 +4376,7 @@ PAK = {
 	capital = STATE_SINDH
 }
 
-TIS = {
+REPLACE:TIS = {
 	color = { 190 133 82 }
 
 	country_type = unrecognized
@@ -4386,7 +4387,7 @@ TIS = {
 	capital = STATE_OKLAHOMA
 }
 
-KAB = {
+REPLACE:KAB = {
 	color = { 95 95 109 }
 
 	country_type = unrecognized
@@ -4397,7 +4398,7 @@ KAB = {
 	capital = STATE_KABUL
 }
 
-KAN = {
+REPLACE:KAN = {
 	color = { 71 113 193 }
 
 	country_type = unrecognized
@@ -4408,7 +4409,7 @@ KAN = {
 	capital = STATE_KANDAHAR
 }
 
-HER = {
+REPLACE:HER = {
 	color = { 80 135 113 }
 
 	country_type = unrecognized
@@ -4419,7 +4420,7 @@ HER = {
 	capital = STATE_HERAT
 }
 
-CHT = {
+REPLACE:CHT = {
 	color = { 96 193 182 }
 
 	country_type = unrecognized
@@ -4430,7 +4431,7 @@ CHT = {
 	capital = STATE_PASHTUNISTAN
 }
 
-MAI = {
+REPLACE:MAI = {
 	color = { 204 210 3 }
 
 	country_type = unrecognized
@@ -4441,7 +4442,7 @@ MAI = {
 	capital = STATE_BALKH
 }
 
-KUN = {
+REPLACE:KUN = {
 	color = { 153 76 0 }
 
 	country_type = unrecognized
@@ -4452,7 +4453,7 @@ KUN = {
 	capital = STATE_BALKH
 }
 
-ARB = {
+REPLACE:ARB = {
 	color = { 140 102 152 }
 
 	country_type = unrecognized
@@ -4463,7 +4464,7 @@ ARB = {
 	capital = STATE_KHUZESTAN
 }
 
-BHW = {
+REPLACE:BHW = {
 	color = { 93 148 107 }
 
 	country_type = unrecognized
@@ -4476,7 +4477,7 @@ BHW = {
 	capital = STATE_PUNJAB
 }
 
-TRM = { # Turkmenia
+REPLACE:TRM = { # Turkmenia
 	color = { 156 74 74 }
 
 	country_type = decentralized
@@ -4488,7 +4489,7 @@ TRM = { # Turkmenia
 	capital = STATE_TURKMENIA
 }
 
-ABK = { # Abkhazia
+REPLACE:ABK = { # Abkhazia
 	color = { 92 188 73 }
 
 	country_type = recognized
@@ -4500,7 +4501,7 @@ ABK = { # Abkhazia
 	capital = STATE_GREATER_CAUCASUS
 }
 
-LUR = { # Luristan
+REPLACE:LUR = { # Luristan
 	color = { 207 213 47 }
 
 	country_type = unrecognized
@@ -4512,7 +4513,7 @@ LUR = { # Luristan
 	capital = STATE_LURISTAN
 }
 
-MAZ = { # Mazandaran
+REPLACE:MAZ = { # Mazandaran
 	color = { 217 144 88 }
 
 	country_type = unrecognized
@@ -4524,7 +4525,7 @@ MAZ = { # Mazandaran
 	capital = STATE_MAZANDARAN
 }
 
-BEI = { # Beiyang
+REPLACE:BEI = { # Beiyang
 	color = { 252 185 61 }
 
 	country_type = unrecognized
@@ -4536,7 +4537,7 @@ BEI = { # Beiyang
 	capital = STATE_BEIJING
 }
 
-KAF = { # Kafiristan
+REPLACE:KAF = { # Kafiristan
 	color = { 195 82 20 }
 
 	country_type = unrecognized
@@ -4550,7 +4551,7 @@ KAF = { # Kafiristan
 	capital = STATE_KABUL
 }
 
-LIM = { # Limburg
+REPLACE:LIM = { # Limburg
 	color = { 22 11 88 }
 
 	country_type = recognized
@@ -4562,7 +4563,7 @@ LIM = { # Limburg
 	capital = STATE_GELRE
 }
 
-GAR = { # Garhwal
+REPLACE:GAR = { # Garhwal
 	color = { 60 154 135 }
 
 	country_type = unrecognized
@@ -4574,7 +4575,7 @@ GAR = { # Garhwal
 	capital = STATE_AGRA
 }
 
-PTA = { # Patiala
+REPLACE:PTA = { # Patiala
 	color = { 229 231 26 }
 
 	country_type = unrecognized
@@ -4586,7 +4587,7 @@ PTA = { # Patiala
 	capital = STATE_HILL_PUNJAB
 }
 
-ALW = { # Alwar
+REPLACE:ALW = { # Alwar
 	color = { 65 105 225 }
 
 	country_type = unrecognized
@@ -4598,7 +4599,7 @@ ALW = { # Alwar
 	capital = STATE_RAJPUTANA
 }
 
-NGA = { # Naga
+REPLACE:NGA = { # Naga
 	color = {  204 250 204 }
 	country_type = decentralized
 
@@ -4608,7 +4609,7 @@ NGA = { # Naga
 	capital = STATE_ASSAM
 }
 
-TIP = { # Tipperah
+REPLACE:TIP = { # Tipperah
 	color = { 255 204 204 }
 	country_type = decentralized
 
@@ -4618,7 +4619,7 @@ TIP = { # Tipperah
 	capital = STATE_ASSAM
 }
 
-KKI = { # Kuki / Lushai
+REPLACE:KKI = { # Kuki / Lushai
 	color = { 190 190 190 }
 	country_type = decentralized
 
@@ -4628,7 +4629,7 @@ KKI = { # Kuki / Lushai
 	capital = STATE_ASSAM
 }
 
-MGH = { # Khasi
+REPLACE:MGH = { # Khasi
 	color = { 255 222 173 }
 	country_type = decentralized
 
@@ -4638,7 +4639,7 @@ MGH = { # Khasi
 	capital = STATE_ASSAM
 }
 
-COO = { # Cooch Behar
+REPLACE:COO = { # Cooch Behar
     color = { 220 20 60 }
 	country_type = unrecognized
 
@@ -4651,7 +4652,7 @@ COO = { # Cooch Behar
 	capital = STATE_EAST_BENGAL
 }
 
-SHS = { # Shan
+REPLACE:SHS = { # Shan
 	color = { 204 229 255 }
 	country_type = unrecognized
 
@@ -4661,7 +4662,7 @@ SHS = { # Shan
 	capital = STATE_SHAN_STATES
 }
 
-JHN = { # Jhansi
+REPLACE:JHN = { # Jhansi
 	color = { 255 140 0 }
 	country_type = unrecognized
 
@@ -4672,7 +4673,7 @@ JHN = { # Jhansi
 	capital = STATE_BUNDELKHAND
 }
 
-PUD = { # Pudukottai
+REPLACE:PUD = { # Pudukottai
 	color = { 34 139 34 }
 	country_type = unrecognized
 
@@ -4683,7 +4684,7 @@ PUD = { # Pudukottai
 	capital = STATE_MADRAS
 }
 
-KOT = { # Kotah
+REPLACE:KOT = { # Kotah
 	color = { 123 44 0 }
 	country_type = unrecognized
 
@@ -4694,7 +4695,7 @@ KOT = { # Kotah
 	capital = STATE_RAJPUTANA
 }
 
-IDA = { # Idar
+REPLACE:IDA = { # Idar
 	color = { 31 102 187 }
 	country_type = unrecognized
 
@@ -4705,7 +4706,7 @@ IDA = { # Idar
 	capital = STATE_GUJARAT
 }
 
-NAW = { # Nawanagar
+REPLACE:NAW = { # Nawanagar
 	color = { 222 222 0 }
 	country_type = unrecognized
 
@@ -4716,7 +4717,7 @@ NAW = { # Nawanagar
 	capital = STATE_GUJARAT
 }
 
-DHA = { # Dharmpur
+REPLACE:DHA = { # Dharmpur
 	color = { 23 121 23 }
 	country_type = unrecognized
 
@@ -4726,7 +4727,7 @@ DHA = { # Dharmpur
 	capital = STATE_GUJARAT
 }
 
-JUN = { # Junagadh
+REPLACE:JUN = { # Junagadh
 	color = { 200 229 237 }
 	country_type = unrecognized
 
@@ -4738,7 +4739,7 @@ JUN = { # Junagadh
 	capital = STATE_GUJARAT
 }
 
-BHV = { # Bhavnagar
+REPLACE:BHV = { # Bhavnagar
 	color = { 122 222 222 }
 	country_type = unrecognized
 
@@ -4749,7 +4750,7 @@ BHV = { # Bhavnagar
 	capital = STATE_GUJARAT
 }
 
-PLP = { # Palanpur
+REPLACE:PLP = { # Palanpur
 	color = { 222 222 222 }
 	country_type = unrecognized
 
@@ -4761,7 +4762,7 @@ PLP = { # Palanpur
 	capital = STATE_GUJARAT
 }
 
-SAT = { # Satara
+REPLACE:SAT = { # Satara
 	color = { 255 153 51 }
 	country_type = unrecognized
 
@@ -4772,7 +4773,7 @@ SAT = { # Satara
 	capital = STATE_BOMBAY
 }
 
-KHP = { # Kolhapur
+REPLACE:KHP = { # Kolhapur
 	color = { 188 21 64 }
 	country_type = unrecognized
 
@@ -4783,7 +4784,7 @@ KHP = { # Kolhapur
 	capital = STATE_BOMBAY
 }
 
-BAG = { # Bagelkhand
+REPLACE:BAG = { # Bagelkhand
 	color = { 123 14 148 }
 	country_type = unrecognized
 
@@ -4794,7 +4795,7 @@ BAG = { # Bagelkhand
 	capital = STATE_BUNDELKHAND
 }
 
-SUR = { # Surguja
+REPLACE:SUR = { # Surguja
 	color = { 60 222 75 }
 	country_type = unrecognized
 
@@ -4805,7 +4806,7 @@ SUR = { # Surguja
 	capital = STATE_BUNDELKHAND
 }
 
-KNO = { # Kurnool
+REPLACE:KNO = { # Kurnool
 	color = { 187 1 99 }
 	country_type = unrecognized
 
@@ -4818,7 +4819,7 @@ KNO = { # Kurnool
 	capital = STATE_KURNOOL
 }
 
-JEY = { # Jeypore
+REPLACE:JEY = { # Jeypore
 	color = { 237 174 221 }
 	country_type = unrecognized
 
@@ -4829,7 +4830,7 @@ JEY = { # Jeypore
 	capital = STATE_ORISSA
 }
 
-MYB = { # Mayurbhanj
+REPLACE:MYB = { # Mayurbhanj
 	color = { 237 204 3 }
 	country_type = unrecognized
 
@@ -4840,7 +4841,7 @@ MYB = { # Mayurbhanj
 	capital = STATE_ORISSA
 }
 
-PTN = { # Patna
+REPLACE:PTN = { # Patna
 	color = { 114 25 100 }
 	country_type = unrecognized
 
@@ -4851,7 +4852,7 @@ PTN = { # Patna
 	capital = STATE_ORISSA
 }
 
-NAR = { # Narsinghpur
+REPLACE:NAR = { # Narsinghpur
 	color = { 31 145 217 }
 	country_type = unrecognized
 
@@ -4862,7 +4863,7 @@ NAR = { # Narsinghpur
 	capital = STATE_ORISSA
 }
 
-KHR = { # Kharan
+REPLACE:KHR = { # Kharan
 	color = { 106 145 255 }
 	country_type = unrecognized
 
@@ -4872,7 +4873,7 @@ KHR = { # Kharan
 	capital = STATE_BALUCHISTAN
 }
 
-LBL = { # Las Bela
+REPLACE:LBL = { # Las Bela
 	color = { 188 192 188 }
 	country_type = unrecognized
 
@@ -4882,7 +4883,7 @@ LBL = { # Las Bela
 	capital = STATE_BALUCHISTAN
 }
 
-KPR = { # Khairpur
+REPLACE:KPR = { # Khairpur
 	color = { 20 146 1 }
 	country_type = unrecognized
 
@@ -4892,7 +4893,7 @@ KPR = { # Khairpur
 	capital = STATE_SINDH
 }
 
-DIR = { # Dir
+REPLACE:DIR = { # Dir
 	color = { 1 65 28 }
 	country_type = unrecognized
 
@@ -4902,7 +4903,7 @@ DIR = { # Dir
 	capital = STATE_PASHTUNISTAN
 }
 
-SWT = { # Swat
+REPLACE:SWT = { # Swat
 	color = { 244 196 22 }
 	country_type = unrecognized
 
@@ -4912,7 +4913,7 @@ SWT = { # Swat
 	capital = STATE_PASHTUNISTAN
 }
 
-CAR = { # Carnatic
+REPLACE:CAR = { # Carnatic
 	color = { 232 79 142 }
 	country_type = unrecognized
 
@@ -4922,7 +4923,7 @@ CAR = { # Carnatic
 	capital = STATE_MADRAS
 }
 
-RAJ = { # Rajputana
+REPLACE:RAJ = { # Rajputana
 	color = { 49 13 22 }
 	country_type = unrecognized
 
@@ -4932,7 +4933,7 @@ RAJ = { # Rajputana
 	capital = STATE_RAJPUTANA
 }
 
-MHR = { # Maharashtra
+REPLACE:MHR = { # Maharashtra
 	color = { 49 13 22 }
 	country_type = unrecognized
 
@@ -4942,7 +4943,7 @@ MHR = { # Maharashtra
 	capital = STATE_BOMBAY
 }
 
-GUJ = { # Gujarat
+REPLACE:GUJ = { # Gujarat
 	color = { 231 224 107 }
 	country_type = unrecognized
 
@@ -4952,7 +4953,7 @@ GUJ = { # Gujarat
 	capital = STATE_GUJARAT
 }
 
-DRA = { # Dravida Nadu
+REPLACE:DRA = { # Dravida Nadu
 	color = { 255 245 238 }
 	country_type = unrecognized
 
@@ -4962,7 +4963,7 @@ DRA = { # Dravida Nadu
 	capital = STATE_MADRAS
 }
 
-COC = { # Cochin
+REPLACE:COC = { # Cochin
 	color = { 255 188 225 }
 	country_type = unrecognized
 
@@ -4973,7 +4974,7 @@ COC = { # Cochin
 	capital = STATE_TRAVANCORE
 }
 
-ALK = { # Alaska - Russian-American Company at start
+REPLACE:ALK = { # Alaska - Russian-American Company at start
 	color = { 249 251 255 }
 	country_type = company
 
@@ -4983,7 +4984,7 @@ ALK = { # Alaska - Russian-American Company at start
 	capital = STATE_ALASKA
 }
 
-BCE = { # British Ceylon
+REPLACE:BCE = { # British Ceylon
 	color = { 0 51 102 }
 
 	country_type = colonial
@@ -4994,7 +4995,7 @@ BCE = { # British Ceylon
 	cultures = { british }
 }
 
-MLD = { # Maldives
+REPLACE:MLD = { # Maldives
 	color = { 0 132 61 }
 
 	country_type = unrecognized
@@ -5008,7 +5009,7 @@ MLD = { # Maldives
 	cultures = { sinhala }
 }
 
-BIH = {
+REPLACE:BIH = {
 	color = { 252 239 60 }
 
 	country_type = unrecognized
@@ -5019,7 +5020,7 @@ BIH = {
 	capital = STATE_BIHAR
 }
 
-ARK = {
+REPLACE:ARK = {
 	color = { 212 211 151 }
 
 	country_type = unrecognized
@@ -5030,7 +5031,7 @@ ARK = {
 	capital = STATE_ARAKAN
 }
 
-IDS = {
+REPLACE:IDS = {
 	color = { 45 120 45 }
 
 	country_type = recognized
@@ -5043,7 +5044,7 @@ IDS = {
 	capital = STATE_PUNJAB
 }
 
-MPH = {
+REPLACE:MPH = {
 	color = { 111 3 252 }
 
 	country_type = unrecognized
@@ -5054,7 +5055,7 @@ MPH = {
 	capital = STATE_LAOS
 }
 
-KLO = {
+REPLACE:KLO = {
 	color = { 3 165 252 }
 
 	country_type = decentralized
@@ -5067,7 +5068,7 @@ KLO = {
 	capital = STATE_CAMBODIA
 }
 
-DGR = {
+REPLACE:DGR = {
 	color = { 235 222 52 }
 
 	country_type = decentralized
@@ -5080,7 +5081,7 @@ DGR = {
 	capital = STATE_ANNAM
 }
 
-SCT = {
+REPLACE:SCT = {
 	color = { 50 162 210 }
 
 	country_type = decentralized
@@ -5093,7 +5094,7 @@ SCT = {
 	capital = STATE_TONKIN
 }
 
-BNT = {
+REPLACE:BNT = {
 	color = { 59 104 94 }
 
 	country_type = recognized
@@ -5107,7 +5108,7 @@ BNT = {
 }
 
 # Eden
-EDE = {
+REPLACE:EDE = {
 	color = { 226 194 106 }
 
 	country_type = unrecognized
@@ -5120,7 +5121,7 @@ EDE = {
 	capital = STATE_BAVARIA
 }
 
-SPC = {
+REPLACE:SPC = {
 	color = { 217 23 26 }
 
 	# Based on the colours of the Guias de Navarra, originally these troops employed grey cloaks but by 1836 they had switched to blue
@@ -5138,7 +5139,7 @@ SPC = {
 	capital = STATE_BASQUE_COUNTRY
 }
 
-ARN = {
+REPLACE:ARN = {
 	color = { 166 68 72 }
 
 	country_type = recognized
@@ -5149,7 +5150,7 @@ ARN = {
 	capital = STATE_ARAGON
 }
 
-LEO = {
+REPLACE:LEO = {
 	color = { 99 14 87 }
 
 	country_type = recognized
@@ -5160,7 +5161,7 @@ LEO = {
 	capital = STATE_LEON
 }
 
-ASU = {
+REPLACE:ASU = {
 	color = { 104 173 230 }
 
 	country_type = recognized
@@ -5171,7 +5172,7 @@ ASU = {
 	capital = STATE_ASTURIAS
 }
 
-SC1 = { # New Spain
+REPLACE:SC1 = { # New Spain
 	color = { 247 231 124 }
 
 	country_type = colonial
@@ -5182,7 +5183,7 @@ SC1 = { # New Spain
 	capital = STATE_MEXICO
 }
 
-SC2 = { # New Grenada
+REPLACE:SC2 = { # New Grenada
 	color = { 199 184 84 }
 
 	country_type = colonial
@@ -5193,7 +5194,7 @@ SC2 = { # New Grenada
 	capital = STATE_CUNDINAMARCA
 }
 
-SC3 = { # Peru
+REPLACE:SC3 = { # Peru
 	color = { 235 207 23 }
 
 	country_type = colonial
@@ -5204,7 +5205,7 @@ SC3 = { # Peru
 	capital = STATE_LIMA
 }
 
-SC4 = { # River Plate
+REPLACE:SC4 = { # River Plate
 	color = { 195 179 75 }
 
 	country_type = colonial
@@ -5215,7 +5216,7 @@ SC4 = { # River Plate
 	capital = STATE_BUENOS_AIRES
 }
 
-RYU = { # Ryukyu
+REPLACE:RYU = { # Ryukyu
 	color = { 90 138 133 }
 
 	country_type = unrecognized
@@ -5227,7 +5228,7 @@ RYU = { # Ryukyu
 	capital = STATE_KYUSHU
 }
 
-SKH = { # Sakhalin
+REPLACE:SKH = { # Sakhalin
 	color = { 54 102 190 }
 
 	country_type = decentralized
@@ -5238,7 +5239,7 @@ SKH = { # Sakhalin
 	capital = STATE_SAKHALIN
 }
 
-ULT = { # Ulta
+REPLACE:ULT = { # Ulta
 	color = { 122 229 256 }
 
 	country_type = decentralized
@@ -5247,4 +5248,881 @@ ULT = { # Ulta
 
 	cultures = { siberian }
 	capital = STATE_SAKHALIN
+}
+
+# ---- 01_pacific_and_australasia.txt ----
+REPLACE:HAW = {
+	color = { 48  169  96 }
+
+	tier = kingdom
+
+	country_type = unrecognized
+
+	cultures = { hawaiian }
+	religion = protestant
+
+	capital = STATE_HAWAIIAN_ISLANDS
+	is_named_from_capital = yes
+}
+
+REPLACE:NTU = {
+	color = { 62 92 54 }
+
+	country_type = decentralized
+
+	tier = principality
+
+	cultures = { maori }
+	capital = STATE_SOUTH_ISLAND
+}
+
+REPLACE:NTO = {
+	color = { 148 185 190 }
+
+	country_type = decentralized
+
+	tier = principality
+
+	cultures = { maori }
+	capital = STATE_NORTH_ISLAND
+}
+
+REPLACE:KNK = {
+	color = { 190 173 103 }
+
+	country_type = decentralized
+
+	tier = principality
+
+	cultures = { melanesian }
+	capital = STATE_SOLOMON_ISLANDS
+}
+
+REPLACE:PPU = {
+	color = { 81 97 170 }
+
+	country_type = decentralized
+
+	tier = principality
+
+	cultures = { melanesian }
+	capital = STATE_EASTERN_NEW_GUINEA
+}
+
+REPLACE:HLA = { # Halia, for Bougainville
+	color = { 210 184 220 }
+
+	country_type = decentralized
+
+	tier = principality
+
+	cultures = { melanesian }
+	capital = STATE_SOLOMON_ISLANDS
+}
+
+REPLACE:BLA = { # Bilua
+	color = { 140 166 75 }
+
+	country_type = decentralized
+
+	tier = principality
+
+	cultures = { melanesian }
+	capital = STATE_SOLOMON_ISLANDS
+}
+
+REPLACE:BLG = { # Bulungan
+	color = { 140 166 75 }
+
+	country_type = unrecognized
+
+	tier = principality
+
+	cultures = { bornean }
+	capital = STATE_EAST_BORNEO
+}
+
+REPLACE:KTI = { # Kutai
+	color = { 137 88 58 }
+
+	country_type = unrecognized
+
+	tier = principality
+
+	cultures = { bornean }
+	capital = STATE_EAST_BORNEO
+}
+
+REPLACE:FJI = { # Fiji
+	color = { 159 173 219 }
+
+	country_type = decentralized
+
+	tier = principality
+
+	cultures = { melanesian }
+	capital = STATE_FIJI
+}
+
+REPLACE:MCR = { # Micronesia
+	color = { 248 218 99 }
+
+	country_type = decentralized
+
+	tier = principality
+
+	cultures = { micronesian }
+	capital = STATE_WEST_MICRONESIA
+}
+
+
+REPLACE:VNT = { # Vanuatu
+	color = { 37 214 50 }
+
+	country_type = decentralized
+
+	tier = principality
+
+	cultures = { melanesian }
+	capital = STATE_SOLOMON_ISLANDS
+}
+
+REPLACE:NRU = { # Nauru
+	color = { 231 131 17 }
+
+	country_type = decentralized
+
+	tier = principality
+
+	cultures = { melanesian }
+	capital = STATE_WEST_MICRONESIA
+}
+
+REPLACE:PLY = { # Tahiti
+	color = { 176 62 136 }
+
+	country_type = unrecognized
+
+	tier = principality
+
+	cultures = { polynesian }
+	religion = protestant
+	capital = STATE_FIJI
+}
+
+REPLACE:AOT = { # Aotearoa
+	color = { 47 140 191 }
+
+	country_type = unrecognized
+
+	tier = kingdom
+
+	cultures = { maori }
+	capital = STATE_NORTH_ISLAND
+}
+
+REPLACE:ULR = { # Uluru
+	color = { 112 54 16 }
+
+	tier = principality
+
+	country_type = decentralized
+
+	cultures = { aborigine }
+
+	capital = STATE_NORTHERN_TERRITORY
+}
+
+REPLACE:NSW = { # New South Wales
+	color = { 114 165 203 }
+
+	country_type = colonial
+
+	tier = principality
+
+	capital = STATE_NEW_SOUTH_WALES
+	cultures = { australian }
+}
+
+REPLACE:WAS = { # Western Australia
+	color = { 118 115 97 }
+
+	country_type = colonial
+
+	tier = principality
+
+	capital = STATE_WESTERN_AUSTRALIA
+	cultures = { australian }
+}
+
+REPLACE:SAS = { # South Australia
+	color = { 170 90 128 }
+
+	country_type = colonial
+
+	tier = principality
+
+	capital = STATE_SOUTH_AUSTRALIA
+	cultures = { australian }
+}
+
+REPLACE:UNT = { # United Tribes of New Zealand
+	color = { 170 167 151 }
+
+	country_type = unrecognized
+
+	tier = principality
+
+	capital = STATE_NORTH_ISLAND
+	cultures = { maori }
+	religion = protestant
+}
+
+REPLACE:NNG = { # Noongar
+
+	color = { 209 160 107 }
+
+	country_type = decentralized
+
+	tier = principality
+
+	cultures = { aborigine }
+	capital = STATE_WESTERN_AUSTRALIA
+}
+
+REPLACE:KAU = { # Kaurna
+
+	color = { 245 212 134 }
+
+	country_type = unrecognized
+
+	tier = principality
+
+	cultures = { aborigine }
+	capital = STATE_SOUTH_AUSTRALIA
+}
+
+REPLACE:GML = { # Gamilaraay
+
+	color = { 77 204 68 }
+
+	country_type = decentralized
+
+	tier = principality
+
+	cultures = { aborigine }
+	capital = STATE_NEW_SOUTH_WALES
+}
+
+REPLACE:AST = {
+	color = { 77  139  106 }
+
+	country_type = colonial
+
+	tier = kingdom
+
+	capital = STATE_NEW_SOUTH_WALES
+	cultures = { australian }
+}
+
+REPLACE:NZL = {
+	color = { 90  250  127 }
+
+	country_type = colonial
+
+	tier = principality
+
+	capital = STATE_NORTH_ISLAND
+	cultures = { australian }
+}
+
+REPLACE:TAS = {
+	color = { 224 194 152 }
+
+	country_type = colonial
+
+	tier = principality
+
+	capital = STATE_VICTORIA
+	cultures = { australian }
+}
+
+REPLACE:DEI = {
+	color = { 20  80  80 }
+
+	country_type = colonial
+
+	tier = principality
+
+	cultures = { dutch }
+	capital = STATE_WEST_JAVA
+}
+
+# Siak
+REPLACE:SAK = {
+	color = { 21  196  68 }
+
+	country_type = unrecognized
+
+	tier = principality
+
+	cultures = { sumatran }
+	capital = STATE_NORTH_SUMATRA
+}
+
+# Pontianak
+REPLACE:PON = {
+	color = { 255 102 102 }
+
+	country_type = unrecognized
+
+	tier = principality
+
+	cultures = { bornean }
+	capital = STATE_WEST_BORNEO
+}
+
+# Sambas
+REPLACE:SMB = {
+	color = { 102  102  255 }
+
+	country_type = unrecognized
+
+	tier = principality
+
+	cultures = { bornean }
+	capital = STATE_WEST_BORNEO
+}
+
+# Jambi
+REPLACE:JMB = {
+	color = { 223  228  192 }
+
+	country_type = unrecognized
+
+	tier = principality
+
+	cultures = { sumatran }
+	capital = STATE_NORTH_SUMATRA
+}
+
+# Yogyakarta
+REPLACE:YOG = {
+	color = { 201  28  54 }
+
+	country_type = unrecognized
+
+	tier = principality
+
+	cultures = { javan }
+	capital = STATE_CENTRAL_JAVA
+}
+
+# Surakarta
+REPLACE:SRK = {
+	color = { 239 51 64 }
+
+	country_type = unrecognized
+
+	tier = principality
+
+	cultures = { javan }
+	capital = STATE_CENTRAL_JAVA
+}
+
+# Buton
+REPLACE:BTN = {
+	color = { 209  203  31 }
+
+	country_type = unrecognized
+
+	tier = principality
+
+	cultures = { moluccan }
+	capital = STATE_CELEBES
+}
+
+# Selangor
+REPLACE:SEL = {
+	color = { 249 215 61 }
+
+	country_type = unrecognized
+
+	tier = principality
+
+	cultures = { malay }
+	capital = STATE_MALAYA
+}
+
+# Perak
+REPLACE:PRK = {
+	color = { 76  122  117 }
+
+	country_type = unrecognized
+
+	tier = principality
+
+	cultures = { malay }
+	capital = STATE_MALAYA
+}
+
+# Sulu
+REPLACE:SUL = {
+	color = { 89  164  144 }
+
+	country_type = unrecognized
+
+	tier = principality
+
+	cultures = { moro }
+	capital = STATE_MINDANAO
+}
+
+# Sulawesi
+REPLACE:SLW = {
+	color = { 153 0 0 }
+
+	country_type = decentralized
+
+	tier = principality
+
+	cultures = { moluccan }
+	capital = STATE_CELEBES
+}
+
+# Tidore
+REPLACE:TID = {
+	color = { 176  232  64 }
+
+	country_type = unrecognized
+
+	tier = principality
+
+	cultures = { moluccan }
+	capital = STATE_MOLUCCAS
+}
+
+# Sintang
+REPLACE:STG = {
+	color = { 255 255 0 }
+
+	country_type = unrecognized
+
+	tier = principality
+
+	cultures = { bornean }
+	capital = STATE_WEST_BORNEO
+}
+
+# Banjar
+REPLACE:BNJ = {
+	color = { 171  175  40 }
+
+	country_type = unrecognized
+
+	tier = principality
+
+	cultures = { bornean }
+	capital = STATE_EAST_BORNEO
+}
+
+# Indonesia
+REPLACE:IDN = {
+	color = { 0  128  128 }
+
+	country_type = recognized
+
+	tier = empire
+
+	cultures = { balinese batak bornean dayak javan malay moluccan sumatran }
+	capital = STATE_WEST_JAVA
+}
+
+# Maguindanao
+REPLACE:MGD = {
+	color = { 119  32  29 }
+
+	country_type = unrecognized
+
+	tier = principality
+
+	cultures = { moro }
+	capital = STATE_MINDANAO
+}
+
+REPLACE:YUZ = { # Yuanzhumin
+	color = { 97 44 96 }
+
+	country_type = unrecognized
+
+	tier = principality
+
+	cultures = { yuanzhumin }
+	capital = STATE_FORMOSA
+}
+
+REPLACE:PNS = { # Polynesia
+	color = { 244 140 30 }
+
+	country_type = unrecognized
+
+	tier = empire
+
+	cultures = { hawaiian maori melanesian polynesian micronesian yuanzhumin }
+	capital = STATE_HAWAIIAN_ISLANDS
+}
+
+REPLACE:WTI = { # Wati
+	color = { 54 112 16 }
+
+	tier = principality
+
+	country_type = decentralized
+
+	cultures = { aborigine }
+
+	capital = STATE_WESTERN_AUSTRALIA
+}
+
+REPLACE:MRN = { # Mirning
+	color = { 3 113 211 }
+
+	tier = principality
+
+	country_type = decentralized
+
+	cultures = { aborigine }
+
+	capital = STATE_WESTERN_AUSTRALIA
+}
+
+# Mindanao
+REPLACE:MND = {
+	color = { 255 255 204 }
+
+	country_type = decentralized
+
+	tier = principality
+
+	cultures = { lumad }
+	capital = STATE_MINDANAO
+}
+
+REPLACE:KLN = { # Kulinic
+	color = { 27 1 230 }
+
+	country_type = decentralized
+
+	tier = principality
+
+	cultures = { aborigine }
+	capital = STATE_VICTORIA
+}
+
+REPLACE:KNC = { # Karnic
+	color = { 236 232 85 }
+
+	country_type = decentralized
+
+	tier = principality
+
+	cultures = { aborigine }
+	capital = STATE_NEW_SOUTH_WALES
+}
+
+REPLACE:WDJ = { # Wiradjuri
+	color = { 140 70 67 }
+
+	country_type = decentralized
+
+	tier = principality
+
+	cultures = { aborigine }
+	capital = STATE_NEW_SOUTH_WALES
+}
+
+REPLACE:KRI = { # Kurnai
+	color = { 132 202 127 }
+
+	country_type = decentralized
+
+	tier = principality
+
+	cultures = { aborigine }
+	capital = STATE_VICTORIA
+}
+
+REPLACE:YUR = { # Yura
+	color = { 218 76 144 }
+
+	country_type = decentralized
+
+	tier = principality
+
+	cultures = { aborigine }
+	capital = STATE_SOUTH_AUSTRALIA
+}
+
+REPLACE:PAA = { # Paakintyi 
+	color = { 77 68 204 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { aborigine }
+	capital = STATE_NEW_SOUTH_WALES
+}
+
+REPLACE:YYT = { # Yorta Yorta
+	color = { 198 164 98 }
+
+	country_type = decentralized
+
+	tier = principality
+
+	cultures = { aborigine }
+	capital = STATE_VICTORIA
+}
+
+REPLACE:KTU = { # Kartu
+	color = { 244 126 55 }
+
+	country_type = decentralized
+
+	tier = principality
+
+	cultures = { aborigine }
+	capital = STATE_WESTERN_AUSTRALIA
+}
+
+REPLACE:KYN = { # Kanyara–Mantharta
+	color = { 73 229 248 }
+
+	country_type = decentralized
+
+	tier = principality
+
+	cultures = { aborigine }
+	capital = STATE_WESTERN_AUSTRALIA
+}
+
+REPLACE:NYR = { # Ngayarda
+	color = { 70 16 219 }
+
+	country_type = decentralized
+
+	tier = principality
+
+	cultures = { aborigine }
+	capital = STATE_WESTERN_AUSTRALIA
+}
+
+REPLACE:NYP = { # Ngumpin-Yapa
+	color = { 18 141 110 }
+
+	country_type = decentralized
+
+	tier = principality
+
+	cultures = { aborigine }
+	capital = STATE_NORTHERN_TERRITORY
+}
+
+REPLACE:JRR = { # Jarrak
+	color = { 113 111 2 }
+
+	country_type = decentralized
+
+	tier = principality
+
+	cultures = { aborigine }
+	capital = STATE_WESTERN_AUSTRALIA
+}
+
+REPLACE:NYL = { # Nyulnyulan
+	color = { 167 238 241 }
+
+	country_type = decentralized
+
+	tier = principality
+
+	cultures = { aborigine }
+	capital = STATE_WESTERN_AUSTRALIA
+}
+
+REPLACE:WRR = { # Worrorran
+	color = { 206 205 45 }
+
+	country_type = decentralized
+
+	tier = principality
+
+	cultures = { aborigine }
+	capital = STATE_WESTERN_AUSTRALIA
+}
+
+REPLACE:NGU = { # Ngarru
+	color = { 92 142 220 }
+
+	country_type = decentralized
+
+	tier = principality
+
+	cultures = { aborigine }
+	capital = STATE_NORTHERN_TERRITORY
+}
+
+REPLACE:GRW = { # Garawa
+	color = { 190 16 32 }
+
+	country_type = decentralized
+
+	tier = principality
+
+	cultures = { aborigine }
+	capital = STATE_NORTHERN_TERRITORY
+}
+
+REPLACE:MDI = { # Mirndi
+	color = { 147 72 6 }
+
+	country_type = decentralized
+
+	tier = principality
+
+	cultures = { aborigine }
+	capital = STATE_NORTHERN_TERRITORY
+}
+
+REPLACE:ARH = { # Arnhem
+	color = { 232 48 233 }
+
+	country_type = decentralized
+
+	tier = principality
+
+	cultures = { aborigine }
+	capital = STATE_NORTHERN_TERRITORY
+}
+
+REPLACE:YGU = { # Yolngu
+	color = { 78 11 105 }
+
+	country_type = decentralized
+
+	tier = principality
+
+	cultures = { aborigine }
+	capital = STATE_NORTHERN_TERRITORY
+}
+
+REPLACE:WRD = { # Wardaman
+	color = { 178 188 126 }
+
+	country_type = decentralized
+
+	tier = principality
+
+	cultures = { aborigine }
+	capital = STATE_NORTHERN_TERRITORY
+}
+
+REPLACE:DLY = { # Daly
+	color = { 178 121 123 }
+
+	country_type = decentralized
+
+	tier = principality
+
+	cultures = { aborigine }
+	capital = STATE_NORTHERN_TERRITORY
+}
+
+REPLACE:LRR = { # Larrakia, Darwin Region
+	color = { 238 127 130 }
+
+	country_type = decentralized
+
+	tier = principality
+
+	cultures = { aborigine }
+	capital = STATE_NORTHERN_TERRITORY
+}
+
+REPLACE:ARR = { # Arrernte
+	color = { 182 165 254 }
+
+	country_type = decentralized
+
+	tier = principality
+
+	cultures = { aborigine }
+	capital = STATE_NORTHERN_TERRITORY
+}
+
+REPLACE:MRA = { # Mara
+	color = { 55 24 41 }
+
+	country_type = decentralized
+
+	tier = principality
+
+	cultures = { aborigine }
+	capital = STATE_QUEENSLAND
+}
+
+REPLACE:KKT = { # Kalkatungu
+	color = { 132 219 205 }
+
+	country_type = decentralized
+
+	tier = principality
+
+	cultures = { aborigine }
+	capital = STATE_QUEENSLAND
+}
+
+REPLACE:MYI = { # Mayi
+	color = { 78 146 22 }
+
+	country_type = decentralized
+
+	tier = principality
+
+	cultures = { aborigine }
+	capital = STATE_QUEENSLAND
+}
+
+REPLACE:DYB = { # Dyribal
+	color = { 238 39 2 }
+
+	country_type = decentralized
+
+	tier = principality
+
+	cultures = { aborigine }
+	capital = STATE_QUEENSLAND
+}
+
+REPLACE:WKB = { # Waka-Gabi
+	color = { 252 112 227 }
+
+	country_type = decentralized
+
+	tier = principality
+
+	cultures = { aborigine }
+	capital = STATE_QUEENSLAND
+}
+
+REPLACE:PMA = { # Pama
+	color = { 207 182 66 }
+
+	country_type = decentralized
+
+	tier = principality
+
+	cultures = { aborigine }
+	capital = STATE_QUEENSLAND
 }

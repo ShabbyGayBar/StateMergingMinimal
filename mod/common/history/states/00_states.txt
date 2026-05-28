@@ -427,6 +427,7 @@
         }
 
         add_homeland = cu:dakota
+        add_homeland = cu:caddoan
         add_claim = c:USA
     }
     s:STATE_KANSAS = {
@@ -447,6 +448,7 @@
         }
 
         add_homeland = cu:siouan
+        add_homeland = cu:caddoan
         add_claim = c:USA
     }
     s:STATE_OKLAHOMA = {
@@ -462,6 +464,7 @@
 
         add_homeland = cu:cherokee
         add_homeland = cu:siouan
+        add_homeland = cu:caddoan
     }
     s:STATE_ARKANSAS = {
         create_state = {
@@ -565,6 +568,7 @@
 
         add_homeland = cu:dixie
         add_homeland = cu:yankee
+        add_homeland = cu:cherokee
     }
     s:STATE_MISSISSIPPI = {
         create_state = {
@@ -583,7 +587,8 @@
 
         add_homeland = cu:dixie
         add_homeland = cu:afro_american
-        add_homeland = cu:caddoan
+        add_homeland = cu:muskogean
+        add_homeland = cu:cherokee
     }
     s:STATE_FLORIDA = {
         create_state = {
@@ -610,6 +615,7 @@
 
         add_homeland = cu:dixie
         add_homeland = cu:afro_american
+        add_homeland = cu:cherokee
     }
     s:STATE_DISTRICT_OF_COLUMBIA = {
         create_state = {
@@ -668,6 +674,7 @@
         }
 
         add_homeland = cu:dixie
+        add_homeland = cu:cherokee
     }
     s:STATE_TEXAS = {
         create_state = {
@@ -8077,6 +8084,7 @@
 
         add_homeland = cu:dixie
         add_homeland = cu:afro_american
+        add_homeland = cu:cherokee
     }
     s:STATE_CHIAPAS = {
         create_state = {

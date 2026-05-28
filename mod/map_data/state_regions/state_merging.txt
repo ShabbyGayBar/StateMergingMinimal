@@ -962,6 +962,7 @@ STATE_MORAVIA = {
     arable_resources = { building_wheat_farm building_livestock_ranch building_vineyard }
     capped_resources = {
         building_coal_mine = 56
+        building_iron_mine = 10
         building_logging_camp = 14
     }
 }
@@ -10557,7 +10558,7 @@ STATE_FORMOSA = {
         type = "building_oil_rig"
         undiscovered_amount = 6
     }
-    naval_exit_id = 3157
+    naval_exit_id = 3056
 }
 
 STATE_SHANDONG = {
@@ -10833,7 +10834,7 @@ STATE_SAKHALIN = {
     mine = x7608FE
     wood = x1B4E8D
     arable_land = 10
-    arable_resources = { building_subsistence_fishing_village }
+    arable_resources = { building_livestock_ranch }
     capped_resources = {
         building_coal_mine = 32
         building_iron_mine = 45
@@ -11223,7 +11224,7 @@ STATE_MALAYA = {
         type = "building_rubber_plantation"
         undiscovered_amount = 40
     }
-    naval_exit_id = 3051
+    naval_exit_id = 3072
 }
 
 STATE_NORTH_BORNEO = {
@@ -11258,7 +11259,7 @@ STATE_NORTH_BORNEO = {
         type = "building_oil_rig"
         undiscovered_amount = 20
     }
-    naval_exit_id = 3056
+    naval_exit_id = 3072
 }
 
 STATE_WEST_BORNEO = {

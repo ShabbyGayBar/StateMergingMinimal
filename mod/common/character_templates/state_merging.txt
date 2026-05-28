@@ -1,0 +1,6039 @@
+﻿# ---- country_brz.txt ----
+### Brazil character template file ###
+
+# Brazil - BRZ
+# Piratini - PNI
+# Grao-Para - PRA
+# Catherinese Republic - CTR
+
+# Brazil
+
+REPLACE:BRZ_emperor_pedro_02 = {
+	# Pedro II
+	first_name = "Pedro"
+	last_name = "de_Braganca"
+	historical = yes
+	culture = primary_culture
+	heir = yes
+	birth_date = 1825.12.2
+	dna = dna_emperor_pedro_02
+	interest_group = ig_intelligentsia
+	ideology = ideology_reformer
+	home_region = STATE_RIO_DE_JANEIRO
+	traits = {
+		meticulous
+		trait_child
+	}
+	on_created = {
+		set_variable = is_pedro
+		set_variable = house_braganca
+	}
+	trait_generation = { }
+}
+
+REPLACE:brz_isabel_template = {
+	first_name = Isabel
+	last_name = de_Braganca
+	historical = yes
+	culture = cu:brazilian
+	religion = rel:catholic
+	interest_group = ig_intelligentsia
+	female = yes
+	birth_date = 1846.7.29
+	dna = dna_princess_isabella_of_brazil
+	ideology = ideology_abolitionist
+	home_region = STATE_RIO_DE_JANEIRO
+	traits = {
+		reserved
+		tactful
+	}
+	on_created = {
+		set_variable = house_braganca
+	}
+	trait_generation = { }
+}
+
+
+### Interest Group Leaders
+
+# Game-start
+
+REPLACE:BRZ_diogo_antonio_feijo = {
+	# Diogo Antônio Feijó, regent of Brazil from 1835 to 1837
+	first_name = Diogo_AntO_nio
+	last_name = FeijO_
+	historical = yes
+	culture = primary_culture
+	birth_date = 1784.8.17
+	dna = dna_diogo_antonio_feijo
+	ruler = yes
+	interest_group = ig_intelligentsia
+	ideology = ideology_moderate
+	home_region = STATE_SAO_PAULO
+	traits = {
+		reserved
+	}
+	trait_generation = { }
+}
+
+REPLACE:BRZ_bernardo_pereira_de_vasconcelos = {
+	# Bernardo Pereira de Vasconcelos, a relatively liberal conservative leader
+	first_name = Bernardo
+	last_name = Pereira_de_Vasconcelos
+	historical = yes
+	culture = primary_culture
+	birth_date = 1795.8.27
+	dna = dna_bernardo_pereira_de_vasconcelos
+	ig_leader = yes
+	interest_group = ig_petty_bourgeoisie
+	ideology = ideology_reformer
+	home_region = STATE_MINAS_GERAIS
+	traits = {
+		expert_political_operator
+	}
+	trait_generation = { }
+}
+
+REPLACE:BRZ_martim_francisco_ribeiro_de_andrada = {
+	# Martim Francisco Ribeiro de Andrada
+	first_name = Martim_Francisco
+	last_name = Ribeiro_de_Andrada
+	historical = yes
+	culture = primary_culture
+	birth_date = 1775.4.19
+	dna = dna_martim_francisco_ribiero_de_andrada
+	ig_leader = yes
+	interest_group = ig_industrialists
+	ideology = ideology_moderate
+	home_region = STATE_SAO_PAULO
+	traits = {
+		persistent
+		erudite
+	}
+	trait_generation = { }
+}
+
+REPLACE:BRZ_antonio_carlos_ribeiro_de_andrada = {
+	# Antônio Carlos Ribeiro de Andrada
+	first_name = Antonio_3
+	last_name = Ribeiro_de_Andrada
+	historical = yes
+	culture = primary_culture
+	birth_date = 1773.11.1
+	ig_leader = yes
+	interest_group = ig_intelligentsia
+	ideology = ideology_liberal_leader
+	home_region = STATE_SAO_PAULO
+	traits = {
+		innovative
+		erudite
+	}
+	trait_generation = { }
+}
+
+REPLACE:BRZ_januario_da_cunha_barbosa = {
+	# Januário da Cunha Barbosa
+	first_name = JanuA_rio
+	last_name = da_Cunha_Barbosa
+	historical = yes
+	culture = primary_culture
+	birth_date = 1775.4.19
+	dna = dna_januario_da_cunha_barbosa
+	ig_leader = yes
+	interest_group = ig_devout
+	ideology = ideology_reformer
+	home_region = STATE_RIO_DE_JANEIRO
+	traits = {
+		inspirational_orator
+		tactful
+	}
+	trait_generation = { }
+}
+
+REPLACE:BRZ_nicolau_pereira_de_campos_vergueiro = {
+	# also known as Senador Vergueiro
+	first_name = Nicolau
+	last_name = Pereira_de_Campos_Vergueiro
+	historical = yes
+	culture = primary_culture
+	birth_date = 1784.8.17
+	dna = dna_nicolau_pereira_de_campos_verguerio
+	ig_leader = yes
+	interest_group = ig_rural_folk
+	ideology = ideology_moderate
+	home_region = STATE_SAO_PAULO
+	role = character_role_magnate
+	holding_type = building_manor_house
+	traits = {
+		imperious
+	}
+	trait_generation = { }
+}
+
+REPLACE:BRZ_aureliano_de_sousa = {
+	# also known as Senador Vergueiro
+	first_name = Aureliano
+	last_name = de_Sousa_e_Oliveira_Coutinho
+	historical = yes
+	culture = primary_culture
+	birth_date = 1800.7.21
+	dna = dna_aureliano_coutinho
+	ig_leader = yes
+	interest_group = ig_landowners
+	ideology = ideology_moderate
+	home_region = STATE_RIO_DE_JANEIRO
+	traits = {
+		charismatic
+		meticulous
+	}
+	trait_generation = { }
+}
+
+REPLACE:BRZ_joao_paulo_dos_santos_barretto = {
+	# João Paulo dos Santos Barretto
+	first_name = JoA_o_Paulo
+	last_name = dos_Santos_Barretto
+	historical = yes
+	culture = primary_culture
+	birth_date = 1788.4.28
+	dna = dna_joao_paulo_dos_santos_barretto
+	ig_leader = yes
+	interest_group = ig_armed_forces
+	ideology = ideology_royalist
+	home_region = STATE_RIO_DE_JANEIRO
+	traits = {
+		tactful
+	}
+	trait_generation = { }
+}
+
+# Generated
+REPLACE:BRZ_getulio_vargas_character_template = {
+	first_name = Getulio
+	last_name = Vargas
+	historical = yes
+	culture = primary_culture
+	birth_date = 1882.4.19
+	dna = dna_vargas
+	ig_leader = yes
+	interest_group = ig_petty_bourgeoisie
+	ideology = ideology_authoritarian
+	home_region = STATE_RIO_GRANDE_DO_SUL
+	traits = {
+		erudite
+		meticulous
+		ambitious
+	}
+	trait_generation = { }
+}
+
+REPLACE:BRZ_benjamin_constant = { #Benjamin Constant
+	first_name = Benjamin
+	last_name = Constant
+	historical = yes
+	culture = cu:brazilian
+	female = no
+	role = character_role_politician
+	religion = rel:atheist
+	interest_group = ig_armed_forces
+	ideology = ideology_positivist
+	home_region = STATE_MATO_GROSSO
+	birth_date = 1836.10.18
+	traits = {
+		engineer
+		erudite
+	}
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:BRZ
+            c:BRZ ?= THIS
+			has_dlc_feature = rp1_content
+        }
+        interest_group_trigger = {
+            ig_counts_as_marginal = no
+			is_interest_group_type = ig_armed_forces
+        }
+        earliest_usage_date = 1875.1.1
+        latest_usage_date = 1890.1.1
+        #guaranteed to spawn if possible
+    }
+}
+
+REPLACE:BRZ_ruy_barbosa = { #Ruy Barbosa de Oliveira
+	first_name = Ruy
+	last_name = Barbosa
+	historical = yes
+	culture = cu:brazilian
+	female = no
+	role = character_role_politician
+	religion = rel:catholic
+	interest_group = ig_intelligentsia
+	ideology = ideology_abolitionist
+	home_region = STATE_BAHIA
+	birth_date = 1849.11.5
+	traits = {
+		direct
+		persistent
+		erudite
+	}
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:BRZ
+            c:BRZ ?= THIS
+			has_dlc_feature = rp1_content
+        }
+        interest_group_trigger = {
+            ig_counts_as_marginal = no
+			is_interest_group_type = ig_intelligentsia
+        }
+        earliest_usage_date = 1881.1.1
+        latest_usage_date = 1923.1.1
+        #guaranteed to spawn if possible
+    }
+}
+
+REPLACE:BRZ_prudente_de_morais = { #Prudente José de Morais Barros
+	first_name = Prudente
+	last_name = de_Morais_Barros
+	historical = yes
+	culture = cu:brazilian
+	female = no
+	role = character_role_politician
+	religion = rel:catholic
+	interest_group = ig_landowners
+	ideology = ideology_moderate
+	home_region = STATE_SAO_PAULO
+	role = character_role_magnate
+	holding_type = building_manor_house
+	birth_date = 1841.10.4
+	traits = {
+		experienced_political_operator
+		meticulous
+	}
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:BRZ
+            c:BRZ ?= THIS
+			has_dlc_feature = rp1_content
+        }
+        interest_group_trigger = {
+            ig_counts_as_marginal = no
+			is_interest_group_type = ig_landowners
+        }
+        earliest_usage_date = 1873.1.1
+        latest_usage_date = 1900.1.1
+        #guaranteed to spawn if possible
+    }
+}
+
+REPLACE:BRZ_quintino_bocaiuva = { #Quintino Antônio Ferreira de Sousa Bocaiuva
+	first_name = Quintino
+	last_name = BocaiU_va
+	historical = yes
+	culture = cu:brazilian
+	female = no
+	role = character_role_politician
+	religion = rel:catholic
+	interest_group = ig_petty_bourgeoisie
+	ideology = ideology_republican_leader
+	home_region = STATE_RIO_DE_JANEIRO
+	birth_date = 1836.12.4
+	traits = {
+		direct
+		literary
+	}
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:BRZ
+            c:BRZ ?= THIS
+			has_dlc_feature = rp1_content
+        }
+        interest_group_trigger = {
+			is_interest_group_type = ig_petty_bourgeoisie
+        }
+        earliest_usage_date = 1860.1.1
+        latest_usage_date = 1912.1.1
+        #guaranteed to spawn if possible
+    }
+}
+
+REPLACE:BRZ_campos_sales = { #Manoel Ferraz de Campos Salles
+	first_name = Manoel_Ferraz
+	last_name = de_Campos_Salles
+	historical = yes
+	culture = cu:brazilian
+	female = no
+	role = character_role_politician
+	religion = rel:catholic
+	interest_group = ig_landowners
+	ideology = ideology_market_liberal
+	home_region = STATE_SAO_PAULO
+	birth_date = 1836.12.4
+	traits = {
+		persistent
+		expert_political_operator
+	}
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:BRZ
+            c:BRZ ?= THIS
+			has_dlc_feature = rp1_content
+			NOR = {
+				country_has_monarchy_law = yes
+				has_law_or_variant = law_type:law_theocracy
+			}
+        }
+        interest_group_trigger = {
+			is_interest_group_type = ig_landowners
+        }
+        earliest_usage_date = 1870.1.1
+        latest_usage_date = 1914.1.1
+        #guaranteed to spawn if possible
+    }
+}
+
+REPLACE:BRZ_euclides_da_cunha = { #Euclydes Rodrigues Pimenta da Cunha
+	first_name = Euclides
+	last_name = da_Cunha
+	historical = yes
+	culture = cu:brazilian
+	female = no
+	role = character_role_politician
+	religion = rel:atheist
+	interest_group = ig_intelligentsia
+	ideology = ideology_positivist
+	home_region = STATE_RIO_DE_JANEIRO
+	birth_date = 1866.1.20
+	traits = {
+		romantic
+		wrathful
+		literary
+	}
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:BRZ
+            c:BRZ ?= THIS
+			has_dlc_feature = rp1_content
+			NOR = {
+				country_has_monarchy_law = yes
+				has_law_or_variant = law_type:law_theocracy
+			}
+        }
+        interest_group_trigger = {
+			is_interest_group_type = ig_rural_folk
+        }
+        earliest_usage_date = 1900.1.1
+        latest_usage_date = 1910.1.1
+        #guaranteed to spawn if possible
+    }
+}
+
+REPLACE:BRZ_francisco_escobar = { #Francisco Escobar
+	first_name = Francisco
+	last_name = Escobar
+	historical = yes
+	culture = cu:brazilian
+	female = no
+	role = character_role_politician
+	religion = rel:atheist
+	interest_group = ig_intelligentsia
+	ideology = ideology_social_democrat
+	home_region = STATE_MINAS_GERAIS
+	birth_date = 1865.12.8
+	traits = {
+		brave
+		erudite
+	}
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:BRZ
+            c:BRZ ?= THIS
+			has_dlc_feature = rp1_content
+        }
+        interest_group_trigger = {
+			is_interest_group_type = ig_intelligentsia
+        }
+        earliest_usage_date = 1890.1.1
+        latest_usage_date = 1924.1.1
+        #guaranteed to spawn if possible
+    }
+	on_created = {
+		if = {
+			limit = {
+				owner = {
+					has_technology_researched = socialism
+				}
+			}
+			set_ideology = ideology:ideology_social_democrat
+		}
+	}
+}
+
+REPLACE:BRZ_joaquim_nabuco = { #Joaquim Aurélio Barreto Nabuco de Araújo
+	first_name = Joaquim
+	last_name = Nabuco
+	historical = yes
+	culture = cu:brazilian
+	female = no
+	role = character_role_politician
+	religion = rel:catholic
+	interest_group = ig_intelligentsia
+	ideology = ideology_abolitionist
+	home_region = STATE_PERNAMBUCO
+	birth_date = 1849.8.19
+	traits = {
+		persistent
+		experienced_diplomat
+	}
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:BRZ
+            c:BRZ ?= THIS
+			has_dlc_feature = rp1_content
+			country_has_monarchy_law = yes
+        }
+        interest_group_trigger = {
+			is_interest_group_type = ig_intelligentsia
+        }
+        earliest_usage_date = 1878.1.1
+        latest_usage_date = 1910.1.1
+        #guaranteed to spawn if possible
+    }
+}
+
+REPLACE:BRZ_julio_de_castilhos = { #Júlio Prates de Castilhos
+	first_name = Julio
+	last_name = de_Castilhos
+	historical = yes
+	culture = cu:brazilian
+	female = no
+	role = character_role_politician
+	religion = rel:atheist
+	interest_group = ig_petty_bourgeoisie
+	ideology = ideology_positivist
+	home_region = STATE_RIO_GRANDE_DO_SUL
+	birth_date = 1860.7.15
+	traits = {
+		experienced_political_operator
+		literary
+		sickly
+	}
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:BRZ
+            c:BRZ ?= THIS
+			has_dlc_feature = rp1_content
+			has_variable = positivism_happened
+        }
+        interest_group_trigger = {
+			is_interest_group_type = ig_petty_bourgeoisie
+        }
+        earliest_usage_date = 1890.1.1
+        latest_usage_date = 1905.1.1
+        #guaranteed to spawn if possible
+    }
+}
+
+REPLACE:BRZ_rodriguez_alves = { #Francisco de Paula Rodrigues Alves
+	first_name = Rodrigues
+	last_name = Alves
+	historical = yes
+	culture = cu:brazilian
+	female = no
+	role = character_role_politician
+	religion = rel:catholic
+	interest_group = ig_landowners
+	ideology = ideology_moderate
+	home_region = STATE_SAO_PAULO
+	birth_date = 1848.7.7
+	traits = {
+		meticulous
+		reserved
+	}
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:BRZ
+            c:BRZ ?= THIS
+			has_dlc_feature = rp1_content
+        }
+        interest_group_trigger = {
+			is_interest_group_type = ig_landowners
+        }
+        earliest_usage_date = 1880.1.1
+        latest_usage_date = 1918.1.1
+        #guaranteed to spawn if possible
+    }
+}
+
+REPLACE:BRZ_epitacio_pessoa = { #Epitácio Lindolfo da Silva Pessoa
+	first_name = Epitacio
+	last_name = Pessoa
+	historical = yes
+	culture = cu:brazilian
+	female = no
+	role = character_role_politician
+	religion = rel:catholic
+	interest_group = ig_landowners
+	ideology = ideology_moderate
+	home_region = STATE_PERNAMBUCO
+	birth_date = 1840.6.9
+	traits = {
+		bigoted
+		experienced_diplomat
+	}
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:BRZ
+            c:BRZ ?= THIS
+			has_dlc_feature = rp1_content
+        }
+        interest_group_trigger = {
+			is_interest_group_type = ig_landowners
+        }
+        earliest_usage_date = 1900.1.1
+        latest_usage_date = 1922.1.1
+        #guaranteed to spawn if possible
+    }
+}
+
+REPLACE:BRZ_astrojildo_pereira = { # Astrojildo Pereira Duarte Silva
+	first_name = Astrojildo
+	last_name = Pereira
+	historical = yes
+	culture = cu:brazilian
+	religion = rel:atheist
+	female = no
+	role = character_role_politician
+	interest_group = ig_trade_unions
+	ideology = ideology_anarchist
+	home_region = STATE_RIO_DE_JANEIRO
+	birth_date = 1890.10.8
+	traits = {
+		persistent
+		firebrand
+		literary
+	}
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:BRZ
+            c:BRZ ?= THIS
+			has_dlc_feature = rp1_content
+        }
+        interest_group_trigger = {
+			is_interest_group_type = ig_trade_unions
+        }
+        earliest_usage_date = 1915.1.1
+        latest_usage_date = 1936.1.1
+        #guaranteed to spawn if possible
+    }
+	on_created = {
+		if = {
+			limit = {
+				any_country = {
+					country_rank >= rank_value:major_power
+					has_law_or_variant = law_type:law_council_republic
+					NOT = {
+						has_law_or_variant = law_type:law_anarchy
+					}
+				}
+			}
+			set_ideology = ideology:ideology_vanguardist
+		}
+	}
+}
+
+REPLACE:BRZ_irineu_evangelista_de_sousa = { #Irineu Evangelista de Sousa
+	first_name = Irineu_Evangelista
+	last_name = de_Sousa
+	historical = yes
+	dna = dna_irineu_evangelista_de_sousa
+	culture = cu:brazilian
+	female = no
+	role = character_role_politician
+	religion = rel:catholic
+	interest_group = ig_industrialists
+	ideology = ideology_abolitionist
+	role = character_role_magnate
+	holding_type = building_financial_district
+	home_region = STATE_RIO_DE_JANEIRO # From Rio Grande Do Sul, but made his fortune in Rio de Janeiro
+	birth_date = 1813.12.28
+	traits = {
+		meticulous
+		basic_diplomat
+		basic_entrepreneur
+	}
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:BRZ
+            c:BRZ ?= THIS
+			has_dlc_feature = rp1_content
+        }
+        interest_group_trigger = {
+			is_interest_group_type = ig_industrialists
+        }
+        earliest_usage_date = 1845.1.1
+        latest_usage_date = 1885.1.1
+        #guaranteed to spawn if possible
+    }
+    executive_usage = {
+    	country_trigger = {
+			has_dlc_feature = mp1_content
+		}
+		company_trigger = {
+			is_company_type = company_type:company_sao_paulo_railway
+		}
+        earliest_usage_date = 1845.1.1
+        latest_usage_date = 1885.1.1
+		#guaranteed to spawn if possible
+    }
+}
+
+### Agitators
+
+# Game-start
+
+# Francisco Sabino Álvares da Rocha Vieira Barroso, revolutionary leader of the 1897 Sabinada in Bahia
+REPLACE:BRZ_francisco_sabino = {
+	first_name = Francisco
+	last_name = Sabino
+	historical = yes
+	culture = primary_culture
+	birth_date = 1796.11.6 # I do not know his actual birthdate so I picked the start of the Sabinada as his birthday
+	is_agitator = yes
+	interest_group = ig_intelligentsia
+	female = no
+	ideology = ideology_radical
+	home_region = STATE_BAHIA
+	traits = {
+		inspirational_orator
+	}
+	trait_generation = { }
+}
+
+# Generated
+REPLACE:BRZ_virgulino_ferreira = {
+	first_name = Virgulino
+	last_name = Ferreira_da_Silva
+	historical = yes
+	is_agitator = yes
+	birth_date = 1898.6.4
+	culture = cu:nordestino
+	dna = dna_lampiao
+	interest_group = ig_rural_folk
+	ideology = ideology_land_reformer
+	home_region = STATE_PERNAMBUCO
+	traits = {
+		social_bandit
+		firebrand
+		ambitious
+	}
+	trait_generation = { }
+}
+
+REPLACE:BRZ_jesuino_brilliant = {
+	first_name = JesuI_no
+	last_name = Alves_de_Melo_Calado
+	historical = yes
+	is_agitator = yes
+	birth_date = 1844.11.21
+	culture = cu:nordestino
+	#dna = dna_jesuino_brilliant
+	interest_group = ig_rural_folk
+	ideology = ideology_land_reformer
+	home_region = STATE_PERNAMBUCO
+	traits = {
+		social_bandit
+		firebrand
+		honorable
+	}
+	trait_generation = { }
+}
+
+REPLACE:BRZ_anesia_cauacu = {
+	first_name = Anesia
+	last_name = Cauacu
+	historical = yes
+	is_agitator = yes
+	female = yes
+	birth_date = 1894.10.10
+	culture = cu:nordestino
+	#dna = dna_anesia_cauacu
+	interest_group = ig_rural_folk
+	ideology = ideology_land_reformer
+	home_region = STATE_BAHIA
+	traits = {
+		social_bandit
+		charismatic
+		ambitious
+	}
+	trait_generation = { }
+}
+
+REPLACE:BRZ_plinio_salgado = {
+	first_name = Plinio
+	last_name = Salgado
+	historical = yes
+	is_agitator = yes
+	birth_date = 1895.1.22
+	culture = cu:brazilian
+	interest_group = ig_devout
+	ideology = ideology_integralist
+	home_region = STATE_SAO_PAULO
+	traits = {
+		persistent
+		firebrand
+	}
+	trait_generation = { }
+}
+
+REPLACE:BRZ_antonio_conselheiro = { # Antônio Conselheiro
+	first_name = Antonio_3
+	last_name = Mendes_Maciel
+	historical = yes
+	culture = cu:nordestino
+	religion = rel:catholic
+	female = no
+	is_agitator = yes
+	interest_group = ig_devout
+	ideology = ideology_land_reformer
+	home_region = STATE_CEARA
+	birth_date = 1853.10.9
+	traits = {
+		pious
+		demagogue
+		persistent
+	}
+	agitator_usage = {
+		country_trigger = {
+			NOR = {
+				has_law_or_variant = law_type:law_peasant_proprietorship
+				has_law_or_variant = law_type:law_collectivized_agriculture
+			}
+			OR = {
+				c:BRZ ?= this
+				c:EQT ?= this
+			}
+			has_dlc_feature = rp1_content
+		}
+        interest_group_trigger = {
+			is_interest_group_type = ig_devout
+        }
+		earliest_usage_date = 1877.1.1
+		latest_usage_date = 1900.1.1
+		#guaranteed to spawn if possible
+	}
+}
+
+REPLACE:BRZ_jose_oiticica = { # José Oiticica
+	first_name = JosE_
+	last_name = Oiticica
+	historical = yes
+	culture = cu:brazilian
+	religion = rel:atheist
+	female = no
+	is_agitator = yes
+	interest_group = ig_trade_unions
+	ideology = ideology_anarchist
+	home_region = STATE_PERNAMBUCO
+	birth_date = 1882.7.22
+	traits = {
+		persistent
+		firebrand
+	}
+	agitator_usage = {
+		country_trigger = {
+			NOT = {
+				has_law_or_variant = law_type:law_anarchy
+				has_law_or_variant = law_type:law_council_republic
+			}
+			c:BRZ ?= this
+			has_dlc_feature = rp1_content
+		}
+        interest_group_trigger = {
+			is_interest_group_type = ig_trade_unions
+        }
+		earliest_usage_date = 1912.1.1
+		latest_usage_date = 1929.1.1
+		#guaranteed to spawn if possible
+	}
+}
+
+REPLACE:BRZ_luis_carlos_prestes_template = {
+	first_name = Luis_Carlos
+	last_name = Prestes
+	historical = yes
+	culture = primary_culture
+	birth_date = 1898.1.3
+	is_agitator = yes
+	interest_group = ig_armed_forces
+	ideology = ideology_communist
+	home_region = STATE_RIO_GRANDE_DO_SUL
+	traits = {
+		engineer
+		persistent
+	}
+	trait_generation = { }
+}
+
+### Commanders
+
+# Game-start
+
+REPLACE:BRZ_pedro_de_alcantara_bellegarde = {
+	is_general = yes
+	first_name = Pedro
+	last_name = de_Alcantara_Bellegarde
+	historical = yes
+	culture = primary_culture
+	interest_group = ig_intelligentsia
+	ideology = ideology_reformer
+	home_region = STATE_RIO_DE_JANEIRO
+	dna = dna_pedro_de_alcantara_bellegarde
+	traits = {
+		engineer
+		innovative
+	}
+	age = 35
+}
+
+REPLACE:BRZ_pierre_labatut = { #Pierre Labatut
+	is_general = yes
+	first_name = Pierre
+	last_name = Labatut
+	historical = yes
+	birth_date = 1776.11.18
+	dna = dna_pierre_labatut
+	culture = cu:french
+	interest_group = ig_armed_forces
+	ideology = ideology_moderate
+	home_region = STATE_PROVENCE
+	traits = {
+		arrogant
+		forest_commander
+	}
+	# prestige = 0.1
+	trait_generation = { }
+}
+
+REPLACE:BRZ_john_grenfell = { # Sea
+	is_admiral = yes
+	first_name = John
+	last_name = Grenfell
+	historical = yes
+	birth_date = 1800.9.20
+	culture = cu:british
+	interest_group = ig_armed_forces
+	ideology = ideology_moderate
+	home_region = STATE_HOME_COUNTIES
+	traits = {
+		experienced_naval_commander
+		innovative
+		scarred # Lost his right arm
+	}
+	trait_generation = { }
+}
+
+# Generated
+REPLACE:BRZ_deodoro_da_fonseca = { #Deodoro da Fonseca
+	first_name = Deodoro
+	last_name = da_Fonseca
+	historical = yes
+	culture = cu:brazilian
+	female = no
+	is_general = yes
+	religion = rel:catholic
+	dna = dna_deodoro_da_fonseca
+	commander_rank = default
+	interest_group = ig_armed_forces
+	ideology = ideology_reformer
+	home_region = STATE_PERNAMBUCO
+	birth_date = 1827.8.5
+	traits = {
+		basic_artillery_commander
+		brave
+		ambitious
+	}
+	commander_usage = {
+		country_trigger = {
+			exists = c:BRZ
+			c:BRZ ?= THIS
+			has_dlc_feature = rp1_content
+		}
+		role = general
+		earliest_usage_date = 1868.1.1
+		latest_usage_date = 1892.1.1
+		#guaranteed to spawn if possible
+	}
+}
+
+REPLACE:BRZ_floriano_peixoto = { #Floriano Vieira Peixoto
+	first_name = Floriano
+	last_name = Peixoto
+	historical = yes
+	culture = cu:brazilian
+	female = no
+	is_general = yes
+	religion = rel:catholic
+	commander_rank = default
+	interest_group = ig_armed_forces
+	ideology = ideology_authoritarian
+	home_region = STATE_PERNAMBUCO
+	birth_date = 1839.4.30
+	traits = {
+		charismatic
+		celebrity_commander
+		direct
+	}
+	commander_usage = {
+		country_trigger = {
+			exists = c:BRZ
+			c:BRZ ?= THIS
+			has_dlc_feature = rp1_content
+		}
+		role = general
+		earliest_usage_date = 1880.1.1
+		latest_usage_date = 1895.1.1
+		#guaranteed to spawn if possible
+	}
+}
+
+REPLACE:BRZ_manuel_marques_de_sousa = { #Manuel Marques de Sousa
+	first_name = Manuel
+	last_name = Marques_de_Sousa
+	historical = yes
+	culture = cu:brazilian
+	female = no
+	is_general = yes
+	religion = rel:catholic
+	commander_rank = default
+	interest_group = ig_armed_forces
+	ideology = ideology_abolitionist
+	home_region = STATE_RIO_GRANDE_DO_SUL
+	birth_date = 1804.6.13
+	traits = {
+		honorable
+		popular_commander
+		expert_offensive_planner
+	}
+	commander_usage = {
+		country_trigger = {
+			exists = c:BRZ
+			c:BRZ ?= THIS
+			has_dlc_feature = rp1_content
+		}
+		role = general
+		earliest_usage_date = 1845.1.1
+		latest_usage_date = 1872.1.1
+		#guaranteed to spawn if possible
+	}
+}
+
+REPLACE:BRZ_joaquim_marques_lisboa = { #Joaquim Marques Lisboa
+	first_name = Joaquim
+	last_name = Marques_Lisboa
+	historical = yes
+	culture = cu:brazilian
+	female = no
+	is_admiral = yes
+	religion = rel:catholic
+	commander_rank = default
+	interest_group = ig_armed_forces
+	ideology = ideology_royalist
+	home_region = STATE_RIO_GRANDE_DO_SUL
+	birth_date = 1804.6.13
+	traits = {
+		expert_naval_commander
+		persistent
+	}
+	commander_usage = {
+		country_trigger = {
+			exists = c:BRZ
+			c:BRZ ?= THIS
+			has_dlc_feature = rp1_content
+			country_has_monarchy_law = yes
+		}
+		role = admiral
+		earliest_usage_date = 1852.1.1
+		latest_usage_date = 1867.1.1
+		#guaranteed to spawn if possible
+	}
+}
+
+REPLACE:BRZ_francisco_barroso_da_silva = { #Francisco Manuel Barroso da Silva
+	first_name = Francisco
+	last_name = Barroso_da_Silva
+	historical = yes
+	culture = cu:portuguese
+	female = no
+	is_admiral = yes
+	religion = rel:catholic
+	commander_rank = default
+	interest_group = ig_armed_forces
+	ideology = ideology_moderate
+	birth_date = 1804.9.29
+	home_region = STATE_RIO_DE_JANEIRO
+	traits = {
+		experienced_convoy_raider
+		brave
+	}
+	commander_usage = {
+		country_trigger = {
+			exists = c:BRZ
+			c:BRZ ?= THIS
+			has_dlc_feature = rp1_content
+		}
+		role = admiral
+		earliest_usage_date = 1845.1.1
+		latest_usage_date = 1870.1.1
+		#guaranteed to spawn if possible
+	}
+}
+
+REPLACE:BRZ_manuel_luis_osorio = { #Manuel Luís Osório
+	first_name = Manuel
+	last_name = LuI_s_Osorio
+	historical = yes
+	culture = cu:brazilian
+	female = no
+	is_general = yes
+	religion = rel:catholic
+	commander_rank = default
+	interest_group = ig_intelligentsia
+	ideology = ideology_moderate
+	home_region = STATE_RIO_GRANDE_DO_SUL
+	birth_date = 1808.5.10
+	traits = {
+		celebrity_commander
+		basic_offensive_planner
+	}
+	commander_usage = {
+		country_trigger = {
+			exists = c:BRZ
+			c:BRZ ?= THIS
+			has_dlc_feature = rp1_content
+		}
+		role = general
+		earliest_usage_date = 1855.1.1
+		latest_usage_date = 1875.1.1
+		#guaranteed to spawn if possible
+	}
+}
+
+REPLACE:BRZ_joaquim_jose_inacio = { #Joaquim José Inácio
+	first_name = Joaquim
+	last_name = Inacio
+	historical = yes
+	culture = cu:portuguese
+	female = no
+	is_admiral = yes
+	religion = rel:catholic
+	commander_rank = default
+	interest_group = ig_armed_forces
+	ideology = ideology_royalist
+	birth_date = 1808.8.1
+	dna = dna_joaquim_jose_inacio
+	home_region = STATE_RIO_DE_JANEIRO
+	traits = {
+		brave
+		basic_naval_commander
+		sickly
+	}
+	commander_usage = {
+		country_trigger = {
+			exists = c:BRZ
+			c:BRZ ?= THIS
+			has_dlc_feature = rp1_content
+		}
+		role = admiral
+		earliest_usage_date = 1852.1.1
+		latest_usage_date = 1870.1.1
+		#guaranteed to spawn if possible
+	}
+}
+
+REPLACE:BRZ_custodio_de_melo = { #Custodio de Melo
+	first_name = Custodio
+	last_name = de_Melo
+	historical = yes
+	culture = cu:brazilian
+	female = no
+	is_admiral = yes
+	religion = rel:catholic
+	commander_rank = default
+	interest_group = ig_armed_forces
+	ideology = ideology_royalist
+	home_region = STATE_BAHIA
+	birth_date = 1840.6.9
+	traits = {
+		direct
+		reckless
+		basic_naval_commander
+	}
+	commander_usage = {
+		country_trigger = {
+			exists = c:BRZ
+			c:BRZ ?= THIS
+			has_dlc_feature = rp1_content
+		}
+		role = admiral
+		earliest_usage_date = 1885.1.1
+		latest_usage_date = 1900.1.1
+		#guaranteed to spawn if possible
+	}
+}
+
+REPLACE:BRZ_hermes_da_fonseca = { #Hermes da Fonseca
+	first_name = Hermes
+	last_name = da_Fonseca
+	historical = yes
+	culture = cu:brazilian
+	female = no
+	is_general = yes
+	religion = rel:catholic
+	commander_rank = default
+	interest_group = ig_armed_forces
+	ideology = ideology_republican_leader
+	home_region = STATE_RIO_GRANDE_DO_SUL
+	birth_date = 1840.6.9
+	traits = {
+		charismatic
+		basic_political_operator
+	}
+	commander_usage = {
+		country_trigger = {
+			exists = c:BRZ
+			c:BRZ ?= THIS
+			has_dlc_feature = rp1_content
+		}
+		role = general
+		earliest_usage_date = 1890.1.1
+		latest_usage_date = 1910.1.1
+		#guaranteed to spawn if possible
+	}
+}
+
+# Piratini
+
+REPLACE:PNI_bento_goncalves_da_silva = {
+	# Bento Gonçalves da Silva
+	first_name = Bento
+	last_name = GonC_alves_da_Silva
+	historical = yes
+	culture = primary_culture
+	ruler = yes
+	birth_date = 1788.9.23
+	dna = dna_bento_goncalves_da_silva
+	ig_leader = yes
+	interest_group = ig_armed_forces
+	home_region = STATE_RIO_GRANDE_DO_SUL
+	ideology = ideology_royalist
+	traits = {
+		ambitious
+		tactful
+	}
+}
+REPLACE:PNI_antonio_de_sousa_neto = {
+	# Antônio de Sousa Neto
+	is_general = yes
+	first_name = Antonio_3
+	last_name = de_Sousa_Neto
+	historical = yes
+	culture = primary_culture
+	interest_group = ig_armed_forces
+	ideology = ideology_abolitionist
+	birth_date = 1801.2.11
+	home_region = STATE_RIO_GRANDE_DO_SUL
+	dna = dna_antonio_de_sousa_neto
+	traits = {
+		brave
+		basic_defensive_strategist
+		surveyor
+	}
+}
+
+# Grao-Para
+
+REPLACE:PRA_eduardo_angelim = {
+	# Eduardo Angelim
+	first_name = "eduardo"
+	last_name = "angelim"
+	historical = yes
+	culture = primary_culture
+	ruler = yes
+	age = 22
+	dna = dna_eduardo_angelim
+	interest_group = ig_intelligentsia
+	ig_leader = yes
+	ideology = ideology_radical
+	home_region = STATE_PARA
+	traits = {
+		ambitious
+	}
+}
+
+# Catherinese Republic
+
+REPLACE:CTR_joaquim_neves = {
+	# Joaquim Xavier Neves, first elected president of the Juliana Republic
+	first_name = "Joaquim"
+	last_name = "Neves"
+	historical = yes
+	birth_date = 1793.4.6 # excact date unknown.
+	ruler = yes
+	culture = cu:sulista
+	religion = catholic
+	interest_group = ig_armed_forces
+	ideology = ideology_reformer
+	home_region = STATE_SANTA_CATARINA
+	traits = {
+		basic_political_operator
+		traditionalist_commander
+	}
+}
+REPLACE:CTR_vincente_cordiero = {
+	# Vicente Ferreira dos Santos Cordeiro, first actual president of the Juliana Republic
+	first_name = "Vicente"
+	last_name = "Cordeiro"
+	historical = yes
+	birth_date = 1782.1.14 # excact day unknown.
+	ig_leader = yes
+	culture = cu:sulista
+	religion = catholic
+	interest_group = ig_devout
+	ideology = ideology_reformer
+	home_region = STATE_SANTA_CATARINA
+	traits = {
+		basic_political_operator
+		cautious
+	}
+}
+REPLACE:CTR_david_canabarro = {
+	# David José Martins
+	first_name = "David"
+	last_name = "Canabarro"
+	historical = yes
+	birth_date = 1796.8.22
+	culture = cu:sulista
+	is_general = yes
+	religion = catholic
+	interest_group = ig_armed_forces
+	ideology = ideology_moderate
+	home_region = STATE_RIO_GRANDE_DO_SUL
+	traits = {
+		experienced_defensive_strategist
+		bigoted
+	}
+}
+
+
+# ---- country_can.txt ----
+### Canada character template file ###
+
+# Hudson Bay Company - HBC
+# New Brunswick - NBS
+# Nova Scotia - NVS
+# Upper Canada - ONT
+# Lower Canada - QUE
+# Columbia District - ORG
+
+# Hudson's Bay Company
+
+REPLACE:HBC_george_simpson = {
+	first_name = "George"
+	last_name = "Simpson"
+	historical = yes
+    # technically a ruler, but will be set as the ruler of HBC via the company
+	culture = cu:scottish
+	age = 44
+	dna = dna_george_simpson
+	interest_group = ig_industrialists
+	ideology = ideology_moderate
+    home_region = STATE_HIGHLANDS
+	company = company:company_hbc
+	traits = {
+		special_character_colonial_business
+		bigoted
+		explorer
+	}
+	executive_usage = { # Must be the country that owns the company
+        country_trigger = {
+            c:GBR ?= this
+        }
+        company_trigger = {
+            is_company_type = company_type:company_hbc
+        }
+        earliest_usage_date = 1836.1.1
+        latest_usage_date = 1860.9.7
+        #guaranteed to spawn if possible
+    }
+}
+
+### New Brunswick ###
+
+REPLACE:NBS_archibald_campbell = {
+	# Sir Archibald Campbell, Lt. Gov. of New Brunswick, completely unrelated to Sir John Campbell, Lt. Gov. of Nova Scotia
+	first_name = "Archibald"
+	last_name = "Campbell"
+	historical = yes
+	ruler = yes
+	ig_leader = yes
+	birth_date = 1769.3.12
+	dna = dna_archibald_campbell
+	culture=cu:scottish
+	interest_group = ig_armed_forces
+	ideology = ideology_moderate
+    home_region = STATE_HIGHLANDS
+	traits = {
+		persistent
+	}
+}
+
+# Charles Simonds, Speakder of the House in the 11th New Brunswick Legislature
+REPLACE:NBS_charles_simonds = {
+	first_name = "Charles"
+	last_name = "Simonds"
+	historical = yes
+	culture = cu:anglo_canadian
+	religion = rel:protestant
+	birth_date = 1783.8.22 # died 1859.4.12
+	ig_leader = yes
+	interest_group = ig_intelligentsia
+	ideology = ideology_liberal_leader
+    home_region = STATE_NEW_BRUNSWICK
+	traits = {
+		pious # Low Church
+		arrogant
+	}
+}
+
+# Edward Barron Chandler
+REPLACE:NBS_edward_chandler = {
+	first_name = "Edward"
+	last_name = "Chandler"
+	historical = yes
+	culture = cu:anglo_canadian
+	religion = rel:protestant
+	birth_date = 1800.8.22 # died 1880.2.6
+	ig_leader = yes
+	interest_group = ig_landowners
+	ideology = ideology_reformer
+    home_region = STATE_NEW_BRUNSWICK
+	traits = {
+		cautious
+		tactful
+		basic_political_operator
+	}
+}
+
+# Thomas Baillie, colonial administrator from the mother country and a real piece of work
+REPLACE:NBS_thomas_baillie = {
+	first_name = "Thomas"
+	last_name = "Baillie"
+	historical = yes
+	culture = cu:british
+	religion = rel:protestant
+	birth_date = 1796.10.4 # died 1863.5.20
+	ig_leader = yes
+	interest_group = ig_petty_bourgeoisie
+	ideology = ideology_protectionist
+    home_region = STATE_HOME_COUNTIES
+	traits = {
+		aesthete
+		arrogant
+		expensive_tastes
+		inept
+	}
+}
+
+### Nova Scotia ###
+
+REPLACE:NVS_colin_campbell = {
+	# Sir Colin Campbell, completely unrelated to Sir Archibald Campbell
+	first_name = "Colin"
+	last_name = "Campbell"
+	historical = yes
+	ruler = yes
+	ig_leader = yes
+	birth_date = 1776.4.18
+	dna = dna_colin_campbell
+	culture=cu:scottish
+	interest_group = ig_armed_forces
+	ideology = ideology_moderate
+    home_region = STATE_LOWLANDS
+	traits = {
+		tactful
+	}
+}
+
+### Upper Canada/Ontario ###
+
+REPLACE:ONT_francis_bond_head = {
+	first_name = "Francis_Bond"
+	last_name = "Head"
+	historical = yes
+	ruler = yes
+	ig_leader = yes
+	culture = cu:british
+	birth_date = 1793.12.7
+	dna = dna_francis_bond_head
+	interest_group = ig_landowners
+	ideology = ideology_moderate
+    home_region = STATE_HOME_COUNTIES
+	traits = {
+		special_character_colonial_extraction
+		arrogant
+		imperious
+		inept
+	}
+}
+
+REPLACE:ONT_robert_baldwin = {
+	first_name = "Robert"
+	last_name = "Baldwin"
+	historical = yes
+	culture = cu:anglo_canadian
+	birth_date = 1804.5.12
+	dna = dna_robert_baldwin
+	ig_leader = yes
+	interest_group = ig_petty_bourgeoisie
+	ideology = ideology_reformer
+    home_region = STATE_ONTARIO
+	traits = {
+		honorable
+		cautious
+		reserved
+		basic_political_operator
+	}
+}
+
+# William Allan, banker from Scotland, friend of the conservative Family Compact. Fingers in every pie.
+REPLACE:ONT_william_allan = {
+	first_name = "William"
+	last_name = "Allan"
+	historical = yes
+	culture = cu:scottish
+	religion = rel:protestant
+	age = 66 # born in 1770, exact birthdate unknown
+	ig_leader = yes
+	interest_group = ig_industrialists
+	ideology = ideology_moderate
+	role = character_role_magnate
+	holding_type = building_financial_district
+    home_region = STATE_ONTARIO # From Scotland, but holdings in Ontario
+	traits = {
+		cautious
+		grifter
+		ruthless
+		master_bureaucrat
+	}
+}
+
+# The Right Reverend John Strachan, Bishop of Toronto, arch-Tory, prime mover of the Family Compact
+REPLACE:ONT_john_strachan = {
+	first_name = "John"
+	last_name = "Strachan"
+	historical = yes
+	culture = cu:scottish
+	religion = rel:protestant
+	birth_date = 1778.4.12
+	ig_leader = yes
+	interest_group = ig_devout
+	ideology = ideology_moderate
+    home_region = STATE_LOWLANDS
+	traits = {
+		pious
+		arrogant
+		persistent
+		erudite
+	}
+}
+
+REPLACE:ONT_john_colborne = {
+	first_name = "John"
+	last_name = "Colborne"
+	historical = yes
+	culture = cu:british # Englishman
+	birth_date = 1778.2.16
+	dna = dna_john_colborne
+	ig_leader = yes
+	is_general = yes
+	interest_group = ig_armed_forces
+	ideology = ideology_royalist
+    home_region = STATE_HOME_COUNTIES
+	traits = {
+		imperious
+	}
+}
+
+REPLACE:ONT_william_lyon_mackenzie = {
+	first_name = "William_Lyon"
+	last_name = "Mackenzie"
+	historical = yes
+	culture = cu:anglo_canadian # Born in Scotland
+	birth_date = 1795.3.12
+	dna = dna_william_lyon_mackenzie
+	ig_leader = yes
+	interest_group = ig_intelligentsia
+	ideology = ideology_radical
+    home_region = STATE_ONTARIO
+	traits = {
+		charismatic
+		honorable
+		persistent
+		literary
+	}
+}
+
+# James FitzGibbon, member of the Family Compact and militia officer.
+REPLACE:ONT_james_fitzgibbon = {
+	first_name = "James"
+	last_name = "FitzGibbon"
+	historical = yes
+	culture = cu:irish
+	religion = rel:protestant # family was from Limerick, but FitzGibbon's father had converted to Protestantism in the 1780s
+	birth_date = 1780.11.16
+	is_general = yes
+	interest_group = ig_landowners
+	ideology = ideology_moderate
+    home_region = STATE_MUNSTER
+	traits = {
+		imperious
+		expensive_tastes # earnest earlier on in life, but by the 1830s he'd been getting bitter about being on the short of the stick for awards and promotions
+		psychological_affliction # started having nervous breakdowns
+		forest_commander
+	}
+}
+
+# Samuel Lount, Reformer partisan and participant in the Upper Canada Rebellion
+REPLACE:ONT_samuel_lount = {
+	first_name = "Samuel"
+	last_name = "Lount"
+	historical = yes
+	female = no
+	birth_date = 1791.9.24 # died 1838.4.12 in aftermth of the Upper Canada Rebellion
+	culture = cu:anglo_canadian
+	religion = rel:protestant
+	is_agitator = yes
+	interest_group = ig_rural_folk
+	ideology = ideology_radical
+    home_region = STATE_ONTARIO
+	traits = {
+		honorable
+		brave
+		inspirational_orator
+	}
+}
+
+### Lower Canada/Quebec ###
+
+REPLACE:QUE_archibald_acheson = {
+	first_name = "Archibald"
+	last_name = "Acheson"
+	historical = yes
+	ruler = yes
+	ig_leader = yes
+	culture = cu:british # Irish peer from a family of Scottish descent
+	birth_date = 1776.8.1
+	dna = dna_archibald_acheson
+	interest_group = ig_landowners
+	ideology = ideology_moderate
+    home_region = STATE_ULSTER
+	traits = {
+		special_character_colonial_business
+		tactful
+	}
+}
+
+REPLACE:QUE_louis_joseph_papineau = {
+	first_name = "Louis-Joseph"
+	last_name = "Papineau"
+	historical = yes
+	culture = cu:franco_canadian
+	birth_date = 1786.10.7
+	dna = dna_louis_joseph_papineau
+	ig_leader = yes
+	interest_group = ig_intelligentsia
+	ideology = ideology_radical
+    home_region = STATE_QUEBEC
+	traits = {
+		ambitious
+		demagogue
+	}
+}
+
+REPLACE:QUE_austin_cuvillier = {
+	first_name = "Austin"
+	last_name = "Cuvillier"
+	historical = yes
+	culture = cu:franco_canadian
+	birth_date = 1779.8.20
+	ig_leader = yes
+	interest_group = ig_petty_bourgeoisie
+	ideology = ideology_moderate
+    home_region = STATE_QUEBEC
+	traits = {
+		cautious
+		charismatic
+	}
+}
+
+# Peter McGill, president of the Bank of Montreal 1834-1860, member of the Lower Canada Legislative Council from 1832 to 1838, and most importantly, early railroad promotorer
+REPLACE:QUE_peter_mcgill = {
+	first_name = "Peter"
+	last_name = "McGill"
+	historical = yes
+	culture = cu:scottish
+	religion = rel:protestant
+	birth_date = 1789.8.22 # born somewhere in August of 1789, baptized on September 1st
+	ig_leader = yes
+	interest_group = ig_industrialists
+	ideology = ideology_moderate
+    home_region = STATE_LOWLANDS
+	traits = {
+		pious
+		grifter # in the 1850s, he rescheduled his own debt with loans from the Bank of Montreal, which he was then president of at the time
+		cautious
+		master_bureaucrat
+	}
+}
+
+# Jean-Jacques Lartigue
+REPLACE:QUE_jean-jacques_lartigue = {
+	first_name = "Jean-Jacques"
+	last_name = "Lartigue"
+	historical = yes
+	culture = cu:franco_canadian
+	religion = rel:catholic
+	birth_date = 1777.6.20 # died 1840.4.19
+	ig_leader = yes
+	interest_group = ig_devout
+	ideology = ideology_theocrat
+    home_region = STATE_QUEBEC
+	traits = {
+		cautious
+		pious
+		tactful
+		basic_political_operator
+	}
+}
+
+# Robert Nelson, Reformer, proclaimed President of the Republic of Lower Canada during the Lower Canada Rebellion. Technically he didn't radicalize and advocate for revolution until Nov 1837, but him as an agitator in 1836 helps amp up the radical movement at game start
+REPLACE:QUE_robert_nelson = {
+	first_name = "Robert"
+	last_name = "Nelson"
+	historical = yes
+	female = no
+	birth_date = 1794.1.15 # Dictionary of Canadian Biography says he was born somewhere in January of 1794, Wikipedia says he was born August 1794, and Mary Soderstrom in 1994 reckoned he was born in August 1793. Anybody who claims with certainty that they have the one true birthdate for him either has some original research or read only one source and didn't double-check that.
+	culture = cu:anglo_canadian
+	religion = rel:protestant
+	is_agitator = yes
+	interest_group = ig_intelligentsia
+	ideology = ideology_radical
+    home_region = STATE_QUEBEC
+	traits = {
+		charismatic
+		wrathful
+		reckless
+		firebrand
+	}
+}
+
+### Columbia District ###
+
+REPLACE:ORG_john_mcloughlin = {
+	first_name = John
+	last_name = McLoughlin
+	historical = yes
+	age = 52
+	dna = dna_john_mcloughlin
+	culture = cu:franco_canadian
+	ruler = yes
+	ig_leader = yes
+	interest_group = ig_industrialists
+	ideology = ideology_moderate
+    home_region = STATE_QUEBEC
+	traits = {
+		special_character_colonial_business
+		tactful
+	}
+}
+
+REPLACE:ORG_ewing_young = {
+	first_name = Ewing
+	last_name = Young
+	historical = yes
+	age = 37
+	culture = cu:yankee
+	ig_leader = yes
+	interest_group = ig_rural_folk
+	ideology = ideology_moderate
+    home_region = STATE_TENNESSEE
+	traits = {
+		charismatic
+	}
+}
+
+REPLACE:ORG_jason_lee = {
+	first_name = Jason
+	last_name = Lee
+	historical = yes
+	age = 33
+	dna = dna_jason_lee
+	culture = cu:british
+	ig_leader = yes
+	interest_group = ig_devout
+	ideology = ideology_moderate
+    home_region = STATE_QUEBEC
+	traits = {
+	}
+}
+
+REPLACE:ORG_william_slacum = {
+	first_name = William
+	last_name = Slacum
+	historical = yes
+	age = 37
+	culture = cu:yankee
+	ig_leader = yes
+	interest_group = ig_armed_forces
+	ideology = ideology_moderate
+    home_region = STATE_DISTRICT_OF_COLUMBIA
+	traits = {
+		direct
+	}
+}
+
+REPLACE:ORG_william_bailey = {
+	first_name = William
+	last_name = Bailey
+	historical = yes
+	age = 29
+	culture=cu:british
+	ig_leader = yes
+	interest_group = ig_petty_bourgeoisie
+	ideology = ideology_moderate
+    home_region = STATE_OREGON
+	traits = {
+	}
+}
+
+REPLACE:ORG_ira_babcock = {
+	first_name = Ira
+	last_name = Babcock
+	historical = yes
+	age = 28
+	dna = dna_ira_babcock
+	culture=cu:yankee
+	ig_leader = yes
+	interest_group = ig_intelligentsia
+	ideology = ideology_moderate
+    home_region = STATE_NEW_YORK
+	traits = {
+	}
+}
+
+REPLACE:ORG_etinne_lucier = {
+	first_name = Etienne
+	last_name = Lucier
+	historical = yes
+	age = 50
+	dna = dna_etienne_lucier
+	culture = cu:french
+	ig_leader = yes
+	interest_group = ig_landowners
+	ideology = ideology_moderate
+    home_region = STATE_OREGON
+	traits = {
+	}
+}
+
+### Generated Interest Group leaders
+
+# John A. Macdonald, first Prime Minister of Canada post-confederation
+REPLACE:can_john_macdonald = {
+	first_name = "John"
+	last_name = "Macdonald"
+	historical = yes
+	role = character_role_politician
+	culture = cu:anglo_canadian
+	religion = rel:protestant
+    home_region = STATE_ONTARIO
+	birth_date = 1815.1.10
+
+	interest_group = ig_petty_bourgeoisie
+	ideology = ideology_protectionist
+
+	traits = {
+		charismatic
+		tactful
+		ambitious
+		experienced_political_operator
+	}
+
+	interest_group_leader_usage = {
+		country_trigger = {
+			NOT = { is_country_type = decentralized }
+			any_scope_state = {
+				is_incorporated = yes
+				state_region = s:STATE_ONTARIO
+			}
+			country_average_culture_pop_acceptance = {
+				culture = cu:anglo_canadian
+				value >= acceptance_status_4
+			}
+		}
+		interest_group_trigger = {
+			ig_counts_as_marginal = no
+			OR = {
+			   	is_interest_group_type = ig_petty_bourgeoisie
+			   	is_interest_group_type = ig_industrialists
+			}
+		}
+		earliest_usage_date = 1844.10.15 # first elected MP for Kingston in the Province of Canada
+		latest_usage_date = 1887.2.22 # the 1887 Canadian General Election wasn't even his last election, but Macdonald was 72 and he should not be /appearing/ for the first time at age 72
+		#guaranteed to spawn if possible
+	}
+}
+
+# Sir George-Étienne Cartier, co-premier, a Father of the Confederation, named George rather than Georges because he's named after King George III
+REPLACE:can_george_etienne_cartier = {
+	first_name = "George-Etienne"
+	last_name = "Cartier"
+	historical = yes
+	role = character_role_politician
+	culture = cu:franco_canadian
+	religion = rel:catholic
+	birth_date = 1814.9.6 # died 1873.5.20
+	interest_group = ig_industrialists
+	ideology = ideology_protectionist
+    home_region = STATE_QUEBEC
+	traits = {
+		tactful
+		cautious
+		expert_political_operator # Kingpin of the Confederation
+	}
+
+	interest_group_leader_usage = {
+		country_trigger = {
+			NOT = { is_country_type = decentralized }
+			any_scope_state = {
+				is_incorporated = yes
+				state_region = s:STATE_QUEBEC
+			}
+			country_average_culture_pop_acceptance = {
+				culture = cu:franco_canadian
+				value >= acceptance_status_4
+			}
+		}
+		interest_group_trigger = {
+			ig_counts_as_marginal = no
+			OR = {
+				is_interest_group_type = ig_petty_bourgeoisie
+				is_interest_group_type = ig_landowners
+				is_interest_group_type = ig_intelligentsia
+				is_interest_group_type = ig_industrialists
+			}
+		}
+		earliest_usage_date = 1848.1.18 # elected to the 3rd Parliament of the Province of Canada in January 1848
+		latest_usage_date = 1867.9.20 # last electoral victory, as MP for Montreal East following confederation
+		#guaranteed to spawn if possible
+	}
+}
+
+# George Brown, Reform leader and one of the Fathers of the Confederation
+REPLACE:can_george_brown = {
+	first_name = "George"
+	last_name = "Brown"
+	historical = yes
+	role = character_role_politician
+	culture = cu:scottish
+	religion = rel:protestant
+	birth_date = 1818.11.29 # died May 9th, 1880, a month after being shot in the thigh
+
+	interest_group = ig_intelligentsia
+	ideology = ideology_market_liberal
+    home_region = STATE_LOWLANDS
+
+	traits = {
+		tactful
+		sickly
+		persistent
+		literary # was also a newspaper publisher
+	}
+
+	interest_group_leader_usage = {
+		country_trigger = {
+			NOT = { is_country_type = decentralized }
+			any_scope_state = {
+				is_incorporated = yes
+				state_region = s:STATE_ONTARIO
+			}
+			country_average_culture_pop_acceptance = {
+				culture = cu:scottish
+				value >= acceptance_status_4
+			}
+		}
+		interest_group_trigger = {
+			ig_counts_as_marginal = no
+			OR = {
+			   	is_interest_group_type = ig_petty_bourgeoisie
+			   	is_interest_group_type = ig_intelligentsia
+			}
+		}
+		earliest_usage_date = 1854.1.1 # became MP for Lambton in 1854
+		latest_usage_date = 1874.1.1 # appointed to the Canadian senate
+		chance = 50
+	}
+}
+
+# Sir Allan Napier MacNab, joint Premier of Lower Canada from 1854 to 1856
+REPLACE:can_allan_macnab = {
+	first_name = "Allan"
+	last_name = "MacNab"
+	historical = yes
+	role = character_role_politician
+	culture = cu:anglo_canadian
+	religion = rel:protestant
+	birth_date = 1798.2.19 # died 1862.8.8
+
+	interest_group = ig_landowners
+	ideology = ideology_moderate
+	role = character_role_magnate
+	holding_type = building_manor_house # Large land speculator
+    home_region = STATE_ONTARIO
+
+	traits = {
+		grifter
+		persistent
+		direct
+		experienced_political_operator
+	}
+
+	interest_group_leader_usage = {
+		country_trigger = {
+			NOT = { is_country_type = decentralized }
+			any_scope_state = {
+				is_incorporated = yes
+				state_region = s:STATE_ONTARIO
+			}
+			country_average_culture_pop_acceptance = {
+				culture = cu:anglo_canadian
+				value >= acceptance_status_4
+			}
+		}
+		interest_group_trigger = {
+			ig_counts_as_marginal = no
+			is_interest_group_type = ig_landowners
+		}
+		earliest_usage_date = 1838.1.1 # Knighted in 1838, was already serving in Upper Panada's parliament since 1830
+		latest_usage_date = 1854.9.11 # beginning of term as Joint Premier of the Province of Canada
+		#guaranteed to spawn if possible
+	}
+}
+
+# Augustin-Norbert Morin, joint premier of Canada from 1851 to 1855
+REPLACE:can_augustin-norbert_morin = {
+	first_name = "Augustin-Norbert"
+	last_name = "Morin"
+	historical = yes
+	ig_leader = yes
+	culture = cu:franco_canadian
+	religion = rel:catholic
+	birth_date = 1803.10.13 # died 1865.7.27
+
+	interest_group = ig_intelligentsia
+	ideology = ideology_liberal_leader
+    home_region = STATE_QUEBEC
+
+	traits = {
+		persistent
+		imposing
+		cautious
+		erudite
+	}
+
+	interest_group_leader_usage = {
+		country_trigger = {
+			NOT = { is_country_type = decentralized }
+			any_scope_state = {
+				is_incorporated = yes
+				state_region = s:STATE_QUEBEC
+			}
+			country_average_culture_pop_acceptance = {
+				culture = cu:franco_canadian
+				value >= acceptance_status_4
+			}
+		}
+		interest_group_trigger = {
+			ig_counts_as_marginal = no
+			OR = {
+				is_interest_group_type = ig_intelligentsia
+				is_interest_group_type = ig_rural_folk
+			}
+		}
+		earliest_usage_date = 1841.2.10 # 1st Parliament of the Province of Canada
+		latest_usage_date = 1855.1.27 # Beginning of second term as Joint Premier of the Province of Canada
+		#guaranteed to spawn if possible
+	}
+}
+
+# Alexandre-Antonin Taché, Catholic missionary, archbishop. Participant in the First Vatican Council. Called on as a mediator by the Canadian government on several occasions
+REPLACE:can_alexandre-antonin_tache = {
+	first_name = "Alexandre-Antonin"
+	last_name = "Tache"
+	historical = yes
+	ig_leader = yes
+	culture= cu:franco_canadian
+	religion = rel:catholic
+	birth_date = 1823.7.23 # died June 22nd, 1894
+
+	interest_group = ig_devout
+	ideology = ideology_humanitarian
+    home_region = STATE_QUEBEC
+
+	traits = {
+		honorable
+		tactful
+		pious
+		basic_diplomat
+	}
+
+	interest_group_leader_usage = {
+		country_trigger = {
+			NOT = { is_country_type = decentralized }
+			any_scope_state = {
+				state_region = s:STATE_MANITOBA
+			}
+			OR = {
+				c:MTC ?= this
+				country_average_culture_pop_acceptance = {
+					culture = cu:franco_canadian
+					value >= acceptance_status_4
+				}
+			}
+		}
+		interest_group_trigger = {
+			OR = {
+				AND = {
+					owner = { country_has_state_religion = rel:catholic }
+			   		is_interest_group_type = ig_devout
+			   	}
+				AND = {
+					owner = { NOT = { country_has_state_religion = rel:catholic } }
+					is_interest_group_type = ig_rural_folk
+				}
+			}
+		}
+		earliest_usage_date = 1853.6.7 # becomes Bishop of St. Boniface
+		latest_usage_date = 1879.1.1 # Health begins to decline
+		#guaranteed to spawn if possible
+	}
+}
+
+# Sir Adams George Archibald, Nova Scotian Father of the Confederation, MP and Lt. Gov of Nova Scotia before becoming first Lt. Gov of Manitoba
+REPLACE:can_adams_george_archibald = {
+	first_name = "Adams_George"
+	last_name = "Archibald"
+	historical = yes
+	role = character_role_politician
+	culture = cu:anglo_canadian
+	religion = rel:protestant
+	birth_date = 1814.5.3 # died 1892.12.14
+
+	interest_group = ig_industrialists
+	ideology = ideology_market_liberal
+    home_region = STATE_NEW_BRUNSWICK
+
+	traits = {
+		arrogant
+		imperious
+		persistent
+		basic_political_operator
+	}
+
+	interest_group_leader_usage = {
+		country_trigger = {
+			NOT = { is_country_type = decentralized }
+			OR = {
+				c:NVS ?= this
+				any_scope_state = {
+					is_incorporated = yes
+					state_region = s:STATE_NEW_BRUNSWICK
+				}
+				AND = {
+					c:CAN ?= this
+					any_scope_state = {
+						state_region = s:STATE_MANITOBA
+					}
+				}
+			}
+			country_average_culture_pop_acceptance = {
+				culture = cu:anglo_canadian
+				value >= acceptance_status_4
+			}
+		}
+		interest_group_trigger = {
+			OR = {
+				is_interest_group_type = ig_petty_bourgeoisie
+				is_interest_group_type = ig_landowners
+				is_interest_group_type = ig_intelligentsia
+				is_interest_group_type = ig_industrialists
+			}
+		}
+		earliest_usage_date = 1851.1.1 # first elected to the Nova Scotia parliament in 1851
+		latest_usage_date = 1867.9.20 # last electoral victory, as MP for Montreal East following confederation
+		#guaranteed to spawn if possible
+	}
+}
+
+# Sir Henri Charles Wilfrid Laurier, PM of Canada 1896-1911
+REPLACE:can_wilfrid_laurier = {
+	first_name = "Wilfrid"
+	last_name = "Laurier"
+	historical = yes
+	role = character_role_politician
+	culture = cu:franco_canadian
+	religion = rel:catholic
+	birth_date = 1841.11.20 # died 1919.2.17
+
+	interest_group = ig_intelligentsia
+	ideology = ideology_market_liberal
+    home_region = STATE_QUEBEC
+
+	traits = {
+		charismatic
+		imperious
+		tactful
+		demagogue
+	}
+
+	interest_group_leader_usage = {
+		country_trigger = {
+			NOT = { is_country_type = decentralized }
+			any_scope_state = {
+				is_incorporated = yes
+				state_region = s:STATE_QUEBEC
+			}
+			country_average_culture_pop_acceptance = {
+				culture = cu:franco_canadian
+				value >= acceptance_status_4
+			}
+		}
+		interest_group_trigger = {
+			OR = {
+				is_interest_group_type = ig_petty_bourgeoisie
+				is_interest_group_type = ig_intelligentsia
+			}
+		}
+		earliest_usage_date = 1874.1.22 # elected MP in the 1874 federal election
+		latest_usage_date = 1908.10.26 # last win as incumbent PM in the 1908 federal election
+		#guaranteed to spawn if possible
+	}
+}
+
+# Sir Robert Laird Borden, PM of Canada during WWI
+REPLACE:can_robert_borden = {
+	first_name = "Robert"
+	last_name = "Borden"
+	historical = yes
+	role = character_role_politician
+	culture = cu:anglo_canadian
+	religion = rel:protestant
+	birth_date = 1854.6.26 # died 1937.6.10
+
+	interest_group = ig_intelligentsia
+	ideology = ideology_protectionist
+    home_region = STATE_NEW_BRUNSWICK
+
+	traits = {
+		ambitious
+		imperious
+		imposing
+		experienced_diplomat
+	}
+
+	interest_group_leader_usage = {
+		country_trigger = {
+			NOT = { is_country_type = decentralized }
+			OR = {
+				c:NVS ?= this
+				any_scope_state = {
+					is_incorporated = yes
+					state_region = s:STATE_NEW_BRUNSWICK
+				}
+			}
+			country_average_culture_pop_acceptance = {
+				culture = cu:anglo_canadian
+				value >= acceptance_status_4
+			}
+		}
+		interest_group_trigger = {
+			OR = {
+				is_interest_group_type = ig_petty_bourgeoisie
+				is_interest_group_type = ig_intelligentsia
+				is_interest_group_type = ig_landowners
+			}
+		}
+		earliest_usage_date = 1896.6.23 # elected as MP in the 1896 federal election, became leader of the Conservative Party 1901.2.6
+		latest_usage_date = 1917.12.17 # won as incumbent in the 1917 federal election
+		#guaranteed to spawn if possible
+	}
+}
+
+# Joseph-Napoléon-Henri Bourassa, French-Canadian nationalist but not a Quebecois separatist
+REPLACE:can_henri_bourassa = {
+	first_name = "Henri"
+	last_name = "Bourassa"
+	historical = yes
+	female = no
+	birth_date = 1868.9.11 # died 1952.8.31. My /parents/ were alive when a figure from V3's timeframe died.
+	culture = cu:franco_canadian
+	religion = rel:catholic
+	interest_group = ig_rural_folk
+	ideology = ideology_radical
+    home_region = STATE_QUEBEC
+	traits = {
+		reckless
+		imperious
+		ambitious
+		inspirational_orator
+	}
+
+	interest_group_leader_usage = {
+		country_trigger = {
+			NOT = { is_country_type = decentralized }
+			any_scope_state = {
+				is_incorporated = yes
+				state_region = s:STATE_QUEBEC
+			}
+			country_average_culture_pop_acceptance = {
+				culture = cu:franco_canadian
+				value >= acceptance_status_4
+			}
+		}
+		interest_group_trigger = {
+			is_interest_group_type = ig_rural_folk
+		}
+		earliest_usage_date = 1896.6.23 # elected as MP in the 1896 federal election
+		latest_usage_date = 1936.1.1
+		#guaranteed to spawn if possible
+	}
+	agitator_usage = {
+		country_trigger = {
+			any_primary_culture = {
+				NOT = { cu:franco_canadian = this }
+			}
+			any_scope_state = {
+				state_region = s:STATE_QUEBEC
+			}
+		}
+		interest_group_trigger = {
+			is_interest_group_type = ig_rural_folk
+		}
+		earliest_usage_date = 1899.10.18 # resigned from parliament in October of 1899 in protest of Canadian involvement in the Boer War, then reelected in by-election in 1900
+		latest_usage_date = 1936.1.1
+		#guaranteed to spawn if possible
+	}
+}
+
+# J. S. Woodsworth, Methodist minister, Social Gospel proponent, founder of the Co-operative Commonwealth Federation (predecessor to the NDP)
+REPLACE:can_j_s_woodsworth = {
+	first_name = "James_Shaver"
+	last_name = "Woodsworth"
+	historical = yes
+	role = character_role_politician
+	culture = cu:anglo_canadian
+	religion = rel:protestant
+	birth_date = 1874.7.29 # died 1942.3.21
+
+	interest_group = ig_devout
+	ideology = ideology_social_democrat
+    home_region = STATE_MANITOBA
+
+	traits = {
+		pious
+		persistent
+		honorable
+		inspirational_orator
+	}
+
+	interest_group_leader_usage = {
+		country_trigger = {
+			NOT = { is_country_type = decentralized }
+			any_scope_state = {
+				is_incorporated = yes
+				OR = {
+					state_region = s:STATE_MANITOBA
+					state_region = s:STATE_ONTARIO
+				}
+			}
+			country_average_culture_pop_acceptance = {
+				culture = cu:anglo_canadian
+				value >= acceptance_status_4
+			}
+		}
+		interest_group_trigger = {
+			is_interest_group_type = ig_devout
+		}
+		earliest_usage_date = 1919.5.15 # Winnipeg General Strike
+		latest_usage_date = 1936.1.1 # served as an MP until his death in 1942
+		#guaranteed to spawn if possible
+	}
+	agitator_usage = {
+		country_trigger = {
+			any_scope_state = {
+				is_incorporated = yes
+				OR = {
+					state_region = s:STATE_MANITOBA
+					state_region = s:STATE_ONTARIO
+				}
+			}
+		}
+		interest_group_trigger = {
+			is_interest_group_type = ig_devout
+		}
+		earliest_usage_date = 1919.5.15 # Winnipeg General Strike
+		latest_usage_date = 1936.1.1
+		chance = 50
+	}
+}
+
+### Agitators
+
+REPLACE:can_louis_riel = {
+	first_name = "Louis"
+	last_name = "Riel"
+	historical = yes
+	female = no
+	birth_date = 1844.10.22 # died 1885.11.16
+	culture = cu:metis
+	religion = rel:catholic
+	interest_group = ig_rural_folk
+	ideology = ideology_sovereignist_leader
+    home_region = STATE_MANITOBA
+	traits = {
+		imperious
+		reckless
+		charismatic
+		firebrand
+	}
+	agitator_usage = {
+		country_trigger = {
+			NOT = { is_country_type = decentralized }
+			any_scope_state = {
+				state_region = s:STATE_MANITOBA
+			}
+		}
+		interest_group_trigger = {
+			is_interest_group_type = ig_rural_folk
+		}
+		earliest_usage_date = 1868.7.26 # arrival at Red River settlement
+		latest_usage_date = 1885.5.15 # Surrender to Canadian forces after the Battle of Batoche
+		#guaranteed to spawn if possible
+	}
+	on_created = {
+		# If Louis Riel appears in a world where a Metis nation-state already exists, he will switch for a sovereignist ideology to an ethno-nationalist one
+		if = {
+			limit = {
+				home_country ?= {
+					country_has_primary_culture = cu:metis
+				}
+			}
+			set_ideology = ideology:ideology_ethno_nationalist
+		}
+	}
+}
+
+
+# ---- country_cub.txt ----
+### Cuba character template file ###
+
+# Cuba
+
+REPLACE:CUB_miguel_tacon_y_rosique = {
+    # Miguel Tacon y Rosique
+    first_name = "Miguel"
+    last_name = "Taco_n_y_Rosique"
+    historical = yes
+    culture = cu:spanish
+    ruler = yes
+    birth_date = 1777.1.10
+    dna = dna_miguel_tacon_y_rosique
+    noble = yes
+    interest_group = ig_armed_forces
+    ideology = ideology_authoritarian
+    home_region = STATE_MURCIA
+    traits = {
+        special_character_colonial_military
+        basic_naval_commander
+        ruthless
+    }
+}
+
+REPLACE:CUB_claudio_martinez_de_pinillos = { # Claudio Martinez de Pinillos
+    ig_leader = yes
+    first_name = Claudio
+    last_name = Martinez_de_Pinillos
+    historical = yes
+    culture = cu:caribeno
+    noble = no
+    religion = rel:catholic
+    birth_date = 1782.10.30
+    interest_group = ig_petty_bourgeoisie
+    ideology = ideology_market_liberal
+    home_region = STATE_WESTERN_CUBA
+    traits = {
+        master_bureaucrat
+        meticulous
+    }
+}
+
+REPLACE:CUB_jose_de_la_luz_y_caballero = { # José de la Luz y Caballero
+    ig_leader = yes
+    first_name = JosE_
+    last_name = de_la_Luz_y_Caballero
+    historical = yes
+    culture = cu:caribeno
+    noble = no
+    religion = rel:catholic
+    birth_date = 1800.7.11
+    interest_group = ig_intelligentsia
+    ideology = ideology_reformer
+    home_region = STATE_WESTERN_CUBA
+    traits = {
+        erudite
+        innovative
+    }
+}
+
+REPLACE:CUB_pedro_diago = { # Pedro Diago y Baranda
+    ig_leader = yes
+    first_name = Pedro
+    last_name = Diago_y_Baranda
+    historical = yes
+    culture = cu:spanish
+    noble = no
+    religion = rel:catholic
+    birth_date = 1796.1.1 # Only year known
+    interest_group = ig_landowners
+    ideology = ideology_reformer
+    home_region = STATE_WESTERN_CUBA
+    traits = {
+        basic_entrepreneur
+        meticulous
+    }
+}
+
+REPLACE:CUB_tomas_terry = { # Tomás Terry
+    ig_leader = yes
+    first_name = TomA_s_2
+    last_name = Terry
+    historical = yes
+    culture = cu:spanish
+    noble = no
+    religion = rel:catholic
+    birth_date = 1808.2.24
+    interest_group = ig_industrialists
+    ideology = ideology_market_liberal
+    home_region = STATE_VALENCIA
+    traits = {
+        experienced_entrepreneur
+        basic_political_operator
+    }
+}
+
+REPLACE:CUB_patrick_orourke = { # Patrick O'Rourke
+    ig_leader = yes
+    first_name = Patrick
+    last_name = ORourke
+    historical = yes
+    culture = cu:irish
+    noble = no
+    religion = rel:catholic
+    age = 27 # approximate
+    interest_group = ig_trade_unions
+    ideology = ideology_abolitionist # affiliated with slave revolt on the Alcancía sugar estate in 1843
+    home_region = STATE_LEINSTER
+    traits = {
+        engineer
+        reckless
+        alcoholic
+    }
+}
+
+REPLACE:CUB_ramon_casaus_y_torres = { # Ramón Casaus y Torres, former archbishop of Guatemala
+    ig_leader = yes
+    first_name = RamO_n
+    last_name = Casaus_y_Torres
+    historical = yes
+    culture = cu:spanish
+    noble = no
+    religion = rel:catholic
+    birth_date = 1765.2.13
+    interest_group = ig_devout
+    ideology = ideology_traditionalist
+    home_region = STATE_LOWER_ANDALUSIA
+    traits = {
+        tactful
+        pious
+        basic_political_operator
+        erudite
+    }
+}
+
+REPLACE:CUB_manuel_lorenzo_oterino = { # Manuel Lorenzo Oterino, military governor of Santiago de Cuba and Commander of the Eastern District
+    ig_leader = yes
+    is_general = yes
+    first_name = Manuel
+    last_name = Lorenzo_Oterino
+    historical = yes
+    culture = cu:spanish
+    noble = no
+    religion = rel:catholic
+    birth_date = 1785.10.29
+    interest_group = ig_armed_forces
+    ideology = ideology_moderate
+    home_region = STATE_ASTURIAS
+    traits = {
+        experienced_offensive_planner
+        basic_political_operator
+        sickly
+    }
+}
+
+
+REPLACE:CUB_jose_marti = { # most recognized name of Cuban independence. Poet.
+    is_agitator = yes
+    first_name = JosE_
+    last_name = MartI_
+    historical = yes
+    dna = dna_jose_marti
+    culture = cu:caribeno
+    noble = no
+    religion = rel:catholic
+    birth_date = 1853.01.28
+    interest_group = ig_intelligentsia
+    ideology = ideology_sovereignist_leader
+    home_region = STATE_WESTERN_CUBA
+    traits = {
+        meticulous
+        literary
+        firebrand
+    }
+}
+
+REPLACE:CUB_carlos_manuel_de_cespedes = { # Father of the Nation
+    is_agitator = yes
+    first_name = Carlos_Manuel
+    last_name = de_Cespedes
+    historical = yes
+    dna = dna_carlos_manuel_de_cespedes
+    culture = cu:caribeno
+    religion = rel:catholic
+    birth_date = 1819.4.18
+    interest_group = ig_landowners
+    ideology = ideology_abolitionist
+    home_region = STATE_WESTERN_CUBA
+    traits = {
+        social_bandit
+        honorable
+        erudite
+    }
+}
+
+
+REPLACE:CUB_antonio_maceo = {
+    first_name = Antonio
+    last_name = Maceo
+    historical = yes
+    dna = dna_antonio_maceo
+    culture = cu:afro_caribeno
+    noble = no
+    commander_rank = default
+    religion = rel:catholic
+    birth_date = 1845.6.14
+    interest_group = ig_rural_folk
+    ideology = ideology_sovereignist_leader
+    home_region = STATE_WESTERN_CUBA
+    traits = {
+        persistent
+        brave
+        honorable
+        social_bandit
+    }
+    agitator_usage = {
+        country_trigger = {
+            c:CUB ?= this
+            has_dlc_feature = ip4_content
+        }
+        interest_group_trigger = {
+            is_interest_group_type = ig_rural_folk
+        }
+        earliest_usage_date = 1868.10.10 # start of the Ten Years' War
+        latest_usage_date = 1895.1.1
+        #guaranteed to spawn if possible
+    }
+    commander_usage = {
+        country_trigger = {
+            c:CUB ?= this
+            OR = {
+                is_subject = no
+                AND = {
+                    is_subject = yes
+                    liberty_desire > 50
+                }
+            }
+            has_dlc_feature = ip4_content
+        }
+        role = general
+        earliest_usage_date = 1874.1.1
+        latest_usage_date = 1895.1.1
+        #guaranteed to spawn if possible
+    }
+    on_created = {
+        if = {
+            limit = {
+                home_country ?= {
+                    is_subject = no
+                }
+            }
+            set_ideology = ideology:ideology_radical # Dios, la Razón y la Virtud
+        }
+    }
+}
+
+REPLACE:CUB_maximo_gomez = {
+    first_name = Maximo
+    last_name = Gomez
+    historical = yes
+    dna = dna_maximo_gomez
+    culture = cu:caribeno
+    noble = no
+    commander_rank = default
+    religion = rel:catholic
+    birth_date = 1836.11.18
+    interest_group = ig_armed_forces
+    ideology = ideology_liberal_leader
+    home_region = STATE_SANTO_DOMINGO
+    traits = {
+        ruthless
+        tactful
+        persistent
+        pillager
+    }
+    commander_usage = {
+        country_trigger = {
+            OR = {
+                AND = {
+                    c:CUB ?= this
+                    OR = {
+                        is_subject = no
+                        AND = {
+                            is_subject = yes
+                            liberty_desire > 50
+                        }
+                    }
+                }
+                c:DOM ?= this
+            }
+            has_dlc_feature = ip4_content
+        }
+        role = general
+        earliest_usage_date = 1864.1.1
+        latest_usage_date = 1895.1.1
+        #guaranteed to spawn if possible
+    }
+}
+
+
+# ---- country_jab.txt ----
+REPLACE:JAB_abdullah_al_rashid = {
+	# Abdullah bin Ali Al Rashid
+	first_name = "Abdullah"
+	last_name = "al_Rashid"
+	historical = yes
+	culture = primary_culture
+	ruler = yes
+	birth_date = 1788.1.25 # Only year known
+	interest_group = ig_landowners
+	ideology = ideology_traditionalist
+	home_region = STATE_NEJD
+	traits = {
+		ambitious
+	}
+}
+REPLACE:JAB_talal_al_rashid = {
+	# Talal bin Abdullah Al Rashid
+	first_name = "Talal"
+	last_name = "al_Rashid"
+	historical = yes
+	culture = primary_culture
+	heir = yes
+	birth_date = 1823.6.14 # Only year known
+	interest_group = ig_devout
+	ideology = ideology_traditionalist
+	home_region = STATE_NEJD
+	traits = {
+		trait_child
+	}
+}
+
+
+# ---- country_lib.txt ----
+### Liberia character template file ###
+
+# Dr. Ezekiel Skinner, Agent & Governor of Liberia from Aug 1835 to Sept 1836
+REPLACE:LIB_ezekiel_skinner = {
+	first_name = "Ezekiel"
+	last_name = "Skinner"
+	historical = yes
+	culture = cu:yankee # from Connecticut
+	ruler = yes
+	birth_date = 1777.6.27 # died 1855.4.??
+	interest_group = ig_intelligentsia
+	ideology = ideology_moderate
+	home_region = STATE_MASSACHUSETTS
+	traits = {
+		pious	# Licensed as a preacher in 1819
+		sickly
+		persistent
+		erudite
+	}
+}
+
+
+### Interest Group Leaders ###
+
+# Joseph Roberts, 1st president of Liberia following independence in 1847. High sheriff of Liberia from 1833.
+REPLACE:LIB_joseph_roberts = {
+	first_name = "Joseph"
+	last_name = "Roberts"
+	culture = cu:afro_american
+	religion = rel:protestant
+	historical = yes
+	ig_leader = yes
+	is_general = yes # as high sheriff, was in charge of organizing militias
+	birth_date = 1809.3.15 # died 1876.2.24
+	interest_group = ig_landowners
+	ideology = ideology_moderate
+	home_region = STATE_VIRGINIA
+	traits = {
+		pious
+		basic_colonial_administrator
+	}
+}
+
+# John Brown Russwurm, 1st governor of Maryland in Liberia, technically a separate colony from Liberia but it'd be a one province minor in V3 so let's just keep it merged with LIB
+REPLACE:LIB_john_brown_russwurm = {
+	first_name = "John"
+	last_name = "Russwurm"
+	culture = cu:afro_caribbean # from Jamaica
+	religion = rel:protestant
+	historical = yes
+	ig_leader = yes
+	birth_date = 1799.10.1 # died 1851.6.9
+	interest_group = ig_intelligentsia
+	ideology = ideology_liberal_leader
+	home_region = STATE_PUERTO_RICO
+	traits = {
+		honorable
+		ambitious
+		charismatic
+		literary
+	}
+}
+
+# John Seys, born Jan Seij, a white Methodist Episcopal minister and Liberian settler who organized an anti-Monrovia faction in the 1840 Commonwealth elections
+REPLACE:LIB_john_seys = {
+	first_name = "John"
+	last_name = "Seys"
+	culture = cu:yankee # born in the Danish West Indies, moved to the US somewhere between 1829 and 1832, then moved to Liberia in 1834
+	religion = rel:protestant
+	historical = yes
+	ig_leader = yes
+	birth_date = 1799.3.30 # died 1872.29
+	interest_group = ig_devout
+	ideology = ideology_reformer
+	home_region = STATE_WEST_INDIES
+	traits = {
+		meticulous
+		imperious
+		demagogue
+	}
+}
+
+# Rev. Beverly R. Wilson, preacher and voice of Monrovia's mercantile interests. From Norfolk, Virginia, visited Liberia in 1833 and moved there 1836, pretty quickly gaining a powerbase there. Speaker of the House of Representatives in Liberia 1851-53
+REPLACE:LIB_beverly_wilson = {
+	first_name = "Beverly"
+	last_name = "Wilson"
+	culture = cu:afro_american
+	religion = rel:protestant
+	historical = yes
+	ig_leader = yes
+	age = 30 # don't know his age for sure, but he was in a good enough place to visit Liberia on his own dime in 1833, and he fathered a daughter in 1843.
+	interest_group = ig_petty_bourgeoisie
+	ideology = ideology_moderate
+	home_region = STATE_VIRGINIA
+	traits = {
+		pious
+		bigoted
+		arrogant
+		firebrand
+	}
+}
+
+# Zion Harris, also known as Sion Harris. Settler, farmer, politician, died 1854.4.25 after being struck by lightning.
+REPLACE:LIB_zion_harris = {
+	first_name = "Zion"
+	last_name = "Harris"
+	culture = cu:afro_american
+	religion = rel:protestant
+	historical = yes
+	ig_leader = yes
+	age = 25 # Born sometime in 1811
+	interest_group = ig_rural_folk
+	ideology = ideology_moderate
+	home_region = STATE_TENNESSEE
+	traits = {
+		charismatic
+		brave
+		persistent
+	}
+}
+
+
+# ---- country_ply.txt ----
+REPLACE:PLY_pomare_iv_pomare = {
+	# Pōmare IV
+	first_name = "Pomare_IV"
+	last_name = "Pomare"
+	historical = yes
+	culture = primary_culture
+	ruler = yes
+	female = yes
+	noble = yes
+	age = 23
+	home_region = STATE_FIJI
+	interest_group = ig_landowners
+	ideology = ideology_reformer
+	traits = {
+		direct
+		innovative
+	}
+}
+
+
+# ---- country_ryu.txt ----
+### Ryukyu character template file ###
+
+# Ryukyu - RYU
+
+### Rulers
+
+REPLACE:RYU_sho_iku = {
+    # Shō Iku
+    first_name = "Iku"
+    last_name = "ShO_"
+    historical = yes
+    culture = cu:ryukyuan
+    religion = confucian
+    ruler = yes
+    birth_date = 1813.8.19
+    home_region = STATE_KYUSHU
+    interest_group = ig_devout
+    ideology = ideology_reformer
+    traits = {
+        erudite
+        pious
+    }
+}
+
+
+# ---- country_usa.txt ----
+### USA character template file ###
+# USA - United States of America
+
+# United States - USA
+
+# Starting IG Leaders
+
+REPLACE:usa_andrew_jackson_template = {
+    first_name = Andrew
+    last_name = Jackson
+    historical = yes
+    culture = cu:dixie
+    ruler = yes
+    ig_leader = yes
+    interest_group = ig_rural_folk
+    ideology = ideology_jacksonian_democrat
+    birth_date = 1767.3.15
+    dna = dna_andrew_jackson
+	home_region = STATE_TENNESSEE
+    traits = {
+        bigoted
+        demagogue
+        expert_political_operator
+    }
+    on_created = {
+        set_variable = {
+            name = is_andrew_jackson
+        }
+    }
+}
+
+REPLACE:USA_john_calhoun = {
+	first_name = John
+	last_name = Calhoun
+	historical = yes
+	culture = cu:dixie
+	birth_date = 1782.3.18
+	dna = dna_calhoun
+	ig_leader = yes
+	interest_group = ig_landowners
+	ideology = ideology_slaver
+	role = character_role_magnate # As a proxy for the Slave Power
+	holding_type = building_manor_house
+	home_region = STATE_SOUTH_CAROLINA
+	traits = {
+		bigoted
+		experienced_political_operator
+	}
+}
+
+REPLACE:USA_henry_clay = {
+	first_name = Henry
+	last_name = Clay
+	historical = yes
+	culture = cu:dixie
+	birth_date = 1777.4.12
+	dna = dna_clay
+	ig_leader = yes
+	interest_group = ig_intelligentsia
+	ideology = ideology_pacifist
+	home_region = STATE_KENTUCKY
+	traits = {
+		meticulous
+		experienced_political_operator
+	}
+}
+
+REPLACE:USA_daniel_webster = {
+	first_name = Daniel
+	last_name = Webster
+	historical = yes
+	culture = cu:yankee
+	birth_date = 1782.1.18
+	dna = dna_webster
+	ig_leader = yes
+	interest_group = ig_petty_bourgeoisie
+	ideology = ideology_republican_leader
+	home_region = STATE_MASSACHUSETTS
+	traits = {
+		arrogant
+		inspirational_orator
+		experienced_political_operator
+	}
+}
+
+REPLACE:USA_charles_finney = {
+	first_name = Charles
+	last_name = Finney
+	historical = yes
+	culture = cu:yankee
+	birth_date = 1792.8.29
+	dna = dna_finney
+	ig_leader = yes
+	interest_group = ig_devout
+	ideology = ideology_abolitionist
+	home_region = STATE_NEW_YORK
+	traits = {
+		pious
+		cautious
+		basic_political_operator
+	}
+}
+
+REPLACE:USA_robert_rantoul = {
+	first_name = Robert
+	last_name = Rantoul
+	historical = yes
+	culture = cu:yankee
+	birth_date = 1805.8.13
+	dna = dna_rantoul
+	ig_leader = yes
+	interest_group = ig_trade_unions
+	ideology = ideology_moderate
+	home_region = STATE_MASSACHUSETTS
+	traits = {
+		meticulous
+		basic_political_operator
+		erudite
+	}
+}
+
+REPLACE:USA_winfield_scott = {
+	first_name = Winfield
+	last_name = Scott
+	historical = yes
+	culture = cu:dixie
+	birth_date = 1786.6.13
+	dna = dna_winfield_scott
+	is_general = yes
+	ig_leader = yes
+	interest_group = ig_armed_forces
+	ideology = ideology_moderate
+	home_region = STATE_VIRGINIA
+	hq = region_atlantic_coast
+	traits = {
+		traditionalist_commander
+		basic_diplomat
+		cautious
+	}
+}
+
+REPLACE:USA_cornelius_vanderbilt = {
+	first_name = Cornelius
+	last_name = Vanderbilt
+	historical = yes
+	culture = cu:yankee
+	birth_date = 1794.5.27
+	dna = dna_vanderbilt
+	ig_leader = yes
+	interest_group = ig_industrialists
+	ideology = ideology_moderate
+	home_region = STATE_NEW_YORK
+	role = character_role_magnate
+	holding_type = building_financial_district
+	traits = {
+		basic_political_operator
+		expensive_tastes
+		meticulous
+	}
+}
+
+# Starting Commanders
+
+REPLACE:USA_zachary_taylor = {
+	is_general = yes
+	first_name = Zachary
+	last_name = Taylor
+	historical = yes
+	culture = cu:dixie
+	birth_date = 1784.11.24
+	dna = dna_zachary_taylor
+	interest_group = ig_landowners
+	ideology = ideology_moderate
+	home_region = STATE_LOUISIANA
+	hq = region_atlantic_coast
+	traits = {
+		experienced_offensive_planner
+		direct
+		innovative
+	}
+}
+
+REPLACE:USA_isaac_hull = { # Sea
+	is_admiral = yes
+	first_name = Isaac
+	last_name = Hull
+	historical = yes
+	culture = cu:yankee
+	birth_date = 1773.3.9
+	dna = dna_isaac_hull
+	interest_group = ig_industrialists
+	ideology = ideology_moderate
+	home_region = STATE_MASSACHUSETTS
+	hq = region_atlantic_coast
+	traits = {
+		expert_naval_commander
+		dockyard_master
+		arrogant
+	}
+}
+
+REPLACE:USA_elie_augustus_frederick_lavallette = { # USA, Admiral
+	is_admiral = yes
+	first_name = Elie_Augustus_Frederick
+	last_name = Lavallette
+	historical = yes
+	culture = cu:dixie
+	interest_group = ig_landowners
+	ideology = ideology_moderate
+	birth_date = 1776.2.9
+	dna = dna_elie_af_lavallette
+	home_region = STATE_NEW_JERSEY
+	hq = region_atlantic_coast
+	traits = {
+		brave
+		basic_naval_commander
+	}
+}
+
+REPLACE:USA_edmund_p_gaines = {
+	is_general = yes
+	first_name = Edmund_P
+	last_name = Gaines
+	historical = yes
+	culture = cu:dixie
+	birth_date = 1777.3.20
+	home_region = STATE_VIRGINIA
+}
+
+# Generated Characters
+
+REPLACE:usa_lincoln_character_template = {
+    first_name = Abraham
+    last_name = Lincoln
+    historical = yes
+    culture = cu:yankee
+    female = no
+    religion = rel:protestant
+    ideology = ideology_abolitionist
+    interest_group = ig_petty_bourgeoisie
+    birth_date = 1809.2.12
+    dna = dna_abraham_lincoln
+	home_region = STATE_ILLINOIS
+    traits = {
+        experienced_political_operator
+        inspirational_orator
+        tactful
+    }
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:USA
+            c:USA ?= THIS
+            NOT = {
+                has_global_variable = ruler_selector_abraham_lincoln
+            }
+        }
+        interest_group_trigger = {
+            ig_counts_as_marginal = no
+            OR = {
+                is_interest_group_type = ig_petty_bourgeoisie
+                is_interest_group_type = ig_intelligentsia
+            }
+            NOR = {
+				has_variable = communist_ig_var
+				has_variable = chose_vanguardism
+				has_variable = chose_fascism
+				has_variable = chose_conservatism
+				has_variable = chose_ethno_nationalism
+			}
+        }
+        earliest_usage_date = 1844.2.12
+        latest_usage_date = 1890.1.1
+        #guaranteed to spawn if possible
+    }
+}
+
+REPLACE:usa_roosevelt_character_template = {
+    first_name = Theodore
+    last_name = Roosevelt
+    historical = yes
+    culture = cu:yankee
+    female = no
+    religion = rel:protestant
+    role = character_role_politician
+    ideology = ideology_reformer
+    interest_group = ig_industrialists
+    birth_date = 1858.8.28
+	home_region = STATE_NEW_YORK
+    dna = dna_roosevelt
+    traits = {
+        celebrity_commander
+        explorer
+        brave
+    }
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:USA
+            c:USA ?= THIS
+        }
+        interest_group_trigger = {
+            ig_counts_as_marginal = no
+            OR = {
+                is_interest_group_type = ig_intelligentsia
+                is_interest_group_type = ig_industrialists
+                is_interest_group_type = ig_rural_folk
+            }
+            NOR = {
+				has_variable = communist_ig_var
+				has_variable = chose_vanguardism
+				has_variable = chose_fascism
+				has_variable = chose_conservatism
+				has_variable = chose_ethno_nationalism
+			}
+        }
+        earliest_usage_date = 1882.1.1
+        latest_usage_date = 1919.1.1
+        #guaranteed to spawn if possible
+    }
+}
+REPLACE:usa_jp_morgan_character_template = {
+    first_name = John_Pierpont
+    last_name = Morgan
+    historical = yes
+    culture = cu:yankee
+    female = no
+    religion = rel:protestant
+    role = character_role_politician
+    ideology = ideology_moderate
+    interest_group = ig_industrialists
+    birth_date = 1835.11.25
+	home_region = STATE_NEW_YORK
+    traits = {
+        imposing
+        pious
+        sickly
+    }
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:USA
+            c:USA ?= THIS
+        }
+        interest_group_trigger = {
+            ig_counts_as_marginal = no
+            is_interest_group_type = ig_industrialists
+        }
+        earliest_usage_date = 1865.1.1
+        latest_usage_date = 1913.1.1
+        chance = 50
+    }
+}
+REPLACE:usa_thomas_edison_character_template = {
+    first_name = Thomas
+    last_name = Edison
+    historical = yes
+    culture = cu:yankee
+    dna = dna_thomas_edison
+    female = no
+    religion = rel:atheist
+    role = character_role_politician
+    ideology = ideology_pacifist
+    interest_group = ig_intelligentsia
+    birth_date = 1847.2.11
+	home_region = STATE_NEW_JERSEY
+    traits = {
+        ambitious
+        engineer
+        imperious
+    }
+    executive_usage = {
+    	country_trigger = {
+            exists = c:USA
+            c:USA ?= THIS
+            has_dlc_feature = mp1_content
+		}
+		company_trigger = {
+			is_company_type = company_type:company_general_electric
+		}
+        earliest_usage_date = 1878.1.1
+        latest_usage_date = 1930.1.1
+		#guaranteed to spawn if possible
+    }
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:USA
+            c:USA ?= THIS
+            has_company = company_type:company_general_electric
+        }
+        interest_group_trigger = {
+            ig_counts_as_marginal = no
+            is_interest_group_type = ig_intelligentsia
+        }
+        earliest_usage_date = 1876.1.1
+        latest_usage_date = 1920.1.1
+        chance = 50
+    }
+    on_created = {
+        if = {
+            limit = {
+                owner = {
+                    has_technology_researched = feminism
+                    NOT = {
+                        has_law_or_variant = law_type:law_womens_suffrage
+                    }
+                }
+            }
+            set_ideology = ideology:ideology_feminist
+        }
+    }
+}
+
+REPLACE:uom_mkc = {
+    first_name = "Michael"
+    last_name = "Kundak"
+    historical = yes
+    culture = cu:yankee
+    female = no
+    religion = rel:protestant
+    ideology = ideology_moderate
+    interest_group = ig_rural_folk
+    birth_date = 1890.7.14
+	home_region = STATE_MICHIGAN
+    traits = {
+    	charismatic
+        cautious
+        erudite
+    }
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:UOM
+            c:UOM ?= THIS
+        }
+        interest_group_trigger = {
+            ig_counts_as_marginal = no
+            is_interest_group_type = ig_rural_folk
+        }
+        earliest_usage_date = 1919.8.19
+        latest_usage_date = 1936.1.1
+        chance = 50
+    }
+    on_created = {
+        if = {
+            limit = {
+                owner = {
+                    NOT = {
+                        has_law_or_variant = law_type:law_slavery_banned
+                    }
+                }
+            }
+            set_ideology = ideology:ideology_abolitionist
+        }
+        else_if = {
+            limit = {
+                owner = {
+                	has_technology_researched = socialism
+                	OR = {
+	                    has_law_or_variant = law_type:law_no_workers_rights
+	                    NOT = { has_law_or_variant = law_type:law_universal_suffrage }
+	                }
+                }
+            }
+            set_ideology = ideology:ideology_social_democrat
+        }
+        else = {
+            set_ideology = ideology:ideology_moderate
+        }
+    }
+}
+
+REPLACE:usa_mark_twain_character_template = { #Mark Twain
+    first_name = Samuel
+    last_name = Clemens
+    historical = yes
+    culture = cu:dixie
+    female = no
+    religion = rel:protestant
+    ideology = ideology_jingoist_leader
+    interest_group = ig_intelligentsia
+    birth_date = 1835.11.30
+	home_region = STATE_MISSOURI
+    traits = {
+        literary
+        erudite
+        reckless
+    }
+    interest_group_leader_usage = {
+        country_trigger = {
+            country_has_primary_culture = cu:dixie
+            any_scope_state = {
+                state_region = s:STATE_MISSOURI
+            }
+        }
+        interest_group_trigger = {
+            ig_counts_as_marginal = no
+            is_interest_group_type = ig_intelligentsia
+        }
+        earliest_usage_date = 1865.11.18
+        latest_usage_date = 1910.1.1
+        chance = 50
+    }
+    on_created = {
+        if = {
+            limit = {
+                owner = {
+                    NOT = {
+                        has_law_or_variant = law_type:law_slavery_banned
+                    }
+                }
+            }
+            set_ideology = ideology:ideology_abolitionist
+        }
+        else_if = {
+            limit = {
+                owner = {
+                    any_subject_or_below = {
+                        count >= 1
+                    }
+                }
+            }
+            set_ideology = ideology:ideology_pacifist
+        }
+        else_if = {
+            limit = {
+                owner = {
+                    has_technology_researched = feminism
+                    NOT = {
+                        has_law_or_variant = law_type:law_womens_suffrage
+                    }
+                }
+            }
+            set_ideology = ideology:ideology_feminist
+        }
+        else = {
+            set_ideology = ideology:ideology_jingoist_leader
+        }
+    }
+}
+
+REPLACE:usa_henry_ford = {
+    first_name = Henry
+    last_name = Ford
+    historical = yes
+    culture = cu:yankee
+    female = no
+    religion = protestant
+    ideology = ideology_ethno_nationalist
+    interest_group = ig_industrialists
+    birth_date = 1863.7.30
+    dna = dna_henry_ford
+	home_region = STATE_MICHIGAN
+    traits = {
+        bigoted
+        ambitious
+        imperious
+        experienced_entrepreneur
+    }
+    interest_group_leader_usage = {
+        country_trigger = {
+            OR = {
+                c:USA ?= this
+                c:FSA ?= this
+                c:UOM ?= this
+            }
+            has_company = company_type:company_ford_motor
+        }
+        interest_group_trigger = {
+            ig_counts_as_marginal = no
+            is_interest_group_type = ig_industrialists
+            NOR = {
+				has_variable = communist_ig_var
+				has_variable = chose_vanguardism
+			}
+        }
+        earliest_usage_date = 1896.6.4 # Ford Quadricycle runs
+        latest_usage_date = 1936.1.1
+        chance = 50
+    }
+    agitator_usage = {
+        country_trigger = {
+            has_dlc_feature = voice_of_the_people_content
+            OR = {
+                c:USA ?= this
+                c:FSA ?= this
+                c:UOM ?= this
+            }
+        }
+        interest_group_trigger = {
+            ig_counts_as_marginal = no
+            is_interest_group_type = ig_industrialists
+        }
+        earliest_usage_date = 1908.8.12 # first production Model T
+        latest_usage_date = 1935.12.31
+        #guaranteed to spawn if possible
+    }
+    executive_usage = {
+        country_trigger = {
+            has_dlc_feature = mp1_content
+        }
+        company_trigger = {
+            is_company_type = company_type:company_ford_motor
+        }
+        earliest_usage_date = 1908.8.12 # first production Model T
+        latest_usage_date = 1935.12.31
+        #guaranteed to spawn if possible
+    }
+}
+
+REPLACE:csa_jefferson_davis_template = {
+    first_name = Jefferson
+    last_name = Davis
+    historical = yes
+    culture = cu:dixie
+    female = no
+    religion = protestant
+    ideology = ideology_slaver
+    interest_group = ig_landowners
+    birth_date = 1808.6.3
+	home_region = STATE_MISSISSIPPI
+    traits = {
+        celebrity_commander
+        explorer
+        brave
+    }
+    interest_group_leader_usage = {
+        country_trigger = {
+            OR = {
+            	AND = {
+            		c:USA ?= this
+            		NOT = { exists = c:CSA }
+            	}
+            	c:CSA ?= this
+            }
+        }
+        interest_group_trigger = {
+            ig_counts_as_marginal = no
+            is_interest_group_type = ig_landowners
+            NOR = {
+				has_variable = communist_ig_var
+				has_variable = chose_vanguardism
+				has_variable = chose_fascism
+				has_variable = chose_conservatism
+				has_variable = chose_ethno_nationalism
+			}
+        }
+        earliest_usage_date = 1845.12.8 # elected representative of Mississippi
+        latest_usage_date = 1867.5.13 # released from prison
+        #guaranteed to spawn if possible
+    }
+    on_created = {
+        set_variable = {
+            name = historical_csa
+        }
+    }
+}
+
+# Cristobal Aguilar, last Hispanic mayor of Los Angeles until the election of Antonio Villaraigosa over a century later
+# Can appear for any country that owns and has incorporated California (so, mostly likely MEX or USA) and isn't horrible against Californios
+# responsible for the creation of Pershing Square (then called La Plaza Abaja) and maintaining public control of LA's growing waterworks system
+REPLACE:usa_cristobal_aguilar = {
+    first_name = "Cristobal_2"
+    last_name = "Aguilar"
+    historical = yes
+    culture = cu:mexican # Californio
+    female = no
+    religion = rel:catholic
+    role = character_role_politician
+    ideology = ideology_moderate
+    interest_group = ig_petty_bourgeoisie # Was part of the one of wealthiest landowner families in California at one point, but also he was a mayor and mayors are peak PB, right?
+    birth_date = 1814.7.5 # Wikipedia says 1816 with no specific birthdate and no citation, but findagrave lists 5 Jul 1814 and it looks like that was done by a guy who actually read the records of the Old Calvary Cemetery where Aguilar was buried, so I'm going with that
+	home_region = STATE_CALIFORNIA
+	traits = {
+        innovative
+        meticulous
+        master_bureaucrat
+    }
+    interest_group_leader_usage = {
+        country_trigger = {
+            any_scope_state = {
+                is_incorporated = yes
+                state_region = s:STATE_CALIFORNIA
+            }
+            country_average_culture_pop_acceptance = {
+                culture = cu:mexican
+                value >= acceptance_status_4 # Mexico should always pass this check. USA... sometimes.
+            }
+        }
+        interest_group_trigger = {
+            is_interest_group_type = ig_petty_bourgeoisie
+        }
+        earliest_usage_date = 1850.7.3 # Beginning of first term as City Council member after American annexation of California
+        latest_usage_date = 1873.12.31 # Beginning of last elected role, served until 1878. Died April 11th, 1886
+        chance = 25 # small chance
+    }
+}
+
+## Commanders ##
+
+REPLACE:usa_general_jesup = {
+	first_name = Thomas
+	last_name = Jesup
+	historical = yes
+	culture = cu:dixie
+	female = no
+	commander_rank = default
+	interest_group = ig_armed_forces
+	birth_date = 1788.12.16
+	home_region = STATE_VIRGINIA
+	dna = dna_thomas_jesup
+	traits = {
+		meticulous
+	}
+	commander_usage = {
+		country_trigger = {
+			exists = c:USA
+			c:USA ?= THIS
+		}
+		role = general
+		earliest_usage_date = 1836.1.1
+		latest_usage_date = 1860.1.1
+		#guaranteed to spawn if possible
+	}
+}
+REPLACE:usa_admiral_shubrick = {
+	first_name = William
+	last_name = Shubrick
+	historical = yes
+	culture = cu:dixie # Stayed loyal to the union during civil war, but from S.Car
+	female = no
+	commander_rank = default
+	interest_group = ig_armed_forces
+	birth_date = 1790.10.31
+	home_region = STATE_SOUTH_CAROLINA
+	dna = dna_william_shubrick
+	traits = {
+		experienced_naval_commander
+	}
+	commander_usage = {
+		country_trigger = {
+			exists = c:USA
+			c:USA ?= THIS
+		}
+		role = admiral
+		earliest_usage_date = 1836.1.1
+		latest_usage_date = 1862.1.1
+		#guaranteed to spawn if possible
+	}
+}
+REPLACE:usa_admiral_dewey = {
+	first_name = George
+	last_name = Dewey
+	historical = yes
+	culture = cu:yankee
+	female = no
+	religion = rel:protestant
+	ideology = ideology_moderate
+	commander_rank = default
+	interest_group = ig_armed_forces
+	birth_date = 1837.12.26
+	home_region = STATE_MASSACHUSETTS
+	dna = dna_george_dewey
+	traits = {
+		experienced_naval_commander
+		persistent
+		brave
+	}
+	commander_usage = {
+		country_trigger = {
+			exists = c:USA
+			c:USA ?= THIS
+		}
+		role = admiral
+		earliest_usage_date = 1861.1.1
+		latest_usage_date = 1903.1.1
+		#guaranteed to spawn if possible
+	}
+}
+REPLACE:usa_admiral_farragut = {
+	first_name = David
+	last_name = Farragut
+	historical = yes
+	culture = cu:dixie # NB Southern Unionist, regarded secessionists as traitors
+	female = no
+	religion = rel:protestant
+	ideology = ideology_moderate
+	commander_rank = default
+	interest_group = ig_armed_forces
+	birth_date = 1801.7.5
+	home_region = STATE_TENNESSEE
+	dna = dna_david_farragut
+	traits = {
+		experienced_naval_commander
+		direct
+		brave
+	}
+	commander_usage = {
+		country_trigger = {
+			exists = c:USA
+			c:USA ?= THIS
+		}
+		role = admiral
+		earliest_usage_date = 1836.1.1
+		latest_usage_date = 1860.1.1
+		#guaranteed to spawn if possible
+	}
+}
+REPLACE:usa_admiral_perry = {
+	first_name = Matthew
+	last_name = Perry
+	historical = yes
+	culture = cu:yankee
+	female = no
+	religion = rel:protestant
+	ideology = ideology_reformer
+	commander_rank = default
+	interest_group = ig_armed_forces
+	birth_date = 1794.4.10
+	home_region = STATE_MASSACHUSETTS
+	dna = dna_matthew_perry
+	traits = {
+		innovative
+		dockyard_master
+		explorer
+	}
+	commander_usage = {
+		country_trigger = {
+			exists = c:USA
+			c:USA ?= THIS
+		}
+		role = admiral
+		earliest_usage_date = 1836.1.1
+		latest_usage_date = 1855.1.1
+		#guaranteed to spawn if possible
+	}
+}
+
+REPLACE:usa_admiral_buchanan = {
+	first_name = Franklin
+	last_name = Buchanan
+	historical = yes
+	culture = cu:dixie
+	female = no
+	religion = rel:protestant
+	ideology = ideology_moderate
+	commander_rank = default
+	interest_group = ig_armed_forces
+	birth_date = 1800.9.17
+	home_region = STATE_DISTRICT_OF_COLUMBIA
+	dna = dna_franklin_buchanan
+	traits = {
+		experienced_naval_commander
+		dockyard_master
+		innovative
+	}
+	commander_usage = {
+		country_trigger = {
+			OR ={
+				AND = {
+					exists = c:USA
+					c:USA ?= THIS
+					NOT = { exists = c:CSA }
+				}
+				AND = {
+					exists = c:CSA
+					c:CSA ?= THIS
+				}
+			}
+		}
+		role = admiral
+		earliest_usage_date = 1841.1.1
+		latest_usage_date = 1860.1.1
+		#guaranteed to spawn if possible
+	}
+    on_created = {
+        set_variable = {
+            name = historical_csa
+        }
+    }
+}
+REPLACE:usa_general_lee = {
+	first_name = Robert
+	last_name = Lee
+	historical = yes
+	culture = cu:dixie
+	female = no
+	religion = rel:protestant
+	ideology = ideology_moderate
+	commander_rank = default
+	interest_group = ig_landowners
+	birth_date = 1807.1.19
+	home_region = STATE_VIRGINIA
+	dna = dna_robert_e_lee
+	traits = {
+		experienced_defensive_strategist
+		innovative
+		direct
+	}
+	commander_usage = {
+		country_trigger = {
+			OR ={
+				AND = {
+					exists = c:USA
+					c:USA ?= THIS
+					NOT = { exists = c:CSA }
+				}
+				AND = {
+					exists = c:CSA
+					c:CSA ?= THIS
+				}
+			}
+		}
+		role = general
+		earliest_usage_date = 1846.1.1
+		latest_usage_date = 1870.1.1
+		#guaranteed to spawn if possible
+	}
+    on_created = {
+        set_variable = {
+            name = historical_csa
+        }
+    }
+}
+REPLACE:usa_general_jackson = {
+	first_name = Thomas
+	last_name = Jackson
+	historical = yes
+	culture = cu:dixie
+	female = no
+	religion = rel:protestant
+	ideology = ideology_traditionalist
+	commander_rank = default
+	interest_group = ig_armed_forces
+	birth_date = 1824.1.21
+	home_region = STATE_VIRGINIA
+	dna = dna_stonewall_jackson
+	traits = {
+		surveyor
+		stalwart_defender
+		brave
+	}
+	commander_usage = {
+		country_trigger = {
+			OR ={
+				AND = {
+					exists = c:USA
+					c:USA ?= THIS
+					NOT = { exists = c:CSA }
+				}
+				AND = {
+					exists = c:CSA
+					c:CSA ?= THIS
+				}
+			}
+		}
+		role = general
+		earliest_usage_date = 1846.1.1
+		latest_usage_date = 1870.1.1
+		#guaranteed to spawn if possible
+	}
+    on_created = {
+        set_variable = {
+            name = historical_csa
+        }
+    }
+}
+REPLACE:usa_general_longstreet = {
+	first_name = James
+	last_name = Longstreet
+	historical = yes
+	culture = cu:dixie
+	female = no
+	religion = rel:protestant
+	ideology = ideology_liberal_leader
+	commander_rank = default
+	interest_group = ig_armed_forces
+	birth_date = 1821.1.8
+	home_region = STATE_GEORGIA
+	dna = dna_james_longstreet
+	traits = {
+		experienced_offensive_planner
+		expert_defensive_strategist
+		brave
+	}
+	commander_usage = {
+		country_trigger = {
+			OR ={
+				AND = {
+					exists = c:USA
+					c:USA ?= THIS
+					NOT = { exists = c:CSA }
+				}
+				AND = {
+					exists = c:CSA
+					c:CSA ?= THIS
+				}
+			}
+		}
+		role = general
+		earliest_usage_date = 1846.1.1
+		latest_usage_date = 1874.1.1
+		#guaranteed to spawn if possible
+	}
+    on_created = {
+        set_variable = {
+            name = historical_csa
+        }
+    }
+}
+
+REPLACE:usa_general_sherman = {
+	first_name = William_Tecumseh
+	last_name = Sherman
+	historical = yes
+	culture = cu:yankee
+	female = no
+	religion = rel:protestant
+	ideology = ideology_moderate
+	commander_rank = default
+	interest_group = ig_petty_bourgeoisie
+	birth_date = 1820.2.8
+	home_region = STATE_OHIO
+	dna = dna_sherman
+	traits = {
+		expert_offensive_planner
+		resupply_commander
+		pillager
+	}
+	commander_usage = {
+		country_trigger = {
+			exists = c:USA
+			c:USA ?= THIS
+		}
+		role = general
+		earliest_usage_date = 1860.1.1
+		latest_usage_date = 1870.1.1
+		#guaranteed to spawn if possible
+	}
+}
+
+REPLACE:usa_general_chaffee = {
+	first_name = Adna
+	last_name = Chaffee
+	historical = yes
+	culture = cu:yankee
+	female = no
+	religion = rel:protestant
+	ideology = ideology_moderate
+	commander_rank = default
+	interest_group = ig_armed_forces
+	birth_date = 1842.4.14
+	home_region = STATE_OHIO
+	dna = dna_chaffee
+	traits = {
+		innovative
+		basic_offensive_planner
+	}
+	commander_usage = {
+		country_trigger = {
+			exists = c:USA
+			c:USA ?= THIS
+		}
+		role = general
+		earliest_usage_date = 1882.1.1
+		latest_usage_date = 1906.1.1
+		#guaranteed to spawn if possible
+	}
+}
+REPLACE:usa_general_grant = {
+	first_name = Ulysses
+	last_name = Grant
+	historical = yes
+	culture = cu:dixie
+	female = no
+	religion = rel:protestant
+	ideology = ideology_radical
+	commander_rank = default
+	interest_group = ig_petty_bourgeoisie
+	birth_date = 1822.1.21
+	home_region = STATE_ILLINOIS
+	dna = dna_ulysses_s_grant
+	traits = {
+		experienced_offensive_planner
+		persistent
+		alcoholic
+	}
+	commander_usage = {
+		country_trigger = {
+			exists = c:USA
+			c:USA ?= THIS
+		}
+		role = general
+		earliest_usage_date = 1846.1.1
+		latest_usage_date = 1874.1.1
+		#guaranteed to spawn if possible
+	}
+}
+
+REPLACE:usa_general_pershing = {
+	first_name = John
+	last_name = Pershing
+	historical = yes
+	culture = cu:yankee
+	female = no
+	religion = rel:protestant
+	ideology = ideology_moderate
+	commander_rank = default
+	interest_group = ig_armed_forces
+	birth_date = 1860.9.13
+	home_region = STATE_MISSOURI
+	dna = dna_pershing
+	traits = {
+		experienced_offensive_planner
+		persistent
+		reserved
+	}
+	commander_usage = {
+		country_trigger = {
+			exists = c:USA
+			c:USA ?= THIS
+		}
+		role = general
+		earliest_usage_date = 1895.1.1
+		latest_usage_date = 1920.1.1
+		#guaranteed to spawn if possible
+	}
+}
+REPLACE:usa_general_sheridan = {
+	first_name = Philip
+	last_name = Sheridan
+	historical = yes
+	culture = cu:yankee
+	female = no
+	religion = rel:protestant
+	ideology = ideology_moderate
+	commander_rank = default
+	interest_group = ig_armed_forces
+	birth_date = 1831.3.6
+	home_region = STATE_OHIO
+	dna = dna_sheridan
+	traits = {
+		experienced_offensive_planner
+		pillager
+		cruel
+	}
+	commander_usage = {
+		country_trigger = {
+			exists = c:USA
+			c:USA ?= THIS
+		}
+		role = general
+		earliest_usage_date = 1865.1.1
+		latest_usage_date = 1890.1.1
+		#guaranteed to spawn if possible
+	}
+}
+
+### Executives
+
+REPLACE:USA_william_cramp = { # William Cramp, William Cramp and Sons
+	first_name = William
+    last_name = Cramp
+    historical = yes
+    birth_date = 1807.1.1 # Approximate, was born in 1807
+    dna = dna_william_cramp
+    culture = cu:yankee
+    interest_group = ig_industrialists
+    ideology = ideology_moderate
+	home_region = STATE_PENNSYLVANIA
+    traits = {
+        ambitious
+        tactful
+        basic_entrepreneur
+    }
+    executive_usage = {
+		country_trigger = {
+			has_dlc_feature = mp1_content
+		}
+		company_trigger = {
+			is_company_type = company_type:company_william_cramp
+		}
+	    earliest_usage_date = 1836.1.1
+	    latest_usage_date = 1878.1.1
+		#guaranteed to spawn if possible
+	}
+}
+
+REPLACE:usa_rockefeller_character_template = {
+    first_name = John
+    last_name = Rockefeller
+    historical = yes
+    dna = dna_john_d_rockefeller
+    culture = cu:yankee
+    female = no
+    religion = rel:protestant
+    ideology = ideology_moderate
+    interest_group = ig_industrialists
+	home_region = STATE_OHIO
+    birth_date = 1839.6.8
+    traits = {
+        ambitious
+        persistent
+        basic_entrepreneur
+    }
+    executive_usage = {
+    	country_trigger = {
+            exists = c:USA
+            c:USA ?= THIS
+            has_dlc_feature = mp1_content
+		}
+		company_trigger = {
+			is_company_type = company_type:company_standard_oil
+		}
+        earliest_usage_date = 1875.1.1
+        latest_usage_date = 1915.1.1
+		#guaranteed to spawn if possible
+    }
+}
+
+REPLACE:usa_carnegie_character_template = {
+    first_name = Andrew
+    last_name = Carnegie
+    historical = yes
+    dna = dna_andrew_carnegie
+    culture = cu:scottish
+    female = no
+    religion = rel:protestant
+    ideology = ideology_market_liberal
+    interest_group = ig_industrialists
+	home_region = STATE_PENNSYLVANIA
+    birth_date = 1835.11.25
+    traits = {
+        ambitious
+        literary
+        basic_entrepreneur
+    }
+    executive_usage = {
+    	country_trigger = {
+            exists = c:USA
+            c:USA ?= THIS
+            has_dlc_feature = mp1_content
+		}
+		company_trigger = {
+			is_company_type = company_type:company_us_steel
+		}
+        earliest_usage_date = 1870.1.1
+        latest_usage_date = 1908.1.1
+		#guaranteed to spawn if possible
+    }
+}
+
+REPLACE:usa_samuel_colt = {
+    first_name = Samuel
+    last_name = Colt
+    historical = yes
+    dna = dna_samuel_colt
+    culture = cu:yankee
+    female = no
+    religion = rel:protestant
+    ideology = ideology_market_liberal
+    interest_group = ig_industrialists
+	home_region = STATE_MASSACHUSETTS
+    birth_date = 1814.07.19
+    traits = {
+        basic_diplomat
+        innovative
+        basic_entrepreneur
+    }
+    executive_usage = {
+    	country_trigger = {
+            exists = c:USA
+            c:USA ?= THIS
+            has_dlc_feature = mp1_content
+		}
+		company_trigger = {
+			is_company_type = company_type:company_colt_firearms
+		}
+        earliest_usage_date = 1836.1.1
+        latest_usage_date = 1862.07.19
+		#guaranteed to spawn if possible
+    }
+}
+
+REPLACE:usa_robert_e_lee_wilson = {
+    first_name = Robert_E_Lee
+    last_name = Wilson
+    historical = yes
+    dna = dna_robert_e_lee_wilson
+    culture = cu:dixie
+    female = no
+    religion = rel:protestant
+    ideology = ideology_protectionist
+    interest_group = ig_landowners
+    birth_date = 1865.03.05
+	home_region = STATE_ARKANSAS
+    traits = {
+        basic_political_operator
+        persistent
+        basic_entrepreneur
+    }
+    executive_usage = {
+    	country_trigger = {
+            exists = c:USA
+            c:USA ?= THIS
+            has_dlc_feature = mp1_content
+		}
+		company_trigger = {
+			is_company_type = company_type:company_lee_wilson
+		}
+        earliest_usage_date = 1882.1.1
+        latest_usage_date = 1933.09.27
+		#guaranteed to spawn if possible
+    }
+}
+
+### Nihilists
+
+REPLACE:USA_benjamin_tucker = {
+	first_name = Benjamin
+	last_name = Tucker
+	culture = cu:yankee
+	birth_date = 1854.4.17
+	is_agitator = yes
+	historical = yes
+	interest_group = ig_intelligentsia
+	female = no
+	ideology = ideology_nihilist
+	home_region = STATE_MASSACHUSETTS
+	traits = {
+		charismatic
+		persistent
+	}
+}
+
+
+# ---- historical_agitators.txt ----
+
+
+
+
+REPLACE:agitator_pierre_joseph_proudhon = {
+	first_name = Pierre-Joseph
+	last_name = Proudhon
+	historical = yes
+	culture = cu:french
+	religion = rel:atheist
+	female = no
+	interest_group = ig_intelligentsia
+	ideology = ideology_anarchist
+	birth_date = 1809.1.15
+	dna = dna_proudhon
+	home_region = STATE_ILE_DE_FRANCE
+	traits = {
+		erudite # dude taught himself Latin
+		ambitious
+		persistent
+	}
+	agitator_usage = {
+		country_trigger = {
+			has_dlc_feature = voice_of_the_people_content
+			c:FRA ?= this
+		}
+        interest_group_trigger = {
+            ig_counts_as_marginal = no
+            OR = {
+                is_interest_group_type = ig_intelligentsia
+                is_interest_group_type = ig_trade_unions
+            }
+        }
+		earliest_usage_date = 1840.6.30 # first publication of "What is to be Done?""
+		latest_usage_date = 1865.1.19
+		#guaranteed to spawn if possible
+	}
+}
+
+REPLACE:agitator_errico_malatesta = {
+	first_name = Errico
+	last_name = Malatesta
+	historical = yes
+	culture = cu:south_italian
+	religion = rel:atheist
+	female = no
+	interest_group = ig_trade_unions
+	ideology = ideology_anarchist
+	birth_date = 1853.12.4
+	dna = dna_malatesta
+	home_region = STATE_CAMPANIA
+	traits = {
+		persistent
+		charismatic
+		inspirational_orator
+	}
+	agitator_usage = {
+		country_trigger = {
+			has_dlc_feature = voice_of_the_people_content
+			OR = {
+				c:SIC ?= this
+				c:ITA ?= this
+			}
+		}
+        interest_group_trigger = {
+            ig_counts_as_marginal = no
+            OR = {
+                is_interest_group_type = ig_intelligentsia
+                is_interest_group_type = ig_trade_unions
+            }
+        }
+		earliest_usage_date = 1872.9.15 # Malatesta met Bakunin at the Saint-Inier Congress
+		latest_usage_date = 1900.1.1
+		#guaranteed to spawn if possible
+	}
+}
+
+REPLACE:agitator_louise_michel = {
+	first_name = Louise
+	last_name = Michel
+	historical = yes
+	culture = cu:french
+	religion = rel:catholic
+	female = yes
+	interest_group = ig_trade_unions
+	ideology = ideology_feminist
+	birth_date = 1830.5.29
+	dna = dna_louise_michel
+	home_region = STATE_ILE_DE_FRANCE
+	traits = {
+		brave
+		firebrand
+		persistent
+	}
+	agitator_usage = {
+		country_trigger = {
+			has_dlc_feature = voice_of_the_people_content
+			c:FRA ?= this
+		}
+        interest_group_trigger = {
+            ig_counts_as_marginal = no
+            is_interest_group_type = ig_trade_unions
+        }
+		earliest_usage_date = 1869.1.1
+		latest_usage_date = 1890.1.1
+		#guaranteed to spawn if possible
+	}
+	on_created = {
+		set_global_variable = louise_michel_spawn
+	}
+}
+
+REPLACE:agitator_emiliano_zapata = {
+	first_name = Emiliano
+	last_name = Zapata
+	historical = yes
+	culture = cu:mexican
+	religion = rel:catholic
+	female = no
+	interest_group = ig_rural_folk
+	ideology = ideology_anarchist
+	birth_date = 1879.8.8
+	dna = dna_zapata
+	home_region = STATE_MEXICO
+	traits = {
+		honorable
+		celebrity_commander
+		direct
+	}
+	agitator_usage = {
+		country_trigger = {
+			has_dlc_feature = voice_of_the_people_content
+			c:MEX ?= this
+		}
+        interest_group_trigger = {
+            ig_counts_as_marginal = no
+            OR = {
+                is_interest_group_type = ig_trade_unions
+                is_interest_group_type = ig_rural_folk
+            }
+        }
+		earliest_usage_date = 1909.1.1
+		latest_usage_date = 1935.12.31
+		#guaranteed to spawn if possible
+	}
+}
+
+REPLACE:agitator_ernst_rohm = {
+	first_name = Ernst
+	last_name = RO_hm
+	historical = yes
+	culture = cu:south_german
+	religion = rel:protestant
+	female = no
+	interest_group = ig_armed_forces
+	ideology = ideology_fascist
+	dna = dna_rohm_ernst
+	birth_date = 1887.11.28
+	home_region = STATE_BAVARIA
+	traits = {
+		ambitious
+		bigoted
+		direct
+	}
+	agitator_usage = {
+		country_trigger = {
+			has_dlc_feature = voice_of_the_people_content
+			NOT = {
+				has_variable = ernst_rohm_spawn
+			}
+			OR = {
+				c:BAV ?= this
+				c:SGF ?= this
+				c:GER ?= this
+				c:BOL ?= this # Yes, Bolivia.
+			}
+		}
+        interest_group_trigger = {
+            ig_counts_as_marginal = no
+            OR = {
+                is_interest_group_type = ig_armed_forces
+                is_interest_group_type = ig_petty_bourgeoisie
+            }
+        }
+		earliest_usage_date = 1917.1.1
+		latest_usage_date = 1935.12.31
+		chance = 50
+	}
+	on_created = {
+		owner = {
+			set_variable = ernst_rohm_spawn
+		}
+	}
+}
+
+REPLACE:agitator_frederick_douglass = {
+	first_name = Frederick
+	last_name = Douglass
+	historical = yes
+	culture = cu:afro_american
+	religion = rel:protestant
+	female = no
+	interest_group = ig_intelligentsia
+	ideology = ideology_abolitionist
+	birth_date = 1817.2.14 # He was not entirely sure of his birthday or year, but remembered his mom called him "Little Valentine" so he settled for Valentine's Day
+	dna = dna_douglass
+	home_region = STATE_MASSACHUSETTS
+	traits = {
+		firebrand
+		imposing
+		persistent
+	}
+	agitator_usage = {
+		country_trigger = {
+			has_dlc_feature = voice_of_the_people_content
+			NOT = { has_law_or_variant = law_type:law_slavery_banned }
+			OR = {
+				c:USA ?= this
+				c:CSA ?= this
+				c:ASA ?= this # Unlikely, but just in case
+			}
+		}
+        interest_group_trigger = {
+            ig_counts_as_marginal = no
+            is_interest_group_type = ig_intelligentsia
+        }
+		earliest_usage_date = 1840.1.1
+		latest_usage_date = 1877.1.1
+		#guaranteed to spawn if possible
+	}
+}
+
+REPLACE:agitator_ahmed_urabi = {
+	first_name = Ahmed
+	last_name = Urabi
+	historical = yes
+	culture = cu:misri
+	religion = rel:sunni
+	female = no
+	interest_group = ig_armed_forces
+	ideology = ideology_ethno_nationalist
+	birth_date = 1841.3.31
+	dna = dna_orabi_ahmed_pasha
+	home_region = STATE_LOWER_EGYPT
+	traits = {
+		celebrity_commander
+		brave
+		direct
+	}
+	agitator_usage = {
+		country_trigger = {
+			has_dlc_feature = voice_of_the_people_content
+			c:EGY ?= this
+		}
+        interest_group_trigger = {
+            ig_counts_as_marginal = no
+            is_interest_group_type = ig_armed_forces
+        }
+		earliest_usage_date = 1876.3.9 # End of the Egyptian-Ethiopian War
+		latest_usage_date = 1901.5.1
+		#guaranteed to spawn if possible
+	}
+}
+
+REPLACE:agitator_eugene_debs = {
+	first_name = Eugene
+	last_name = Debs
+	historical = yes
+	culture = cu:yankee
+	religion = rel:protestant
+	female = no
+	interest_group = ig_trade_unions
+	ideology = ideology_social_democrat
+	birth_date = 1855.11.5
+	home_region = STATE_INDIANA
+	dna = dna_debs_eugene
+	traits = {
+		demagogue
+		charismatic
+		honorable
+	}
+	agitator_usage = {
+		country_trigger = {
+			has_dlc_feature = voice_of_the_people_content
+			c:USA ?= this
+		}
+        interest_group_trigger = {
+            ig_counts_as_marginal = no
+            is_interest_group_type = ig_trade_unions
+        }
+		earliest_usage_date = 1893.6.20 # foundation of the American Railway Union
+		latest_usage_date = 1921.12.25
+		#guaranteed to spawn if possible
+	}
+}
+
+REPLACE:agitator_saigo_takamori = {
+	first_name = Saigo
+	last_name = Takamori
+	historical = yes
+	culture = cu:japanese
+	religion = rel:shinto
+	female = no
+	interest_group = ig_armed_forces
+	ideology = ideology_mitogaku
+	birth_date = 1828.1.23
+	home_region = STATE_KYUSHU
+	traits = {
+		demagogue
+		charismatic
+		honorable
+		basic_offensive_planner
+	}
+	agitator_usage = {
+		country_trigger = {
+			OR = {
+				has_dlc_feature = voice_of_the_people_content
+				has_dlc_feature = ep2_content
+			}
+			c:JAP ?= this
+		}
+        interest_group_trigger = {
+            ig_counts_as_marginal = no
+            is_interest_group_type = ig_armed_forces
+        }
+		earliest_usage_date = 1864.8.20 # Kinmon Incident
+		latest_usage_date = 1877.9.24
+		#guaranteed to spawn if possible
+	}
+}
+
+REPLACE:agitator_wichaichan = { # a.k.a. PRINCE GEORGE WASHINGTON
+	first_name = Wichaichan
+	last_name = Chakri
+	historical = yes
+	culture = cu:thai
+	religion = rel:theravada
+	female = no
+	interest_group = ig_landowners
+	ideology = ideology_traditionalist
+	birth_date = 1838.4.6
+	home_region = STATE_BANGKOK
+	traits = {
+		engineer
+		ambitious
+		reckless
+	}
+	agitator_usage = {
+		country_trigger = {
+			has_dlc_feature = voice_of_the_people_content
+			c:SIA ?= this
+		}
+        interest_group_trigger = {
+            ig_counts_as_marginal = no
+            is_interest_group_type = ig_landowners
+        }
+		earliest_usage_date = 1868.8.2
+		latest_usage_date = 1885.8.28
+		#guaranteed to spawn if possible
+	}
+}
+
+REPLACE:agitator_enver_pasha = {
+	first_name = Enver
+	last_name = Pasha
+	historical = yes
+	culture = cu:turkish
+	religion = rel:sunni
+	female = no
+	interest_group = ig_armed_forces
+	ideology = ideology_ethno_nationalist
+	birth_date = 1881.11.22
+	dna = dna_pasha_enver
+	home_region = STATE_SKOPIA
+	traits = {
+		celebrity_commander
+		ambitious
+		direct
+	}
+	agitator_usage = {
+		country_trigger = {
+			has_dlc_feature = voice_of_the_people_content
+			c:TUR ?= this
+		}
+        interest_group_trigger = {
+            ig_counts_as_marginal = no
+            is_interest_group_type = ig_armed_forces
+        }
+		earliest_usage_date = 1906.1.1
+		latest_usage_date = 1922.8.4
+		chance = 50
+	}
+    interest_group_leader_usage = {
+        country_trigger = {
+            c:TUR ?= this
+        }
+        interest_group_trigger = {
+            ig_counts_as_marginal = no
+            is_interest_group_type = ig_armed_forces
+        }
+        earliest_usage_date = 1908.1.1
+        latest_usage_date = 1936.1.1
+        #guaranteed to spawn if possible
+    }
+}
+
+REPLACE:agitator_alfred_hugenberg = {
+	first_name = Alfred
+	last_name = Hugenberg
+	historical = yes
+	culture = cu:north_german
+	religion = rel:protestant
+	female = no
+	interest_group = ig_petty_bourgeoisie
+	ideology = ideology_fascist
+	birth_date = 1865.6.19
+	dna = dna_hugenberg
+	home_region = STATE_HANNOVER
+	traits = {
+		direct
+		literary
+		master_bureaucrat
+	}
+	agitator_usage = {
+		country_trigger = {
+			has_dlc_feature = voice_of_the_people_content
+			NOT = {
+				has_variable = alfred_hugenberg_spawn
+			}
+			OR = {
+				c:HAN ?= this
+				c:NGF ?= this
+				c:GER ?= this
+			}
+		}
+        interest_group_trigger = {
+            ig_counts_as_marginal = no
+            is_interest_group_type = ig_petty_bourgeoisie
+        }
+		earliest_usage_date = 1916.1.1
+		latest_usage_date = 1936.1.1
+		chance = 50
+	}
+	on_created = {
+		owner = {
+			set_variable = alfred_hugenberg_spawn
+		}
+	}
+}
+
+REPLACE:agitator_susan_b_anthony = {
+	first_name = Susan
+	last_name = Anthony
+	historical = yes
+	culture = cu:yankee
+	religion = rel:protestant
+	female = yes
+	interest_group = ig_intelligentsia
+	ideology = ideology_feminist
+	birth_date = 1820.2.15
+	home_region = STATE_NEW_YORK
+	dna = dna_susan_b_anthony
+	traits = {
+		persistent
+		demagogue
+		honorable
+	}
+	agitator_usage = {
+		country_trigger = {
+			has_dlc_feature = voice_of_the_people_content
+			OR = {
+				c:USA ?= this
+				c:NEN ?= this
+			}
+		}
+        interest_group_trigger = {
+            ig_counts_as_marginal = no
+            OR = {
+                is_interest_group_type = ig_intelligentsia
+                is_interest_group_type = ig_petty_bourgeoisie
+            }
+        }
+		earliest_usage_date = 1851.1.1
+		latest_usage_date = 1900.1.1
+		#guaranteed to spawn if possible
+	}
+}
+
+REPLACE:agitator_giovanni_gentile = {
+	first_name = Giovanni
+	last_name = Gentile
+	historical = yes
+	culture = cu:south_italian
+	religion = rel:catholic
+	female = no
+	interest_group = ig_petty_bourgeoisie
+	ideology = ideology_fascist
+	birth_date = 1875.5.30
+	dna = dna_giovanni_gentille
+	home_region = STATE_SICILY
+	traits = {
+		literary
+		charismatic
+		erudite
+	}
+	agitator_usage = {
+		country_trigger = {
+			has_dlc_feature = voice_of_the_people_content
+			NOT = {
+				has_variable = giovanni_gentile_spawn
+			}
+			OR = {
+				c:ITA ?= this
+				AND = {
+					c:SIC ?= this
+					NOT = { exists = c:ITA }
+				}
+			}
+		}
+        interest_group_trigger = {
+            ig_counts_as_marginal = no
+            OR = {
+	            is_interest_group_type = ig_petty_bourgeoisie
+	            is_interest_group_type = ig_intelligentsia
+	        }
+        }
+		earliest_usage_date = 1922.1.1
+		latest_usage_date = 1935.12.31
+		chance = 50
+	}
+	on_created = {
+		owner = {
+			set_variable = giovanni_gentile_spawn
+		}
+	}
+}
+
+REPLACE:agitator_ludwik_mieroslawski = {
+	first_name = Ludwik
+	last_name = Mieroslawski
+	historical = yes
+	culture = cu:polish
+	religion = rel:catholic
+	female = no
+	interest_group = ig_petty_bourgeoisie
+	ideology = ideology_radical
+	birth_date = 1814.1.17
+	home_region = STATE_POSEN
+	traits = {
+		celebrity_commander
+		inspirational_orator
+		literary
+	}
+	agitator_usage = {
+		country_trigger = {
+			has_dlc_feature = voice_of_the_people_content
+			OR = {
+				c:POL ?= this
+				AND = {
+					c:PRU ?= this
+					NOT = { exists = c:POL }
+				}
+				AND = {
+					c:GER ?= this
+					NOT = { exists = c:POL }
+				}
+				AND = {
+					c:RUS ?= this
+					NOT = { exists = c:POL }
+				}
+			}
+		}
+        interest_group_trigger = {
+            ig_counts_as_marginal = no
+	        is_interest_group_type = ig_petty_bourgeoisie
+        }
+		earliest_usage_date = 1836.1.1
+		latest_usage_date = 1871.1.28
+		#guaranteed to spawn if possible
+	}
+}
+
+REPLACE:agitator_francesco_crispi = {
+	first_name = Francesco
+	last_name = Crispi
+	historical = yes
+	culture = cu:south_italian
+	religion = rel:catholic
+	female = no
+	interest_group = ig_petty_bourgeoisie
+	ideology = ideology_radical
+	birth_date = 1818.10.4
+	dna = dna_francesco_crispi
+	home_region = STATE_SICILY
+	traits = {
+		imperious
+		ambitious
+		experienced_diplomat
+	}
+	agitator_usage = {
+		country_trigger = {
+			has_dlc_feature = voice_of_the_people_content
+			OR = {
+				c:ITA ?= this
+				c:SIC ?= this
+			}
+		}
+        interest_group_trigger = {
+            ig_counts_as_marginal = no
+            OR = {
+		        is_interest_group_type = ig_petty_bourgeoisie
+		        is_interest_group_type = ig_intelligentsia
+		        is_interest_group_type = ig_rural_folk
+		    }
+        }
+		earliest_usage_date = 1847.1.1
+		latest_usage_date = 1893.1.1
+		chance = 50
+	}
+}
+
+REPLACE:agitator_bjornstjerne_bjornson = {
+	first_name = Bjornstjerne
+	last_name = Bjornson
+	historical = yes
+	culture = cu:norwegian
+	religion = rel:protestant
+	female = no
+	interest_group = ig_intelligentsia
+	ideology = ideology_radical
+	birth_date = 1832.12.8
+	home_region = STATE_EASTERN_NORWAY
+	traits = {
+		literary
+		inspirational_orator
+		cautious
+	}
+	agitator_usage = {
+		country_trigger = {
+			has_dlc_feature = voice_of_the_people_content
+			OR = {
+				c:NOR ?= this
+				c:SCA ?= this
+			}
+		}
+        interest_group_trigger = {
+            ig_counts_as_marginal = no
+            OR = {
+		        is_interest_group_type = ig_petty_bourgeoisie
+		        is_interest_group_type = ig_intelligentsia
+		    }
+        }
+		earliest_usage_date = 1857.1.1
+		latest_usage_date = 1894.1.1
+		#guaranteed to spawn if possible
+	}
+}
+
+REPLACE:agitator_orla_lehmann = { # Peter Martin Orla Lehmann
+	first_name = Orla
+	last_name = Lehmann
+	historical = yes
+	culture = cu:danish
+	religion = rel:protestant
+	female = no
+	interest_group = ig_petty_bourgeoisie
+	ideology = ideology_radical
+	birth_date = 1810.5.19
+	home_region = STATE_ELBE
+	traits = {
+		literary
+		demagogue
+		charismatic
+	}
+	agitator_usage = {
+		country_trigger = {
+			has_dlc_feature = voice_of_the_people_content
+			OR = {
+				c:DEN ?= this
+				c:SCA ?= this
+			}
+		}
+        interest_group_trigger = {
+            ig_counts_as_marginal = no
+            OR = {
+		        is_interest_group_type = ig_petty_bourgeoisie
+		        is_interest_group_type = ig_intelligentsia
+		        is_interest_group_type = ig_rural_folk
+		    }
+        }
+		earliest_usage_date = 1836.1.1
+		latest_usage_date = 1863.1.1
+		#guaranteed to spawn if possible
+	}
+}
+
+REPLACE:agitator_prince_sabahaddin = { # Prince Sabahaddin de Neuchâtel
+	first_name = Sabahaddin
+	last_name = Osmanoglu
+	historical = yes
+	culture = cu:turkish
+	religion = rel:sunni
+	female = no
+	interest_group = ig_landowners
+	ideology = ideology_reformer
+	birth_date = 1879.2.13
+	dna = dna_sabahaddin_prince
+	home_region = STATE_EASTERN_THRACE
+	traits = {
+		ambitious
+		literary
+		innovative
+	}
+	agitator_usage = {
+		country_trigger = {
+			has_dlc_feature = voice_of_the_people_content
+			c:TUR ?= this
+			country_has_monarchy_law = yes
+		}
+        interest_group_trigger = {
+            ig_counts_as_marginal = no
+            OR = {
+			    is_interest_group_type = ig_intelligentsia
+			    is_interest_group_type = ig_landowners
+			}
+        }
+		earliest_usage_date = 1899.1.1
+		latest_usage_date = 1935.12.31
+		chance = 50
+	}
+}
+
+REPLACE:agitator_francisco_madero = { # Francisco Ignacio Madero Gonzalez
+	first_name = Francisco
+	last_name = Madero
+	historical = yes
+	culture = cu:mexican
+	religion = rel:catholic
+	female = no
+	interest_group = ig_petty_bourgeoisie
+	ideology = ideology_market_liberal
+	birth_date = 1873.10.30
+	dna = dna_francisco_madero
+	home_region = STATE_RIO_GRANDE
+	traits = {
+		honorable
+		charismatic
+		basic_diplomat
+	}
+	agitator_usage = {
+		country_trigger = {
+			has_dlc_feature = voice_of_the_people_content
+			c:MEX ?= this
+		}
+        interest_group_trigger = {
+            ig_counts_as_marginal = no
+            OR = {
+			    is_interest_group_type = ig_intelligentsia
+			    is_interest_group_type = ig_petty_bourgeoisie
+			}
+        }
+		earliest_usage_date = 1903.1.1
+		latest_usage_date = 1935.12.31
+		#guaranteed to spawn if possible
+	}
+}
+
+REPLACE:agitator_gabriele_d_annunzio = { # Gabriele D'Annunzio
+	first_name = Gabriele
+	last_name = D_Annunzio
+	historical = yes
+	culture = cu:south_italian
+	religion = rel:catholic
+	female = no
+	interest_group = ig_petty_bourgeoisie
+	ideology = ideology_fascist
+	birth_date = 1863.3.12
+	dna = dna_gabriele_dannunzio
+	home_region = STATE_ABRUZZO
+	traits = {
+		hedonist
+		literary
+		ambitious
+	}
+	agitator_usage = {
+		country_trigger = {
+			has_dlc_feature = voice_of_the_people_content
+			NOT = {
+				has_variable = gabriele_d_annunzio_spawn
+			}
+			OR = {
+				c:ITA ?= this
+				AND = {
+					c:SIC ?= this
+					NOT = { exists = c:ITA }
+				}
+			}
+		}
+        interest_group_trigger = {
+            ig_counts_as_marginal = no
+            OR = {
+			    is_interest_group_type = ig_landowners
+			    is_interest_group_type = ig_petty_bourgeoisie
+			    is_interest_group_type = ig_intelligentsia
+			}
+        }
+		earliest_usage_date = 1899.1.1
+		latest_usage_date = 1924.1.1
+		#guaranteed to spawn if possible
+	}
+	on_created = {
+		owner = {
+			set_variable = gabriele_d_annunzio_spawn
+		}
+	}
+}
+
+REPLACE:agitator_jean_jaures = { # Jean Jaurès
+	first_name = Jean
+	last_name = JaurE_s
+	historical = yes
+	culture = cu:french
+	religion = rel:catholic
+	female = no
+	interest_group = ig_intelligentsia
+	ideology = ideology_social_democrat
+	birth_date = 1859.9.3
+	home_region = STATE_LANGUEDOC
+	traits = {
+		firebrand
+		erudite
+		expert_political_operator
+	}
+	agitator_usage = {
+		country_trigger = {
+			has_dlc_feature = voice_of_the_people_content
+			OR = {
+				c:FRA ?= this
+				c:OCC ?= this
+			}
+		}
+        interest_group_trigger = {
+            ig_counts_as_marginal = no
+            OR = {
+			    is_interest_group_type = ig_trade_unions
+			    is_interest_group_type = ig_intelligentsia
+			}
+        }
+		earliest_usage_date = 1892.1.1
+		latest_usage_date = 1935.12.31
+		#guaranteed to spawn if possible
+	}
+}
+
+REPLACE:agitator_viggo_horup = { # Viggo Hørup
+	first_name = Viggo
+	last_name = Horup
+	historical = yes
+	culture = cu:danish
+	religion = rel:protestant
+	female = no
+	interest_group = ig_petty_bourgeoisie
+	ideology = ideology_radical
+	birth_date = 1841.5.22
+	home_region = STATE_JUTLAND
+	traits = {
+		literary
+		basic_political_operator
+		charismatic
+	}
+	agitator_usage = {
+		country_trigger = {
+			has_dlc_feature = voice_of_the_people_content
+			OR = {
+				c:DEN ?= this
+				c:SCA ?= this
+			}
+		}
+        interest_group_trigger = {
+            ig_counts_as_marginal = no
+            OR = {
+			    is_interest_group_type = ig_petty_bourgeoisie
+			    is_interest_group_type = ig_intelligentsia
+			}
+        }
+		earliest_usage_date = 1876.1.1
+		latest_usage_date = 1900.1.1
+		#guaranteed to spawn if possible
+	}
+}
+
+REPLACE:agitator_georg_brandes = { # Georg Brandes
+	first_name = Georg
+	last_name = Brandes
+	historical = yes
+	culture = cu:danish
+	religion = rel:jewish
+	female = no
+	interest_group = ig_petty_bourgeoisie
+	ideology = ideology_radical
+	birth_date = 1841.5.22
+	home_region = STATE_ZEALAND
+	traits = {
+		erudite
+		inspirational_orator
+		ambitious
+	}
+	agitator_usage = {
+		country_trigger = {
+			has_dlc_feature = voice_of_the_people_content
+			OR = {
+				c:DEN ?= this
+				c:SCA ?= this
+			}
+		}
+        interest_group_trigger = {
+            ig_counts_as_marginal = no
+            OR = {
+			    is_interest_group_type = ig_petty_bourgeoisie
+			    is_interest_group_type = ig_intelligentsia
+			}
+        }
+		earliest_usage_date = 1871.11.3
+		latest_usage_date = 1900.1.1
+		#guaranteed to spawn if possible
+	}
+}
+
+REPLACE:agitator_alexis_de_tocqueville = { # Alexis de Tocqueville
+	first_name = Alexis
+	last_name = de_Tocqueville
+	historical = yes
+	culture = cu:french
+	religion = rel:catholic
+	female = no
+	interest_group = ig_landowners
+	ideology = ideology_reformer
+	birth_date = 1805.7.29
+	dna = dna_alexis_de_tocqueville
+	home_region = STATE_ILE_DE_FRANCE
+	traits = {
+		literary
+		honorable
+		basic_political_operator
+	}
+	agitator_usage = {
+		country_trigger = {
+			has_dlc_feature = voice_of_the_people_preorder
+			c:FRA ?= this
+		}
+        interest_group_trigger = {
+            ig_counts_as_marginal = no
+            OR = {
+			    is_interest_group_type = ig_landowners
+			    is_interest_group_type = ig_intelligentsia
+			}
+        }
+		earliest_usage_date = 1836.1.1
+		latest_usage_date = 1852.1.1
+		#guaranteed to spawn if possible
+	}
+}
+
+REPLACE:agitator_jose_do_patrocinio = { # José do Patrocínio
+	first_name = JosE_
+	last_name = do_PatrocI_nio
+	historical = yes
+	culture = cu:afro_brazilian
+	religion = rel:catholic
+	female = no
+	interest_group = ig_intelligentsia
+	ideology = ideology_abolitionist
+	birth_date = 1853.10.9
+	dna = dna_jose_do_patrocinio
+	home_region = STATE_RIO_DE_JANEIRO
+	traits = {
+		literary
+		persistent
+		demagogue
+	}
+	agitator_usage = {
+		country_trigger = {
+			has_dlc_feature = voice_of_the_people_content
+			NOT = { has_law_or_variant = law_type:law_slavery_banned }
+			OR = {
+				c:BRZ ?= this
+				c:AGJ ?= this # Unlikely, but just in case
+			}
+		}
+        interest_group_trigger = {
+            ig_counts_as_marginal = no
+            OR = {
+                is_interest_group_type = ig_intelligentsia
+                is_interest_group_type = ig_rural_folk
+            }
+        }
+		earliest_usage_date = 1874.1.1
+		latest_usage_date = 1893.1.1
+		#guaranteed to spawn if possible
+	}
+}
+
+REPLACE:agitator_karl_liebknecht = { # Karl Liebknecht, or as I like to call him, Chucky.
+	first_name = Karl
+	last_name = Liebknecht
+	historical = yes
+	culture = cu:north_german
+	religion = rel:protestant
+	female = no
+	interest_group = ig_intelligentsia
+	ideology = ideology_communist
+	birth_date = 1871.8.13
+	dna = dna_karl_liebknecht
+	home_region = STATE_SAXONY
+	traits = {
+		erudite
+		experienced_political_operator
+		charismatic
+	}
+	agitator_usage = {
+		country_trigger = {
+			has_dlc_feature = voice_of_the_people_content
+			OR = {
+				c:SAX ?= this
+				c:NGF ?= this
+				c:GER ?= this
+			}
+		}
+        interest_group_trigger = {
+            ig_counts_as_marginal = no
+            OR = {
+			    is_interest_group_type = ig_trade_unions
+			    is_interest_group_type = ig_intelligentsia
+			}
+        }
+		earliest_usage_date = 1899.4.5
+		latest_usage_date = 1935.12.31
+		#guaranteed to spawn if possible
+	}
+}
+
+REPLACE:agitator_francesc_pi_i_margall = { # Francesc Pi i Margall
+	first_name = Francesc
+	last_name = Pi_i_Margall
+	historical = yes
+	culture = cu:catalan
+	religion = rel:catholic
+	female = no
+	interest_group = ig_petty_bourgeoisie
+	ideology = ideology_radical
+	birth_date = 1824.4.29
+	dna = dna_francesc_pi_i_margall
+	home_region = STATE_CATALONIA
+	traits = {
+		literary
+		inspirational_orator
+		direct
+	}
+	agitator_usage = {
+		country_trigger = {
+			has_dlc_feature = voice_of_the_people_content
+			OR = {
+				c:SPA ?= this
+				c:CAT ?= this
+			}
+		}
+        interest_group_trigger = {
+            ig_counts_as_marginal = no
+            OR = {
+			    is_interest_group_type = ig_petty_bourgeoisie
+			    is_interest_group_type = ig_intelligentsia
+			}
+        }
+		earliest_usage_date = 1854.1.1
+		latest_usage_date = 1893.1.1
+		#guaranteed to spawn if possible
+	}
+}
+
+REPLACE:agitator_manuel_ruiz_zorrilla = { # Manuel Ruiz Zorrilla
+	first_name = Manuel
+	last_name = Ruiz_Zorrilla
+	historical = yes
+	culture = cu:spanish
+	religion = rel:catholic
+	female = no
+	interest_group = ig_petty_bourgeoisie
+	ideology = ideology_radical
+	birth_date = 1824.4.29
+	dna = dna_manuel_ruiz_zorrilla
+	home_region = STATE_OLD_CASTILE
+	traits = {
+		ambitious
+		basic_political_operator
+		persistent
+	}
+	agitator_usage = {
+		country_trigger = {
+			has_dlc_feature = voice_of_the_people_content
+			c:SPA ?= this
+		}
+        interest_group_trigger = {
+            ig_counts_as_marginal = no
+            OR = {
+			    is_interest_group_type = ig_petty_bourgeoisie
+			    is_interest_group_type = ig_intelligentsia
+			}
+        }
+		earliest_usage_date = 1866.1.1
+		latest_usage_date = 1884.1.1
+		#guaranteed to spawn if possible
+	}
+}
+
+REPLACE:agitator_francois_rene_de_la_tour_du_pin_chambly = { # François-René de La Tour du Pin Chambly, marquis de La Charce, sacré bleu mon name is trés long
+	first_name = Fran_Cois-Ren_E
+	last_name = de_La_Tour_du_Pin_Chambly
+	historical = yes
+	culture = cu:french
+	religion = rel:catholic
+	female = no
+	interest_group = ig_landowners
+	ideology = ideology_legitimist
+	birth_date = 1834.4.1
+	home_region = STATE_ILE_DE_FRANCE
+	traits = {
+		celebrity_commander
+		pious
+		erudite
+	}
+	agitator_usage = {
+		country_trigger = {
+			has_dlc_feature = voice_of_the_people_content
+			c:FRA ?= this
+		}
+        interest_group_trigger = {
+            ig_counts_as_marginal = no
+            OR = {
+			    is_interest_group_type = ig_landowners
+			    is_interest_group_type = ig_armed_forces
+			}
+        }
+		earliest_usage_date = 1870.1.1
+		latest_usage_date = 1900.1.1
+		#guaranteed to spawn if possible
+	}
+}
+
+REPLACE:agitator_antonio_sardinha = { # António Sardinha, integralist
+	first_name = Antonio_2
+	last_name = Sardinha
+	historical = yes
+	culture = cu:portuguese
+	religion = rel:catholic
+	female = no
+	interest_group = ig_intelligentsia
+	ideology = ideology_fascist
+	birth_date = 1887.9.9
+	home_region = STATE_ALENTEJO
+	traits = {
+		direct
+		bigoted
+		ambitious
+	}
+	agitator_usage = {
+		country_trigger = {
+			has_dlc_feature = voice_of_the_people_content
+			NOT = {
+				has_variable = antonio_sardinha_spawn
+			}
+			c:POR ?= this
+		}
+        interest_group_trigger = {
+            ig_counts_as_marginal = no
+            OR = {
+			    is_interest_group_type = ig_intelligentsia
+			    is_interest_group_type = ig_petty_bourgeoisie
+			}
+        }
+		earliest_usage_date = 1910.1.1
+		latest_usage_date = 1935.12.31 # Historically he died young in 1925 at the age of 37
+		#guaranteed to spawn if possible
+	}
+	on_created = {
+		owner = {
+			set_variable = antonio_sardinha_spawn
+		}
+	}
+}
+
+REPLACE:agitator_harriet_tubman = {
+	first_name = Harriet
+	last_name = Tubman
+	historical = yes
+	culture = cu:afro_american
+	religion = rel:protestant
+	female = yes
+	interest_group = ig_devout
+	ideology = ideology_abolitionist
+	birth_date = 1822.3.1 # exact birthdate unknown
+	dna = dna_harriet_tubman
+	home_region = STATE_PENNSYLVANIA
+	traits = {
+		brave
+		charismatic
+		direct
+	}
+	agitator_usage = {
+		country_trigger = {
+			has_dlc_feature = voice_of_the_people_content
+			NOT = { has_law_or_variant = law_type:law_slavery_banned }
+			OR = {
+				c:USA ?= this
+				c:CSA ?= this
+				c:ASA ?= this # Unlikely, but just in case
+			}
+		}
+        interest_group_trigger = {
+            ig_counts_as_marginal = no
+            OR = {
+			    is_interest_group_type = ig_intelligentsia
+			    is_interest_group_type = ig_devout
+			}
+        }
+		earliest_usage_date = 1849.9.17
+		latest_usage_date = 1896.1.1
+		#guaranteed to spawn if possible
+	}
+}
+
+REPLACE:agitator_web_du_bois = { # W.E.B. Du Bois
+	first_name = William
+	last_name = Du_Bois
+	historical = yes
+	culture = cu:afro_american
+	religion = rel:protestant
+	female = no
+	interest_group = ig_intelligentsia
+	ideology = ideology_social_democrat
+	birth_date = 1868.2.23
+	home_region = STATE_GEORGIA # Born in Massachusetts, most famously lived in Atlanta
+	dna = dna_web_du_bois
+	traits = {
+		erudite
+		literary
+		charismatic
+	}
+	agitator_usage = {
+		country_trigger = {
+			has_dlc_feature = voice_of_the_people_content
+			OR = {
+				c:USA ?= this
+				c:NEN ?= this # He's from Massachusetts
+			}
+		}
+        interest_group_trigger = {
+            ig_counts_as_marginal = no
+			is_interest_group_type = ig_intelligentsia
+        }
+		earliest_usage_date = 1894.6.1
+		latest_usage_date = 1935.12.31 # Died on August 27th, 1963
+		#guaranteed to spawn if possible
+	}
+}
+
+REPLACE:agitator_alexandru_bogdan_pitesti = { # Alexandru Bogdan-Pitești
+	first_name = Alexandru
+	last_name = Bogdan-Pitesti
+	historical = yes
+	culture = cu:romanian
+	religion = rel:catholic # He's not Orthodox. He converted to Catholicism. I don't make the rules.
+	female = no
+	interest_group = ig_intelligentsia
+	ideology = ideology_anarchist
+	birth_date = 1870.6.13
+	dna = dna_bogdan_pitesti
+	home_region = STATE_WALLACHIA
+	traits = {
+		literary
+		charismatic
+		hedonist
+	}
+	agitator_usage = {
+		country_trigger = {
+			has_dlc_feature = voice_of_the_people_content
+			OR = {
+				c:ROM ?= this
+				c:WAL ?= this
+			}
+		}
+        interest_group_trigger = {
+            ig_counts_as_marginal = no
+			is_interest_group_type = ig_intelligentsia
+        }
+		earliest_usage_date = 1894.1.1
+		latest_usage_date = 1918.1.1 # Died May 12, 1922
+		#guaranteed to spawn if possible
+	}
+}
+
+REPLACE:agitator_jules_brunet = { # Jules Brunet
+	first_name = Jules
+	last_name = Brunet
+	historical = yes
+	culture = cu:french
+	religion = rel:catholic
+	female = no
+	interest_group = ig_armed_forces
+	ideology = ideology_authoritarian
+	birth_date = 1838.1.2
+	dna = dna_jules_brunet
+	home_region = STATE_NORMANDY
+	traits = {
+		ambitious
+		brave
+		basic_diplomat
+	}
+	agitator_usage = {
+		country_trigger = {
+			OR = {
+				has_dlc_feature = voice_of_the_people_preorder
+				has_dlc_feature = ep2_content
+			}
+			c:JAP ?= this
+		}
+        interest_group_trigger = {
+            ig_counts_as_marginal = no
+			is_interest_group_type = ig_armed_forces
+        }
+		earliest_usage_date = 1867.1.1 # French military mission to Japan
+		latest_usage_date = 1892.1.1
+		chance = 50
+	}
+}
+
+REPLACE:agitator_giuseppe_mazzini = {
+	first_name = Giuseppe
+	last_name = Mazzini
+	historical = yes
+	culture = cu:north_italian
+	birth_date = 1805.6.22
+	is_agitator = yes
+	dna = dna_mazzini
+	interest_group = ig_intelligentsia
+	female = no
+	ideology = ideology_radical
+	home_region = STATE_PIEDMONT
+	traits = {
+		firebrand
+		persistent # the man did NOT STOP
+	}
+}
+
+REPLACE:fra_delescluze_character_template = {
+    first_name = Louis_Charles
+    last_name = Delescluze
+    historical = yes
+    birth_date = 1809.5.25
+    is_agitator = yes
+    female = no
+    culture = cu:french
+    interest_group = ig_intelligentsia
+    ideology = ideology_communist
+    dna = dna_louis_delescluze
+    home_region = STATE_NORMANDY
+    traits = {
+        literary
+        inspirational_orator
+        brave
+    }
+}
+
+REPLACE:fra_blanqui_character_template = {
+    first_name = Louis
+    last_name = Blanqui
+    historical = yes
+    birth_date = 1805.2.8
+    culture = cu:french
+    religion = rel:atheist
+    is_agitator = yes
+    female = no
+    interest_group = ig_trade_unions # "Authentic leader of the working class", per Marx
+    ideology = ideology_communist
+    dna = dna_blanqui
+    home_region = STATE_PROVENCE
+    traits = {
+        direct
+        basic_political_operator
+        ambitious
+    }
+}
+
+REPLACE:usa_john_brown_character_template = {
+    first_name = John
+    last_name = Brown
+    historical = yes
+    birth_date = 1800.5.9
+    culture = cu:yankee
+    is_agitator = yes
+    female = no
+    interest_group = ig_devout
+    ideology = ideology_abolitionist
+    dna = dna_john_brown
+	home_region = STATE_MASSACHUSETTS
+    traits = {
+        reserved
+        firebrand
+        reckless
+    }
+}
+
+REPLACE:fra_maurras_character_template = {
+   first_name = Charles
+    last_name = Maurras
+    historical = yes
+    birth_date = 1868.4.20
+    culture = cu:french
+    is_agitator = yes
+    female = no
+    interest_group = ig_petty_bourgeoisie
+    ideology = ideology_integralist
+    dna = dna_charles_maurras
+    home_region = STATE_PROVENCE
+    traits = {
+        reserved
+        firebrand
+        reckless
+    }
+}
+
+REPLACE:fra_napoleon_iii_character_template = {
+    first_name = "Louis-Napoleon"
+    last_name = "Bonaparte"
+    historical = yes
+    birth_date = 1808.4.20
+    culture = cu:french
+    is_agitator = yes
+    female = no
+    interest_group = ig_petty_bourgeoisie
+    ideology = ideology_bonapartist
+    dna = dna_emperor_napoleon_03
+    home_region = STATE_ILE_DE_FRANCE
+    traits = {
+        ambitious
+        experienced_political_operator
+        demagogue
+    }
+	on_created = {
+		set_variable = house_bonaparte
+	}
+}
+
+REPLACE:usa_joshua_norton_character_template = {
+    first_name = Joshua
+	last_name = Norton
+	historical = yes
+	culture = cu:british
+	religion = rel:protestant
+	female = no
+    is_agitator = yes
+	interest_group = ig_petty_bourgeoisie
+	ideology = ideology_humanitarian_royalist
+	birth_date = 1818.2.4
+	home_region = STATE_CALIFORNIA
+	dna = dna_emperor_norton
+	traits = {
+		charismatic
+		honorable
+		ambitious
+	}
+}
+REPLACE:pol_rosa_luxemburg_character_template = {
+    first_name = Rosa
+	last_name = Luxemburg
+	historical = yes
+	culture = cu:polish
+	religion = rel:atheist
+	female = yes
+    is_agitator = yes
+	interest_group = ig_trade_unions
+	ideology = ideology_communist
+	birth_date = 1871.3.5
+	dna = dna_rosa_luxemburg
+	home_region = STATE_LESSER_POLAND
+	traits = {
+		firebrand
+        brave
+        romantic
+	}
+	on_created = {
+		set_variable = anti_nationalist_var
+	}
+}
+REPLACE:fra_georges_sorel_character_template = {
+    first_name = Georges
+	last_name = Sorel
+	historical = yes
+	culture = cu:french
+	religion = rel:atheist
+	female = no
+    is_agitator = yes
+	interest_group = ig_intelligentsia
+	ideology = ideology_nihilist
+	birth_date = 1847.11.2
+	dna = dna_georges_sorel
+	home_region = STATE_NORMANDY
+	traits = {
+		erudite
+        innovative
+        engineer
+	}
+}
+REPLACE:fra_georges_boulanger_character_template = {
+    first_name = Georges
+	last_name = Boulanger
+	historical = yes
+	culture = cu:french
+	female = no
+    is_agitator = yes
+	interest_group = ig_armed_forces
+	ideology = ideology_ethno_nationalist
+	birth_date = 1837.4.29
+	dna = dna_boulanger
+	home_region = STATE_BRITTANY
+	traits = {
+		demagogue
+        innovative
+        romantic
+        special_character_general_revanche
+	}
+}
+REPLACE:pru_ferdinand_lassalle_character_template = {
+    first_name = Ferdinand
+	last_name = Lassalle
+	historical = yes
+	culture = cu:north_german
+	female = no
+    is_agitator = yes
+	interest_group = ig_petty_bourgeoisie
+	ideology = ideology_social_democrat
+	dna = dna_lassalle
+	birth_date = 1825.4.11
+	home_region = STATE_LOWER_SILESIA
+	traits = {
+		inspirational_orator
+        arrogant
+        ambitious
+	}
+}
+REPLACE:brz_luis_gama_character_template = {
+    first_name = Luis_2
+	last_name = Gama
+	historical = yes
+	culture = cu:afro_brazilian
+	female = no
+    is_agitator = yes
+	interest_group = ig_intelligentsia
+	ideology = ideology_abolitionist
+	birth_date = 1830.6.21
+	dna = dna_luis_gama
+	home_region = STATE_BAHIA
+	traits = {
+		erudite
+        meticulous
+	}
+}
+REPLACE:fra_victor_hugo_character_template = {
+    first_name = Victor
+	last_name = Hugo
+	historical = yes
+	culture = cu:french
+	female = no
+    is_agitator = yes
+	interest_group = ig_intelligentsia
+	ideology = ideology_abolitionist
+	birth_date = 1802.2.26
+	dna = dna_victor_hugo
+	home_region = STATE_FRANCHE_COMTE
+	traits = {
+		direct
+        brave
+        literary
+	}
+}
+
+REPLACE:agitator_karl_marx = { # Normal Marx
+    first_name = Karl_Heinrich
+	last_name = Marx
+	historical = yes
+	is_agitator = yes
+	interest_group = ig_trade_unions
+	female = no
+	dna = dna_karl_marx
+	ideology = ideology_communist
+	culture = cu:ashkenazi
+	religion = rel:atheist
+	home_region = STATE_RHINELAND
+	traits = {
+		direct
+		persistent
+		literary
+	}
+}
+
+REPLACE:agitator_charlie_marx = { # Karl Marx, Texas
+    first_name = Charlie
+	last_name = Marx
+	historical = yes
+	is_agitator = yes
+	interest_group = ig_trade_unions
+	female = no
+	dna = dna_karl_marx
+	ideology = ideology_communist
+	culture = cu:ashkenazi
+	religion = rel:atheist
+	home_region = STATE_RHINELAND
+	traits = {
+		direct
+		persistent
+		literary
+	}
+}
+
+REPLACE:agitator_kras_masov = { # Kras Mazov
+	first_name = Kras
+	last_name = Masov
+	is_agitator = yes
+	interest_group = ig_trade_unions
+	female = no
+	ideology = ideology_communist
+	traits = {
+		direct
+		persistent
+		literary
+	}
+}
+
+REPLACE:ada_lovelace_template = {
+	first_name = Ada
+	last_name = Lovelace
+	historical = yes
+	is_agitator = yes
+	culture = cu:british
+	religion = rel:protestant
+	interest_group = ig_intelligentsia
+	ideology = ideology_moderate
+	female = yes
+	birth_date = 1815.11.27
+	dna = dna_ada_lovelace
+	home_region = STATE_HOME_COUNTIES
+	traits = {
+		romantic
+		innovative
+		literary
+		cancer
+	}
+	agitator_usage = {
+		country_trigger = {
+			c:GBR ?= this
+			NOT = {
+                has_global_variable = ruler_selector_ada_lovelace
+            }
+		}
+        interest_group_trigger = {
+            ig_counts_as_marginal = no
+			is_interest_group_type = ig_intelligentsia
+        }
+		earliest_usage_date = 1840.1.1
+		latest_usage_date = 1852.11.27
+		#guaranteed to spawn if possible
+	}
+}
+
+REPLACE:ibsen_character_template = {
+	first_name = Henrik
+	last_name = Ibsen
+	historical = yes
+	culture = cu:norwegian
+	religion = rel:protestant #Ibsen was actually Lutheran
+	interest_group = ig_intelligentsia
+	ideology = ideology_anarchist
+	female = no
+	birth_date = 1828.3.20
+	dna = dna_ibsen
+	home_region = STATE_EASTERN_NORWAY
+	traits = {
+		romantic
+		innovative
+		literary
+	}
+	agitator_usage = {
+		country_trigger = {
+			OR = {
+				c:NOR ?= this
+				AND = {
+					NOT = {
+						exists = c:NOR
+					}
+					any_primary_culture = {
+						has_discrimination_trait = heritage_nordic
+					}
+					any_scope_state = {
+						OR = {
+							state_region = s:STATE_WESTERN_NORWAY
+							state_region = s:STATE_EASTERN_NORWAY
+						}
+					}
+				}
+			}
+		}
+        interest_group_trigger = {
+            ig_counts_as_marginal = no
+			is_interest_group_type = ig_intelligentsia
+        }
+		earliest_usage_date = 1862.1.1
+		latest_usage_date = 1906.1.1
+		chance = 25
+	}
+}
+
+REPLACE:albert_einstein_template = {
+	first_name = Albert
+	last_name = Einstein
+	historical = yes
+	culture = cu:ashkenazi
+	religion = rel:jewish
+	interest_group = ig_intelligentsia
+	ideology = ideology_utopian
+	female = no
+	is_agitator = yes
+	birth_date = 1879.3.14
+	dna = dna_albert_einstein
+	home_region = STATE_WURTTEMBERG
+	traits = {
+		innovative
+		ambitious
+		literary
+	}
+	agitator_usage = {
+		country_trigger = {
+			OR = {
+				c:PRU ?= this
+				c:GER ?= this
+			}
+		}
+        interest_group_trigger = {
+            ig_counts_as_marginal = no
+			is_interest_group_type = ig_intelligentsia
+        }
+		earliest_usage_date = 1905.1.1
+		latest_usage_date = 1955.4.18
+		#guaranteed to spawn if possible
+	}
+}
