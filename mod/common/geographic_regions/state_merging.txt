@@ -355,20 +355,6 @@ REPLACE:geographic_region_greater_bulgaria = {
 	}
 }
 
-REPLACE:geographic_region_north_andes = { # North Andean homelands
-	short_key = "north_andes"
-
-	state_regions = {
-		STATE_ECUADOR
-		STATE_ZULIA
-		STATE_MIRANDA
-		STATE_BOLIVAR
-		STATE_ANTIOQUIA
-		STATE_GUAVIARE
-		STATE_CUNDINAMARCA
-		STATE_CAUCA
-	}
-}
 
 # ---- 04_geographic_regions_asia.txt ----
 REPLACE:geographic_region_asia = {
