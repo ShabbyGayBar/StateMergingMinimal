@@ -55,7 +55,7 @@
                 add_ownership = {
                     country = {
                         country = c:SWE
-                        levels = 3
+                        levels = 6
                     }
                 }
                 reserves = 1
@@ -219,7 +219,7 @@
                 add_ownership = {
                     country = {
                         country = c:SWE
-                        levels = 1
+                        levels = 2
                     }
                 }
                 reserves = 1
@@ -1733,7 +1733,7 @@
                     building = {
                         type = building_financial_district
                         country = c:GBR
-                        levels = 1
+                        levels = 2
                         region = STATE_HOME_COUNTIES
                     }
                 }
@@ -2688,6 +2688,19 @@
                     pm_road_carts
                 }
             }
+            create_building = {
+                building = building_trade_center
+                add_ownership = {
+                    country = {
+                        country = c:GBR
+                        levels = 3
+                    }
+                }
+                reserves = 1
+                activate_production_methods = {
+                    pm_trade_center_trade_quantity_normal
+                }
+            }
         }
     }
     s:STATE_WEST_COUNTRY = {
@@ -2852,6 +2865,21 @@
                     pm_no_explosives
                     pm_no_steam_automation
                     pm_road_carts
+                }
+            }
+            create_building = {
+                building = building_copper_mine
+                add_ownership = {
+                    building = {
+                        type = building_financial_district
+                        country = c:GBR
+                        levels = 6
+                        region = STATE_WEST_COUNTRY
+                    }
+                }
+                reserves = 1
+                activate_production_methods = {
+                    pm_picks_and_shovels_building_copper_mine
                 }
             }
             create_building = {
@@ -3212,6 +3240,19 @@
                 reserves = 1
                 activate_production_methods = {
                     pm_basic_port
+                }
+            }
+            create_building = {
+                building = building_trade_center
+                add_ownership = {
+                    country = {
+                        country = c:GBR
+                        levels = 2
+                    }
+                }
+                reserves = 1
+                activate_production_methods = {
+                    pm_trade_center_trade_quantity_normal
                 }
             }
         }
@@ -5997,7 +6038,7 @@
                     building = {
                         type = building_financial_district
                         country = c:NET
-                        levels = 6
+                        levels = 9
                         region = STATE_HOLLAND
                     }
                 }
@@ -6701,7 +6742,7 @@
                     building = {
                         type = building_financial_district
                         country = c:BEL
-                        levels = 6
+                        levels = 8
                         region = STATE_FLANDERS
                     }
                 }
@@ -8480,6 +8521,21 @@
                     pm_simple_farming
                     pm_tools_disabled
                     pm_potatoes
+                }
+            }
+            create_building = {
+                building = building_copper_mine
+                add_ownership = {
+                    building = {
+                        type = building_copper_mine
+                        country = c:PRU
+                        levels = 1
+                        region = STATE_ANHALT
+                    }
+                }
+                reserves = 1
+                activate_production_methods = {
+                    pm_picks_and_shovels_building_copper_mine
                 }
             }
         }
@@ -11104,7 +11160,7 @@
                     building = {
                         type = building_financial_district
                         country = c:SAR
-                        levels = 3
+                        levels = 5
                         region = STATE_PIEDMONT
                     }
                 }
@@ -11663,7 +11719,7 @@
                     building = {
                         type = building_financial_district
                         country = c:SIC
-                        levels = 2
+                        levels = 4
                         region = STATE_CAMPANIA
                     }
                     building = {
@@ -14360,7 +14416,7 @@
                     building = {
                         type = building_financial_district
                         country = c:SPA
-                        levels = 2
+                        levels = 4
                         region = STATE_CATALONIA
                     }
                 }
@@ -14663,7 +14719,7 @@
                     building = {
                         type = building_financial_district
                         country = c:SPA
-                        levels = 2
+                        levels = 3
                         region = STATE_LOWER_ANDALUSIA
                     }
                 }
@@ -16242,7 +16298,7 @@
                     building = {
                         type = building_financial_district
                         country = c:TUR
-                        levels = 2
+                        levels = 4
                         region = STATE_EASTERN_THRACE
                     }
                 }
@@ -17880,7 +17936,7 @@
                     building = {
                         type = building_food_industry
                         country = c:TUR
-                        levels = 1
+                        levels = 2
                         region = STATE_MACEDONIA
                     }
                 }
@@ -18200,13 +18256,13 @@
         }
     }
     s:STATE_MAZOVIA = {
-        region_state:RUS = {
+        region_state:POL = {
             create_building = {
                 building = building_rye_farm
                 add_ownership = {
                     building = {
                         type = building_manor_house
-                        country = c:RUS
+                        country = c:POL
                         levels = 2
                         region = STATE_MAZOVIA
                     }
@@ -18223,8 +18279,8 @@
                 add_ownership = {
                     building = {
                         type = building_financial_district
-                        country = c:RUS
-                        levels = 3
+                        country = c:POL
+                        levels = 2
                         region = STATE_MAZOVIA
                     }
                 }
@@ -18236,10 +18292,6 @@
                     pm_road_carts
                 }
             }
-        }
-    }
-    s:STATE_BREST = {
-        region_state:RUS = {
         }
     }
     s:STATE_LOWER_SILESIA = {
@@ -18534,13 +18586,28 @@
         }
     }
     s:STATE_GREATER_POLAND = {
-        region_state:RUS = {
+        region_state:POL = {
+            create_building = {
+                building = building_government_administration
+                add_ownership = {
+                    country = {
+                        country = c:POL
+                        levels = 5
+                    }
+                }
+                reserves = 1
+                activate_production_methods = {
+                    pm_horizontal_drawer_cabinets
+                    pm_hereditary_bureaucrats
+                    pm_religious_bureaucrats
+                }
+            }
             create_building = {
                 building = building_textile_mill
                 add_ownership = {
                     building = {
                         type = building_textile_mill
-                        country = c:RUS
+                        country = c:POL
                         levels = 1
                         region = STATE_GREATER_POLAND
                     }
@@ -18557,7 +18624,7 @@
                 add_ownership = {
                     building = {
                         type = building_financial_district
-                        country = c:RUS
+                        country = c:POL
                         levels = 1
                         region = STATE_GREATER_POLAND
                     }
@@ -18572,7 +18639,7 @@
                 add_ownership = {
                     building = {
                         type = building_furniture_manufactory
-                        country = c:RUS
+                        country = c:POL
                         levels = 1
                         region = STATE_GREATER_POLAND
                     }
@@ -18589,18 +18656,18 @@
                 add_ownership = {
                     building = {
                         type = building_paper_mill
-                        country = c:RUS
+                        country = c:POL
                         levels = 1
                         region = STATE_GREATER_POLAND
                     }
                     building = {
                         type = building_financial_district
-                        country = c:RUS
+                        country = c:POL
                         levels = 1
                         region = STATE_GREATER_POLAND
                     }
                     country = {
-                        country = c:RUS
+                        country = c:POL
                         levels = 1
                     }
                 }
@@ -18615,7 +18682,7 @@
                 add_ownership = {
                     building = {
                         type = building_tooling_workshop
-                        country = c:RUS
+                        country = c:POL
                         levels = 1
                         region = STATE_GREATER_POLAND
                     }
@@ -18631,7 +18698,7 @@
                 add_ownership = {
                     building = {
                         type = building_manor_house
-                        country = c:RUS
+                        country = c:POL
                         levels = 3
                         region = STATE_GREATER_POLAND
                     }
@@ -18646,12 +18713,12 @@
         }
     }
     s:STATE_LESSER_POLAND = {
-        region_state:RUS = {
+        region_state:POL = {
             create_building = {
                 building = building_paper_mill
                 add_ownership = {
                     country = {
-                        country = c:RUS
+                        country = c:POL
                         levels = 1
                     }
                 }
@@ -18666,7 +18733,7 @@
                 add_ownership = {
                     building = {
                         type = building_manor_house
-                        country = c:RUS
+                        country = c:POL
                         levels = 3
                         region = STATE_LESSER_POLAND
                     }
@@ -18684,7 +18751,7 @@
                 add_ownership = {
                     building = {
                         type = building_financial_district
-                        country = c:RUS
+                        country = c:POL
                         levels = 1
                         region = STATE_LESSER_POLAND
                     }
@@ -31374,6 +31441,21 @@
                     pm_road_carts
                 }
             }
+            create_building = {
+                building = building_copper_mine
+                add_ownership = {
+                    building = {
+                        type = building_copper_mine
+                        country = c:CUB
+                        levels = 1
+                        region = "STATE_WESTERN_CUBA"
+                    }
+                }
+                reserves = 1
+                activate_production_methods = {
+                    pm_picks_and_shovels_building_copper_mine
+                }
+            }
         }
     }
     s:STATE_ECUADOR = {
@@ -33059,6 +33141,21 @@
                     pm_professional_bureaucrats
                 }
             }
+            create_building = {
+                building = building_trade_center
+                add_ownership = {
+                    building = {
+                        type = building_trade_center
+                        country = c:URU
+                        levels = 1
+                        region = STATE_URUGUAY
+                    }
+                }
+                reserves = 1
+                activate_production_methods = {
+                    pm_trade_center_trade_quantity_normal
+                }
+            }
         }
     }
     s:STATE_JUJUY = {
@@ -34640,7 +34737,7 @@
                     building = {
                         type = building_financial_district
                         country = c:BRZ
-                        levels = 5
+                        levels = 9
                         region = STATE_RIO_DE_JANEIRO
                     }
                 }
@@ -37213,7 +37310,7 @@
                     building = {
                         type = building_manor_house
                         country = c:TUR
-                        levels = 4
+                        levels = 1
                         region = STATE_HUDAVENDIGAR
                     }
                 }
@@ -37471,7 +37568,7 @@
                     building = {
                         type = building_manor_house
                         country = c:TUR
-                        levels = 2
+                        levels = 1
                         region = STATE_KONYA
                     }
                 }
@@ -37509,7 +37606,7 @@
                     building = {
                         type = building_manor_house
                         country = c:TUR
-                        levels = 5
+                        levels = 2
                         region = STATE_KASTAMONU
                     }
                 }
@@ -37563,7 +37660,7 @@
                     building = {
                         type = building_manor_house
                         country = c:TUR
-                        levels = 2
+                        levels = 1
                         region = STATE_DIYARBAKIR
                     }
                 }
@@ -37891,7 +37988,7 @@
                     building = {
                         type = building_manor_house
                         country = c:TUR
-                        levels = 2
+                        levels = 1
                         region = STATE_ANKARA
                     }
                 }
@@ -38251,6 +38348,22 @@
                     pm_craftsman_sewing
                 }
             }
+            create_building = {
+                building = building_silk_plantation
+                add_ownership = {
+                    building = {
+                        type = building_manor_house
+                        country = c:RUS
+                        levels = 1
+                        region = STATE_GREATER_CAUCASUS
+                    }
+                }
+                reserves = 1
+                activate_production_methods = {
+                    default_building_silk_plantation
+                    pm_road_carts
+                }
+            }
         }
     }
     s:STATE_SAMARA = {
@@ -38326,7 +38439,7 @@
         region_state:KZH = {
         }
     }
-    s:STATE_TARTARIA = {
+    s:STATE_SARATOV = {
         region_state:RUS = {
             create_building = {
                 building = building_iron_mine
@@ -43018,7 +43131,7 @@
                 add_ownership = {
                     country = {
                         country = c:BIC
-                        levels = 1
+                        levels = 2
                     }
                 }
                 reserves = 1
@@ -44126,7 +44239,7 @@
                     building = {
                         type = building_trade_center
                         country = c:CHI
-                        levels = 40
+                        levels = 45
                         region = STATE_GUANGDONG
                     }
                 }
@@ -44381,7 +44494,7 @@
                     building = {
                         type = building_manor_house
                         country = c:CHI
-                        levels = 3
+                        levels = 8
                         region = STATE_FUJIAN
                     }
                 }
@@ -46244,7 +46357,7 @@
                 }
             }
             create_building = {
-                building = building_lead_mine
+                building = building_copper_mine
                 add_ownership = {
                     country = {
                         country = c:JAP
@@ -46253,7 +46366,7 @@
                 }
                 reserves = 1
                 activate_production_methods = {
-                    pm_picks_and_shovels_building_lead_mine
+                    pm_picks_and_shovels_building_copper_mine
                     pm_no_explosives
                     pm_no_steam_automation
                     pm_road_carts
@@ -47151,7 +47264,7 @@
                 }
             }
             create_building = {
-                building = building_lead_mine
+                building = building_copper_mine
                 add_ownership = {
                     building = {
                         type = building_financial_district
@@ -47162,7 +47275,7 @@
                 }
                 reserves = 1
                 activate_production_methods = {
-                    pm_picks_and_shovels_building_lead_mine
+                    pm_picks_and_shovels_building_copper_mine
                     pm_no_explosives
                     pm_no_steam_automation
                     pm_road_carts
@@ -49526,7 +49639,7 @@
                 add_ownership = {
                     country = {
                         country = c:DEI
-                        levels = 1
+                        levels = 2
                     }
                 }
                 reserves = 1
@@ -51080,6 +51193,21 @@
                     pm_basic_port
                 }
             }
+            create_building = {
+                building = building_copper_mine
+                add_ownership = {
+                    building = {
+                        type = building_copper_mine
+                        country = c:SAS
+                        levels = 1
+                        region = STATE_SOUTH_AUSTRALIA
+                    }
+                }
+                reserves = 1
+                activate_production_methods = {
+                    pm_picks_and_shovels_building_copper_mine
+                }
+            }
         }
         region_state:KAU = {
             create_building = {
@@ -51284,10 +51412,6 @@
         region_state:RUS = {
         }
     }
-    s:STATE_CHUKOTKA = {
-        region_state:RUS = {
-        }
-    }
     s:STATE_KAMCHATKA = {
         region_state:RUS = {
         }
@@ -51306,6 +51430,19 @@
                 reserves = 1
                 activate_production_methods = {
                     pm_anchorage
+                }
+            }
+            create_building = {
+                building = building_trade_center
+                add_ownership = {
+                    country = {
+                        country = c:RUS
+                        levels = 1
+                    }
+                }
+                reserves = 1
+                activate_production_methods = {
+                    pm_trade_center_trade_quantity_normal
                 }
             }
         }
@@ -51369,7 +51506,7 @@
                 }
                 reserves = 1
                 activate_production_methods = {
-                    pm_simple_fishing
+                    pm_fishing_trawlers
                     pm_unrefrigerated
                 }
             }
@@ -51419,7 +51556,7 @@
                 }
                 reserves = 1
                 activate_production_methods = {
-                    pm_simple_fishing
+                    pm_fishing_trawlers
                     pm_unrefrigerated
                 }
             }
@@ -51434,6 +51571,20 @@
                 reserves = 1
                 activate_production_methods = {
                     pm_basic_port
+                }
+            }
+            create_building = {
+                building = building_university
+                add_ownership = {
+                    country = {
+                        country = c:UBD
+                        levels = 1
+                    }
+                }
+                reserves = 1
+                activate_production_methods = {
+                    pm_scholastic_education
+                    pm_religious_academia
                 }
             }
         }
@@ -51501,7 +51652,7 @@
                     building = {
                         type = building_financial_district
                         country = c:UBD
-                        levels = 2
+                        levels = 1
                         region = STATE_RIGA
                     }
                 }
@@ -51546,7 +51697,7 @@
             }
         }
     }
-    s:STATE_KAUNAS = {
+    s:STATE_LITHUANIA = {
         region_state:RUS = {
             create_building = {
                 building = building_rye_farm
@@ -51555,7 +51706,7 @@
                         type = building_manor_house
                         country = c:RUS
                         levels = 2
-                        region = STATE_KAUNAS
+                        region = STATE_LITHUANIA
                     }
                 }
                 reserves = 1
@@ -51719,7 +51870,7 @@
                 }
                 reserves = 1
                 activate_production_methods = {
-                    pm_simple_fishing
+                    pm_fishing_trawlers
                     pm_unrefrigerated
                 }
             }
@@ -51835,7 +51986,7 @@
                 }
                 reserves = 1
                 activate_production_methods = {
-                    pm_simple_fishing
+                    pm_fishing_trawlers
                     pm_unrefrigerated
                 }
             }
@@ -52016,7 +52167,7 @@
                     building = {
                         type = building_financial_district
                         country = c:RUS
-                        levels = 10
+                        levels = 6
                         region = STATE_INGRIA
                     }
                 }
@@ -52058,13 +52209,13 @@
                 add_ownership = {
                     country = {
                         country = c:RUS
-                        levels = 10
+                        levels = 15
                     }
                 }
                 reserves = 1
                 activate_production_methods = {
                     pm_religious_bureaucrats
-                    pm_hereditary_bureaucrats
+                    pm_military_bureaucrats
                     pm_horizontal_drawer_cabinets
                 }
             }
@@ -52121,7 +52272,7 @@
                     building = {
                         type = building_manor_house
                         country = c:RUS
-                        levels = 1
+                        levels = 2
                         region = STATE_INGRIA
                     }
                 }
@@ -52165,7 +52316,7 @@
                 add_ownership = {
                     country = {
                         country = c:RUS
-                        levels = 1
+                        levels = 2
                     }
                 }
                 reserves = 1
@@ -52229,7 +52380,7 @@
                 reserves = 1
                 activate_production_methods = {
                     pm_horizontal_drawer_cabinets
-                    pm_hereditary_bureaucrats
+                    pm_military_bureaucrats
                     pm_religious_bureaucrats
                 }
             }
@@ -52265,7 +52416,7 @@
                     building = {
                         type = building_tooling_workshop
                         country = c:RUS
-                        levels = 7
+                        levels = 4
                         region = STATE_MOSCOW
                     }
                 }
@@ -52329,7 +52480,7 @@
                     building = {
                         type = building_financial_district
                         country = c:RUS
-                        levels = 10
+                        levels = 3
                         region = STATE_MOSCOW
                     }
                 }
@@ -52362,6 +52513,45 @@
             create_building = {
                 building = building_saint_basils_cathedral
                 level = 1
+            }
+        }
+    }
+    s:STATE_BREST = {
+        region_state:RUS = {
+            create_building = {
+                building = building_rye_farm
+                add_ownership = {
+                    building = {
+                        type = building_manor_house
+                        country = c:RUS
+                        levels = 5
+                        region = STATE_BREST
+                    }
+                }
+                reserves = 1
+                activate_production_methods = {
+                    pm_simple_farming
+                    pm_tools_disabled
+                    pm_no_secondary
+                }
+            }
+            create_building = {
+                building = building_logging_camp
+                add_ownership = {
+                    building = {
+                        type = building_financial_district
+                        country = c:RUS
+                        levels = 8
+                        region = STATE_INGRIA
+                    }
+                }
+                reserves = 1
+                activate_production_methods = {
+                    pm_saw_mills
+                    pm_no_equipment
+                    pm_road_carts
+                    pm_increased_hardwood
+                }
             }
         }
     }
@@ -52412,7 +52602,7 @@
                     building = {
                         type = building_financial_district
                         country = c:RUS
-                        levels = 2
+                        levels = 4
                         region = STATE_KIEV
                     }
                 }
@@ -52432,7 +52622,7 @@
                 reserves = 1
                 activate_production_methods = {
                     pm_horizontal_drawer_cabinets
-                    pm_hereditary_bureaucrats
+                    pm_military_bureaucrats
                     pm_religious_bureaucrats
                 }
             }
@@ -52491,13 +52681,13 @@
                     building = {
                         type = building_manor_house
                         country = c:RUS
-                        levels = 22
+                        levels = 5
                         region = STATE_KIEV
                     }
                     building = {
                         type = building_manor_house
                         country = c:RUS
-                        levels = 12
+                        levels = 5
                         region = STATE_INGRIA
                     }
                 }
@@ -52531,9 +52721,80 @@
                     pm_traditional_looms
                 }
             }
+            create_building = {
+                building = building_university
+                add_ownership = {
+                    country = {
+                        country = c:RUS
+                        levels = 1
+                    }
+                }
+                reserves = 1
+                activate_production_methods = {
+                    pm_scholastic_education
+                    pm_religious_academia
+                }
+            }
         }
     }
     s:STATE_ORYOL = {
+        region_state:RUS = {
+            create_building = {
+                building = building_food_industry
+                add_ownership = {
+                    building = {
+                        type = building_food_industry
+                        country = c:RUS
+                        levels = 1
+                        region = STATE_ORYOL
+                    }
+                }
+                reserves = 1
+                activate_production_methods = {
+                    pm_bakery
+                    pm_disabled_canning
+                    pm_pot_stills
+                    pm_manual_dough_processing
+                }
+            }
+            create_building = {
+                building = building_rye_farm
+                add_ownership = {
+                    building = {
+                        type = building_manor_house
+                        country = c:RUS
+                        levels = 6
+                        region = STATE_ORYOL
+                    }
+                }
+                reserves = 1
+                activate_production_methods = {
+                    pm_simple_farming
+                    pm_tools_disabled
+                    pm_sugar_beets
+                }
+            }
+            create_building = {
+                building = building_logging_camp
+                add_ownership = {
+                    building = {
+                        type = building_logging_camp
+                        country = c:RUS
+                        levels = 1
+                        region = STATE_ORYOL
+                    }
+                }
+                reserves = 1
+                activate_production_methods = {
+                    pm_saw_mills
+                    pm_no_equipment
+                    pm_road_carts
+                    pm_no_hardwood
+                }
+            }
+        }
+    }
+    s:STATE_TULA = {
         region_state:RUS = {
             create_building = {
                 building = building_textile_mill
@@ -52542,7 +52803,7 @@
                         type = building_textile_mill
                         country = c:RUS
                         levels = 2
-                        region = STATE_ORYOL
+                        region = STATE_TULA
                     }
                 }
                 reserves = 1
@@ -52558,8 +52819,8 @@
                     building = {
                         type = building_food_industry
                         country = c:RUS
-                        levels = 2
-                        region = STATE_ORYOL
+                        levels = 1
+                        region = STATE_TULA
                     }
                 }
                 reserves = 1
@@ -52577,7 +52838,7 @@
                         type = building_tooling_workshop
                         country = c:RUS
                         levels = 2
-                        region = STATE_ORYOL
+                        region = STATE_TULA
                     }
                 }
                 reserves = 1
@@ -52606,8 +52867,8 @@
                     building = {
                         type = building_manor_house
                         country = c:RUS
-                        levels = 8
-                        region = STATE_ORYOL
+                        levels = 2
+                        region = STATE_TULA
                     }
                 }
                 reserves = 1
@@ -52623,14 +52884,8 @@
                     building = {
                         type = building_logging_camp
                         country = c:RUS
-                        levels = 8
-                        region = STATE_ORYOL
-                    }
-                    building = {
-                        type = building_financial_district
-                        country = c:RUS
-                        levels = 2
-                        region = STATE_MOSCOW
+                        levels = 1
+                        region = STATE_TULA
                     }
                 }
                 reserves = 1
@@ -52702,13 +52957,13 @@
                     building = {
                         type = building_logging_camp
                         country = c:RUS
-                        levels = 4
+                        levels = 1
                         region = STATE_SMOLENSK
                     }
                     building = {
                         type = building_financial_district
                         country = c:RUS
-                        levels = 4
+                        levels = 1
                         region = STATE_MOSCOW
                     }
                 }
@@ -52730,13 +52985,13 @@
                     building = {
                         type = building_logging_camp
                         country = c:RUS
-                        levels = 6
+                        levels = 2
                         region = STATE_MOGILEV
                     }
                     building = {
                         type = building_financial_district
                         country = c:RUS
-                        levels = 2
+                        levels = 1
                         region = STATE_MOSCOW
                     }
                 }
@@ -52796,8 +53051,21 @@
                 }
                 reserves = 1
                 activate_production_methods = {
-                    pm_simple_fishing
+                    pm_fishing_trawlers
                     pm_unrefrigerated
+                }
+            }
+            create_building = {
+                building = building_shipyard
+                add_ownership = {
+                    country = {
+                        country = c:RUS
+                        levels = 1
+                    }
+                }
+                reserves = 1
+                activate_production_methods = {
+                    pm_basic_shipbuilding
                 }
             }
             create_building = {
@@ -52839,7 +53107,7 @@
                     building = {
                         type = building_logging_camp
                         country = c:RUS
-                        levels = 4
+                        levels = 2
                         region = STATE_NOVGOROD
                     }
                     building = {
@@ -52873,7 +53141,7 @@
                 }
                 reserves = 1
                 activate_production_methods = {
-                    pm_simple_fishing
+                    pm_fishing_trawlers
                     pm_unrefrigerated
                 }
             }
@@ -52948,6 +53216,19 @@
                     pm_naval_fortification_basic
                 }
             }
+            create_building = {
+                building = building_shipyard
+                add_ownership = {
+                    country = {
+                        country = c:RUS
+                        levels = 1
+                    }
+                }
+                reserves = 1
+                activate_production_methods = {
+                    pm_basic_shipbuilding
+                }
+            }
         }
     }
     s:STATE_KHARKOV = {
@@ -52958,7 +53239,7 @@
                     building = {
                         type = building_manor_house
                         country = c:RUS
-                        levels = 10
+                        levels = 3
                         region = STATE_KHARKOV
                     }
                 }
@@ -52976,7 +53257,7 @@
                     building = {
                         type = building_manor_house
                         country = c:RUS
-                        levels = 20
+                        levels = 5
                         region = STATE_KHARKOV
                     }
                 }
@@ -52985,6 +53266,20 @@
                     pm_simple_farming
                     pm_no_secondary
                     pm_tools_disabled
+                }
+            }
+            create_building = {
+                building = building_university
+                add_ownership = {
+                    country = {
+                        country = c:RUS
+                        levels = 1
+                    }
+                }
+                reserves = 1
+                activate_production_methods = {
+                    pm_scholastic_education
+                    pm_religious_academia
                 }
             }
         }
@@ -52997,7 +53292,7 @@
                     building = {
                         type = building_manor_house
                         country = c:RUS
-                        levels = 8
+                        levels = 3
                         region = STATE_KURSK
                     }
                 }
@@ -53014,14 +53309,8 @@
                     building = {
                         type = building_logging_camp
                         country = c:RUS
-                        levels = 7
+                        levels = 1
                         region = STATE_KURSK
-                    }
-                    building = {
-                        type = building_financial_district
-                        country = c:RUS
-                        levels = 3
-                        region = STATE_KIEV
                     }
                 }
                 reserves = 1
@@ -53042,13 +53331,13 @@
                     building = {
                         type = building_logging_camp
                         country = c:RUS
-                        levels = 7
+                        levels = 2
                         region = STATE_TVER
                     }
                     building = {
                         type = building_financial_district
                         country = c:RUS
-                        levels = 3
+                        levels = 1
                         region = STATE_MOSCOW
                     }
                 }
@@ -53070,13 +53359,13 @@
                     building = {
                         type = building_financial_district
                         country = c:RUS
-                        levels = 1
+                        levels = 2
                         region = STATE_CHERSON
                     }
                     building = {
                         type = building_financial_district
                         country = c:RUS
-                        levels = 1
+                        levels = 2
                         region = STATE_MOSCOW
                     }
                 }
@@ -53104,11 +53393,9 @@
             create_building = {
                 building = building_shipyard
                 add_ownership = {
-                    building = {
-                        type = building_financial_district
+                    country = {
                         country = c:RUS
-                        levels = 5
-                        region = STATE_KIEV
+                        levels = 1
                     }
                 }
                 reserves = 1
@@ -53135,7 +53422,7 @@
                     building = {
                         type = building_manor_house
                         country = c:RUS
-                        levels = 8
+                        levels = 3
                         region = STATE_CHERSON
                     }
                 }
@@ -53153,7 +53440,7 @@
                     building = {
                         type = building_manor_house
                         country = c:RUS
-                        levels = 10
+                        levels = 4
                         region = STATE_CHERSON
                     }
                 }
@@ -53179,7 +53466,7 @@
             }
         }
     }
-    s:STATE_GALICH = {
+    s:STATE_VOLOGDA = {
         region_state:RUS = {
             create_building = {
                 building = building_rye_farm
@@ -53188,7 +53475,7 @@
                         type = building_manor_house
                         country = c:RUS
                         levels = 3
-                        region = STATE_GALICH
+                        region = STATE_VOLOGDA
                     }
                 }
                 reserves = 1
@@ -53205,7 +53492,7 @@
                         type = building_logging_camp
                         country = c:RUS
                         levels = 2
-                        region = STATE_GALICH
+                        region = STATE_VOLOGDA
                     }
                 }
                 reserves = 1
@@ -53231,7 +53518,7 @@
                 reserves = 1
                 activate_production_methods = {
                     pm_horizontal_drawer_cabinets
-                    pm_hereditary_bureaucrats
+                    pm_military_bureaucrats
                     pm_religious_bureaucrats
                 }
             }
@@ -53288,7 +53575,7 @@
                     building = {
                         type = building_logging_camp
                         country = c:RUS
-                        levels = 3
+                        levels = 2
                         region = STATE_MINSK
                     }
                     building = {
@@ -53377,24 +53664,6 @@
                 }
             }
             create_building = {
-                building = building_logging_camp
-                add_ownership = {
-                    building = {
-                        type = building_logging_camp
-                        country = c:RUS
-                        levels = 2
-                        region = STATE_ROSTOV
-                    }
-                }
-                reserves = 1
-                activate_production_methods = {
-                    pm_saw_mills
-                    pm_hardwood
-                    pm_no_equipment
-                    pm_road_carts
-                }
-            }
-            create_building = {
                 building = building_naval_administration
                 add_ownership = {
                     country = {
@@ -53408,18 +53677,16 @@
                 }
             }
             create_building = {
-                building = building_shipyard
+                building = building_port
                 add_ownership = {
-                    building = {
-                        type = building_financial_district
+                    country = {
                         country = c:RUS
-                        levels = 2
-                        region = STATE_ROSTOV
+                        levels = 1
                     }
                 }
                 reserves = 1
                 activate_production_methods = {
-                    pm_basic_shipbuilding
+                    pm_basic_port
                 }
             }
         }
@@ -53477,7 +53744,7 @@
                 reserves = 1
                 activate_production_methods = {
                     pm_horizontal_drawer_cabinets
-                    pm_hereditary_bureaucrats
+                    pm_military_bureaucrats
                     pm_religious_bureaucrats
                 }
             }
@@ -53556,7 +53823,7 @@
                     building = {
                         type = building_logging_camp
                         country = c:RUS
-                        levels = 4
+                        levels = 2
                         region = STATE_KAZAN
                     }
                     building = {
@@ -53572,6 +53839,20 @@
                     pm_hardwood
                     pm_no_equipment
                     pm_road_carts
+                }
+            }
+            create_building = {
+                building = building_university
+                add_ownership = {
+                    country = {
+                        country = c:RUS
+                        levels = 1
+                    }
+                }
+                reserves = 1
+                activate_production_methods = {
+                    pm_scholastic_education
+                    pm_religious_academia
                 }
             }
         }
@@ -53679,6 +53960,8 @@
                 }
             }
         }
+        region_state:RUS = {
+        }
     }
     s:STATE_AKMOLINSK = {
         region_state:OZH = {
@@ -53776,13 +54059,13 @@
                     building = {
                         type = building_manor_house
                         country = c:RUS
-                        levels = 15
+                        levels = 4
                         region = STATE_TAURIDA
                     }
                     building = {
                         type = building_manor_house
                         country = c:RUS
-                        levels = 5
+                        levels = 2
                         region = STATE_KIEV
                     }
                 }
@@ -53823,7 +54106,7 @@
                 }
                 reserves = 1
                 activate_production_methods = {
-                    pm_simple_fishing
+                    pm_fishing_trawlers
                     pm_unrefrigerated
                 }
             }
@@ -53995,13 +54278,13 @@
                     building = {
                         type = building_logging_camp
                         country = c:RUS
-                        levels = 4
+                        levels = 2
                         region = STATE_VITEBSK
                     }
                     building = {
                         type = building_financial_district
                         country = c:RUS
-                        levels = 2
+                        levels = 1
                         region = STATE_INGRIA
                     }
                 }
@@ -54071,6 +54354,28 @@
             }
         }
     }
+    s:STATE_KOSTROMA = {
+        region_state:RUS = {
+            create_building = {
+                building = building_logging_camp
+                add_ownership = {
+                    building = {
+                        type = building_logging_camp
+                        country = c:RUS
+                        levels = 1
+                        region = STATE_KOSTROMA
+                    }
+                }
+                reserves = 1
+                activate_production_methods = {
+                    pm_saw_mills
+                    pm_no_equipment
+                    pm_road_carts
+                    pm_hardwood
+                }
+            }
+        }
+    }
     s:STATE_YAROSLAVL = {
         region_state:RUS = {
             create_building = {
@@ -54079,7 +54384,7 @@
                     building = {
                         type = building_logging_camp
                         country = c:RUS
-                        levels = 4
+                        levels = 2
                         region = STATE_YAROSLAVL
                     }
                 }
@@ -54231,6 +54536,21 @@
     }
     s:STATE_BURYATIA = {
         region_state:RUS = {
+            create_building = {
+                building = building_trade_center
+                add_ownership = {
+                    building = {
+                        type = building_financial_district
+                        country = c:RUS
+                        levels = 6
+                        region = STATE_INGRIA
+                    }
+                }
+                reserves = 1
+                activate_production_methods = {
+                    pm_trade_center_trade_quantity_normal
+                }
+            }
         }
     }
     s:STATE_KOLYMA = {
@@ -54287,13 +54607,13 @@
                     building = {
                         type = building_manor_house
                         country = c:RUS
-                        levels = 15
+                        levels = 3
                         region = STATE_CHERNIHIV
                     }
                     building = {
                         type = building_manor_house
                         country = c:RUS
-                        levels = 5
+                        levels = 1
                         region = STATE_KIEV
                     }
                 }
@@ -54310,7 +54630,7 @@
                     building = {
                         type = building_manor_house
                         country = c:RUS
-                        levels = 5
+                        levels = 2
                         region = STATE_CHERNIHIV
                     }
                 }
