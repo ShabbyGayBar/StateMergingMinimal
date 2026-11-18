@@ -13,7 +13,7 @@
     capped_resources = {
         building_iron_mine = 60
         building_lead_mine = 18
-        building_copper_mine = 6
+        building_copper_mine = 9
         building_logging_camp = 47
         building_fishing_wharf = 14
     }
@@ -155,7 +155,7 @@ STATE_NORTHERN_NORWAY = {
     capped_resources = {
         building_iron_mine = 18
         building_sulfur_mine = 20
-        building_copper_mine = 6
+        building_copper_mine = 9
         building_logging_camp = 24
         building_whaling_station = 10
         building_fishing_wharf = 10
@@ -259,7 +259,7 @@ STATE_LANCASHIRE = {
         building_coal_mine = 100
         building_iron_mine = 60
         building_lead_mine = 45
-        building_copper_mine = 4
+        building_copper_mine = 5
         building_logging_camp = 9
         building_fishing_wharf = 15
     }
@@ -1367,7 +1367,7 @@ STATE_HESSE = {
         building_coal_mine = 60
         building_iron_mine = 30
         building_sulfur_mine = 40
-        building_copper_mine = 4
+        building_copper_mine = 5
         building_logging_camp = 8
     }
 }
@@ -1657,7 +1657,7 @@ STATE_TUSCANY = {
     capped_resources = {
         building_iron_mine = 60
         building_sulfur_mine = 40
-        building_copper_mine = 6
+        building_copper_mine = 9
         building_logging_camp = 11
         building_fishing_wharf = 5
     }
@@ -1922,7 +1922,7 @@ STATE_LOWER_ANDALUSIA = {
     capped_resources = {
         building_iron_mine = 4
         building_sulfur_mine = 44
-        building_copper_mine = 6
+        building_copper_mine = 9
         building_logging_camp = 4
         building_fishing_wharf = 9
     }
@@ -2224,7 +2224,7 @@ STATE_NORTHERN_THRACE = {
     arable_resources = { building_wheat_farm building_livestock_ranch building_cotton_plantation building_tobacco_plantation building_vineyard }
     capped_resources = {
         building_iron_mine = 33
-        building_copper_mine = 4
+        building_copper_mine = 6
         building_logging_camp = 17
         building_fishing_wharf = 6
     }
@@ -2244,7 +2244,7 @@ STATE_BULGARIA = {
     arable_land = 35
     arable_resources = { building_wheat_farm building_livestock_ranch building_cotton_plantation building_vineyard }
     capped_resources = {
-        building_copper_mine = 4
+        building_copper_mine = 6
         building_logging_camp = 14
         building_fishing_wharf = 2
     }
@@ -2694,7 +2694,7 @@ STATE_LOWER_SILESIA = {
         building_iron_mine = 20
         building_lead_mine = 4
         building_sulfur_mine = 9
-        building_copper_mine = 10
+        building_copper_mine = 12
         building_logging_camp = 10
     }
 }
@@ -2865,7 +2865,7 @@ STATE_CENTRAL_HUNGARY = {
     capped_resources = {
         building_coal_mine = 20
         building_iron_mine = 30
-        building_copper_mine = 4
+        building_copper_mine = 6
         building_logging_camp = 6
     }
 }
@@ -2988,7 +2988,7 @@ STATE_SOUTHERN_TRANSYLVANIA = {
     capped_resources = {
         building_iron_mine = 45
         building_lead_mine = 45
-        building_copper_mine = 4
+        building_copper_mine = 6
         building_logging_camp = 17
     }
 }
@@ -3369,7 +3369,7 @@ STATE_INNER_MOROCCO = {
         building_fishing_wharf = 4
         building_gold_mine = 3
         building_coal_mine = 6
-        building_copper_mine = 4
+        building_copper_mine = 6
     }
     naval_exit_id = 3089
 }
@@ -4755,7 +4755,7 @@ STATE_KATANGA = {
     arable_resources = { building_millet_farm building_livestock_ranch building_coffee_plantation building_cotton_plantation building_dye_plantation building_tea_plantation building_sugar_plantation building_banana_plantation }
     capped_resources = {
         building_iron_mine = 27
-        building_copper_mine = 30
+        building_copper_mine = 35
         building_logging_camp = 18
     }
     resource = {
@@ -4806,7 +4806,7 @@ STATE_ZAMBIA = {
     capped_resources = {
         building_coal_mine = 36
         building_lead_mine = 33
-        building_copper_mine = 18
+        building_copper_mine = 21
         building_logging_camp = 17
     }
     resource = {
@@ -4879,7 +4879,7 @@ STATE_NAMAQUALAND = {
     arable_resources = { building_livestock_ranch }
     capped_resources = {
         building_coal_mine = 32
-        building_copper_mine = 6
+        building_copper_mine = 9
         building_logging_camp = 4
         building_fishing_wharf = 7
     }
@@ -5903,7 +5903,7 @@ STATE_ONTARIO = {
     arable_resources = { building_wheat_farm building_livestock_ranch building_tobacco_plantation building_vineyard }
     capped_resources = {
         building_sulfur_mine = 48
-        building_copper_mine = 6
+        building_copper_mine = 9
         building_logging_camp = 90
     }
     resource = {
@@ -5930,6 +5930,7 @@ STATE_NEW_BRUNSWICK = {
         building_lead_mine = 54
         building_logging_camp = 30
         building_fishing_wharf = 8
+        building_copper_mine = 6
     }
     naval_exit_id = 3017
 }
@@ -5949,7 +5950,7 @@ STATE_QUEBEC = {
     arable_resources = { building_wheat_farm building_livestock_ranch building_tobacco_plantation }
     capped_resources = {
         building_iron_mine = 60
-        building_copper_mine = 6
+        building_copper_mine = 9
         building_logging_camp = 100
         building_whaling_station = 4
         building_fishing_wharf = 8
@@ -6017,7 +6018,7 @@ STATE_BRITISH_COLUMBIA = {
     capped_resources = {
         building_coal_mine = 28
         building_sulfur_mine = 36
-        building_copper_mine = 4
+        building_copper_mine = 6
         building_logging_camp = 90
         building_whaling_station = 6
         building_fishing_wharf = 9
@@ -6194,7 +6195,7 @@ STATE_ARIZONA = {
     arable_resources = { building_wheat_farm building_livestock_ranch building_cotton_plantation }
     capped_resources = {
         building_iron_mine = 21
-        building_copper_mine = 18
+        building_copper_mine = 21
         building_logging_camp = 2
     }
     resource = {
@@ -6218,7 +6219,7 @@ STATE_NEW_MEXICO = {
     capped_resources = {
         building_coal_mine = 20
         building_logging_camp = 6
-        building_copper_mine = 6
+        building_copper_mine = 9
     }
 }
 
@@ -6267,7 +6268,7 @@ STATE_SONORA = {
     arable_resources = { building_wheat_farm building_livestock_ranch building_cotton_plantation }
     capped_resources = {
         building_iron_mine = 27
-        building_copper_mine = 6
+        building_copper_mine = 9
         building_logging_camp = 4
         building_fishing_wharf = 7
     }
@@ -6332,7 +6333,7 @@ STATE_DURANGO = {
     arable_resources = { building_maize_farm building_livestock_ranch }
     capped_resources = {
         building_iron_mine = 17
-        building_copper_mine = 6
+        building_copper_mine = 9
         building_logging_camp = 4
         building_fishing_wharf = 5
     }
@@ -6587,7 +6588,7 @@ STATE_BAJA_CALIFORNIA = {
     arable_land = 20
     arable_resources = { building_wheat_farm building_livestock_ranch building_coffee_plantation building_cotton_plantation building_tobacco_plantation building_vineyard }
     capped_resources = {
-        building_copper_mine = 6
+        building_copper_mine = 9
         building_logging_camp = 2
         building_fishing_wharf = 6
         building_whaling_station = 4
@@ -6717,7 +6718,7 @@ STATE_PANAMA = {
     subsistence_building = building_subsistence_farm
     provinces = { x30B080 x357099 x47C5F8 x50C29C x717275 x8537FE x8A8A20 x910E14 xB0A911 xB0B080 xBB820B xC650E1 xD0EF40 xEE835F }
     city = x8A8A20
-    port = x8A8A20
+    port = xD0EF40
     farm = x30B080
     mine = x8537FE
     wood = x717275
@@ -7160,7 +7161,7 @@ STATE_ANTOFAGASTA = {
     capped_resources = {
         building_iron_mine = 30
         building_sulfur_mine = 48
-        building_copper_mine = 30
+        building_copper_mine = 36
         building_fishing_wharf = 5
     }
     resource = {
@@ -7591,7 +7592,7 @@ STATE_SANTIAGO = {
         building_gold_mine = 5
         building_iron_mine = 33
         building_sulfur_mine = 36
-        building_copper_mine = 6
+        building_copper_mine = 15
         building_logging_camp = 6
         building_whaling_station = 2
         building_fishing_wharf = 8
@@ -7619,6 +7620,7 @@ STATE_LOS_RIOS = {
         building_logging_camp = 20
         building_whaling_station = 3
         building_fishing_wharf = 10
+        building_copper_mine = 6
     }
     naval_exit_id = 3152
 }
@@ -8185,7 +8187,7 @@ STATE_CYPRUS = {
     capped_resources = {
         building_logging_camp = 2
         building_fishing_wharf = 5
-        building_copper_mine = 6
+        building_copper_mine = 9
         building_sulfur_mine = 5
     }
     naval_exit_id = 3034
@@ -8505,7 +8507,7 @@ STATE_ISFAHAN = {
         building_coal_mine = 22
         building_iron_mine = 51
         building_lead_mine = 28
-        building_copper_mine = 4
+        building_copper_mine = 6
         building_logging_camp = 4
     }
 }
@@ -8581,7 +8583,7 @@ STATE_TABRIZ = {
         building_coal_mine = 20
         building_iron_mine = 20
         building_lead_mine = 25
-        building_copper_mine = 6
+        building_copper_mine = 9
         building_logging_camp = 5
     }
 }
@@ -8811,6 +8813,7 @@ STATE_ANKARA = {
     arable_resources = { building_wheat_farm building_livestock_ranch building_cotton_plantation building_tea_plantation building_tobacco_plantation building_vineyard building_opium_plantation }
     capped_resources = {
         building_logging_camp = 9
+        building_copper_mine = 6
     }
 }
 
@@ -9138,7 +9141,7 @@ STATE_HERAT = {
     capped_resources = {
         building_iron_mine = 6
         building_lead_mine = 8
-        building_copper_mine = 4
+        building_copper_mine = 5
     }
 }
 
@@ -9208,7 +9211,7 @@ STATE_KABUL = {
     capped_resources = {
         building_coal_mine = 6
         building_iron_mine = 10
-        building_copper_mine = 4
+        building_copper_mine = 5
         building_logging_camp = 4
     }
 }
@@ -9228,7 +9231,7 @@ STATE_BALUCHISTAN = {
     capped_resources = {
         building_iron_mine = 20
         building_lead_mine = 10
-        building_copper_mine = 4
+        building_copper_mine = 5
         building_logging_camp = 1
         building_fishing_wharf = 5
     }
@@ -9249,6 +9252,7 @@ STATE_LHASA = {
     arable_resources = { building_rye_farm building_livestock_ranch }
     capped_resources = {
         building_logging_camp = 20
+        building_copper_mine = 5
     }
 }
 
@@ -9321,7 +9325,7 @@ STATE_BIHAR = {
     capped_resources = {
         building_coal_mine = 81
         building_iron_mine = 30
-        building_copper_mine = 4
+        building_copper_mine = 5
         building_logging_camp = 17
     }
 }
@@ -9580,7 +9584,7 @@ STATE_CENTRAL_PROVINCES = {
     capped_resources = {
         building_iron_mine = 22
         building_coal_mine = 21
-        building_copper_mine = 4
+        building_copper_mine = 5
         building_logging_camp = 12
     }
 }
@@ -9620,7 +9624,7 @@ STATE_RAJPUTANA = {
         building_iron_mine = 24
         building_lead_mine = 6
         building_sulfur_mine = 3
-        building_copper_mine = 4
+        building_copper_mine = 5
         building_logging_camp = 2
     }
 }
@@ -9880,7 +9884,7 @@ STATE_KACHIN = {
     capped_resources = {
         building_logging_camp = 24
         building_iron_mine = 7
-        building_copper_mine = 4
+        building_copper_mine = 5
         building_gold_mine = 3
     }
 }
@@ -10032,6 +10036,7 @@ STATE_SICHUAN = {
         building_coal_mine = 60
         building_sulfur_mine = 40
         building_logging_camp = 23
+        building_copper_mine = 5
     }
 }
 
@@ -10049,7 +10054,7 @@ STATE_YUNNAN = {
     capped_resources = {
         building_coal_mine = 40
         building_iron_mine = 60
-        building_copper_mine = 6
+        building_copper_mine = 10
         building_logging_camp = 17
     }
 }
@@ -10518,6 +10523,7 @@ STATE_JIANGXI = {
     capped_resources = {
         building_coal_mine = 52
         building_logging_camp = 15
+        building_copper_mine = 5
     }
 }
 
@@ -10535,6 +10541,7 @@ STATE_SOUTHERN_ANHUI = {
     capped_resources = {
         building_coal_mine = 40
         building_logging_camp = 14
+        building_copper_mine = 5
     }
 }
 
@@ -10933,7 +10940,7 @@ STATE_HOKKAIDO = {
         building_coal_mine = 59
         building_iron_mine = 4
         building_lead_mine = 5
-        building_copper_mine = 4
+        building_copper_mine = 5
         building_sulfur_mine = 22
         building_logging_camp = 9
         building_whaling_station = 8
@@ -11065,7 +11072,7 @@ STATE_KANSAI = {
     capped_resources = {
         building_gold_mine = 1
         building_lead_mine = 13
-        building_copper_mine = 4
+        building_copper_mine = 5
         building_logging_camp = 9
         building_fishing_wharf = 10
         building_whaling_station = 6
@@ -11109,7 +11116,7 @@ STATE_KYUSHU = {
         building_coal_mine = 56
         building_logging_camp = 7
         building_lead_mine = 6
-        building_copper_mine = 4
+        building_copper_mine = 5
         building_sulfur_mine = 37
         building_fishing_wharf = 23
         building_gold_mine = 1
@@ -11575,7 +11582,7 @@ STATE_WESTERN_NEW_GUINEA = {
     arable_resources = { building_rice_farm building_livestock_ranch building_coffee_plantation building_dye_plantation building_sugar_plantation building_banana_plantation }
     capped_resources = {
         building_iron_mine = 18
-        building_copper_mine = 6
+        building_copper_mine = 9
         building_logging_camp = 20
         building_fishing_wharf = 9
         building_whaling_station = 2
@@ -11707,7 +11714,7 @@ STATE_MINDANAO = {
     arable_resources = { building_rice_farm building_livestock_ranch building_coffee_plantation building_cotton_plantation building_dye_plantation building_tea_plantation building_tobacco_plantation building_banana_plantation }
     capped_resources = {
         building_iron_mine = 36
-        building_copper_mine = 4
+        building_copper_mine = 5
         building_logging_camp = 14
         building_fishing_wharf = 8
     }
@@ -11732,7 +11739,7 @@ STATE_LUZON = {
     arable_resources = { building_rice_farm building_livestock_ranch building_coffee_plantation building_cotton_plantation building_dye_plantation building_tea_plantation building_tobacco_plantation building_sugar_plantation building_banana_plantation }
     capped_resources = {
         building_iron_mine = 24
-        building_copper_mine = 4
+        building_copper_mine = 5
         building_logging_camp = 20
         building_fishing_wharf = 12
     }
@@ -11848,7 +11855,7 @@ STATE_NEW_SOUTH_WALES = {
         building_coal_mine = 80
         building_lead_mine = 24
         building_iron_mine = 36
-        building_copper_mine = 7
+        building_copper_mine = 9
         building_logging_camp = 7
         building_whaling_station = 4
         building_fishing_wharf = 8
@@ -11906,7 +11913,7 @@ STATE_TASMANIA = {
     capped_resources = {
         building_iron_mine = 15
         building_lead_mine = 15
-        building_copper_mine = 4
+        building_copper_mine = 6
         building_logging_camp = 8
         building_whaling_station = 2
         building_fishing_wharf = 6
@@ -11936,7 +11943,7 @@ STATE_QUEENSLAND = {
     capped_resources = {
         building_iron_mine = 45
         building_lead_mine = 45
-        building_copper_mine = 7
+        building_copper_mine = 9
         building_logging_camp = 5
         building_whaling_station = 3
         building_fishing_wharf = 12
@@ -11962,7 +11969,7 @@ STATE_SOUTH_AUSTRALIA = {
         building_iron_mine = 30
         building_lead_mine = 36
         building_sulfur_mine = 60
-        building_copper_mine = 14
+        building_copper_mine = 15
         building_whaling_station = 2
         building_fishing_wharf = 8
     }
@@ -12087,7 +12094,7 @@ STATE_URAL = {
         building_coal_mine = 84
         building_iron_mine = 96
         building_lead_mine = 81
-        building_copper_mine = 6
+        building_copper_mine = 12
         building_gold_mine = 2
         building_logging_camp = 27
     }
@@ -13035,6 +13042,7 @@ STATE_AKMOLINSK = {
         building_iron_mine = 16
         building_coal_mine = 68
         building_logging_camp = 6
+        building_copper_mine = 5
     }
 }
 
@@ -13470,7 +13478,7 @@ STATE_CHELYABINSK = {
     capped_resources = {
         building_iron_mine = 95
         building_coal_mine = 25
-        building_copper_mine = 6
+        building_copper_mine = 9
         building_logging_camp = 16
         building_gold_mine = 3
     }

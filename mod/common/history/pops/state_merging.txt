@@ -21346,6 +21346,94 @@
             }
         }
     }
+    s:STATE_CHELYABINSK = {
+        region_state:KZH = {
+            create_pop = {
+                culture = russian
+                size = 10045
+            }
+            create_pop = {
+                culture = bashkir
+                size = 34132
+            }
+            create_pop = {
+                culture = kazak
+                size = 39601
+            }
+            create_pop = {
+                culture = tatar
+                size = 9149
+            }
+            create_pop = {
+                culture = mordvin
+                size = 4978
+            }
+            create_pop = {
+                culture = ukrainian
+                size = 5785
+            }
+            create_pop = {
+                culture = chuvash
+                size = 1346
+            }
+        }
+        region_state:OZH = {
+            create_pop = {
+                culture = russian
+                size = 22140
+            }
+            create_pop = {
+                culture = kazak
+                size = 34440
+            }
+            create_pop = {
+                culture = ukrainian
+                size = 3780
+            }
+            create_pop = {
+                culture = tatar
+                size = 420
+            }
+            create_pop = {
+                culture = mordvin
+                size = 710
+            }
+        }
+        region_state:RUS = {
+            create_pop = {
+                culture = russian
+                size = 86355
+            }
+            create_pop = {
+                culture = bashkir
+                size = 46034
+            }
+            create_pop = {
+                culture = mordvin
+                size = 1218
+            }
+        }
+    }
+    s:STATE_URAL = {
+        region_state:RUS = {
+            create_pop = {
+                culture = russian
+                size = 320760
+            }
+            create_pop = {
+                culture = ugrian
+                size = 23760
+            }
+            create_pop = {
+                culture = bashkir
+                size = 13484
+            }
+            create_pop = {
+                culture = tatar
+                size = 19800
+            }
+        }
+    }
     s:STATE_TOBOLSK = {
         region_state:RUS = {
             create_pop = {
@@ -22893,94 +22981,6 @@
             create_pop = {
                 culture = mordvin
                 size = 7000
-            }
-        }
-    }
-    s:STATE_CHELYABINSK = {
-        region_state:KZH = {
-            create_pop = {
-                culture = russian
-                size = 10045
-            }
-            create_pop = {
-                culture = bashkir
-                size = 34132
-            }
-            create_pop = {
-                culture = kazak
-                size = 39601
-            }
-            create_pop = {
-                culture = tatar
-                size = 9149
-            }
-            create_pop = {
-                culture = mordvin
-                size = 4978
-            }
-            create_pop = {
-                culture = ukrainian
-                size = 5785
-            }
-            create_pop = {
-                culture = chuvash
-                size = 1346
-            }
-        }
-        region_state:OZH = {
-            create_pop = {
-                culture = russian
-                size = 22140
-            }
-            create_pop = {
-                culture = kazak
-                size = 34440
-            }
-            create_pop = {
-                culture = ukrainian
-                size = 3780
-            }
-            create_pop = {
-                culture = tatar
-                size = 420
-            }
-            create_pop = {
-                culture = mordvin
-                size = 710
-            }
-        }
-        region_state:RUS = {
-            create_pop = {
-                culture = russian
-                size = 86355
-            }
-            create_pop = {
-                culture = bashkir
-                size = 46034
-            }
-            create_pop = {
-                culture = mordvin
-                size = 1218
-            }
-        }
-    }
-    s:STATE_URAL = {
-        region_state:RUS = {
-            create_pop = {
-                culture = russian
-                size = 320760
-            }
-            create_pop = {
-                culture = ugrian
-                size = 23760
-            }
-            create_pop = {
-                culture = bashkir
-                size = 13484
-            }
-            create_pop = {
-                culture = tatar
-                size = 19800
             }
         }
     }
